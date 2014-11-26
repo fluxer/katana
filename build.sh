@@ -16,6 +16,8 @@ cmake ../kdelibs \
         -DHTML_INSTALL_DIR=/share/doc/kde/html \
         -DWITH_FAM=OFF
 make
+make install
+cd ..
 
 git clone --depth=1 https://github.com/fluxer/kde-baseapps
 mkdir baseapps-build && cd baseapps-build
@@ -25,6 +27,8 @@ cmake ../kde-baseapps \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr
 make
+make install
+cd ..
 
 git clone --depth=1 https://github.com/fluxer/kde-workspace
 mkdir workspace-build && cd workspace-build
@@ -36,6 +40,8 @@ cmake ../kde-workspace \
         -DSYSCONF_INSTALL_DIR=/etc \
         -DWITH_Xmms=OFF
 make
+make install
+cd ..
 
 git clone --depth=1 https://github.com/fluxer/kde-extraapps
 mkdir extraapps-build && cd extraapps-build
@@ -45,3 +51,5 @@ cmake ../kde-extraapps \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr
 make
+make install
+cd ..
