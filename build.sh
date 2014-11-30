@@ -17,6 +17,15 @@ make
 make install
 cd ..
 
+git clone --depth=1 https://github.com/fluxer/ariya-icons
+mkdir icons-build && cd icons-build
+cmake ../ariya-icons \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=/usr
+make
+make install
+cd ..
+
 git clone --depth=1 https://github.com/fluxer/kdelibs
 mkdir kdelibs-build && cd kdelibs-build
 cmake ../kdelibs \
