@@ -4,6 +4,12 @@ set -e
 
 packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
 cwd="$(pwd)"
+
+if ! type -p git ;then
+    echo "Git is not installed"
+    exit 1
+fi
+
 for p in "${packs[@]}";do
     if [ -d "$p/.git" ];then
         echo "Updating sources of $p..."
