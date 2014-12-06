@@ -2,7 +2,6 @@
 
 set -e
 
-packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
 cwd="$(pwd)"
 
 if ! type -p git ;then

@@ -2,6 +2,8 @@
 
 set -e
 
+packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
+
 source "$(dirname $0)/fetch.sh"
 
 rm -rf libkdcraw-build kdelibs-build baseapps-build workspace-build extraapps-build l10n-build

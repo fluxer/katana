@@ -13,8 +13,6 @@ fi
 
 source "$(dirname $0)/fetch.sh"
 
-# set again
-packs=("kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps")
 for p in "${packs[@]}";do
     echo "Generating API docs for $p..."
     cd "$p"

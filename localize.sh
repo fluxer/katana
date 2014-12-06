@@ -31,5 +31,5 @@ source "Messages.sh"
 
 rm -f rc.cpp
 
-echo "All done, use msgmerge to merge the POT files."
+echo "All done, use potmerge to merge the files."
 echo "You can find them at: $podir"
