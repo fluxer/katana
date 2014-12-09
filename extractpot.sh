@@ -16,6 +16,9 @@ elif ! type -p perl ;then
 elif ! type -p xgettext ;then
     echo "xgettext is not in your PATH"
     exit 1
+elif ! type -p msgcat ;then
+    echo "msgcat is not in your PATH"
+    exit 1
 fi
 
 # the address is temporary
@@ -25,6 +28,7 @@ gargs="--from-code=UTF-8 -C -kde \
     -kki18np:1,2 -kki18ncp:1c,2,3 --msgid-bugs-address=xakepa10@gmail.com"
 export EXTRACTRC="perl $cwd/extractrc.pl" EXTRACTATTR="perl $cwd/extractattr.pl"
 export XGETTEXT="$(type -p xgettext) $gargs" XGETTEXT_QT="$(type -p xgettext) $gargs"
+export MSGCAT="$(type -p msgcat)"
 export podir="$cwd/pots/"
 
 mkdir -pv "$podir"
