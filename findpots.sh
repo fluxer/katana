@@ -18,7 +18,7 @@ packs=("kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps")
 
 source "$(dirname $0)/fetch.sh"
 
-echo > pots.txt
+echo -n > pots.txt
 for p in ${packs[@]};do
     echo "Finding POTs in $p..."
     find "$p" -name Messages.sh -exec grep -o 'podir/.*.pot' {} + | sed 's|podir/||g' >> pots.txt
