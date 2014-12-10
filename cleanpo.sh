@@ -6,6 +6,9 @@ cwd="$(pwd)"
 if ! type -p find ;then
     echo "find is not in your PATH"
     exit 1
+elif [ ! -f pots.txt ];then
+    echo "Running findpots.sh..."
+    "$cwd/findpots.sh"
 fi
 
 packs=("kde-l10n")

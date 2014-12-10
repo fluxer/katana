@@ -18,7 +18,7 @@ source "$(dirname $0)/fetch.sh"
 name="$(basename $pot | sed 's|.pot|.po|g')"
 for p in $(find kde-l10n/ -name "$name");do
     echo "Updating $p..."
-    msgmerge --update "$p" "$pot"
+    msgmerge --update --no-fuzzy-matching "$p" "$pot"
 done
 
 echo "All done."
