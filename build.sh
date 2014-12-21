@@ -35,7 +35,6 @@ cmake ../kdelibs \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr \
         -DSYSCONF_INSTALL_DIR=/etc \
-        -DHTML_INSTALL_DIR=/share/doc/kde/html \
         -DWITH_FAM=OFF
 make
 make install
