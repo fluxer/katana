@@ -2,6 +2,16 @@
 
 set -e
 
+if [ -n "$1" ];then
+    case "$1" in
+        Release|RelWithDebInfo|Debug|MinSizeRel) release="$1" ;;
+        *) echo "Invalid release type: $1"
+           exit 1 ;;
+    esac
+else
+    release="Release"
+fi
+
 packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
 
 source "$(dirname $0)/fetch.sh"
@@ -13,7 +23,7 @@ wget http://download.kde.org/stable/4.14.3/src/libkdcraw-4.14.3.tar.xz
 tar -xf libkdcraw-4.14.3.tar.xz
 mkdir -p libkdcraw-build && cd libkdcraw-build
 cmake ../libkdcraw-4.14.3 \
-        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_BUILD_TYPE="$release" \
         -DKDE4_BUILD_TESTS=OFF \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr
@@ -23,7 +33,7 @@ cd ..
 
 mkdir -p icons-build && cd icons-build
 cmake ../ariya-icons \
-        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_BUILD_TYPE="$release" \
         -DCMAKE_INSTALL_PREFIX=/usr
 make
 make install
@@ -31,7 +41,7 @@ cd ..
 
 mkdir -p kdelibs-build && cd kdelibs-build
 cmake ../kdelibs \
-        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_BUILD_TYPE="$release" \
         -DKDE4_BUILD_TESTS=OFF \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr \
@@ -43,7 +53,7 @@ cd ..
 
 mkdir -p baseapps-build && cd baseapps-build
 cmake ../kde-baseapps \
-        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_BUILD_TYPE="$release" \
         -DKDE4_BUILD_TESTS=OFF \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr
@@ -53,7 +63,7 @@ cd ..
 
 mkdir -p workspace-build && cd workspace-build
 cmake ../kde-workspace \
-        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_BUILD_TYPE="$release" \
         -DKDE4_BUILD_TESTS=OFF \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr \
@@ -65,7 +75,7 @@ cd ..
 
 mkdir -p extraapps-build && cd extraapps-build
 cmake ../kde-extraapps \
-        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_BUILD_TYPE="$release" \
         -DKDE4_BUILD_TESTS=OFF \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr
@@ -75,7 +85,7 @@ cd ..
 
 mkdir -p l10n-build && cd l10n-build
 cmake ../kde-l10n \
-        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_BUILD_TYPE="$release" \
         -DCMAKE_INSTALL_PREFIX=/usr
 make
 make install
