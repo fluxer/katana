@@ -17,7 +17,11 @@ for p in "${packs[@]}";do
     echo "Generating changes for $p..."
     cd "$p"
     changes+="\nChanges to $p since $date:"
-    changes+="\n$(git log --since=$date --format='  * %s')\n"
+    pchanges="$(git log --since=$date --format='  * %s')"
+    if [ -z "$pchanges" ];then
+        pchanges="  * none"
+    fi
+    changes+="\n$pchanges\n"
     cd "$cwd"
 done
 echo -e "$changes" > changelog.txt
