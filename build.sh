@@ -19,6 +19,10 @@ source "$(dirname $0)/fetch.sh"
 rm -rf libkdcraw-build icons-build kdelibs-build baseapps-build \
     workspace-build extraapps-build l10n-build
 
+# most distributions make libkdcraw depend on kdelibs, since katana libraries
+# are incompatible with them we should not create a mess - having kdelibs and
+# our libraries installed at the same time can cause serious troubles, if
+# this is not the case comment out the build instructions for libkdcraw
 wget http://download.kde.org/stable/4.14.3/src/libkdcraw-4.14.3.tar.xz
 tar -xf libkdcraw-4.14.3.tar.xz
 mkdir -p libkdcraw-build && cd libkdcraw-build
