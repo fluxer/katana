@@ -23,6 +23,12 @@ done
 # echo $regex
 
 # do not remove for now!
-find "kde-l10n" -name '*.po' $regex -exec echo {} +
+# find "kde-l10n" -name '*.po' $regex -delete
+
+result=""
+for f in $(find "kde-l10n" -name '*.po' $regex);do
+    result+="$(basename $f)\n"
+done
+echo -e "$result" | uniq -u
 
 echo "All done"
