@@ -49,7 +49,7 @@ cd ..
 # are incompatible with them we should not create a mess - having kdelibs and
 # our libraries installed at the same time can cause serious troubles, if
 # this is not the case comment out the build instructions for libkdcraw
-wget http://download.kde.org/stable/4.14.3/src/libkdcraw-4.14.3.tar.xz
+wget -c http://download.kde.org/stable/4.14.3/src/libkdcraw-4.14.3.tar.xz
 tar -xf libkdcraw-4.14.3.tar.xz
 mkdir -p libkdcraw-build && cd libkdcraw-build
 cmake ../libkdcraw-4.14.3 \
