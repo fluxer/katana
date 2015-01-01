@@ -21,7 +21,7 @@ source "$(dirname $0)/fetch.sh"
 echo -n > pots.txt
 for p in ${packs[@]};do
     echo "Finding POTs in $p..."
-    find "$p" -name Messages.sh -exec grep -o 'podir/.*.pot' {} + | sed 's|podir/||g' >> pots.txt
+    find "$p" -name Messages.sh -exec grep -h -o 'podir/.*.pot' {} + | sed 's|podir/||g' >> pots.txt
 done
 
 echo "All done"
