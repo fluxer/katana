@@ -12,6 +12,12 @@ else
     release="Release"
 fi
 
+if [ "$(uname -o)" = "GNU/Linux" ];then
+    prefix="/usr"
+else
+    prefix="/usr/local"
+fi
+
 packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
 
 source "$(dirname $0)/fetch.sh"
@@ -30,7 +36,7 @@ cmake ../libkdcraw-4.14.3 \
         -DCMAKE_BUILD_TYPE="$release" \
         -DKDE4_BUILD_TESTS=OFF \
         -DCMAKE_SKIP_RPATH=ON \
-        -DCMAKE_INSTALL_PREFIX=/usr
+        -DCMAKE_INSTALL_PREFIX="$prefix"
 make
 make install
 cd ..
@@ -38,7 +44,7 @@ cd ..
 mkdir -p icons-build && cd icons-build
 cmake ../ariya-icons \
         -DCMAKE_BUILD_TYPE="$release" \
-        -DCMAKE_INSTALL_PREFIX=/usr
+        -DCMAKE_INSTALL_PREFIX="$prefix"
 make
 make install
 cd ..
@@ -48,7 +54,7 @@ cmake ../kdelibs \
         -DCMAKE_BUILD_TYPE="$release" \
         -DKDE4_BUILD_TESTS=OFF \
         -DCMAKE_SKIP_RPATH=ON \
-        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_INSTALL_PREFIX="$prefix" \
         -DSYSCONF_INSTALL_DIR=/etc \
         -DWITH_FAM=OFF
 make
@@ -60,7 +66,7 @@ cmake ../kde-baseapps \
         -DCMAKE_BUILD_TYPE="$release" \
         -DKDE4_BUILD_TESTS=OFF \
         -DCMAKE_SKIP_RPATH=ON \
-        -DCMAKE_INSTALL_PREFIX=/usr
+        -DCMAKE_INSTALL_PREFIX="$prefix"
 make
 make install
 cd ..
@@ -70,7 +76,7 @@ cmake ../kde-workspace \
         -DCMAKE_BUILD_TYPE="$release" \
         -DKDE4_BUILD_TESTS=OFF \
         -DCMAKE_SKIP_RPATH=ON \
-        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_INSTALL_PREFIX="$prefix" \
         -DSYSCONF_INSTALL_DIR=/etc \
         -DWITH_Xmms=OFF
 make
@@ -82,7 +88,7 @@ cmake ../kde-extraapps \
         -DCMAKE_BUILD_TYPE="$release" \
         -DKDE4_BUILD_TESTS=OFF \
         -DCMAKE_SKIP_RPATH=ON \
-        -DCMAKE_INSTALL_PREFIX=/usr
+        -DCMAKE_INSTALL_PREFIX="$prefix"
 make
 make install
 cd ..
@@ -90,7 +96,7 @@ cd ..
 mkdir -p l10n-build && cd l10n-build
 cmake ../kde-l10n \
         -DCMAKE_BUILD_TYPE="$release" \
-        -DCMAKE_INSTALL_PREFIX=/usr
+        -DCMAKE_INSTALL_PREFIX="$prefix"
 make
 make install
 cd ..
