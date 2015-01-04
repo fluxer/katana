@@ -6,7 +6,7 @@ date="$1"
 packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
 cwd="$(pwd)"
 if [ -z "$date" ];then
-    echo "Pass a date, e.g. 2014-12-22"
+    echo "Pass a date, e.g. 2015-01-01"
     exit 1
 fi
 
