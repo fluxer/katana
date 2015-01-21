@@ -3,7 +3,7 @@
 set -e
 
 version="$1"
-packs=("kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps")
+packs=("kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-docs")
 cwd="$(pwd)"
 
 if ! type -p doxygen;then
@@ -13,9 +13,6 @@ fi
 
 source "$(dirname $0)/fetch.sh"
 
-for p in "${packs[@]}";do
-    echo "Generating API docs for $p..."
-    cd "$p"
-    doxygen doxygen.conf
-    cd "$cwd"
-done
+rm -rf kde-docs/
+echo "Generating API docs for ${packs[@]}..."
+doxygen doxygen.conf

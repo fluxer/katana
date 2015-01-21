@@ -3,7 +3,7 @@
 set -e
 
 version="$1"
-packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
+packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n" "kde-docs")
 cwd="$(pwd)"
 if [ -z "$version" ];then
     echo "Pass a version to release"
