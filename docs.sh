@@ -6,7 +6,7 @@ version="$1"
 packs=("kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps")
 cwd="$(pwd)"
 
-if [ ! which doxygen ];then
+if ! type -p doxygen;then
     echo "Doxygen is not installed"
     exit 1
 fi
