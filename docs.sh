@@ -13,6 +13,6 @@ fi
 
 source "$(dirname $0)/fetch.sh"
 
-rm -rf kde-docs/
+rm -rf kde-docs/*
 echo "Generating API docs for ${packs[@]}..."
 doxygen doxygen.conf
