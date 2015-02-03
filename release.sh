@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# NOTE: bump version in following files before release:
+#
+# - kdelibs/README
+# - kdelibs/cmake/modules/FindKDE4Internal.cmake
+# - kdelibs/cmake/modules/KDE4Defaults.cmake
+
 set -e
 
 version="$1"
