@@ -2,6 +2,7 @@
 
 # NOTE: bump version in following files before release:
 #
+# - doxygen.conf
 # - kdelibs/README
 # - kdelibs/cmake/modules/FindKDE4Internal.cmake
 # - kdelibs/cmake/modules/KDE4Defaults.cmake
@@ -11,6 +12,7 @@ set -e
 version="$1"
 packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n" "kde-docs")
 cwd="$(pwd)"
+
 if [ -z "$version" ];then
     echo "Pass a version to release"
     exit 1
