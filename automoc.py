@@ -33,8 +33,8 @@ for sroot, ldirs, lfiles in os.walk(directory):
     for sfile in lfiles:
         if not sfile.endswith('CMakeLists.txt'):
             continue
-        smatch = re.findall('(automoc4_add_library)', fread(sfull))
         sfull = os.path.join(sroot, sfile)
+        smatch = re.findall('(automoc4_add_library)', fread(sfull))
         if smatch:
             print('Adjusting automoc4_add_library of', sfull)
             fwrite(sfull, fread(sfull).replace('\nautomoc4_add_library', '\nadd_library'))
