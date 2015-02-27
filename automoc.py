@@ -23,7 +23,7 @@ for sroot, ldirs, lfiles in os.walk(directory):
         if not sfile.endswith(('.h', '.hh', '.hpp', '.c', '.cc', '.cpp')):
             continue
         sfull = os.path.join(sroot, sfile)
-        smatch = re.findall('(\n#include "(.*/)?(.*).moc")', fread(sfull))
+        smatch = re.findall('(\n#include (?:"|<)(.*/)?(.*).moc(?:"|>))', fread(sfull))
         if smatch and not re.findall('Q_OBJECT', fread(sfull)):
             print('Adjusting moc inclusion of', sfull)
             fwrite(sfull, fread(sfull).replace(smatch[0][0], \
@@ -37,3 +37,5 @@ for sroot, ldirs, lfiles in os.walk(directory):
     if smatch:
         print('Adjusting automoc4_add_library of', sfull)
         fwrite(sfull, fread(sfull).replace('\nautomoc4_add_library', '\nadd_library'))
+
+# TODO: cmake_minimum_required
