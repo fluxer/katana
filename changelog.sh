@@ -17,7 +17,7 @@ for p in "${packs[@]}";do
     echo "Generating changes for $p as of $date..."
     cd "$p"
     changes+="\nChanges to $p since $date:"
-    pchanges="$(git log --since=$date --format='  * %s' | sort -u)"
+    pchanges="$(git log --no-merges --since=$date --format='  * %s' | sort -u)"
     if [ -z "$pchanges" ];then
         pchanges="  * none"
     fi
