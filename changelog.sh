@@ -2,7 +2,7 @@
 
 set -e
 
-date="${1:-2015-01-29}"
+date="${1:-2015-03-01}"
 packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
 cwd="$(pwd)"
 if [ -z "$date" ];then
