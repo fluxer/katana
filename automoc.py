@@ -20,23 +20,18 @@ def fwrite(sfile, content):
 
 for sroot, ldirs, lfiles in os.walk(directory):
     for sfile in lfiles:
-        if not sfile.endswith(('.h', '.hh', '.hpp', '.c', '.cc', '.cpp')):
-            continue
         sfull = os.path.join(sroot, sfile)
-        smatch = re.findall('(\n#include (?:"|<)(.*/)?(.*).moc(?:"|>))', fread(sfull))
-        if smatch and not re.findall('Q_OBJECT', fread(sfull)):
-            print('Adjusting moc inclusion of', sfull)
-            fwrite(sfull, fread(sfull).replace(smatch[0][0], \
-                '\n#include "%smoc_%s.cpp"' % (smatch[0][1], smatch[0][2])))
+        if sfile.endswith(('.h', '.hh', '.hpp', '.c', '.cc', '.cpp')):
+            smatch = re.findall('(\n#include (?:"|<)(.*/)?(.*).moc(?:"|>))', fread(sfull))
+            if smatch and not re.findall('Q_OBJECT', fread(sfull)):
+                print('Adjusting moc inclusion of', sfull)
+                fwrite(sfull, fread(sfull).replace(smatch[0][0], \
+                    '\n#include "%smoc_%s.cpp"' % (smatch[0][1], smatch[0][2])))
 
-for sroot, ldirs, lfiles in os.walk(directory):
-    for sfile in lfiles:
-        if not sfile.endswith('CMakeLists.txt'):
-            continue
-        sfull = os.path.join(sroot, sfile)
-        smatch = re.findall('(automoc4_add_library)', fread(sfull))
-        if smatch:
-            print('Adjusting automoc4_add_library of', sfull)
-            fwrite(sfull, fread(sfull).replace('\nautomoc4_add_library', '\nadd_library'))
+        elif sfile.endswith('CMakeLists.txt'):
+            smatch = re.findall('(automoc4_add_library)', fread(sfull))
+            if smatch:
+                print('Adjusting automoc4_add_library of', sfull)
+                fwrite(sfull, fread(sfull).replace('\nautomoc4_add_library', '\nadd_library'))
 
-# TODO: cmake_minimum_required
+        # TODO: cmake_minimum_required, 2.8.6
