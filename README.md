@@ -1,7 +1,8 @@
 ### Katana - Be Free and Be Efficient!
 
-Katana is fork of KDE Software Distribution with emphasis on efficiency. So far it has
-proven to be roughly 50% less system resource hungry and significantly faster.
+Katana is fork of KDE Software Distribution with emphasis on efficiency. So far
+it has proven to be roughly 50% less system resource hungry and significantly
+faster.
 
 [Try it via Live CD/DVD](http://www.entropy-linux.com/public/snapshots/)
 
@@ -20,5 +21,6 @@ improved documentation. You decide!
 
 ### Support and Contact
 Check out the [wiki](https://github.com/fluxer/katana/wiki) for frequently asked
-questions (FAQ) and other information. Feel free to report issues at [this](https://github.com/fluxer/katana/issues) page.
+questions (FAQ) and other information. Feel free to report issues at
+[this](https://github.com/fluxer/katana/issues) page.
 
