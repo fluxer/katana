@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
-# a script to migrate from automoc4 to CMake automoc,
-# you may have to run it more than once to get the good result
+# a script to migrate from automoc4 to CMake automoc
 
 import os, re
 
@@ -25,8 +24,9 @@ for sroot, ldirs, lfiles in os.walk(directory):
             smatch = re.findall('(\n#include (?:"|<)(.*/)?(.*).moc(?:"|>))', fread(sfull))
             if smatch and not re.findall('Q_OBJECT', fread(sfull)):
                 print('Adjusting moc inclusion of', sfull)
-                fwrite(sfull, fread(sfull).replace(smatch[0][0], \
-                    '\n#include "%smoc_%s.cpp"' % (smatch[0][1], smatch[0][2])))
+                for match in smatch:
+                    fwrite(sfull, fread(sfull).replace(match[0], \
+                        '\n#include "%smoc_%s.cpp"' % (match[1], match[2])))
 
         elif sfile.endswith('CMakeLists.txt'):
             smatch = re.findall('(automoc4_add_library)', fread(sfull))
