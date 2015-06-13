@@ -1,22 +1,26 @@
---- kdelibs-4.3.98/kded/CMakeLists.txt	2009-10-02 14:55:17.000000000 +0000
-+++ kdelibs-4.3.98/kded/CMakeLists.txt	2010-01-31 22:16:13.946933892 +0000
-@@ -69,7 +69,7 @@
- if (WIN32)
- install( FILES applications.menu  DESTINATION  ${SHARE_INSTALL_PREFIX}/xdg/menus )
- else (WIN32)
+diff --git a/kded/CMakeLists.txt b/kded/CMakeLists.txt
+index 7eb20fb..fbb1501 100644
+--- a/kded/CMakeLists.txt
++++ b/kded/CMakeLists.txt
+@@ -66,7 +66,7 @@ install(TARGETS kbuildsycoca4 ${INSTALL_TARGETS_DEFAULT_ARGS} )
+ 
+ ########### install files ###############
+ 
 -install( FILES applications.menu  DESTINATION  ${SYSCONF_INSTALL_DIR}/xdg/menus )
-+install( FILES applications.menu  DESTINATION  ${SYSCONF_INSTALL_DIR}/xdg/menus RENAME kde-applications.menu )
- endif (WIN32)
++install( FILES applications.menu  DESTINATION  ${SYSCONF_INSTALL_DIR}/xdg/menus RENAME kde-applications.menu)
  install( FILES kdedmodule.desktop DESTINATION  ${SERVICETYPES_INSTALL_DIR} )
- install( FILES kded.upd           DESTINATION  ${DATA_INSTALL_DIR}/kconf_update )
---- kdelibs-4.3.98/kded/kbuildsycoca.cpp	2009-12-04 23:10:18.000000000 +0000
-+++ kdelibs-4.3.98/kded/kbuildsycoca.cpp	2010-01-31 22:16:13.962766572 +0000
-@@ -302,7 +302,7 @@
+ 
+ 
+diff --git a/kded/kbuildsycoca.cpp b/kded/kbuildsycoca.cpp
+index a2b62d7..2cbe531 100644
+--- a/kded/kbuildsycoca.cpp
++++ b/kded/kbuildsycoca.cpp
+@@ -311,7 +311,7 @@ bool KBuildSycoca::build()
       if (!m_trackId.isEmpty())
          g_vfolder->setTrackId(m_trackId);
  
 -     VFolderMenu::SubMenu *kdeMenu = g_vfolder->parseMenu("applications.menu", true);
 +     VFolderMenu::SubMenu *kdeMenu = g_vfolder->parseMenu("kde-applications.menu", true);
  
-      KServiceGroup::Ptr entry = g_bsgf->addNew("/", kdeMenu->directoryFile, KServiceGroup::Ptr(), false);
+      KServiceGroup::Ptr entry = g_buildServiceGroupFactory->addNew("/", kdeMenu->directoryFile, KServiceGroup::Ptr(), false);
       entry->setLayoutInfo(kdeMenu->layoutList);
