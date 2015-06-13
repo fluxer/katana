@@ -50,7 +50,7 @@ build() {
         -DKDE_DISTRIBUTION_TEXT='Arch Linux' \
         -DCMAKE_INSTALL_PREFIX=/usr \
         -DSYSCONF_INSTALL_DIR=/etc \
-        -DLOCALE_INSTALL_DIR=/usr/share/locale/kde4 \
+        -DLOCALE_INSTALL_DIR=/usr/share/locale/katana \
         -DKDE_DEFAULT_HOME='.katana' \
         -DWITH_FAM=OFF \
         -DWITH_SOLID_UDISKS2=ON
