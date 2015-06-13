@@ -14,20 +14,25 @@ install=${pkgname}.install
 source=("git+https://github.com/fluxer/ariya-icons.git")
 sha1sums=('SKIP')
 
+pkgver() {
+    cd kde-baseapps
+    printf "4.16.0.%s" "$(git rev-parse --short HEAD)"
+}
+
 prepare() {
-       mkdir -p build
+    mkdir -p build
 }
 
 build() {
-       cd build
-       cmake ../ariya-icons \
-               -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
-               -DKDE4_BUILD_TESTS=OFF \
-               -DCMAKE_INSTALL_PREFIX=/usr
-       make
+    cd build
+    cmake ../ariya-icons \
+        -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
+        -DKDE4_BUILD_TESTS=OFF \
+        -DCMAKE_INSTALL_PREFIX=/usr
+    make
 }
 
 package() {
-       cd "${srcdir}"/build
-       make DESTDIR="${pkgdir}" install
+    cd "${srcdir}/build"
+    make DESTDIR="${pkgdir}" install
 }
