@@ -13,7 +13,7 @@ packs=("kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps")
 for p in "${packs[@]}";do
     echo "Updating translations of $p..."
     for m in $(find "$p" -name Messages.sh);do
-        echo "Extracting POTs of via $m..."
+        echo "Extracting POTs of $p via $m..."
         "$cwd/extractpot.sh" "$m"
     done
 done

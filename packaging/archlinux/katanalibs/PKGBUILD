@@ -1,0 +1,68 @@
+# $Id$
+# Maintainer: Ivailo Monev <xakepa10@gmail.com>
+# Contributor: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org
+# Contributor: Pierre Schmitz <pierre@archlinux.de>
+
+pkgname=katanalibs
+pkgver=4.16.0
+pkgrel=1
+pkgdesc="Katana core libraries"
+arch=('i686' 'x86_64')
+url='http://fluxer.github.io/katana/'
+license=('GPL' 'LGPL' 'FDL')
+groups=('katana')
+depends=('libxss' 'krb5' 'qca' 'libdbusmenu-qt' 'perl'
+        'shared-mime-info' 'enchant' 'giflib' 'jasper' 'openexr' 'strigi'
+        'docbook-xsl' 'upower' 'udisks2' 'libxcursor' 'phonon-qt4'
+        'media-player-info' 'libxtst' 'libutempter' 'qtwebkit' 'icu')
+makedepends=('cmake' 'avahi' 'libgl' 'hspell' 'mesa' 'grantlee-qt4')
+install=${pkgname}.install
+source=("git+https://github.com/fluxer/kdelibs.git"
+        'kde-applications-menu.patch' 'archlinux-menu.patch')
+sha1sums=('SKIP'
+          '86ee8c8660f19de8141ac99cd6943964d97a1ed7'
+          '63a850ab4196b9d06934f2b4a13acd9f7739bc67')
+conflicts=('kdelibs')
+options=('debug')
+
+pkgver() {
+    cd kdelibs
+    printf "4.16.0.%s" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+    mkdir -p build
+    cd kdelibs
+    # avoid file conflict with gnome-menus
+    # patch -p1 -i "${srcdir}"/kde-applications-menu.patch
+    # add Archlinux menu entry
+    patch -p1 -i "${srcdir}/archlinux-menu.patch"
+}
+
+build() {
+    cd build
+    export PATH="/usr/lib/qt4/bin:$PATH"
+    cmake ../kdelibs \
+        -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
+        -DKDE4_BUILD_TESTS=OFF \
+        -DCMAKE_SKIP_RPATH=ON \
+        -DKDE_DISTRIBUTION_TEXT='Arch Linux' \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DSYSCONF_INSTALL_DIR=/etc \
+        -DLOCALE_INSTALL_DIR=/usr/share/locale/kde4 \
+        -DKDE_DEFAULT_HOME='.katana' \
+        -DWITH_FAM=OFF \
+        -DWITH_SOLID_UDISKS2=ON
+    make
+}
+
+package() {
+    cd "${srcdir}"/build
+    make DESTDIR="${pkgdir}" install
+
+    # cert bundle seems to be hardcoded
+    # link it to the one from ca-certificates
+    rm -f "${pkgdir}"/usr/share/apps/kssl/ca-bundle.crt
+    ln -sf /etc/ssl/certs/ca-certificates.crt "${pkgdir}"/usr/share/apps/kssl/ca-bundle.crt
+}

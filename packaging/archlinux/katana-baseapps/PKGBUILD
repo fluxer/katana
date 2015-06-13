@@ -1,0 +1,60 @@
+# $Id$
+# Contributor: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+# Contributor: Pierre Schmitz <pierre@archlinux.de>
+
+pkgname=katana-baseapps
+pkgver=4.16.0
+pkgrel=1
+arch=('i686' 'x86_64')
+url='http://www.kde.org'
+license=('GPL' 'LGPL' 'FDL')
+groups=('katana')
+pkgdesc='Katana core applications'
+optdepends=('katana-extraapps: thumbnailers for development, audio, video and other common files'
+            'icoutils: thumbnailers for MS files'
+            'ruby: servicemenu installation')
+url="http://fluxer.github.io/katana/"
+install="$pkgname.install"
+depends=("katanalibs=${pkgver}" 'qjson')
+makedepends=('cmake' 'tidyhtml')
+source=("git+https://github.com/fluxer/kde-baseapps.git")
+sha1sums=('SKIP')
+conflicts=('kdebase-dolphin'
+         'kdebase-kdepasswd'
+         'kdebase-kdialog'
+         'kdebase-keditbookmarks'
+         'kdebase-kfind'
+         'kdebase-konq-plugins'
+         'kdebase-konqueror'
+         'kdebase-lib'
+         'kdebase-plasma')
+options=('debug')
+
+
+pkgver() {
+    cd kde-baseapps
+    printf "4.16.0.%s" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+    mkdir -p build
+}
+
+build() {
+    cd build
+    export PATH="/usr/lib/qt4/bin:$PATH"
+    cmake ../kde-baseapps \
+        -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
+        -DKDE4_BUILD_TESTS=OFF \
+        -DCMAKE_SKIP_RPATH=ON \
+        -DCMAKE_INSTALL_PREFIX=/usr
+    make
+}
+
+package() {
+    cd "$srcdir/build"
+    make DESTDIR="$pkgdir" install
+}
+
+
