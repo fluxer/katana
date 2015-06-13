@@ -104,7 +104,7 @@ build() {
 
 _package() {
     pkgdesc="Katana $2 translations"
-    depends=('katanalibs') # not really
+    depends=('katanalibs>=4.16.0') # not really
 
     make -C "build/$1" DESTDIR="${pkgdir}" install
 }

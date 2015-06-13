@@ -15,7 +15,7 @@ groups=('katana')
 # note on libxdamage:
 # not detected by namcap because libgl depends on it
 # but nvidia providing libgl does not depend on libxdamage
-depends=("katanalibs>=${pkgver}" "katana-baseapps>=${pkgver}" 'lm_sensors' 'libraw1394'
+depends=("katanalibs>=4.16.0" "katana-baseapps>=4.16.0" 'lm_sensors' 'libraw1394'
          'qimageblitz' 'xorg-xprop' 'libxdamage' 'libqalculate'
          'libxklavier' 'xorg-xsetroot' 'libxcomposite' 'libxinerama'
          'xorg-xrdb' 'libxres' 'xorg-xrandr' 'xorg-xmessage' 'libusb-compat'
@@ -90,7 +90,7 @@ package() {
       "${pkgdir}/usr/lib/systemd/system/kdm.service"
     install -vDm644 "${srcdir}"/kdm.logrotate "${pkgdir}/etc/logrotate.d/kdm"
 
-    ln -vsf /usr/lib/katana/libexec/kdesu "$pkgdir/usr/bin/"
+    ln -vsf /usr/lib/katana/libexec/kdesu "${pkgdir}/usr/bin/"
     # FS#36668
     chown -v :nobody "${pkgdir}/usr/lib/katana/libexec/kdesud"
     chmod -v g+s "${pkgdir}/usr/lib/katana/libexec/kdesud"
