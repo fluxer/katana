@@ -1,0 +1,52 @@
+# $Id$
+# Maintainer: Ivailo Monev <xakepa10@gmail.com>
+# TODO: split into small packages
+
+pkgname=katana-extraapps
+pkgver=4.16.0.cdc95cf
+pkgrel=1
+arch=('i686' 'x86_64')
+url='http://www.kde.org'
+license=('GPL' 'LGPL' 'FDL')
+groups=('katana')
+pkgdesc='Katana extra applications'
+# TODO: optdepends=()
+url="http://fluxer.github.io/katana/"
+install="$pkgname.install"
+depends=("katanalibs>=4.16.0" "katana-workspace>=4.16.0" "libkdcraw>=4.16.0"
+    "libkexiv2>=4.16.0" 'taglib' 'libmariadbclient' 'sane' 'libarchive'
+    'poppler-qt4' 'qjson' 'exiv2' 'lcms2' 'libnm-qt4' 'libvncserver' 'ffmpeg'
+    'gettext' 'libmtp' 'libgl' 'parted' 'libcanberra' 'libgpod' 'openconnect')
+makedepends=('cmake')
+source=("git+https://github.com/fluxer/kde-extraapps.git")
+sha1sums=('SKIP')
+# TODO: conflicts=()
+options=('debug')
+
+
+pkgver() {
+    cd kde-extraapps
+    printf "4.16.0.%s" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+    mkdir -p build
+}
+
+build() {
+    cd build
+    export PATH="/usr/lib/qt4/bin:$PATH"
+    cmake ../kde-extraapps \
+        -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
+        -DKDE4_BUILD_TESTS=OFF \
+        -DCMAKE_SKIP_RPATH=ON \
+        -DCMAKE_INSTALL_PREFIX=/usr
+    make
+}
+
+package() {
+    cd build
+    make DESTDIR="${pkgdir}" install
+}
+
+
