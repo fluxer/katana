@@ -89,4 +89,9 @@ package() {
     install -vD -m644 "${srcdir}/kdm.service" \
       "${pkgdir}/usr/lib/systemd/system/kdm.service"
     install -vDm644 "${srcdir}"/kdm.logrotate "${pkgdir}/etc/logrotate.d/kdm"
+
+    ln -vsf /usr/lib/katana/libexec/kdesu "$pkgdir/usr/bin/"
+    # FS#36668
+    chown -v :nobody "${pkgdir}/usr/lib/katana/libexec/kdesud"
+    chmod -v g+s "${pkgdir}/usr/lib/katana/libexec/kdesud"
 }
