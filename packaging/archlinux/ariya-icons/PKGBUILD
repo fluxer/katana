@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=ariya-icons
-pkgver=4.16.0
+pkgver=4.16.0.ccc88d2
 pkgrel=1
 pkgdesc="Ariya icon theme for use with Katana"
 arch=('any')
@@ -15,7 +15,7 @@ source=("git+https://github.com/fluxer/ariya-icons.git")
 sha1sums=('SKIP')
 
 pkgver() {
-    cd kde-baseapps
+    cd ariya-icons
     printf "4.16.0.%s" "$(git rev-parse --short HEAD)"
 }
 
