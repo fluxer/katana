@@ -16,7 +16,8 @@ install="$pkgname.install"
 depends=("katanalibs>=4.16.0" "katana-workspace>=4.16.0" "libkdcraw>=4.16.0"
     "libkexiv2>=4.16.0" 'taglib' 'libmariadbclient' 'sane' 'libarchive'
     'poppler-qt4' 'qjson' 'exiv2' 'lcms2' 'libnm-qt4' 'libvncserver' 'ffmpeg'
-    'gettext' 'libmtp' 'libgl' 'parted' 'libcanberra' 'libgpod' 'openconnect')
+    'gettext' 'libmtp' 'libgl' 'parted' 'libcanberra' 'libgpod' 'openconnect'
+    'libmms' 'libofa')
 makedepends=('cmake')
 source=("git+https://github.com/fluxer/kde-extraapps.git")
 sha1sums=('SKIP')
