@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-baseapps
-pkgver=4.16.0
+pkgver=4.16.0.4acfa51
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -18,9 +18,11 @@ optdepends=('katana-extraapps: thumbnailers for development, audio, video and ot
 url="http://fluxer.github.io/katana/"
 install="$pkgname.install"
 depends=("katanalibs>=4.16.0" 'qjson')
-makedepends=('cmake' 'tidyhtml')
+makedepends=('cmake' 'tidyhtml') # TODO: pykde4
 source=("git+https://github.com/fluxer/kde-baseapps.git")
 sha1sums=('SKIP')
+options=('debug')
+
 conflicts=('kdebase-dolphin'
          'kdebase-kdepasswd'
          'kdebase-kdialog'
@@ -29,9 +31,8 @@ conflicts=('kdebase-dolphin'
          'kdebase-konq-plugins'
          'kdebase-konqueror'
          'kdebase-lib'
-         'kdebase-plasma')
-options=('debug')
-
+         'kdebase-plasma'
+         'kdebase-katepart' 'katepart4')
 
 pkgver() {
     cd kde-baseapps

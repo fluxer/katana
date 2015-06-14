@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=libkexiv2
-pkgver=4.16.0.41bd5bc
+pkgver=4.16.0.b849505
 pkgrel=1
 pkgdesc="A library to manipulate pictures metadata (for use with Katana)"
 arch=('i686' 'x86_64')
@@ -12,8 +12,6 @@ groups=('katana')
 depends=('katanalibs>=4.16.0' 'exiv2')
 source=("git+https://github.com/fluxer/kde-playground.git")
 sha1sums=('SKIP')
-conflicts=('libkexiv2')
-provides=('libkexiv2')
 options=('debug')
 
 pkgver() {

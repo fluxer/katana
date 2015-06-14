@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katanalibs
-pkgver=4.16.0.9535e0c
+pkgver=4.16.0.7328e8a
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i686' 'x86_64')
@@ -35,7 +35,7 @@ prepare() {
     mkdir -p build
     cd kdelibs
     # avoid file conflict with gnome-menus and kservice
-    patch -p1 -i "${srcdir}"/kde-applications-menu.patch
+    patch -p1 -i "${srcdir}/kde-applications-menu.patch"
     # add Archlinux menu entry
     patch -p1 -i "${srcdir}/archlinux-menu.patch"
 }
@@ -50,7 +50,7 @@ build() {
         -DKDE_DISTRIBUTION_TEXT='Arch Linux' \
         -DCMAKE_INSTALL_PREFIX=/usr \
         -DSYSCONF_INSTALL_DIR=/etc \
-        -DLOCALE_INSTALL_DIR=/usr/share/locale/katana \
+        -DLOCALE_INSTALL_DIR=/usr/share/locale/kde4 \
         -DKDE_DEFAULT_HOME='.katana' \
         -DWITH_FAM=OFF \
         -DWITH_SOLID_UDISKS2=ON

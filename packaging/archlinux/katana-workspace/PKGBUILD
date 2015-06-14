@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-workspace
-pkgver=4.16.0
+pkgver=4.16.0.a4c9ed7
 pkgrel=1
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i686' 'x86_64')
@@ -37,8 +37,9 @@ sha1sums=('SKIP'
           'c079ebd157c836ba996190f0d2bcea1a7828d02c'
           'ac7bc292c865bc1ab8c02e6341aa7aeaf1a3eeee'
           'aa9d2e5a69986c4c3d47829721ea99edb473be12')
-conflicts=('kdebase-workspace')
 options=('debug')
+
+conflicts=('kdebase-workspace' 'kdebase-runtime')
 
 pkgver() {
     cd kde-workspace
@@ -88,10 +89,10 @@ package() {
     install -vd -g 135 -o 135 "${pkgdir}/var/lib/kdm"
     install -vD -m644 "${srcdir}/kdm.service" \
       "${pkgdir}/usr/lib/systemd/system/kdm.service"
-    install -vDm644 "${srcdir}"/kdm.logrotate "${pkgdir}/etc/logrotate.d/kdm"
+    install -vDm644 "${srcdir}/kdm.logrotate" "${pkgdir}/etc/logrotate.d/kdm"
 
-    ln -vsf /usr/lib/katana/libexec/kdesu "${pkgdir}/usr/bin/"
+    ln -vsf /usr/lib/kde4/libexec/kdesu "${pkgdir}/usr/bin/"
     # FS#36668
-    chown -v :nobody "${pkgdir}/usr/lib/katana/libexec/kdesud"
-    chmod -v g+s "${pkgdir}/usr/lib/katana/libexec/kdesud"
+    chown -v :nobody "${pkgdir}/usr/lib/kde4/libexec/kdesud"
+    chmod -v g+s "${pkgdir}/usr/lib/kde4/libexec/kdesud"
 }

@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=libkdcraw
-pkgver=4.16.0.41bd5bc
+pkgver=4.16.0.b849505
 pkgrel=1
 pkgdesc="A C++ interface used to decode RAW picture (for use with Katana)"
 arch=('i686' 'x86_64')
@@ -12,8 +12,6 @@ groups=('katana')
 depends=('katanalibs>=4.16.0' 'libraw')
 source=("git+https://github.com/fluxer/kde-playground.git")
 sha1sums=('SKIP')
-conflicts=('libkdcraw')
-provides=('libkdcraw')
 options=('debug')
 
 pkgver() {
