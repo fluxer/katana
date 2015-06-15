@@ -22,7 +22,7 @@ packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "k
 
 source "$(dirname $0)/fetch.sh"
 
-rm -rf libkdcraw-build icons-build kdelibs-build baseapps-build \
+rm -rf icons-build kdelibs-build baseapps-build \
     workspace-build extraapps-build l10n-build
 
 mkdir -p icons-build && cd icons-build
@@ -41,22 +41,6 @@ cmake ../kdelibs \
         -DCMAKE_INSTALL_PREFIX="$prefix" \
         -DSYSCONF_INSTALL_DIR=/etc \
         -DWITH_FAM=OFF
-make
-make install
-cd ..
-
-# most distributions make libkdcraw depend on kdelibs, since katana libraries
-# are incompatible with them we should not create a mess - having kdelibs and
-# our libraries installed at the same time can cause serious troubles, if
-# this is not the case comment out the build instructions for libkdcraw
-wget -c http://download.kde.org/stable/4.14.3/src/libkdcraw-4.14.3.tar.xz
-tar -xf libkdcraw-4.14.3.tar.xz
-mkdir -p libkdcraw-build && cd libkdcraw-build
-cmake ../libkdcraw-4.14.3 \
-        -DCMAKE_BUILD_TYPE="$release" \
-        -DKDE4_BUILD_TESTS=OFF \
-        -DCMAKE_SKIP_RPATH=ON \
-        -DCMAKE_INSTALL_PREFIX="$prefix"
 make
 make install
 cd ..
