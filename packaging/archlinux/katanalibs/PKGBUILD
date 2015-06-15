@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katanalibs
-pkgver=4.16.0.7328e8a
+pkgver=4.16.0.d63f62e
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i686' 'x86_64')
@@ -16,7 +16,7 @@ depends=('libxss' 'krb5' 'qca' 'libdbusmenu-qt' 'perl'
         'shared-mime-info' 'enchant' 'giflib' 'jasper' 'openexr' 'strigi'
         'docbook-xsl' 'upower' 'udisks2' 'libxcursor' 'phonon-qt4' 'libraw'
         'media-player-info' 'libxtst' 'libutempter' 'qtwebkit' 'icu' 'exiv2')
-makedepends=('cmake' 'avahi' 'libgl' 'hspell' 'mesa' 'grantlee-qt4')
+makedepends=('cmake' 'git' 'avahi' 'libgl' 'hspell' 'mesa' 'grantlee-qt4')
 install=${pkgname}.install
 source=("git+https://github.com/fluxer/kdelibs.git"
         'kde-applications-menu.patch' 'archlinux-menu.patch')

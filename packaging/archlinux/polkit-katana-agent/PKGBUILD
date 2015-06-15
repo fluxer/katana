@@ -10,6 +10,7 @@ url='http://fluxer.github.io/katana/'
 license=('GPL')
 groups=('katana')
 depends=('katanalibs>=4.16.0' 'polkit-qt4')
+makedepends=('cmake' 'git')
 source=("git+https://github.com/fluxer/kde-playground.git")
 sha1sums=('SKIP')
 conflicts=('polkit-kde-agent')
