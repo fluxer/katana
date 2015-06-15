@@ -14,8 +14,8 @@ license=('GPL' 'LGPL' 'FDL')
 groups=('katana')
 depends=('libxss' 'krb5' 'qca' 'libdbusmenu-qt' 'perl'
         'shared-mime-info' 'enchant' 'giflib' 'jasper' 'openexr' 'strigi'
-        'docbook-xsl' 'upower' 'udisks2' 'libxcursor' 'phonon-qt4'
-        'media-player-info' 'libxtst' 'libutempter' 'qtwebkit' 'icu')
+        'docbook-xsl' 'upower' 'udisks2' 'libxcursor' 'phonon-qt4' 'libraw'
+        'media-player-info' 'libxtst' 'libutempter' 'qtwebkit' 'icu' 'exiv2')
 makedepends=('cmake' 'avahi' 'libgl' 'hspell' 'mesa' 'grantlee-qt4')
 install=${pkgname}.install
 source=("git+https://github.com/fluxer/kdelibs.git"
@@ -23,7 +23,7 @@ source=("git+https://github.com/fluxer/kdelibs.git"
 sha1sums=('SKIP'
           '0429e766abe1a27d0e0cf8c7d0167216fc269249'
           '63a850ab4196b9d06934f2b4a13acd9f7739bc67')
-conflicts=('kdelibs')
+conflicts=('kdelibs' 'libkdcraw' 'libkexiv2')
 options=('debug')
 
 pkgver() {
