@@ -2,20 +2,18 @@
 
 set -e
 
+release="Release"
 if [ -n "$1" ];then
     case "$1" in
         Release|RelWithDebInfo|Debug|MinSizeRel) release="$1" ;;
         *) echo "Invalid release type: $1"
            exit 1 ;;
     esac
-else
-    release="Release"
 fi
 
+prefix="/usr/local"
 if [ "$(uname -o)" = "GNU/Linux" ];then
     prefix="/usr"
-else
-    prefix="/usr/local"
 fi
 
 packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
