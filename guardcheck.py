@@ -20,11 +20,13 @@ for sfile in searchfiles:
         continue
     with open(sfile, 'rb') as f:
         content = f.read()
-    match = re.findall('#ifndef (.*_h)\n#define .*_h\n', content, re.MULTILINE)
+    match = re.findall('#ifndef (.*_[h|H])\n#define .*_[h|H].*\n', content)
     if match:
+        normalized = match[0].lstrip('__').replace('__h', '_h').upper()
+        if normalized == match[0]:
+            continue
         print('correcting guard in %s' %  sfile)
         with open(sfile, 'wb') as f:
-            normalized = match[0].lstrip('__').replace('__h', '_h').upper()
             f.write(content.replace(match[0], normalized))
     elif os.path.basename(sfile) in kheaders:
         print('no include guard in %s' % sfile)
