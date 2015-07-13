@@ -3,7 +3,6 @@
 # NOTE: bump version in following files before release:
 #
 # - doxygen.conf
-# - kdelibs/README
 # - kdelibs/CMakeLists.txt
 # - kdelibs/cmake/modules/FindKDE4Internal.cmake
 # - kdelibs/cmake/modules/KDE4Defaults.cmake
