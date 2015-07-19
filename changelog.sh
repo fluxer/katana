@@ -2,7 +2,11 @@
 
 set -e
 
-date="${1:-2015-03-02}"
+date="$1"
+if [ -z "$1" ];then
+    git pull --tags
+    date="$(git log --tags --simplify-by-decoration --pretty='%ad' --date='short' | head -n1)"
+fi
 packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
 cwd="$(pwd)"
 if [ -z "$date" ];then
