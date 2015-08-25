@@ -16,6 +16,18 @@ if [ "$(uname -o)" = "GNU/Linux" ];then
     prefix="/usr"
 fi
 
+sudo=""
+if [ "$(id -u)" != "0" ];then
+    if which sudo ;then
+        sudo="sudo"
+    elif which su ;then
+        sudo="su -c"
+    else
+        echo "Neither su nor sudo are available"
+        exit 1
+    fi
+fi
+
 packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
 
 source "$(dirname $0)/fetch.sh"
@@ -28,7 +40,7 @@ cmake ../ariya-icons \
         -DCMAKE_BUILD_TYPE="$release" \
         -DCMAKE_INSTALL_PREFIX="$prefix"
 make
-make install
+$sudo make install
 cd ..
 
 mkdir -p kdelibs-build && cd kdelibs-build
@@ -40,7 +52,7 @@ cmake ../kdelibs \
         -DSYSCONF_INSTALL_DIR=/etc \
         -DWITH_FAM=OFF
 make
-make install
+$sudo make install
 cd ..
 
 mkdir -p baseapps-build && cd baseapps-build
@@ -50,7 +62,7 @@ cmake ../kde-baseapps \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX="$prefix"
 make
-make install
+$sudo make install
 cd ..
 
 mkdir -p workspace-build && cd workspace-build
@@ -62,7 +74,7 @@ cmake ../kde-workspace \
         -DSYSCONF_INSTALL_DIR=/etc \
         -DWITH_Xmms=OFF
 make
-make install
+$sudo make install
 cd ..
 
 mkdir -p extraapps-build && cd extraapps-build
@@ -72,7 +84,7 @@ cmake ../kde-extraapps \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX="$prefix"
 make
-make install
+$sudo make install
 cd ..
 
 mkdir -p l10n-build && cd l10n-build
@@ -80,5 +92,5 @@ cmake ../kde-l10n \
         -DCMAKE_BUILD_TYPE="$release" \
         -DCMAKE_INSTALL_PREFIX="$prefix"
 make
-make install
+$sudo make install
 cd ..
