@@ -9,6 +9,7 @@ arch=('any')
 url='http://fluxer.github.io/katana/'
 license=('LGPL')
 groups=('katana')
+depends=('gtk-update-icon-cache')
 makedepends=('cmake' 'git')
 install=${pkgname}.install
 source=("git+https://github.com/fluxer/ariya-icons.git")
