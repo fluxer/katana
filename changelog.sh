@@ -4,7 +4,7 @@ set -e
 
 date="$1"
 if [ -z "$1" ];then
-    git pull --tags
+    # git pull --tags
     date="$(git log --tags --simplify-by-decoration --pretty='%ad' --date='short' | head -n1)"
 fi
 packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
@@ -14,7 +14,7 @@ if [ -z "$date" ];then
     exit 1
 fi
 
-source "$(dirname $0)/fetch.sh"
+# source "$(dirname $0)/fetch.sh"
 
 changes=""
 for p in "${packs[@]}";do

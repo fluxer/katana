@@ -21,10 +21,13 @@ depends=("katanalibs>=4.16.0" "katana-baseapps>=4.16.0"
         'libxinerama' 'xorg-xrdb' 'libxres' 'xorg-xrandr' 'xorg-xmessage'
         'libusb-compat' 'xcb-util-renderutil' 'xcb-util-image' 'ttf-font'
         'libssh' 'prison' 'xcb-util-keysyms' 'xcb-util-wm' 'pciutils' 'glu'
-        'libgl' 'qjson' 'libmtp' 'libwebp' 'smbclient' 'libcanberra')
-# FIXME: 'boost' 'kdebindings-python2'
-makedepends=('cmake' 'git' 'libnm-glib')
-optdepends=('appmenu-qt: menu applications over dbus')
+        'libgl' 'qjson' 'libmtp' 'libwebp' 'smbclient' 'libcanberra'
+        'xorg-server')
+# FIXME: 'kdebindings-python2'
+makedepends=('cmake' 'git' 'libnm-glib' 'xf86-input-synaptics'
+             'xorg-server-devel')
+optdepends=('appmenu-qt: menu applications over dbus'
+        'xf86-input-synaptics: touchpad configuration')
 install="${pkgname}.install"
 backup=('usr/share/config/kdm/kdmrc' 'etc/pam.d/kde' 'etc/pam.d/kde-np' 'etc/pam.d/kscreensaver')
 source=("git+https://github.com/fluxer/kde-workspace.git"
