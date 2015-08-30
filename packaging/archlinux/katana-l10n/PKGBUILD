@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgbase=katana-l10n
-pkgver=4.16.0
+pkgver=4.17.0
 pkgrel=1
 pkgdesc="Katana translations"
 arch=('any')
@@ -86,7 +86,7 @@ _languages=(
 
 pkgver() {
     cd kde-baseapps
-    printf "4.16.0.%s" "$(git rev-parse --short HEAD)"
+    printf "4.17.0.%s" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {

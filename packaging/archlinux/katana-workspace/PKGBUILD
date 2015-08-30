@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-workspace
-pkgver=4.16.0.a4c9ed7
+pkgver=4.17.0.a4c9ed7
 pkgrel=1
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i686' 'x86_64')
@@ -45,7 +45,7 @@ conflicts=('kdebase-workspace' 'kdebase-runtime')
 
 pkgver() {
     cd kde-workspace
-    printf "4.16.0.%s" "$(git rev-parse --short HEAD)"
+    printf "4.17.0.%s" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {

@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=polkit-katana-agent
-pkgver=4.16.0.b849505
+pkgver=4.17.0.b849505
 pkgrel=1
 pkgdesc="Daemon providing a polkit authentication UI for Katana"
 arch=('i686' 'x86_64')
@@ -18,7 +18,7 @@ options=('debug')
 
 pkgver() {
       cd kde-playground
-      printf "4.16.0.%s" "$(git rev-parse --short HEAD)"
+      printf "4.17.0.%s" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {

@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-baseapps
-pkgver=4.16.0.4acfa51
+pkgver=4.17.0.4acfa51
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -36,7 +36,7 @@ conflicts=('kdebase-dolphin'
 
 pkgver() {
     cd kde-baseapps
-    printf "4.16.0.%s" "$(git rev-parse --short HEAD)"
+    printf "4.17.0.%s" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {
