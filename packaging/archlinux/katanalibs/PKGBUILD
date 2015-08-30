@@ -21,7 +21,7 @@ install=${pkgname}.install
 source=("git+https://github.com/fluxer/kdelibs.git"
         'kde-applications-menu.patch' 'archlinux-menu.patch')
 sha1sums=('SKIP'
-          '0429e766abe1a27d0e0cf8c7d0167216fc269249'
+          '08f3d7f10fd2ab48be0837980c351ee501fb302b'
           '63a850ab4196b9d06934f2b4a13acd9f7739bc67')
 conflicts=('kdelibs' 'libkdcraw' 'libkexiv2')
 options=('debug')
