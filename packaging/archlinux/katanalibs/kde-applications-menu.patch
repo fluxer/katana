@@ -1,8 +1,8 @@
 diff --git a/kded/CMakeLists.txt b/kded/CMakeLists.txt
-index 7eb20fb..fbb1501 100644
+index 9137eb2..4d46862 100644
 --- a/kded/CMakeLists.txt
 +++ b/kded/CMakeLists.txt
-@@ -66,7 +66,7 @@ install(TARGETS kbuildsycoca4 ${INSTALL_TARGETS_DEFAULT_ARGS} )
+@@ -60,7 +60,7 @@ install(TARGETS kbuildsycoca4 ${INSTALL_TARGETS_DEFAULT_ARGS} )
  
  ########### install files ###############
  
@@ -12,15 +12,15 @@ index 7eb20fb..fbb1501 100644
  
  
 diff --git a/kded/kbuildsycoca.cpp b/kded/kbuildsycoca.cpp
-index a2b62d7..2cbe531 100644
+index dd06704..5ee5f97 100644
 --- a/kded/kbuildsycoca.cpp
 +++ b/kded/kbuildsycoca.cpp
 @@ -311,7 +311,7 @@ bool KBuildSycoca::build()
       if (!m_trackId.isEmpty())
          g_vfolder->setTrackId(m_trackId);
  
--     VFolderMenu::SubMenu *kdeMenu = g_vfolder->parseMenu("applications.menu", true);
-+     VFolderMenu::SubMenu *kdeMenu = g_vfolder->parseMenu("kde-applications.menu", true);
+-     VFolderMenu::SubMenu *kdeMenu = g_vfolder->parseMenu("applications.menu");
++     VFolderMenu::SubMenu *kdeMenu = g_vfolder->parseMenu("kde-applications.menu");
  
       KServiceGroup::Ptr entry = g_buildServiceGroupFactory->addNew("/", kdeMenu->directoryFile, KServiceGroup::Ptr(), false);
       entry->setLayoutInfo(kdeMenu->layoutList);
