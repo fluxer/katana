@@ -85,7 +85,7 @@ _languages=(
 )
 
 pkgver() {
-    cd kde-baseapps
+    cd kde-l10n
     printf "4.17.0.%s" "$(git rev-parse --short HEAD)"
 }
 
