@@ -3,7 +3,7 @@
 # TODO: split into small packages
 
 pkgname=katana-extraapps
-pkgver=4.17.0.5b56b03
+pkgver=4.17.0.87bf341
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'

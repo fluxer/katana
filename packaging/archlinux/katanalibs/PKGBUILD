@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katanalibs
-pkgver=4.17.0.f3c47ab
+pkgver=4.17.0.078b343
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i686' 'x86_64')
@@ -15,7 +15,8 @@ groups=('katana')
 depends=('libxss' 'krb5' 'qca' 'libdbusmenu-qt' 'perl'
         'shared-mime-info' 'enchant' 'giflib' 'jasper' 'openexr' 'strigi'
         'docbook-xsl' 'upower' 'udisks2' 'libxcursor' 'phonon-qt4' 'libraw'
-        'media-player-info' 'libxtst' 'libutempter' 'qtwebkit' 'icu' 'exiv2')
+        'media-player-info' 'libxtst' 'libutempter' 'qtwebkit' 'icu' 'exiv2'
+        'libmusicbrainz5' 'alsa-lib')
 makedepends=('cmake' 'git' 'avahi' 'libgl' 'hspell' 'mesa' 'grantlee-qt4')
 install=${pkgname}.install
 source=("git+https://github.com/fluxer/kdelibs.git"
@@ -23,7 +24,7 @@ source=("git+https://github.com/fluxer/kdelibs.git"
 sha1sums=('SKIP'
           '08f3d7f10fd2ab48be0837980c351ee501fb302b'
           '63a850ab4196b9d06934f2b4a13acd9f7739bc67')
-conflicts=('kdelibs' 'libkdcraw' 'libkexiv2')
+conflicts=('kdelibs' 'libkdcraw' 'libkexiv2' 'libkcddb' 'libkcompactdisc')
 options=('debug')
 
 pkgver() {
@@ -45,7 +46,7 @@ build() {
     export PATH="/usr/lib/qt4/bin:$PATH"
     cmake ../kdelibs \
         -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
-        -DKDE4_BUILD_TESTS=OFF \
+        -DENABLE_TESTING=OFF \
         -DCMAKE_SKIP_RPATH=ON \
         -DKDE_DISTRIBUTION_TEXT='Arch Linux' \
         -DCMAKE_INSTALL_PREFIX=/usr \
