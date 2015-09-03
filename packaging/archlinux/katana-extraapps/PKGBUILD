@@ -10,7 +10,6 @@ url='http://www.kde.org'
 license=('GPL' 'LGPL' 'FDL')
 groups=('katana')
 pkgdesc='Katana extra applications'
-# TODO: optdepends=()
 url="http://fluxer.github.io/katana/"
 install="$pkgname.install"
 depends=("katanalibs>=4.16.0" "katana-workspace>=4.16.0"
@@ -19,6 +18,7 @@ depends=("katanalibs>=4.16.0" "katana-workspace>=4.16.0"
         'libgl' 'parted' 'libcanberra' 'libgpod' 'openconnect' 'libmms'
         'libofa' 'speech-dispatcher')
 makedepends=('cmake' 'git')
+optdepends=('samba: sharing files and directories')
 source=("git+https://github.com/fluxer/kde-extraapps.git")
 sha1sums=('SKIP')
 options=('debug')
