@@ -97,7 +97,7 @@ build() {
     cd build
     cmake ../kde-l10n \
         -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
-        -DKDE4_BUILD_TESTS=OFF \
+        -DENABLE_TESTING=OFF \
         -DCMAKE_INSTALL_PREFIX=/usr
     make
 }

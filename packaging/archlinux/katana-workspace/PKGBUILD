@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-workspace
-pkgver=4.17.0.8490bbc
+pkgver=4.17.0.7bf0766
 pkgrel=1
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i686' 'x86_64')
@@ -68,7 +68,6 @@ build() {
     export PATH="/usr/lib/qt4/bin:$PATH"
     cmake ../kde-workspace \
         -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
-        -DKDE4_BUILD_TESTS=OFF \
         -DENABLE_TESTING=OFF \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr \

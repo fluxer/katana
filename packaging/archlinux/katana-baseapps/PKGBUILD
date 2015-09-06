@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-baseapps
-pkgver=4.17.0.4acfa51
+pkgver=4.17.0.c73cf79
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -48,7 +48,7 @@ build() {
     export PATH="/usr/lib/qt4/bin:$PATH"
     cmake ../kde-baseapps \
         -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
-        -DKDE4_BUILD_TESTS=OFF \
+        -DENABLE_TESTING=OFF \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr
     make
