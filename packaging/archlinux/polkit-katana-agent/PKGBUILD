@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=polkit-katana-agent
-pkgver=4.17.0.f8cb88d
+pkgver=4.17.0.553286b
 pkgrel=1
 pkgdesc="Daemon providing a polkit authentication UI for Katana"
 arch=('i686' 'x86_64')
