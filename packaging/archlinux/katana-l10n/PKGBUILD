@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgbase=katana-l10n
-pkgver=4.17.0
+pkgver=4.17.0.09de702
 pkgrel=1
 pkgdesc="Katana translations"
 arch=('any')
@@ -20,8 +20,7 @@ _languages=(
   'bg            "Bulgarian"'
   'bs            "Bosnian"'
   'ca            "Catalan"'
-  # TODO: is @ allowed in package name?
-  # 'ca@valencia   "Catalan (Valencia)"'
+  'ca@valencia   "Catalan (Valencia)"'
   'cs            "Czech"'
   'da            "Danish"'
   'de            "German"'
@@ -70,9 +69,9 @@ _languages=(
   'sk            "Slovak"'
   'sl            "Slovenian"'
   'sr            "Serbian"'
-  # sr@ijekavian
-  # sr@ijekavianlatin
-  # 'sr@Latn       "Serbian (Latin)"'
+  'sr@ijekavian  "Serbian (Ijekavian)"'
+  'sr@ijekavianlatin "Serbian (Ijekavian Latin)"'
+  'sr@latn       "Serbian (Latin)"'
   'sv            "Swedish"'
   'tg            "Tajik"'
   'th            "Thai"'
@@ -104,7 +103,7 @@ build() {
 
 _package() {
     pkgdesc="Katana $2 translations"
-    depends=('katanalibs>=4.16.0') # not really
+    depends=('katanalibs>=4.17.0') # not really
 
     make -C "build/$1" DESTDIR="${pkgdir}" install
 }
