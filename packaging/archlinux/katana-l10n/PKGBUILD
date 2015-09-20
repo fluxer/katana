@@ -71,7 +71,7 @@ _languages=(
   'sr            "Serbian"'
   'sr@ijekavian  "Serbian (Ijekavian)"'
   'sr@ijekavianlatin "Serbian (Ijekavian Latin)"'
-  'sr@latn       "Serbian (Latin)"'
+  'sr@latin       "Serbian (Latin)"'
   'sv            "Swedish"'
   'tg            "Tajik"'
   'th            "Thai"'
