@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-baseapps
-pkgver=4.17.0.c73cf79
+pkgver=4.17.0.b01581e
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'

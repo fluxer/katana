@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=ariya-icons
-pkgver=4.17.0.ccc88d2
+pkgver=4.17.0.9f338a3
 pkgrel=1
 pkgdesc="Ariya icon theme for use with Katana"
 arch=('any')
