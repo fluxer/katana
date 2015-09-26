@@ -3,7 +3,7 @@
 # TODO: split into small packages
 
 pkgname=katana-extraapps
-pkgver=4.17.0.a31e898
+pkgver=4.17.0.eb2a2a3
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -18,7 +18,8 @@ depends=("katanalibs>=4.16.0" "katana-workspace>=4.16.0"
         'libgl' 'parted' 'libcanberra' 'libgpod' 'openconnect' 'libmms'
         'libofa' 'speech-dispatcher')
 makedepends=('cmake' 'git')
-optdepends=('samba: sharing files and directories')
+optdepends=('samba: sharing files and directories'
+        'cronie: task scheduling')
 source=("git+https://github.com/fluxer/kde-extraapps.git")
 sha1sums=('SKIP')
 options=('debug')

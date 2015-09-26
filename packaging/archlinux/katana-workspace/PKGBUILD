@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-workspace
-pkgver=4.17.0.d3b86ed
+pkgver=4.17.0.310f4bf
 pkgrel=1
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i686' 'x86_64')
