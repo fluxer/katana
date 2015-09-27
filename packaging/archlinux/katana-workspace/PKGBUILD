@@ -5,8 +5,8 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-workspace
-pkgver=4.17.0.310f4bf
-pkgrel=1
+pkgver=4.17.0.874fb17
+pkgrel=2
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i686' 'x86_64')
 url='http://fluxer.github.io/katana/'
@@ -72,6 +72,7 @@ build() {
         -DENABLE_TESTING=OFF \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr \
+        -DSYSCONF_INSTALL_DIR=/etc \
         -DWITH_Xmms=OFF \
         -DWITH_libgps=OFF \
         -DPYTHON_EXECUTABLE=/usr/bin/python2
