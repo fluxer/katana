@@ -29,7 +29,7 @@ metaheaders = (
 
 for root, dirs, files in os.walk(os.getcwd()):
     for sfile in files:
-        if not sfile.endswith(('.hpp', '.h', '.cpp', '.c')):
+        if not sfile.endswith(('.hpp', '.h', '.hh', '.cpp', '.c', 'cc')):
             continue
         sfull = '%s/%s' % (root, sfile)
         with open(sfull, 'rb') as f:
