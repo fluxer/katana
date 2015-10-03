@@ -5,8 +5,8 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-workspace
-pkgver=4.17.0.874fb17
-pkgrel=2
+pkgver=4.17.0.cc92940
+pkgrel=1
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i686' 'x86_64')
 url='http://fluxer.github.io/katana/'
@@ -66,7 +66,6 @@ prepare() {
 
 build() {
     cd build
-    export PATH="/usr/lib/qt4/bin:$PATH"
     cmake ../kde-workspace \
         -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
         -DENABLE_TESTING=OFF \

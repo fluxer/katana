@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=polkit-katana-agent
-pkgver=4.17.0.553286b
+pkgver=4.17.0.d6419d5
 pkgrel=1
 pkgdesc="Daemon providing a polkit authentication UI for Katana"
 arch=('i686' 'x86_64')
@@ -27,7 +27,6 @@ prepare() {
 
 build() {
        cd build
-       export PATH="/usr/lib/qt4/bin:$PATH"
        cmake ../kde-playground/polkit-kde-agent \
                -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
                -DENABLE_TESTING=OFF \

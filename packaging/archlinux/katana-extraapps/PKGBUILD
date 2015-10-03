@@ -3,7 +3,7 @@
 # TODO: split into small packages
 
 pkgname=katana-extraapps
-pkgver=4.17.0.eb2a2a3
+pkgver=4.17.0.58ccb03
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -37,7 +37,6 @@ prepare() {
 
 build() {
     cd build
-    export PATH="/usr/lib/qt4/bin:$PATH"
     cmake ../kde-extraapps \
         -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
         -DENABLE_TESTING=OFF \

@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katanalibs
-pkgver=4.17.0.9f0377b
+pkgver=4.17.0.7d04189
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i686' 'x86_64')
@@ -43,7 +43,6 @@ prepare() {
 
 build() {
     cd build
-    export PATH="/usr/lib/qt4/bin:$PATH"
     cmake ../kdelibs \
         -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
         -DENABLE_TESTING=OFF \
