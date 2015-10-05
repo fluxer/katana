@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katanalibs
-pkgver=4.17.0.7d04189
+pkgver=4.17.0.ffa31c2
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i686' 'x86_64')

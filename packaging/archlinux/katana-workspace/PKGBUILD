@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-workspace
-pkgver=4.17.0.cc92940
+pkgver=4.17.0.6c7c43b
 pkgrel=1
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i686' 'x86_64')
@@ -22,8 +22,8 @@ depends=("katanalibs>=4.16.0" "katana-baseapps>=4.16.0"
         'libusb-compat' 'xcb-util-renderutil' 'xcb-util-image' 'ttf-font'
         'libssh' 'prison' 'xcb-util-keysyms' 'xcb-util-wm' 'pciutils' 'glu'
         'libgl' 'qjson' 'libmtp' 'libwebp' 'smbclient' 'libcanberra'
-        'xorg-server')
-# FIXME: 'kdebindings-python2'
+        'xorg-server' 'python')
+# FIXME: 'kdebindings-python'
 makedepends=('cmake' 'git' 'libnm-glib' 'xf86-input-synaptics'
              'xorg-server-devel')
 optdepends=('appmenu-qt: menu applications over dbus'
@@ -73,8 +73,7 @@ build() {
         -DCMAKE_INSTALL_PREFIX=/usr \
         -DSYSCONF_INSTALL_DIR=/etc \
         -DWITH_Xmms=OFF \
-        -DWITH_libgps=OFF \
-        -DPYTHON_EXECUTABLE=/usr/bin/python2
+        -DWITH_libgps=OFF
     make
 }
 
