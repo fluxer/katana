@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-workspace
-pkgver=4.17.0.6c7c43b
+pkgver=4.17.0.506e331
 pkgrel=1
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i686' 'x86_64')
@@ -22,7 +22,7 @@ depends=("katanalibs>=4.16.0" "katana-baseapps>=4.16.0"
         'libusb-compat' 'xcb-util-renderutil' 'xcb-util-image' 'ttf-font'
         'libssh' 'prison' 'xcb-util-keysyms' 'xcb-util-wm' 'pciutils' 'glu'
         'libgl' 'qjson' 'libmtp' 'libwebp' 'smbclient' 'libcanberra'
-        'xorg-server' 'python')
+        'xorg-server' 'python' 'eigen3' 'openslp')
 # FIXME: 'kdebindings-python'
 makedepends=('cmake' 'git' 'libnm-glib' 'xf86-input-synaptics'
              'xorg-server-devel')
@@ -43,8 +43,6 @@ sha1sums=('SKIP'
           'c079ebd157c836ba996190f0d2bcea1a7828d02c'
           'ac7bc292c865bc1ab8c02e6341aa7aeaf1a3eeee'
           'aa9d2e5a69986c4c3d47829721ea99edb473be12')
-options=('debug')
-
 conflicts=('kdebase-workspace' 'kdebase-runtime')
 
 pkgver() {
@@ -67,7 +65,7 @@ prepare() {
 build() {
     cd build
     cmake ../kde-workspace \
-        -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
+        -DCMAKE_BUILD_TYPE=Release \
         -DENABLE_TESTING=OFF \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr \

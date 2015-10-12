@@ -10,10 +10,10 @@
  	</Layout>
  
  	<Menu>
-+		<Name>Arch Linux</Name>                                                                                                   
-+		<Directory>Archlinux.directory</Directory>                                                                               
-+		<Include>                                                                                                                
-+			<Category>Archlinux</Category>                                                                                           
++		<Name>Arch Linux</Name>
++		<Directory>Archlinux.directory</Directory>
++		<Include>
++			<Category>Archlinux</Category
 +		</Include>
 +	</Menu>
 +	<Menu>

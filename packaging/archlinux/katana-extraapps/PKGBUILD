@@ -3,7 +3,7 @@
 # TODO: split into small packages
 
 pkgname=katana-extraapps
-pkgver=4.17.0.58ccb03
+pkgver=4.17.0.2f06e6b
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -22,8 +22,6 @@ optdepends=('samba: sharing files and directories'
         'cronie: task scheduling')
 source=("git+https://github.com/fluxer/kde-extraapps.git")
 sha1sums=('SKIP')
-options=('debug')
-
 conflicts=('kdeutils-ark')
 
 pkgver() {
@@ -38,7 +36,7 @@ prepare() {
 build() {
     cd build
     cmake ../kde-extraapps \
-        -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
+        -DCMAKE_BUILD_TYPE=Release \
         -DENABLE_TESTING=OFF \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr

@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-baseapps
-pkgver=4.17.0.2ae62c7
+pkgver=4.17.0.1dcef4f
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -21,18 +21,17 @@ depends=("katanalibs>=4.16.0" 'qjson')
 makedepends=('cmake' 'git' 'tidyhtml') # TODO: pykde4
 source=("git+https://github.com/fluxer/kde-baseapps.git")
 sha1sums=('SKIP')
-options=('debug')
-
 conflicts=('kdebase-dolphin'
-         'kdebase-kdepasswd'
-         'kdebase-kdialog'
-         'kdebase-keditbookmarks'
-         'kdebase-kfind'
-         'kdebase-konq-plugins'
-         'kdebase-konqueror'
-         'kdebase-lib'
-         'kdebase-plasma'
-         'kdebase-katepart' 'katepart4')
+           'kdebase-kdepasswd'
+           'kdebase-kdialog'
+           'kdebase-keditbookmarks'
+           'kdebase-kfind'
+           'kdebase-konq-plugins'
+           'kdebase-konqueror'
+           'kdebase-lib'
+           'kdebase-plasma'
+           'kdebase-katepart'
+           'katepart4')
 
 pkgver() {
     cd kde-baseapps
@@ -46,7 +45,7 @@ prepare() {
 build() {
     cd build
     cmake ../kde-baseapps \
-        -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
+        -DCMAKE_BUILD_TYPE=Release \
         -DENABLE_TESTING=OFF \
         -DCMAKE_SKIP_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr

@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katanalibs
-pkgver=4.17.0.ffa31c2
+pkgver=4.17.0.8bbda43
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i686' 'x86_64')
@@ -23,9 +23,8 @@ source=("git+https://github.com/fluxer/kdelibs.git"
         'kde-applications-menu.patch' 'archlinux-menu.patch')
 sha1sums=('SKIP'
           '08f3d7f10fd2ab48be0837980c351ee501fb302b'
-          '63a850ab4196b9d06934f2b4a13acd9f7739bc67')
+          'c5ea95621a7ed3150906c511d1192fa8f79d1501')
 conflicts=('kdelibs' 'libkdcraw' 'libkexiv2' 'libkcddb' 'libkcompactdisc')
-options=('debug')
 
 pkgver() {
     cd kdelibs
@@ -44,7 +43,7 @@ prepare() {
 build() {
     cd build
     cmake ../kdelibs \
-        -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
+        -DCMAKE_BUILD_TYPE=Release \
         -DENABLE_TESTING=OFF \
         -DCMAKE_SKIP_RPATH=ON \
         -DKDE_DISTRIBUTION_TEXT='Arch Linux' \
@@ -61,8 +60,7 @@ package() {
     cd "${srcdir}"/build
     make DESTDIR="${pkgdir}" install
 
-    # cert bundle seems to be hardcoded
-    # link it to the one from ca-certificates
-    rm -f "${pkgdir}"/usr/share/apps/kssl/ca-bundle.crt
-    ln -sf /etc/ssl/certs/ca-certificates.crt "${pkgdir}"/usr/share/apps/kssl/ca-bundle.crt
+    # cert bundle seems to be hardcoded, link it to the one from ca-certificates
+    ln -vsf /etc/ssl/certs/ca-certificates.crt \
+        "${pkgdir}"/usr/share/apps/kssl/ca-bundle.crt
 }
