@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katanalibs
-pkgver=4.17.0.09f78b5
+pkgver=4.17.0.a0dbbaa
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i686' 'x86_64')
@@ -16,7 +16,8 @@ depends=('libxss' 'krb5' 'qca' 'libdbusmenu-qt' 'perl'
         'shared-mime-info' 'enchant' 'giflib' 'jasper' 'openexr' 'strigi'
         'docbook-xsl' 'upower' 'udisks2' 'libxcursor' 'phonon-qt4' 'libraw'
         'media-player-info' 'libxtst' 'libutempter' 'qtwebkit' 'icu' 'exiv2'
-        'libmusicbrainz5' 'alsa-lib')
+        'libmusicbrainz5' 'alsa-lib' 'xcb-util-image' 'xcb-util-keysyms'
+        'xcb-util-renderutil')
 makedepends=('cmake' 'git' 'avahi' 'libgl' 'hspell' 'mesa' 'grantlee-qt4')
 install=${pkgname}.install
 source=("git+https://github.com/fluxer/kdelibs.git"
@@ -51,13 +52,12 @@ build() {
         -DSYSCONF_INSTALL_DIR=/etc \
         -DLOCALE_INSTALL_DIR=/usr/share/locale/kde4 \
         -DKDE_DEFAULT_HOME='.katana' \
-        -DWITH_FAM=OFF \
-        -DWITH_SOLID_UDISKS2=ON
+        -DWITH_FAM=OFF
     make
 }
 
 package() {
-    cd "${srcdir}"/build
+    cd build
     make DESTDIR="${pkgdir}" install
 
     # cert bundle seems to be hardcoded, link it to the one from ca-certificates
