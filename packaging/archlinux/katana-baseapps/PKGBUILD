@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-baseapps
-pkgver=4.17.0.1dcef4f
+pkgver=4.17.0.3568687
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -47,7 +47,7 @@ build() {
     cmake ../kde-baseapps \
         -DCMAKE_BUILD_TYPE=Release \
         -DENABLE_TESTING=OFF \
-        -DCMAKE_SKIP_RPATH=ON \
+        -DCMAKE_SKIP_INSTALL_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr
     make
 }

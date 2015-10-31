@@ -47,7 +47,7 @@ mkdir -p kdelibs-build && cd kdelibs-build
 cmake ../kdelibs \
         -DCMAKE_BUILD_TYPE="$release" \
         -DKDE4_BUILD_TESTS=OFF \
-        -DCMAKE_SKIP_RPATH=ON \
+        -DCMAKE_SKIP_INSTALL_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX="$prefix" \
         -DSYSCONF_INSTALL_DIR=/etc \
         -DWITH_FAM=OFF
@@ -59,7 +59,7 @@ mkdir -p baseapps-build && cd baseapps-build
 cmake ../kde-baseapps \
         -DCMAKE_BUILD_TYPE="$release" \
         -DKDE4_BUILD_TESTS=OFF \
-        -DCMAKE_SKIP_RPATH=ON \
+        -DCMAKE_SKIP_INSTALL_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX="$prefix"
 make
 $sudo make install
@@ -69,7 +69,7 @@ mkdir -p workspace-build && cd workspace-build
 cmake ../kde-workspace \
         -DCMAKE_BUILD_TYPE="$release" \
         -DKDE4_BUILD_TESTS=OFF \
-        -DCMAKE_SKIP_RPATH=ON \
+        -DCMAKE_SKIP_INSTALL_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX="$prefix" \
         -DSYSCONF_INSTALL_DIR=/etc \
         -DWITH_Xmms=OFF
@@ -81,7 +81,7 @@ mkdir -p extraapps-build && cd extraapps-build
 cmake ../kde-extraapps \
         -DCMAKE_BUILD_TYPE="$release" \
         -DKDE4_BUILD_TESTS=OFF \
-        -DCMAKE_SKIP_RPATH=ON \
+        -DCMAKE_SKIP_INSTALL_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX="$prefix"
 make
 $sudo make install

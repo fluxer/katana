@@ -46,7 +46,7 @@ build() {
     cmake ../kdelibs \
         -DCMAKE_BUILD_TYPE=Release \
         -DENABLE_TESTING=OFF \
-        -DCMAKE_SKIP_RPATH=ON \
+        -DCMAKE_SKIP_INSTALL_RPATH=ON \
         -DKDE_DISTRIBUTION_TEXT='Arch Linux' \
         -DCMAKE_INSTALL_PREFIX=/usr \
         -DSYSCONF_INSTALL_DIR=/etc \

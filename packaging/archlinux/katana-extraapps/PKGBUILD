@@ -38,7 +38,7 @@ build() {
     cmake ../kde-extraapps \
         -DCMAKE_BUILD_TYPE=Release \
         -DENABLE_TESTING=OFF \
-        -DCMAKE_SKIP_RPATH=ON \
+        -DCMAKE_SKIP_INSTALL_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr
     make
 }
