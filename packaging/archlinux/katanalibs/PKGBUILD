@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katanalibs
-pkgver=4.17.0.a0dbbaa
+pkgver=4.18.0.a0dbbaa
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i686' 'x86_64')
@@ -17,7 +17,7 @@ depends=('libxss' 'krb5' 'qca' 'libdbusmenu-qt' 'perl'
         'docbook-xsl' 'upower' 'udisks2' 'libxcursor' 'phonon-qt4' 'libraw'
         'media-player-info' 'libxtst' 'libutempter' 'qtwebkit' 'icu' 'exiv2'
         'libmusicbrainz5' 'alsa-lib' 'xcb-util-image' 'xcb-util-keysyms'
-        'xcb-util-renderutil')
+        'xcb-util-renderutil' 'libwebp')
 makedepends=('cmake' 'git' 'avahi' 'libgl' 'hspell' 'mesa' 'grantlee-qt4')
 install=${pkgname}.install
 source=("git+https://github.com/fluxer/kdelibs.git"
@@ -29,7 +29,7 @@ conflicts=('kdelibs' 'libkdcraw' 'libkexiv2' 'libkcddb' 'libkcompactdisc')
 
 pkgver() {
     cd kdelibs
-    printf "4.17.0.%s" "$(git rev-parse --short HEAD)"
+    printf "4.18.0.%s" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {

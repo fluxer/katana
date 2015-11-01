@@ -3,7 +3,7 @@
 # TODO: split into small packages
 
 pkgname=katana-extraapps
-pkgver=4.17.0.2f06e6b
+pkgver=4.18.0.2f06e6b
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -26,7 +26,7 @@ conflicts=('kdeutils-ark')
 
 pkgver() {
     cd kde-extraapps
-    printf "4.17.0.%s" "$(git rev-parse --short HEAD)"
+    printf "4.18.0.%s" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {

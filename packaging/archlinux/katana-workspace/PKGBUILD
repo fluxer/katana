@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-workspace
-pkgver=4.17.0.580f48c
+pkgver=4.18.0.580f48c
 pkgrel=1
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i686' 'x86_64')
@@ -21,7 +21,7 @@ depends=("katanalibs>=4.16.0" "katana-baseapps>=4.16.0"
         'libxinerama' 'xorg-xrdb' 'libxres' 'xorg-xrandr' 'xorg-xmessage'
         'libusb-compat' 'xcb-util-renderutil' 'xcb-util-image' 'ttf-font'
         'libssh' 'prison' 'xcb-util-keysyms' 'xcb-util-wm' 'pciutils' 'glu'
-        'libgl' 'qjson' 'libmtp' 'libwebp' 'smbclient' 'libcanberra'
+        'libgl' 'qjson' 'libmtp' 'smbclient' 'libcanberra'
         'xorg-server' 'python' 'eigen3' 'openslp')
 # FIXME: 'kdebindings-python'
 makedepends=('cmake' 'git' 'libnm-glib' 'xf86-input-synaptics'
@@ -47,7 +47,7 @@ conflicts=('kdebase-workspace' 'kdebase-runtime')
 
 pkgver() {
     cd kde-workspace
-    printf "4.17.0.%s" "$(git rev-parse --short HEAD)"
+    printf "4.18.0.%s" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {

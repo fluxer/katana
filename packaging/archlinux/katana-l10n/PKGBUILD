@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgbase=katana-l10n
-pkgver=4.17.0.09de702
+pkgver=4.18.0.09de702
 pkgrel=1
 pkgdesc="Katana translations"
 arch=('any')
@@ -85,7 +85,7 @@ _languages=(
 
 pkgver() {
     cd kde-l10n
-    printf "4.17.0.%s" "$(git rev-parse --short HEAD)"
+    printf "4.18.0.%s" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {
@@ -103,7 +103,7 @@ build() {
 
 _package() {
     pkgdesc="Katana $2 translations"
-    depends=('katanalibs>=4.17.0') # not really
+    depends=('katanalibs>=4.18.0') # not really
 
     make -C "build/$1" DESTDIR="${pkgdir}" install
 }
