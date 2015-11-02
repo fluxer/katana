@@ -1,21 +1,20 @@
 diff --git a/kded/CMakeLists.txt b/kded/CMakeLists.txt
-index 9137eb2..4d46862 100644
+index 8c0d71a..418577b 100644
 --- a/kded/CMakeLists.txt
 +++ b/kded/CMakeLists.txt
-@@ -60,7 +60,7 @@ install(TARGETS kbuildsycoca4 ${INSTALL_TARGETS_DEFAULT_ARGS} )
+@@ -71,6 +71,7 @@ install(TARGETS kbuildsycoca4 ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(
+     FILES applications.menu
+     DESTINATION ${SYSCONF_INSTALL_DIR}/xdg/menus
++    RENAME kde-applications.menu
+ )
  
- ########### install files ###############
- 
--install( FILES applications.menu  DESTINATION  ${SYSCONF_INSTALL_DIR}/xdg/menus )
-+install( FILES applications.menu  DESTINATION  ${SYSCONF_INSTALL_DIR}/xdg/menus RENAME kde-applications.menu)
- install( FILES kdedmodule.desktop DESTINATION  ${SERVICETYPES_INSTALL_DIR} )
- 
- 
+ install(
 diff --git a/kded/kbuildsycoca.cpp b/kded/kbuildsycoca.cpp
-index dd06704..5ee5f97 100644
+index 1b2c2cc..9acfc3f 100644
 --- a/kded/kbuildsycoca.cpp
 +++ b/kded/kbuildsycoca.cpp
-@@ -311,7 +311,7 @@ bool KBuildSycoca::build()
+@@ -304,7 +304,7 @@ bool KBuildSycoca::build()
       if (!m_trackId.isEmpty())
          g_vfolder->setTrackId(m_trackId);
  

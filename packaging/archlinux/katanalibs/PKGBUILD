@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katanalibs
-pkgver=4.18.0.a0dbbaa
+pkgver=4.18.0.8cc2eab
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i686' 'x86_64')
@@ -23,7 +23,7 @@ install=${pkgname}.install
 source=("git+https://github.com/fluxer/kdelibs.git"
         'kde-applications-menu.patch' 'archlinux-menu.patch')
 sha1sums=('SKIP'
-          '08f3d7f10fd2ab48be0837980c351ee501fb302b'
+          '2ab1ac29d3e6ef1020a1781a79882ba586e6bdab'
           '4de0a8db4155a83667bc4dac1c3df8659ee4a030')
 conflicts=('kdelibs' 'libkdcraw' 'libkexiv2' 'libkcddb' 'libkcompactdisc')
 
