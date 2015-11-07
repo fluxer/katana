@@ -22,7 +22,7 @@ optdepends=('samba: sharing files and directories'
         'cronie: task scheduling')
 source=("git+https://github.com/fluxer/kde-extraapps.git")
 sha1sums=('SKIP')
-conflicts=('kdeutils-ark')
+conflicts=('kdeutils-ark' 'kdevelop' 'kdevplatform')
 
 pkgver() {
     cd kde-extraapps
