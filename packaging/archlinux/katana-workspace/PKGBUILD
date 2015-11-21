@@ -45,6 +45,7 @@ sha1sums=('SKIP'
           'ac7bc292c865bc1ab8c02e6341aa7aeaf1a3eeee'
           'aa9d2e5a69986c4c3d47829721ea99edb473be12')
 conflicts=('kdebase-workspace' 'kdebase-runtime')
+provides=('kdebase-workspace')
 
 pkgver() {
     cd kde-workspace
