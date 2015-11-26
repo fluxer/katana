@@ -3,7 +3,7 @@
 # TODO: split into small packages
 
 pkgname=katana-extraapps
-pkgver=4.18.0.7e3fd7f
+pkgver=4.18.0.ce3e932
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -16,7 +16,7 @@ depends=("katanalibs>=4.16.0" "katana-workspace>=4.16.0"
         'taglib' 'libmariadbclient' 'sane' 'libarchive' 'poppler-qt4' 'qjson'
         'exiv2' 'lcms2' 'libnm-qt4' 'libvncserver' 'ffmpeg' 'gettext' 'libmtp'
         'libgl' 'parted' 'libcanberra' 'libgpod' 'openconnect' 'libmms'
-        'libofa' 'speech-dispatcher')
+        'libofa' 'speech-dispatcher' 'liblastfm' 'grantlee-qt4' 'libmygpo-qt')
 makedepends=('cmake' 'git')
 optdepends=('samba: sharing files and directories'
         'cronie: task scheduling')
