@@ -29,46 +29,18 @@ packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace")
 
 source "$(dirname $0)/fetch.sh"
 
-rm -rf icons-build kdelibs-build baseapps-build workspace-build
-
-mkdir -p icons-build && cd icons-build
-cmake ../ariya-icons \
-        -DCMAKE_BUILD_TYPE="$release" \
-        -DCMAKE_INSTALL_PREFIX="$prefix"
-make
-$sudo make install
-cd ..
-
-mkdir -p kdelibs-build && cd kdelibs-build
-cmake ../kdelibs \
-        -DCMAKE_BUILD_TYPE="$release" \
-        -DENABLE_TESTING=OFF \
-        -DCMAKE_SKIP_INSTALL_RPATH=ON \
-        -DCMAKE_INSTALL_PREFIX="$prefix" \
-        -DSYSCONF_INSTALL_DIR=/etc \
-        -DWITH_FAM=OFF
-make
-$sudo make install
-cd ..
-
-mkdir -p baseapps-build && cd baseapps-build
-cmake ../kde-baseapps \
-        -DCMAKE_BUILD_TYPE="$release" \
-        -DENABLE_TESTING=OFF \
-        -DCMAKE_SKIP_INSTALL_RPATH=ON \
-        -DCMAKE_INSTALL_PREFIX="$prefix"
-make
-$sudo make install
-cd ..
-
-mkdir -p workspace-build && cd workspace-build
-cmake ../kde-workspace \
-        -DCMAKE_BUILD_TYPE="$release" \
-        -DENABLE_TESTING=OFF \
-        -DCMAKE_SKIP_INSTALL_RPATH=ON \
-        -DCMAKE_INSTALL_PREFIX="$prefix" \
-        -DSYSCONF_INSTALL_DIR=/etc \
-        -DWITH_Xmms=OFF
-make
-$sudo make install
-cd ..
+for p in "${packs[@]}";do
+    # rm -rf "$p-build"
+    mkdir -p "$p-build" && cd "$p-build"
+    cmake "../$p" \
+            -DCMAKE_BUILD_TYPE="$release" \
+            -DENABLE_TESTING=OFF \
+            -DCMAKE_SKIP_INSTALL_RPATH=ON \
+            -DCMAKE_INSTALL_PREFIX="$prefix" \
+            -DSYSCONF_INSTALL_DIR=/etc \
+            -DWITH_FAM=OFF \
+            -DWITH_Xmms=OFF
+    make
+    $sudo make install
+    cd ..
+done
