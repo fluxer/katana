@@ -6,7 +6,7 @@
 
 pkgname=katanalibs
 pkgver=4.18.0.b38566b
-pkgrel=1
+pkgrel=2
 pkgdesc="Katana core libraries"
 arch=('i686' 'x86_64')
 url='http://fluxer.github.io/katana/'
@@ -14,7 +14,7 @@ license=('GPL' 'LGPL' 'FDL')
 groups=('katana')
 depends=('libxss' 'krb5' 'qca' 'libdbusmenu-qt' 'perl'
         'shared-mime-info' 'enchant' 'giflib' 'jasper' 'openexr' 'strigi'
-        'docbook-xsl' 'upower' 'udisks2' 'libxcursor' 'phonon-qt4' 'libraw'
+        'docbook-xsl' 'upower' 'udisks2' 'libxcursor' 'mpv' 'libraw'
         'media-player-info' 'libxtst' 'libutempter' 'qtwebkit' 'icu' 'exiv2'
         'libmusicbrainz5' 'alsa-lib' 'xcb-util-image' 'xcb-util-keysyms'
         'xcb-util-renderutil' 'libwebp')
