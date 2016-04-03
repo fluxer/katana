@@ -4,7 +4,7 @@
 
 pkgname=katana-extraapps
 pkgver=4.18.0.ce3e932
-pkgrel=1
+pkgrel=2
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
 license=('GPL' 'LGPL' 'FDL')
@@ -14,9 +14,10 @@ url="http://fluxer.github.io/katana/"
 install="$pkgname.install"
 depends=("katanalibs>=4.16.0" "katana-workspace>=4.16.0"
         'taglib' 'libmariadbclient' 'sane' 'libarchive' 'poppler-qt4' 'qjson'
-        'exiv2' 'lcms2' 'libnm-qt4' 'libvncserver' 'ffmpeg' 'gettext' 'libmtp'
-        'libgl' 'parted' 'libcanberra' 'libgpod' 'openconnect' 'libmms'
-        'libofa' 'speech-dispatcher' 'liblastfm' 'grantlee-qt4' 'libmygpo-qt')
+        'exiv2' 'lcms2' 'libvncserver' 'ffmpeg' 'gettext' 'libmtp' 'libgl'
+        'parted' 'libcanberra' 'libgpod' 'openconnect' 'libmms' 'libofa'
+        'speech-dispatcher' 'liblastfm' 'grantlee-qt4' 'libmygpo-qt'
+        'networkmanager-qt4')
 makedepends=('cmake' 'git')
 optdepends=('samba: sharing files and directories'
         'cronie: task scheduling')

@@ -1,0 +1,37 @@
+# $Id$
+# Maintainer: Ivailo Monev <xakepa10@gmail.com>
+
+pkgname=modemmanager-qt4
+pkgver=1.0.1.3774023
+pkgrel=1
+pkgdesc="Qt4 ModemManager glue from KDE"
+arch=('i686' 'x86_64')
+url='http://fluxer.github.io/katana/'
+license=('LGPL')
+groups=('katana')
+depends=('qt4' 'modemmanager')
+makedepends=('cmake' 'git')
+source=("git+https://github.com/fluxer/modemmanager-qt.git")
+sha1sums=('SKIP')
+
+pkgver() {
+    cd modemmanager-qt
+    printf "1.0.1.%s" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+    mkdir -p build
+}
+
+build() {
+    cd build
+    cmake ../modemmanager-qt  \
+        -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
+        -DCMAKE_INSTALL_PREFIX=/usr
+    make
+}
+
+package() {
+    cd build
+    make DESTDIR="${pkgdir}" install
+}
