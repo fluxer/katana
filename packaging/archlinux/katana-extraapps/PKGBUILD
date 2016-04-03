@@ -13,12 +13,11 @@ pkgdesc='Katana extra applications'
 url="http://fluxer.github.io/katana/"
 install="$pkgname.install"
 depends=("katanalibs>=4.16.0" "katana-workspace>=4.16.0"
-        'taglib' 'libmariadbclient' 'sane' 'libarchive' 'poppler-qt4' 'qjson'
-        'exiv2' 'lcms2' 'libvncserver' 'ffmpeg' 'gettext' 'libmtp' 'libgl'
-        'parted' 'libcanberra' 'libgpod' 'openconnect' 'libmms' 'libofa'
-        'speech-dispatcher' 'liblastfm' 'grantlee-qt4' 'libmygpo-qt' 'freerdp'
-        'networkmanager-qt4' 'mobile-broadband-provider-info' 'libspectre'
-        'eigen2' 'djvulibre')
+        'taglib' 'sane' 'libarchive' 'poppler-qt4' 'qjson' 'exiv2' 'lcms2'
+        'libvncserver' 'ffmpeg' 'gettext' 'libmtp' 'libgl' 'parted' 'libgpod'
+        'libcanberra' 'openconnect' 'libmms' 'libofa' 'speech-dispatcher'
+        'liblastfm' 'grantlee-qt4' 'libmygpo-qt' 'freerdp' 'networkmanager-qt4'
+        'mobile-broadband-provider-info' 'libspectre' 'eigen2' 'djvulibre')
 makedepends=('cmake' 'git')
 optdepends=('samba: sharing files and directories'
         'cronie: task scheduling')
