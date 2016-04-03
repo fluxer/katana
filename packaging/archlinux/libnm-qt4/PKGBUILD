@@ -1,0 +1,37 @@
+# $Id$
+# Maintainer: Ivailo Monev <xakepa10@gmail.com>
+
+pkgname=libnm-qt4
+pkgver=0.9.8.4.e0fe262
+pkgrel=1
+pkgdesc="Qt4 NetworkManager glue from KDE"
+arch=('i686' 'x86_64')
+url='http://fluxer.github.io/katana/'
+license=('LGPL')
+groups=('katana')
+depends=('qt4' 'networkmanager')
+makedepends=('cmake' 'git')
+source=("git+https://github.com/fluxer/networkmanager-qt.git")
+sha1sums=('SKIP')
+
+pkgver() {
+    cd networkmanager-qt
+    printf "0.9.8.4.%s" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+    mkdir -p build
+}
+
+build() {
+    cd build
+    cmake ../networkmanager-qt  \
+        -DCMAKE_BUILD_TYPE=RelWithDbgInfo \
+        -DCMAKE_INSTALL_PREFIX=/usr
+    make
+}
+
+package() {
+    cd build
+    make DESTDIR="${pkgdir}" install
+}
