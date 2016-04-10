@@ -14,7 +14,9 @@ groups=('katana')
 pkgdesc='Katana core applications'
 optdepends=('katana-extraapps: thumbnailers for development, audio, video and other common files'
             'icoutils: thumbnailers for MS files'
-            'ruby: servicemenu installation')
+            'ruby: servicemenu installation'
+            'cppcheck: code analysis in Kate'
+            'ctags: lookup definitions/declarations in Kate')
 url="http://fluxer.github.io/katana/"
 install="$pkgname.install"
 depends=("katanalibs>=4.16.0" 'qjson')
