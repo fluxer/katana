@@ -9,7 +9,7 @@ arch=('i686' 'x86_64')
 url='http://fluxer.github.io/katana/'
 license=('GPL')
 groups=('katana')
-depends=('katanalibs>=4.16.0' 'polkit-qt4')
+depends=('katanalibs>=4.18.0' 'polkit-qt4')
 makedepends=('cmake' 'git')
 source=("git+https://github.com/fluxer/kde-playground.git")
 sha1sums=('SKIP')

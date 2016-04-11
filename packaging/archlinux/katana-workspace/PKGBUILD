@@ -15,7 +15,7 @@ groups=('katana')
 # note on libxdamage:
 # not detected by namcap because libgl depends on it
 # but nvidia providing libgl does not depend on libxdamage
-depends=("katanalibs>=4.16.0" "katana-baseapps>=4.16.0"
+depends=("katanalibs>=4.18.0" "katana-baseapps>=4.18.0"
         'lm_sensors' 'libraw1394' 'xorg-xprop' 'libxdamage' 'libqalculate'
         'libxklavier' 'xorg-xsetroot' 'libxcomposite' 'libxft' 'libxinerama'
         'xorg-xrdb' 'libxres' 'xorg-xrandr' 'xorg-xmessage' 'libusb-compat'

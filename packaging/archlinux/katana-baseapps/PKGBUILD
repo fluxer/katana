@@ -19,7 +19,7 @@ optdepends=('katana-extraapps: thumbnailers for development, audio, video and ot
             'ctags: lookup definitions/declarations in Kate')
 url="http://fluxer.github.io/katana/"
 install="$pkgname.install"
-depends=("katanalibs>=4.16.0" 'qjson')
+depends=("katanalibs>=4.18.0" 'qjson')
 makedepends=('cmake' 'git') # TODO: pykde4
 source=("git+https://github.com/fluxer/kde-baseapps.git")
 sha1sums=('SKIP')
