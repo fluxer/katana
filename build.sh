@@ -3,17 +3,32 @@
 set -e
 
 release="Release"
-if [ -n "$1" ];then
-    case "$1" in
-        Release|RelWithDebInfo|Debug|MinSizeRel) release="$1" ;;
-        *) echo "Invalid release type: $1"
-           exit 1 ;;
-    esac
-fi
-
 prefix="/usr/local"
 if [ "$(uname -o)" = "GNU/Linux" ];then
     prefix="/usr"
+fi
+
+args_array=("$@")
+for arg in "${args_array[@]}";do
+    case "$arg" in
+        release=*) release="${arg#*=}" ;;
+        prefix=*) prefix="${arg#*=}" ;;
+        *) echo "Invalid argument: $arg"
+           exit 1 ;;
+    esac
+done
+
+if [ "$prefix" != "/usr" ] && [ "$prefix" != "/usr/local" ];then
+    echo ""
+    echo "WARNING: you will have to setup PATH and LD_LIBRARY_PATH like this:"
+    echo ""
+    echo " export PATH=\"\${PATH}:$prefix/bin\""
+    echo " export LD_LIBRARY_PATH=\"\${LD_LIBRARY_PATH}:$prefix/lib\""
+    echo ""
+    sleep 3;
+
+    export PATH="${PATH}:$prefix/bin"
+    export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:$prefix/lib"
 fi
 
 sudo=""
