@@ -12,6 +12,7 @@ groups=('katana')
 makedepends=('cmake' 'git')
 source=("git+https://github.com/fluxer/kde-l10n.git")
 sha1sums=('SKIP')
+options=('!strip' 'staticlibs' 'libtool')
 
 _languages=(
   'ar            "Arabic"'
@@ -90,6 +91,8 @@ _languages=(
   'zh_CN         "Chinese (simplified)"'
   'zh_TW         "Chinese (traditional)"'
 )
+# to build only the all-in-one package
+# _languages=()
 
 pkgver() {
     cd kde-l10n
@@ -125,3 +128,11 @@ for _lang in "${_languages[@]}"; do
         _package $_lang
     }"
 done
+
+pkgname+=(katana-l10-polyglot)
+package_katana-l10-polyglot() {
+    pkgdesc="Katana all-in-one translations"
+    depends=('katanalibs>=4.18.0') # not really
+
+    make -C build DESTDIR="${pkgdir}" install
+}
