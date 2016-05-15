@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=modemmanager-qt4
-pkgver=1.0.1.3774023
+pkgver=1.0.1.a049284
 pkgrel=1
 pkgdesc="Qt4 ModemManager glue from KDE"
 arch=('i686' 'x86_64')
