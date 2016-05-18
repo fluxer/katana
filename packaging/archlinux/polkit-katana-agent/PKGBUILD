@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=polkit-katana-agent
-pkgver=4.18.0.5be802d
+pkgver=4.18.0.9150798
 pkgrel=1
 pkgdesc="Daemon providing a polkit authentication UI for Katana"
 arch=('i686' 'x86_64')
@@ -16,25 +16,32 @@ sha1sums=('SKIP')
 conflicts=('polkit-kde-agent')
 
 pkgver() {
-      cd kde-playground
-      printf "4.18.0.%s" "$(git rev-parse --short HEAD)"
+    cd kde-playground
+    printf "4.18.0.%s" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {
-       mkdir -p build
+    mkdir -p build-agent build-kcm
 }
 
 build() {
-       cd build
-       cmake ../kde-playground/polkit-kde-agent \
-               -DCMAKE_BUILD_TYPE=Release \
-               -DENABLE_TESTING=OFF \
-               -DCMAKE_SKIP_INSTALL_RPATH=ON \
-               -DCMAKE_INSTALL_PREFIX=/usr
-       make
+    cd build-agent
+    cmake ../kde-playground/polkit-kde-agent \
+            -DCMAKE_BUILD_TYPE=Release \
+            -DENABLE_TESTING=OFF \
+            -DCMAKE_SKIP_INSTALL_RPATH=ON \
+            -DCMAKE_INSTALL_PREFIX=/usr
+    make
+    cd ../build-kcm
+    cmake ../kde-playground/polkit-kde-kcmodules-1 \
+            -DCMAKE_BUILD_TYPE=Release \
+            -DENABLE_TESTING=OFF \
+            -DCMAKE_SKIP_INSTALL_RPATH=ON \
+            -DCMAKE_INSTALL_PREFIX=/usr
+    make
 }
 
 package() {
-       cd "${srcdir}/build"
-       make DESTDIR="${pkgdir}" install
+    make -C build-agent DESTDIR="${pkgdir}" install
+    make -C build-kcm DESTDIR="${pkgdir}" install
 }
