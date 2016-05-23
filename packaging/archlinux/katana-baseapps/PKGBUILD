@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-baseapps
-pkgver=4.18.0.5e9ecd1
+pkgver=4.18.0.c0d61a2
 pkgrel=1
 arch=('i686' 'x86_64')
 url='http://www.kde.org'
@@ -16,7 +16,8 @@ optdepends=('katana-extraapps: thumbnailers for development, audio, video and ot
             'icoutils: thumbnailers for MS files'
             'ruby: servicemenu installation'
             'cppcheck: code analysis in Kate'
-            'ctags: lookup definitions/declarations in Kate')
+            'ctags: lookup definitions/declarations in Kate'
+            'sudo: execute programs as user other than the current')
 url="http://fluxer.github.io/katana/"
 depends=("katanalibs>=4.18.0" 'qjson')
 makedepends=('cmake' 'git') # TODO: pykde4

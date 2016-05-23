@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katanalibs
-pkgver=4.18.0.d8acd1a
+pkgver=4.18.0.9482c0f
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i686' 'x86_64')
@@ -17,7 +17,7 @@ depends=('libxss' 'krb5' 'qca' 'libdbusmenu-qt' 'perl'
         'docbook-xsl' 'upower' 'udisks2' 'libxcursor' 'mpv' 'libraw'
         'media-player-info' 'libxtst' 'libutempter' 'qtwebkit' 'icu' 'exiv2'
         'libmusicbrainz5' 'alsa-lib' 'xcb-util-image' 'xcb-util-keysyms'
-        'xcb-util-renderutil' 'libwebp' 'sudo')
+        'xcb-util-renderutil' 'libwebp')
 makedepends=('cmake' 'git' 'avahi' 'libgl' 'mesa' 'grantlee-qt4')
 source=("git+https://github.com/fluxer/kdelibs.git"
         'kde-applications-menu.patch' 'archlinux-menu.patch')
