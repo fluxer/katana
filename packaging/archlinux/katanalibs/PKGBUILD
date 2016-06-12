@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katanalibs
-pkgver=4.18.0.108cfdb
+pkgver=4.18.0.8024c8c
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i686' 'x86_64')
@@ -24,6 +24,8 @@ sha1sums=('SKIP'
           '2ab1ac29d3e6ef1020a1781a79882ba586e6bdab'
           '4de0a8db4155a83667bc4dac1c3df8659ee4a030')
 conflicts=('kdelibs' 'libkdcraw' 'libkexiv2' 'libkcddb' 'libkcompactdisc')
+
+export CFLAGS="-flto" CXXFLAGS="-flto"
 
 pkgver() {
     cd kdelibs
@@ -45,11 +47,11 @@ build() {
         -DCMAKE_BUILD_TYPE=Release \
         -DENABLE_TESTING=OFF \
         -DCMAKE_SKIP_INSTALL_RPATH=ON \
-        -DKDE_DISTRIBUTION_TEXT='Arch Linux' \
         -DCMAKE_INSTALL_PREFIX=/usr \
         -DSYSCONF_INSTALL_DIR=/etc \
         -DLOCALE_INSTALL_DIR=/usr/share/locale/kde4 \
-        -DWITH_FAM=OFF
+        -DWITH_FAM=OFF \
+        -DWITH_KATIE=OFF
     make
 }
 

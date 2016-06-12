@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-workspace
-pkgver=4.18.0.f87760f
+pkgver=4.18.0.b69b9ff
 pkgrel=1
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i686' 'x86_64')
@@ -45,6 +45,8 @@ sha1sums=('SKIP'
 conflicts=('kdebase-workspace' 'kdebase-runtime')
 provides=('kdebase-workspace')
 
+export CFLAGS="-flto" CXXFLAGS="-flto"
+
 pkgver() {
     cd kde-workspace
     printf "4.18.0.%s" "$(git rev-parse --short HEAD)"
@@ -68,7 +70,8 @@ build() {
         -DCMAKE_SKIP_INSTALL_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr \
         -DSYSCONF_INSTALL_DIR=/etc \
-        -DWITH_Xmms=OFF
+        -DWITH_Xmms=OFF \
+        -DWITH_KATIE=OFF
     make
 }
 
@@ -88,6 +91,6 @@ package() {
 
     install -vd -g 135 -o 135 "${pkgdir}/var/lib/kdm"
     install -vD -m644 "${srcdir}/kdm.service" \
-      "${pkgdir}/usr/lib/systemd/system/kdm.service"
+        "${pkgdir}/usr/lib/systemd/system/kdm.service"
     install -vDm644 "${srcdir}/kdm.logrotate" "${pkgdir}/etc/logrotate.d/kdm"
 }

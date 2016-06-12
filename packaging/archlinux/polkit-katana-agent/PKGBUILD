@@ -27,17 +27,19 @@ prepare() {
 build() {
     cd build-agent
     cmake ../kde-playground/polkit-kde-agent \
-            -DCMAKE_BUILD_TYPE=Release \
-            -DENABLE_TESTING=OFF \
-            -DCMAKE_SKIP_INSTALL_RPATH=ON \
-            -DCMAKE_INSTALL_PREFIX=/usr
+        -DCMAKE_BUILD_TYPE=Release \
+        -DENABLE_TESTING=OFF \
+        -DCMAKE_SKIP_INSTALL_RPATH=ON \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DWITH_KATIE=OFF
     make
     cd ../build-kcm
     cmake ../kde-playground/polkit-kde-kcmodules-1 \
-            -DCMAKE_BUILD_TYPE=Release \
-            -DENABLE_TESTING=OFF \
-            -DCMAKE_SKIP_INSTALL_RPATH=ON \
-            -DCMAKE_INSTALL_PREFIX=/usr
+        -DCMAKE_BUILD_TYPE=Release \
+        -DENABLE_TESTING=OFF \
+        -DCMAKE_SKIP_INSTALL_RPATH=ON \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DWITH_KATIE=OFF
     make
 }
 

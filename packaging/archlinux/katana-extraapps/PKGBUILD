@@ -25,6 +25,8 @@ source=("git+https://github.com/fluxer/kde-extraapps.git")
 sha1sums=('SKIP')
 conflicts=('kdeutils-ark' 'kdevelop' 'kdevplatform')
 
+export CFLAGS="-flto" CXXFLAGS="-flto"
+
 pkgver() {
     cd kde-extraapps
     printf "4.18.0.%s" "$(git rev-parse --short HEAD)"
@@ -40,7 +42,8 @@ build() {
         -DCMAKE_BUILD_TYPE=Release \
         -DENABLE_TESTING=OFF \
         -DCMAKE_SKIP_INSTALL_RPATH=ON \
-        -DCMAKE_INSTALL_PREFIX=/usr
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DWITH_KATIE=OFF
     make
 }
 

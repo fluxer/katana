@@ -35,6 +35,8 @@ conflicts=('kdebase-dolphin'
            'kdebase-katepart'
            'katepart4')
 
+export CFLAGS="-flto" CXXFLAGS="-flto"
+
 pkgver() {
     cd kde-baseapps
     printf "4.18.0.%s" "$(git rev-parse --short HEAD)"
@@ -50,7 +52,8 @@ build() {
         -DCMAKE_BUILD_TYPE=Release \
         -DENABLE_TESTING=OFF \
         -DCMAKE_SKIP_INSTALL_RPATH=ON \
-        -DCMAKE_INSTALL_PREFIX=/usr
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DWITH_KATIE=OFF
     make
 }
 
