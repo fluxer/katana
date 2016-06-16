@@ -35,7 +35,7 @@ conflicts=('kdebase-dolphin'
            'kdebase-katepart'
            'katepart4')
 
-export CFLAGS="-flto" CXXFLAGS="-flto"
+export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
 
 pkgver() {
     cd kde-baseapps

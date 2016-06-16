@@ -45,7 +45,7 @@ sha1sums=('SKIP'
 conflicts=('kdebase-workspace' 'kdebase-runtime')
 provides=('kdebase-workspace')
 
-export CFLAGS="-flto" CXXFLAGS="-flto"
+export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
 
 pkgver() {
     cd kde-workspace

@@ -25,7 +25,7 @@ source=("git+https://github.com/fluxer/kde-extraapps.git")
 sha1sums=('SKIP')
 conflicts=('kdeutils-ark' 'kdevelop' 'kdevplatform')
 
-export CFLAGS="-flto" CXXFLAGS="-flto"
+export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
 
 pkgver() {
     cd kde-extraapps

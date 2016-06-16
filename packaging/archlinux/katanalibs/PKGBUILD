@@ -25,7 +25,7 @@ sha1sums=('SKIP'
           '4de0a8db4155a83667bc4dac1c3df8659ee4a030')
 conflicts=('kdelibs' 'libkdcraw' 'libkexiv2' 'libkcddb' 'libkcompactdisc')
 
-export CFLAGS="-flto" CXXFLAGS="-flto"
+export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
 
 pkgver() {
     cd kdelibs
