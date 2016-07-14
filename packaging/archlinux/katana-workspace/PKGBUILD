@@ -23,10 +23,9 @@ depends=("katanalibs>=4.18.0" "katana-baseapps>=4.18.0"
         'xcb-util-keysyms' 'xcb-util-wm' 'pciutils' 'glu' 'libgl' 'qjson'
         'libmtp' 'smbclient' 'xorg-server' 'python' 'eigen3'
         'openslp' 'gpsd')
-makedepends=('cmake' 'git' 'libnm-glib' 'xf86-input-synaptics'
+makedepends=('cmake' 'git' 'libnm-glib'
              'xorg-server-devel')
 optdepends=('appmenu-qt: menu applications over dbus'
-        'xf86-input-synaptics: touchpad configuration'
         'gdb: backtraces on applications crash'
         'xterm: failsafe session')
 install="${pkgname}.install"
