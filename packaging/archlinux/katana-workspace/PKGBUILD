@@ -6,7 +6,7 @@
 
 pkgname=katana-workspace
 pkgver=4.18.0.b69b9ff
-pkgrel=1
+pkgrel=2
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i686' 'x86_64')
 url='http://fluxer.github.io/katana/'
@@ -15,14 +15,14 @@ groups=('katana')
 # note on libxdamage:
 # not detected by namcap because libgl depends on it
 # but nvidia providing libgl does not depend on libxdamage
+# TODO: prison-qt4
 depends=("katanalibs>=4.18.0" "katana-baseapps>=4.18.0"
         'lm_sensors' 'libraw1394' 'xorg-xprop' 'libxdamage' 'libqalculate'
         'libxklavier' 'xorg-xsetroot' 'libxcomposite' 'libxft' 'libxinerama'
         'xorg-xrdb' 'libxres' 'xorg-xrandr' 'xorg-xmessage' 'libusb-compat'
-        'xcb-util-renderutil' 'xcb-util-image' 'ttf-dejavu' 'libssh' 'prison'
-        'xcb-util-keysyms' 'xcb-util-wm' 'pciutils' 'glu' 'libgl' 'qjson'
-        'libmtp' 'smbclient' 'xorg-server' 'python' 'eigen3'
-        'openslp' 'gpsd')
+        'xcb-util-renderutil' 'xcb-util-image' 'ttf-dejavu' 'libssh' 'qjson'
+        'xcb-util-keysyms' 'xcb-util-wm' 'pciutils' 'glu' 'libgl' 'libmtp'
+        'smbclient' 'xorg-server' 'python' 'eigen3' 'openslp' 'gpsd')
 makedepends=('cmake' 'git' 'libnm-glib'
              'xorg-server-devel')
 optdepends=('appmenu-qt: menu applications over dbus'
