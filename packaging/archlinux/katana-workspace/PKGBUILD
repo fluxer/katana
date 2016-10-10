@@ -6,7 +6,7 @@
 
 pkgname=katana-workspace
 pkgver=4.18.0.b69b9ff
-pkgrel=2
+pkgrel=3
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i686' 'x86_64')
 url='http://fluxer.github.io/katana/'
@@ -19,7 +19,7 @@ groups=('katana')
 depends=("katanalibs>=4.18.0" "katana-baseapps>=4.18.0"
         'lm_sensors' 'libraw1394' 'xorg-xprop' 'libxdamage' 'libqalculate'
         'libxklavier' 'xorg-xsetroot' 'libxcomposite' 'libxft' 'libxinerama'
-        'xorg-xrdb' 'libxres' 'xorg-xrandr' 'xorg-xmessage' 'libusb-compat'
+        'xorg-xrdb' 'libxres' 'xorg-xrandr' 'xorg-xmessage' 'libusb'
         'xcb-util-renderutil' 'xcb-util-image' 'ttf-dejavu' 'libssh' 'qjson'
         'xcb-util-keysyms' 'xcb-util-wm' 'pciutils' 'glu' 'libgl' 'libmtp'
         'smbclient' 'xorg-server' 'python' 'eigen3' 'openslp' 'gpsd')
