@@ -1,5 +1,7 @@
 # $Id$
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
+
+# NOTE: eigen2 you can build from AUR
 # TODO: split into small packages
 
 pkgname=katana-extraapps
