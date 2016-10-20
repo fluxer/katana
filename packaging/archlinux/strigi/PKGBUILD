@@ -21,6 +21,10 @@ pkgver() {
     printf "0.7.8.%s" "$(git rev-parse --short HEAD)"
 }
 
+prepare() {
+    mkdir -p build
+}
+
 build() {
     cd build
     cmake ../strigi \
