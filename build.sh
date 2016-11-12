@@ -11,8 +11,9 @@ fi
 args_array=("$@")
 for arg in "${args_array[@]}";do
     case "$arg" in
-        release=*) release="${arg#*=}" ;;
-        prefix=*) prefix="${arg#*=}" ;;
+        release=*) release="${arg#*=}"; shift ;;
+        prefix=*) prefix="${arg#*=}"; shift ;;
+        -D*|-U*) true ;;
         *) echo "Invalid argument: $arg"
            exit 1 ;;
     esac
@@ -54,7 +55,7 @@ for p in "${packs[@]}";do
             -DCMAKE_INSTALL_PREFIX="$prefix" \
             -DSYSCONF_INSTALL_DIR=/etc \
             -DWITH_FAM=OFF \
-            -DWITH_Xmms=OFF
+            -DWITH_Xmms=OFF $@
     make
     $sudo make install
     cd ..
