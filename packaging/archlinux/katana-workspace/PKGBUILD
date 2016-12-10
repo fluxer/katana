@@ -5,8 +5,8 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-workspace
-pkgver=4.18.0.b69b9ff
-pkgrel=3
+pkgver=4.18.0.4b1f94a
+pkgrel=1
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i686' 'x86_64')
 url='http://fluxer.github.io/katana/'
@@ -22,7 +22,8 @@ depends=("katanalibs>=4.18.0" "katana-baseapps>=4.18.0"
         'xorg-xrdb' 'libxres' 'xorg-xrandr' 'xorg-xmessage' 'libusb'
         'xcb-util-renderutil' 'xcb-util-image' 'ttf-dejavu' 'libssh' 'qjson'
         'xcb-util-keysyms' 'xcb-util-wm' 'pciutils' 'glu' 'libgl' 'libmtp'
-        'smbclient' 'xorg-server' 'python' 'eigen3' 'openslp' 'gpsd')
+        'smbclient' 'xorg-server' 'python' 'eigen3' 'openslp' 'gpsd'
+        'polkit-qt4')
 makedepends=('cmake' 'git' 'libnm-glib'
              'xorg-server-devel')
 optdepends=('appmenu-qt: menu applications over dbus'
@@ -41,7 +42,7 @@ sha1sums=('SKIP'
           'bbe55f2000217474ce7246f12ee437ceaaf7e9ae'
           'c079ebd157c836ba996190f0d2bcea1a7828d02c'
           'ac7bc292c865bc1ab8c02e6341aa7aeaf1a3eeee')
-conflicts=('kdebase-workspace' 'kdebase-runtime')
+conflicts=('kdebase-workspace' 'kdebase-runtime' 'polkit-kde-agent')
 provides=('kdebase-workspace')
 
 export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
