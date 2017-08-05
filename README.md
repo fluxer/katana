@@ -4,8 +4,6 @@ Katana is fork of KDE Software Distribution with emphasis on efficiency. So far
 it has proven to be roughly 50% less system resource hungry and significantly
 faster.
 
-[Try it via Live CD/DVD](http://www.entropy-linux.com/public/snapshots/)
-
 ### Authors and Contributors
 
 Since Katana is a fork of someone else's work, many of the credits go to the KDE
