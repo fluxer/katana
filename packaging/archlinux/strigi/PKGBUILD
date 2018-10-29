@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=strigi
-pkgver=0.8.0.d96959f
+pkgver=0.8.0.b3754c6
 pkgrel=1
 pkgdesc="File indexing and file search framework adopted by KDE"
 arch=('i686' 'x86_64')

@@ -5,16 +5,16 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katanalibs
-pkgver=4.18.0.8006199d
+pkgver=4.18.0.b7febc71
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i686' 'x86_64')
 url='http://fluxer.github.io/katana/'
 license=('GPL' 'LGPL' 'FDL')
 groups=('katana')
-depends=('libxss' 'krb5' 'libdbusmenu-qt' 'perl' 'shared-mime-info' 'enchant'
+depends=('libxss' 'krb5' 'qt4' 'perl' 'shared-mime-info' 'enchant'
         'jasper' 'openexr' 'strigi' 'upower' 'udisks2' 'libxcursor' 'mpv'
-         'libraw' 'media-player-info' 'libxtst' 'libutempter' 'qtwebkit' 'icu'
+         'libraw' 'media-player-info' 'libxtst' 'libutempter' 'icu'
          'exiv2' 'libmusicbrainz5' 'alsa-lib' 'xcb-util-image'
          'xcb-util-keysyms' 'xcb-util-renderutil' 'libwebp')
 makedepends=('cmake' 'git' 'avahi' 'libgl' 'mesa')
@@ -51,7 +51,8 @@ build() {
         -DSYSCONF_INSTALL_DIR=/etc \
         -DLOCALE_INSTALL_DIR=/usr/share/locale/kde4 \
         -DWITH_FAM=OFF \
-        -DWITH_KATIE=OFF
+        -DWITH_KATIE=OFF \
+        -DWITH_DBusMenuQt=OFF
     make
 }
 
