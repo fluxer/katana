@@ -1,0 +1,41 @@
+# $Id$
+# Maintainer: Ivailo Monev <xakepa10@gmail.com>
+
+pkgname=qimageblitz
+pkgver=0.0.7.531e5e4
+pkgrel=1
+pkgdesc="A graphical effect and filter library for KDE"
+arch=('i686' 'x86_64')
+url='http://fluxer.github.io/katana/'
+license=('GPL2')
+groups=('katana')
+depends=('qt4')
+makedepends=('cmake' 'git')
+source=("git+https://github.com/fluxer/qimageblitz.git")
+sha1sums=('SKIP')
+
+export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
+
+pkgver() {
+    cd qimageblitz
+    printf "0.0.7.%s" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+    mkdir -p build
+}
+
+build() {
+    cd build
+    cmake ../qimageblitz \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_SKIP_INSTALL_RPATH=ON \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_INSTALL_LIBDIR=/usr/lib
+    make
+}
+
+package() {
+    cd build
+    make DESTDIR="${pkgdir}" install
+}
