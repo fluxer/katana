@@ -54,7 +54,6 @@ for p in "${packs[@]}";do
             -DCMAKE_SKIP_INSTALL_RPATH=ON \
             -DCMAKE_INSTALL_PREFIX="$prefix" \
             -DSYSCONF_INSTALL_DIR=/etc \
-            -DWITH_FAM=OFF \
             -DWITH_Xmms=OFF $@
     make
     $sudo make install
