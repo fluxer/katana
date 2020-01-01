@@ -8,7 +8,7 @@
 pkgname=katana-extraapps
 pkgver=4.18.0.6368c4c5
 pkgrel=1
-arch=('i686' 'x86_64')
+arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='http://www.kde.org'
 license=('GPL' 'LGPL' 'FDL')
 groups=('katana')
