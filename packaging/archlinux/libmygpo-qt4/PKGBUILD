@@ -1,0 +1,43 @@
+# $Id$
+# Maintainer: Ivailo Monev <xakepa10@gmail.com>
+
+pkgname=libmygpo-qt4
+pkgver=1.1.0.ba5db4d
+pkgrel=1
+pkgdesc='A C++/Qt client library for gpodder.net'
+arch=('i686' 'x86_64')
+url="http://wiki.gpodder.org/wiki/Libmygpo-qt"
+license=('LGPL2.1')
+groups=('katana')
+depends=('qt4' 'qjson')
+makedepends=('cmake' 'git' 'doxygen')
+source=("git+https://github.com/gpodder/libmygpo-qt.git")
+sha1sums=('SKIP')
+
+export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
+
+pkgver() {
+    cd libmygpo-qt
+    printf "1.1.0.%s" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+    mkdir -p build
+}
+
+build() {
+    cd build
+    cmake ../libmygpo-qt \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_SKIP_INSTALL_RPATH=ON \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_INSTALL_LIBDIR=/usr/lib \
+        -DBUILD_WITH_QT4=ON \
+        -DMYGPO_BUILD_TESTS=OFF
+    make
+}
+
+package() {
+    cd build
+    make DESTDIR="${pkgdir}" install
+}

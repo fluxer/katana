@@ -15,11 +15,11 @@ groups=('katana')
 pkgdesc='Katana extra applications'
 url="http://fluxer.github.io/katana/"
 depends=("katanalibs>=4.18.0" "katana-workspace>=4.18.0"
-        'taglib' 'sane' 'libarchive' 'qjson' 'exiv2' 'lcms2'
-        'libvncserver' 'ffmpeg' 'gettext' 'libmtp' 'libgl' 'parted' 'libgpod'
-        'libcanberra' 'openconnect' 'libmms' 'libofa' 'speech-dispatcher'
-        'liblastfm' 'libmygpo-qt4' 'freerdp' 'libspectre' 'eigen2' 'djvulibre'
-        'qimageblitz' 'qca-qt4')
+        'taglib' 'sane' 'libarchive' 'qjson' 'exiv2' 'lcms2' 'libvncserver'
+        'ffmpeg' 'gettext' 'libmtp' 'libgl' 'parted' 'libgpod' 'libcanberra'
+        'openconnect' 'libmms' 'libofa' 'speech-dispatcher' 'liblastfm-qt4'
+        'libmygpo-qt4' 'freerdp' 'libspectre' 'eigen2' 'djvulibre' 'qca-qt4'
+        'qimageblitz')
 makedepends=('cmake' 'git')
 optdepends=('samba: sharing files and directories'
         'cronie: task scheduling')
