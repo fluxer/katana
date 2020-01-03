@@ -20,7 +20,7 @@ depends=("katanalibs>=4.18.0" "katana-workspace>=4.18.0"
         'openconnect' 'libmms' 'libofa' 'speech-dispatcher' 'liblastfm-qt4'
         'libmygpo-qt4' 'freerdp' 'libspectre' 'eigen2' 'djvulibre' 'qca-qt4'
         'qimageblitz')
-makedepends=('cmake' 'git')
+makedepends=('cmake' 'git' 'boost')
 optdepends=('samba: sharing files and directories'
         'cronie: task scheduling')
 source=("git+https://github.com/fluxer/kde-extraapps.git")
