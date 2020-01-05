@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=libmygpo-qt4
-pkgver=1.1.0.ba5db4d
+pkgver=1.1.0.r287.ba5db4d
 pkgrel=1
 pkgdesc='A C++/Qt client library for gpodder.net'
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
@@ -18,7 +18,7 @@ export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
 
 pkgver() {
     cd libmygpo-qt
-    printf "1.1.0.%s" "$(git rev-parse --short HEAD)"
+    printf "1.1.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {
