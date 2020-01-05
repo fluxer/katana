@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=liblastfm-qt4
-pkgver=1.0.9.2ce2bfe
+pkgver=1.0.9.r644.2ce2bfe
 pkgrel=1
 pkgdesc="A Qt C++ library for the Last.fm webservices"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
@@ -18,7 +18,7 @@ export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
 
 pkgver() {
     cd liblastfm
-    printf "1.0.9.%s" "$(git rev-parse --short HEAD)"
+    printf "1.0.9."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {
