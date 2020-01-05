@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgbase=katana-l10n
-pkgver=c
+pkgver=4.18.0.r91.31fe99e41
 pkgrel=1
 pkgdesc="Katana translations"
 arch=('any')
