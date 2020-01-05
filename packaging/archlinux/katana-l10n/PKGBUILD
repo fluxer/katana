@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgbase=katana-l10n
-pkgver=4.18.0.af1598a
+pkgver=c
 pkgrel=1
 pkgdesc="Katana translations"
 arch=('any')
@@ -96,7 +96,7 @@ _languages=(
 
 pkgver() {
     cd kde-l10n
-    printf "4.18.0.%s" "$(git rev-parse --short HEAD)"
+    printf "4.18.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {
@@ -129,8 +129,8 @@ for _lang in "${_languages[@]}"; do
     }"
 done
 
-pkgname+=(katana-l10-polyglot)
-package_katana-l10-polyglot() {
+pkgname+=(katana-l10n-polyglot)
+package_katana-l10n-polyglot() {
     pkgdesc="Katana all-in-one translations"
     depends=('katanalibs>=4.18.0') # not really
 
