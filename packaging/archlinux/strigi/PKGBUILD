@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=strigi
-pkgver=0.8.0.b3754c6
+pkgver=0.8.0.r15.b3754c6
 pkgrel=1
 pkgdesc="File indexing and file search framework adopted by KDE"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
@@ -18,7 +18,7 @@ export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
 
 pkgver() {
     cd strigi
-    printf "0.8.0.%s" "$(git rev-parse --short HEAD)"
+    printf "0.8.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {
