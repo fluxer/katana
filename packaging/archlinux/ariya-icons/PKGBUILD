@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=ariya-icons
-pkgver=4.18.0.54ae81b0
+pkgver=4.18.0.r21.54ae81b0
 pkgrel=1
 pkgdesc="Ariya icon theme for use with Katana"
 arch=('any')
@@ -17,7 +17,7 @@ options=('!strip' '!zipman')
 
 pkgver() {
     cd ariya-icons
-    printf "4.18.0.%s" "$(git rev-parse --short HEAD)"
+    printf "4.18.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {
