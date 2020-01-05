@@ -2,7 +2,7 @@
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
 
 pkgname=qimageblitz
-pkgver=0.0.7.531e5e4
+pkgver=0.0.7.r15.ee7b348
 pkgrel=1
 pkgdesc="A graphical effect and filter library for KDE"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
@@ -18,7 +18,7 @@ export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
 
 pkgver() {
     cd qimageblitz
-    printf "0.0.7.%s" "$(git rev-parse --short HEAD)"
+    printf "0.0.7."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {
