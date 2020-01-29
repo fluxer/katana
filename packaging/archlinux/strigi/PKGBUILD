@@ -3,13 +3,13 @@
 
 pkgname=strigi
 pkgver=0.8.0.r15.b3754c6
-pkgrel=1
+pkgrel=2
 pkgdesc="File indexing and file search framework adopted by KDE"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='http://fluxer.github.io/katana/'
 license=('LGPL')
 groups=('katana')
-depends=('bzip2' 'dbus' 'exiv2' 'ffmpeg' 'libxml2' 'zlib')
+depends=('ffmpeg')
 makedepends=('cmake' 'git')
 source=("git+https://github.com/fluxer/strigi.git")
 sha1sums=('SKIP')
