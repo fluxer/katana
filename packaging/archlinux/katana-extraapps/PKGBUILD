@@ -6,7 +6,7 @@
 # TODO: poppler-qt4
 
 pkgname=katana-extraapps
-pkgver=4.18.0.r546.3f656312
+pkgver=4.18.0.r547.6def6bb1
 pkgrel=1
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='http://www.kde.org'
@@ -15,8 +15,8 @@ groups=('katana')
 pkgdesc='Katana extra applications'
 url="http://fluxer.github.io/katana/"
 depends=("katanalibs>=4.18.0" "katana-workspace>=4.18.0"
-        'taglib' 'sane' 'libarchive' 'qjson' 'exiv2' 'lcms2' 'libvncserver'
-        'ffmpeg' 'gettext' 'libmtp' 'libgl' 'parted' 'libgpod' 'libcanberra'
+        'taglib' 'sane' 'qjson' 'libvncserver'
+        'gettext' 'libgpod' 'libcanberra'
         'openconnect' 'libmms' 'libofa' 'speech-dispatcher' 'liblastfm-qt4'
         'libmygpo-qt4' 'freerdp' 'libspectre' 'eigen2' 'djvulibre' 'qca-qt4'
         'qimageblitz')
@@ -54,4 +54,3 @@ package() {
     cd build
     make DESTDIR="${pkgdir}" install
 }
-
