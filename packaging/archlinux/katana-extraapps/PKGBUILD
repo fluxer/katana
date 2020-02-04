@@ -7,7 +7,7 @@
 
 pkgname=katana-extraapps
 pkgver=4.18.0.r554.8bd06534
-pkgrel=1
+pkgrel=2
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='http://www.kde.org'
 license=('GPL' 'LGPL' 'FDL')
@@ -19,7 +19,7 @@ depends=("katanalibs>=4.18.0" "katana-workspace>=4.18.0"
         'gettext' 'libgpod' 'libcanberra'
         'openconnect' 'libmms' 'libofa' 'speech-dispatcher' 'liblastfm-qt4'
         'libmygpo-qt4' 'freerdp' 'libspectre' 'eigen2' 'djvulibre' 'qca-qt4'
-        'qimageblitz')
+        'qimageblitz' 'libarchive' 'ffmpeg' 'parted')
 makedepends=('cmake' 'git' 'boost')
 optdepends=('samba: sharing files and directories'
         'cronie: task scheduling')
