@@ -6,7 +6,7 @@
 # TODO: poppler-qt4
 
 pkgname=katana-extraapps
-pkgver=4.18.0.r547.6def6bb1
+pkgver=4.18.0.r554.8bd06534
 pkgrel=1
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='http://www.kde.org'
