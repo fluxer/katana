@@ -6,7 +6,7 @@
 
 pkgname=katana-workspace
 pkgver=4.18.0.r679.a2069685
-pkgrel=2
+pkgrel=3
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='http://fluxer.github.io/katana/'
@@ -16,6 +16,7 @@ groups=('katana')
 # not detected by namcap because libgl depends on it
 # but nvidia providing libgl does not depend on libxdamage
 depends=("katanalibs>=4.18.0" "katana-baseapps>=4.18.0"
+        'libxdamage' 'libqalculate'
         'libxklavier' 'xorg-xsetroot' 'libxcomposite' 'libxft' 'libxinerama'
         'xorg-xrdb' 'libxres' 'xorg-xrandr' 'xorg-xmessage' 'libusb'
         'xcb-util-renderutil' 'xcb-util-image' 'ttf-dejavu' 'libssh' 'qjson'
