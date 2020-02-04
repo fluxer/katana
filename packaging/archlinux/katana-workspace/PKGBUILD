@@ -5,8 +5,8 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-workspace
-pkgver=4.18.0.r679.a2069685
-pkgrel=3
+pkgver=4.18.0.r687.e537be53
+pkgrel=1
 pkgdesc="Katana workspace interface and basic tools"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='http://fluxer.github.io/katana/'
