@@ -1,93 +1,63 @@
 # $Id$
 # Maintainer: Ivailo Monev <xakepa10@gmail.com>
-# Contributor: Andrea Scarpino <andrea@archlinux.org>
 # Contributor: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
-pkgname=katana-workspace
-pkgver=4.18.0.r687.e537be53
+pkgname=katana-baseapps
+pkgver=4.18.0.r334.24768c1
 pkgrel=1
-pkgdesc="Katana workspace interface and basic tools"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
-url='http://fluxer.github.io/katana/'
+url='http://www.kde.org'
 license=('GPL' 'LGPL' 'FDL')
 groups=('katana')
-# note on libxdamage:
-# not detected by namcap because libgl depends on it
-# but nvidia providing libgl does not depend on libxdamage
-depends=("katanalibs>=4.18.0" "katana-baseapps>=4.18.0"
-        'libxdamage' 'libqalculate'
-        'libxklavier' 'xorg-xsetroot' 'libxcomposite' 'libxft' 'libxinerama'
-        'xorg-xrdb' 'libxres' 'xorg-xrandr' 'xorg-xmessage' 'libusb'
-        'xcb-util-renderutil' 'xcb-util-image' 'ttf-dejavu' 'libssh' 'qjson'
-        'xcb-util-keysyms' 'xcb-util-wm' 'pciutils' 'glu' 'libgl' 'libmtp'
-        'smbclient' 'xorg-server' 'python' 'eigen3' 'gpsd' 'lm_sensors')
-makedepends=('cmake' 'git' 'libnm-glib'
-             'xorg-server-devel')
-optdepends=('gdb: backtraces on applications crash'
-        'xterm: failsafe session')
-install="${pkgname}.install"
-backup=('usr/share/config/kdm/kdmrc' 'etc/pam.d/kde' 'etc/pam.d/kde-np' 'etc/pam.d/kscreensaver')
-source=("git+https://github.com/fluxer/kde-workspace.git"
-        'kde.pam' 'kde-np.pam' 'kscreensaver.pam' 'kdm.service' 'kdm.logrotate'
-        'etc-scripts.patch' 'terminate-server.patch')
-sha1sums=('SKIP'
-          '660eae40a707d2711d8d7f32a93214865506b795'
-          '6aeecc9e0e221f0515c6bf544f9a3c11cb6961fe'
-          'c6afdf8964b2b2c4809b2e8e694729b2661e29df'
-          'b6f8e8692737b11eec1f8022ce74b5b23e247b1b'
-          'bbe55f2000217474ce7246f12ee437ceaaf7e9ae'
-          'c079ebd157c836ba996190f0d2bcea1a7828d02c'
-          'ac7bc292c865bc1ab8c02e6341aa7aeaf1a3eeee')
-conflicts=('kdebase-workspace' 'kdebase-runtime' 'polkit-kde-agent')
-provides=('kdebase-workspace')
+pkgdesc='Katana core applications'
+optdepends=('katana-extraapps: thumbnailers for development, audio, video and other common files'
+            'icoutils: thumbnailers for MS files'
+            'ruby: servicemenu installation'
+            'cppcheck: code analysis in Kate'
+            'ctags: lookup definitions/declarations in Kate'
+            'sudo: execute programs as user other than the current')
+url="http://fluxer.github.io/katana/"
+depends=("katanalibs>=4.18.0" 'qjson')
+makedepends=('cmake' 'git') # TODO: pykde4
+source=("git+https://github.com/fluxer/kde-baseapps.git")
+sha1sums=('SKIP')
+conflicts=('kdebase-dolphin'
+           'kdebase-kdepasswd'
+           'kdebase-kdialog'
+           'kdebase-keditbookmarks'
+           'kdebase-kfind'
+           'kdebase-konq-plugins'
+           'kdebase-konqueror'
+           'kdebase-lib'
+           'kdebase-plasma'
+           'kdebase-katepart'
+           'katepart4')
 
 export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
 
 pkgver() {
-    cd kde-workspace
+    cd kde-baseapps
     printf "4.18.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {
     mkdir -p build
-
-    cd kde-workspace
-    # reads the shell scripts in /etc/kde/
-    patch -p0 -i "${srcdir}/etc-scripts.patch"
-    # KDEBUG#202629
-    patch -p0 -i "${srcdir}/terminate-server.patch"
 }
 
 build() {
     cd build
-    cmake ../kde-workspace \
+    cmake ../kde-baseapps \
         -DCMAKE_BUILD_TYPE=Release \
         -DENABLE_TESTING=OFF \
         -DCMAKE_SKIP_INSTALL_RPATH=ON \
         -DCMAKE_INSTALL_PREFIX=/usr \
-        -DSYSCONF_INSTALL_DIR=/etc \
-        -DWITH_Xmms=OFF \
         -DWITH_KATIE=OFF
     make
 }
 
 package() {
-    cd build
-
-    make DESTDIR="${pkgdir}" install
-
-    install -vD -m644 "${srcdir}/kde.pam" "${pkgdir}/etc/pam.d/kde"
-    install -vD -m644 "${srcdir}/kde-np.pam" "${pkgdir}/etc/pam.d/kde-np"
-    install -vD -m644 "${srcdir}/kscreensaver.pam" "${pkgdir}/etc/pam.d/kscreensaver"
-
-    install -vd -m755 "${pkgdir}/usr/share/xsessions/"
-    ln -sf /usr/share/apps/kdm/sessions/kde-plasma{,-safe}.desktop \
-        "${pkgdir}/usr/share/xsessions/"
-    install -vd -m755 "${pkgdir}/etc/kde/"{env,shutdown}
-
-    install -vd -g 135 -o 135 "${pkgdir}/var/lib/kdm"
-    install -vD -m644 "${srcdir}/kdm.service" \
-        "${pkgdir}/usr/lib/systemd/system/kdm.service"
-    install -vDm644 "${srcdir}/kdm.logrotate" "${pkgdir}/etc/logrotate.d/kdm"
+    cd "$srcdir/build"
+    make DESTDIR="$pkgdir" install
 }
