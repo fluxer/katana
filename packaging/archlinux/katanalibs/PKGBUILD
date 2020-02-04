@@ -6,7 +6,7 @@
 
 pkgname=katanalibs
 pkgver=4.18.0.r1154.27e27502
-pkgrel=1
+pkgrel=2
 pkgdesc="Katana core libraries"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='http://fluxer.github.io/katana/'
@@ -14,7 +14,7 @@ license=('GPL' 'LGPL' 'FDL')
 groups=('katana')
 depends=('qt4' 'enchant' 'openexr' 'strigi' 'upower' 'udisks2' 'mpv' 
         'libraw' 'shared-mime-info' 'libutempter' 'libmusicbrainz5' 'xcb-util-image'
-         'xcb-util-keysyms' 'xcb-util-renderutil' )
+         'xcb-util-keysyms' 'xcb-util-renderutil' 'krb5' 'perl' 'jasper' 'media-player-info' 'libwebp')
 makedepends=('cmake' 'git' 'avahi' 'libgl' 'mesa')
 source=("git+https://github.com/fluxer/kdelibs.git"
         'kde-applications-menu.patch' 'archlinux-menu.patch')
