@@ -1,0 +1,14 @@
+Source: katana-baseapps
+Section: x11
+Priority: optional
+Maintainer: Ivailo Monev <xakepa10@gmail.com>
+Homepage: https://github.com/fluxer/kde-baseapps
+Vcs-Git: git://github.com/fluxer/kde-baseapps.git
+Vcs-browser: https://github.com/fluxer/kde-baseapps
+Standards-Version: 4.18.0
+Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs
+
+Package: katana-baseapps
+Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Katana core applications

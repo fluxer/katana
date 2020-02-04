@@ -1,0 +1,20 @@
+Source: katana-workspace
+Section: x11
+Priority: optional
+Maintainer: Ivailo Monev <xakepa10@gmail.com>
+Homepage: https://github.com/fluxer/kde-workspace
+Vcs-Git: git://github.com/fluxer/kde-workspace.git
+Vcs-browser: https://github.com/fluxer/kde-workspace
+Standards-Version: 4.18.0
+Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
+ katana-baseapps, xorg-dev, libnm-dev, libqalculate-dev,
+ libxklavier-dev, libxcb-icccm4-dev, pciutils, libglu1-mesa-dev,
+ mesa-common-dev, libmtp-dev, python, libeigen3-dev, libgps-dev,
+ libusb-1.0-0-dev, libssh-dev, libsmbclient-dev, perl-base, libraw1394-dev,
+ libsensors4-dev, libgles2-mesa-dev
+
+Package: katana-workspace
+Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, gdb, xterm,
+ xserver-xorg, x11-xserver-utils, x11-utils, ttf-dejavu, lm-sensors
+Description: Katana workspace interface and basic tools

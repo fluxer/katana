@@ -1,0 +1,14 @@
+Source: ariya-icons
+Section: x11
+Priority: optional
+Maintainer: Ivailo Monev <xakepa10@gmail.com>
+Homepage: https://github.com/fluxer/ariya-icons
+Vcs-Git: git://github.com/fluxer/ariya-icons.git
+Vcs-browser: https://github.com/fluxer/ariya-icons
+Standards-Version: 4.18.0
+Build-Depends: debhelper (>= 9~), cmake
+
+Package: ariya-icons
+Architecture: any
+Depends: ${misc:Depends}
+Description: Ariya icon theme for use with Katana
