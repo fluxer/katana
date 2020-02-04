@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-baseapps
-pkgver=4.18.0.r328.2198cc4
+pkgver=4.18.0.r334.24768c1
 pkgrel=1
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='http://www.kde.org'
@@ -61,4 +61,3 @@ package() {
     cd "$srcdir/build"
     make DESTDIR="$pkgdir" install
 }
-
