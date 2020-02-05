@@ -11,10 +11,11 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, libenchant-dev,
  xorg-dev, mesa-common-dev, libavahi-common-dev, krb5-multidev, perl-base,
  libwebp-dev, libudev-dev, liblzma-dev, libexiv2-dev, libilmbase-dev,
  libbz2-dev, libattr1-dev, libacl1-dev, libxcb-render-util0-dev,
- libxcb-keysyms1-dev, libxcb-image0-dev
+ libxcb-keysyms1-dev, libxcb-image0-dev, strigi, libdbusmenu-katie,
+ media-player-info, krb5-config
 
 Package: katanalibs
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
-Depends: ${shlibs:Depends}, ${misc:Depends}, , ${perl:Depends}, strigi,
- libdbusmenu-katie, upower, udisks2, shared-mime-info, media-player-info
+Depends: ${shlibs:Depends}, ${misc:Depends}, , ${perl:Depends}, upower,
+ udisks2, shared-mime-info, media-player-info
 Description: Katana core libraries
