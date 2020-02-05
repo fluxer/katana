@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --parallel
+
+override_dh_auto_configure:
+	dh_auto_configure -- -Wno-dev \
+		-DKATIE_BUILD=ON \
+		-DBUILD_TESTS=OFF
