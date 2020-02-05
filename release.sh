@@ -11,7 +11,7 @@
 set -e
 
 version="$1"
-packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n" "kde-docs")
+packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
 cwd="$(pwd)"
 
 if [ -z "$version" ];then
