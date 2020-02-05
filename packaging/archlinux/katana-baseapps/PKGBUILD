@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katana-baseapps
-pkgver=4.18.0.r334.24768c1
+pkgver=4.19.0.r334.24768c1
 pkgrel=1
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='http://www.kde.org'
@@ -19,7 +19,7 @@ optdepends=('katana-extraapps: thumbnailers for development, audio, video and ot
             'ctags: lookup definitions/declarations in Kate'
             'sudo: execute programs as user other than the current')
 url="http://fluxer.github.io/katana/"
-depends=("katanalibs>=4.18.0" 'qjson')
+depends=("katanalibs>=4.19.0" 'qjson')
 makedepends=('cmake' 'git') # TODO: pykde4
 source=("git+https://github.com/fluxer/kde-baseapps.git")
 sha1sums=('SKIP')
@@ -39,7 +39,7 @@ export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
 
 pkgver() {
     cd kde-baseapps
-    printf "4.18.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+    printf "4.19.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {

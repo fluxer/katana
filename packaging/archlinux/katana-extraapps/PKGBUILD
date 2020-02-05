@@ -6,15 +6,15 @@
 # TODO: poppler-qt4
 
 pkgname=katana-extraapps
-pkgver=4.18.0.r554.8bd06534
-pkgrel=2
+pkgver=4.19.0.r554.8bd06534
+pkgrel=1
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='http://www.kde.org'
 license=('GPL' 'LGPL' 'FDL')
 groups=('katana')
 pkgdesc='Katana extra applications'
 url="http://fluxer.github.io/katana/"
-depends=("katanalibs>=4.18.0" "katana-workspace>=4.18.0"
+depends=("katanalibs>=4.19.0" "katana-workspace>=4.19.0"
         'taglib' 'sane' 'qjson' 'libvncserver'
         'gettext' 'libgpod' 'libcanberra'
         'openconnect' 'libmms' 'libofa' 'speech-dispatcher' 'liblastfm-qt4'
@@ -31,7 +31,7 @@ export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
 
 pkgver() {
     cd kde-extraapps
-    printf "4.18.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+    printf "4.19.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {

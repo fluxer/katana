@@ -5,8 +5,8 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=katanalibs
-pkgver=4.18.0.r1154.27e27502
-pkgrel=2
+pkgver=4.19.0.r1154.27e27502
+pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='http://fluxer.github.io/katana/'
@@ -27,7 +27,7 @@ export CFLAGS="${CFLAGS} -flto" CXXFLAGS="${CXXFLAGS} -flto"
 
 pkgver() {
     cd kdelibs
-    printf "4.18.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+    printf "4.19.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {
