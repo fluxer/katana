@@ -6,6 +6,5 @@
 override_dh_auto_configure:
 	dh_auto_configure -- -Wno-dev \
 		-DENABLE_TESTING=OFF \
-		-DBUILD_kolourpaint=FALSE \
 		-DBUILD_kuassel=FALSE \
 		-DWITH_PopplerQt4=FALSE
