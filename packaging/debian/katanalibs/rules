@@ -5,4 +5,5 @@
 
 override_dh_auto_configure:
 	dh_auto_configure -- -Wno-dev \
-		-DENABLE_TESTING=OFF
+		-DENABLE_TESTING=OFF \
+		-DSYSCONF_INSTALL_DIR=/etc
