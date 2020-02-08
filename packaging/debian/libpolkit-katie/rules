@@ -5,4 +5,5 @@
 
 override_dh_auto_configure:
 	dh_auto_configure -- -Wno-dev \
-		-DWITH_KATIE=ON
+		-DWITH_KATIE=ON \
+		-DENABLE_TESTING=OFF
