@@ -2,7 +2,6 @@
 
 # NOTE: bump version in following files before release:
 #
-# - ariya-icons/CPackConfig.cmake
 # - doxygen.conf
 # - kdelibs/CMakeLists.txt
 # - kdelibs/cmake/modules/FindKDE4Internal.cmake
