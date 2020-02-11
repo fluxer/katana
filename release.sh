@@ -7,6 +7,11 @@
 # - kdelibs/CMakeLists.txt
 # - kdelibs/cmake/modules/FindKDE4Internal.cmake
 # - kdelibs/cmake/modules/KDE4Defaults.cmake
+# - kde-baseapps/CMakeLists.txt
+# - kde-workspace/CMakeLists.txt
+# - kde-extraapps/CMakeLists.txt
+# - kde-extraapps/*/CMakeLists.txt
+# - kde-l10n/CMakeLists.txt if required
 
 set -e
 
