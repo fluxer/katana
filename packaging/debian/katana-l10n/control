@@ -1,5 +1,5 @@
 Source: katana-l10n
-Section: x11
+Section: localization
 Priority: optional
 Maintainer: Ivailo Monev <xakepa10@gmail.com>
 Homepage: https://github.com/fluxer/kde-l10n
