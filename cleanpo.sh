@@ -29,6 +29,6 @@ result=""
 for f in $(find "kde-l10n" -name '*.po' $regex);do
     result+="$(basename $f)\n"
 done
-echo -e "$result" | uniq -u
+echo -e "$result" | sort -u
 
 echo "All done"
