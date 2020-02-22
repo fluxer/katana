@@ -5,4 +5,6 @@
 
 override_dh_auto_configure:
 	dh_auto_configure -- -Wno-dev \
-		-DATTICA_SUFFIX="-katie"
+		-DATTICA_SUFFIX="-katie" \
+		-DINCLUDE_DESTINATION="/usr/include/attica-katie" \
+		-DENABLE_TESTING=OFF
