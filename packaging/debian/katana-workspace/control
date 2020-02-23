@@ -16,7 +16,7 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
  mesa-common-dev, libmtp-dev, python, libeigen3-dev, libgps-dev,
  libusb-1.0-0-dev, libssh-dev, libsmbclient-dev, perl-base, libraw1394-dev,
  libsensors4-dev, libgles2-mesa-dev, libpam0g-dev, libpci-dev, libdbusmenu-katie,
- libpolkit-katie
+ libpolkit-katie, libattica-katie
 
 Package: katana-workspace
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
