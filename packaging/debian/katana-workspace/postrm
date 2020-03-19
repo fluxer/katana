@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "purge" ] ; then
+    if [ -d /usr/share/apps/kdm/faces ]; then
+        rm -vr /usr/share/apps/kdm/faces
+    fi 
+fi

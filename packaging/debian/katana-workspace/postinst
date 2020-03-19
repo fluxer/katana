@@ -1,0 +1,23 @@
+#!/bin/sh
+
+set -e
+
+add_kdm_group_and_user() {
+    adduser --system \
+            --quiet \
+            --disabled-password \
+            --home /var/lib/kdm \
+            --group kdm
+}
+
+if [ "$1" = configure ] && [ -n "$2" ]; then
+    # upgrade
+    add_kdm_group_and_user
+
+    genkdmconf
+elif [ "$1" = configure ]; then
+    # install
+    add_kdm_group_and_user
+
+    genkdmconf --no-old --no-backup
+fi
