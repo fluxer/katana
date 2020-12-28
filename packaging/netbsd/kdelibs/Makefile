@@ -1,0 +1,61 @@
+# $NetBSD$
+
+# https://wiki.netbsd.org/pkgsrc/intro_to_packaging/
+# https://www.netbsd.org/docs/pkgsrc/
+
+DISTNAME = master
+PKGNAME = kdelibs-4.19.0.d20201217
+CATEGORIES = katana x11
+MAINTAINER = xakepa10@gmail.com
+COMMENT = Katana core libraries
+LICENSE = gnu-gpl-v2 AND gnu-lgpl-v2.1
+HOMEPAGE = https://github.com/fluxer/kdelibs
+
+MASTER_SITES = https://github.com/fluxer/kdelibs/archive/
+DIST_SUBDIR = kdelibs
+WRKSRC = ${WRKDIR}/kdelibs-master
+CONFIGURE_DIRS= ${WRKDIR}/build
+CMAKE_ARG_PATH= ${WRKSRC}
+
+USE_CMAKE = yes
+USE_LANGUAGES = c c++11
+USE_TOOLS = pkg-config perl
+REPLACE_PERL = kio/misc/fileshareset
+
+post-extract:
+	${MKDIR} ${WRKDIR}/build
+
+DEPENDS += iceauth-[0-9]*:../../x11/iceauth
+DEPENDS += shared-mime-info-[0-9]*:../../databases/shared-mime-info
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
+.include "../../devel/katie/buildlink3.mk"
+.include "../../textproc/enchant2/buildlink3.mk"
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
+.include "../../graphics/openexr/buildlink3.mk"
+.include "../../graphics/libraw/buildlink3.mk"
+.include "../../graphics/libwebp/buildlink3.mk"
+.include "../../graphics/exiv2/buildlink3.mk"
+.include "../../graphics/ilmbase/buildlink3.mk"
+.include "../../graphics/jasper/buildlink3.mk"
+.include "../../graphics/MesaLib/buildlink3.mk"
+.include "../../multimedia/mpv/buildlink3.mk"
+.include "../../audio/libmusicbrainz5/buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
+.include "../../x11/libXtst/buildlink3.mk"
+.include "../../x11/libXcursor/buildlink3.mk"
+.include "../../x11/libXfixes/buildlink3.mk"
+.include "../../x11/libXScrnSaver/buildlink3.mk"
+.include "../../x11/libSM/buildlink3.mk"
+.include "../../x11/xcb-util-renderutil/buildlink3.mk"
+.include "../../x11/xcb-util-keysyms/buildlink3.mk"
+.include "../../x11/xcb-util-image/buildlink3.mk"
+.include "../../net/avahi/buildlink3.mk"
+.include "../../security/openssl/buildlink3.mk"
+.include "../../archivers/xz/buildlink3.mk"
+.include "../../archivers/bzip2/buildlink3.mk"
+# TODO:
+# .include "../../katana/strigi/buildlink3.mk"
+# .include "../../katana/dbusmenu-katie/buildlink3.mk"
+.include "../../mk/krb5.buildlink3.mk"
+.include "../../mk/bsd.pkg.mk"
