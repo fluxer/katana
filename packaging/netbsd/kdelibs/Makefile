@@ -54,8 +54,8 @@ DEPENDS += shared-mime-info-[0-9]*:../../databases/shared-mime-info
 .include "../../security/openssl/buildlink3.mk"
 .include "../../archivers/xz/buildlink3.mk"
 .include "../../archivers/bzip2/buildlink3.mk"
+.include "../../katana/strigi/buildlink3.mk"
 # TODO:
-# .include "../../katana/strigi/buildlink3.mk"
 # .include "../../katana/dbusmenu-katie/buildlink3.mk"
 .include "../../mk/krb5.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
