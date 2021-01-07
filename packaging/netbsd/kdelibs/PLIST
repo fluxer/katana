@@ -1493,7 +1493,6 @@ share/apps/LICENSES/GPL_V3
 share/apps/LICENSES/LGPL_V2
 share/apps/LICENSES/LGPL_V3
 share/apps/LICENSES/QPL_V1.0
-share/apps/cmake/modules/exec.sh.in
 share/apps/cmake/modules/FindACL.cmake
 share/apps/cmake/modules/FindAlsa.cmake
 share/apps/cmake/modules/FindAvahi.cmake
