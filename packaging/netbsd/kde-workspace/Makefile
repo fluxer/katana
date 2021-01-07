@@ -27,7 +27,7 @@ USE_TOOLS = pkg-config perl
 
 PKG_GROUPS = kdm
 PKG_USERS = kdm:kdm
-PKG_GECOS.kdm = K Display Manager
+PKG_GECOS.kdm = Katana Display Manager
 PKG_HOME.kdm = /var/lib/kdm
 
 post-extract:
