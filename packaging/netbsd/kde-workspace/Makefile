@@ -24,6 +24,9 @@ USE_CMAKE = yes
 CMAKE_ARGS = -DWITH_PCIUTILS=FALSE
 USE_LANGUAGES = c c++11
 USE_TOOLS = pkg-config perl
+REPLACE_PERL = kdm/confproc.pl
+REPLACE_PERL += kioslave/fish/fish.pl
+REPLACE_PERL += kioslave/info/kde-info2html
 
 PKG_GROUPS = kdm
 PKG_USERS = kdm:kdm
@@ -39,7 +42,7 @@ SUBST_FILES.pciutils = kinfocenter/Modules/pci/kpci.cpp
 SUBST_MESSAGE.pciutils = Adjusting pciutils headers
 SUBST_SED.pciutils = -e 's,<pci/pci.h>,<pciutils/pci.h>,g'
 
-DEPENDS += ariya-icons-[0-9]*:../../katana/ariya-icons
+DEPENDS = ariya-icons-[0-9]*:../../katana/ariya-icons
 DEPENDS += gdb-[0-9]*:../../devel/gdb
 DEPENDS += xterm-[0-9]*:../../x11/xterm
 DEPENDS += dejavu-ttf-[0-9]*:../../fonts/dejavu-ttf

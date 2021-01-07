@@ -20,12 +20,13 @@ CMAKE_ARG_PATH= ${WRKSRC}
 USE_CMAKE = yes
 USE_LANGUAGES = c c++11
 USE_TOOLS = pkg-config perl
-REPLACE_PERL = kio/misc/fileshareset
+REPLACE_PERL = kdeui/preparetips
+REPLACE_PERL += kio/misc/fileshareset
 
 post-extract:
 	${MKDIR} ${WRKDIR}/build
 
-DEPENDS += iceauth-[0-9]*:../../x11/iceauth
+DEPENDS = iceauth-[0-9]*:../../x11/iceauth
 DEPENDS += shared-mime-info-[0-9]*:../../databases/shared-mime-info
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
