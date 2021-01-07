@@ -92,6 +92,8 @@ lib/strigi/strigita_rgb.so
 lib/strigi/strigita_sid.so
 lib/strigi/strigita_wav.so
 lib/strigi/strigita_xbm.so
+lib/strigi/strigiea_ffmpeg.so
+lib/strigi/strigiea_jpeg.so
 share/strigi/fieldproperties/homeless.rdfs
 share/strigi/fieldproperties/nao_data.rdfs
 share/strigi/fieldproperties/ncal_data.rdfs
