@@ -11,9 +11,9 @@ COMMENT = Ariya icon theme for use with Katana
 LICENSE = gnu-lgpl-v3
 HOMEPAGE = https://github.com/fluxer/ariya-icons
 
-MASTER_SITES = https://github.com/fluxer/ariya-icons/archive/
+MASTER_SITES = ${MASTER_SITE_GITHUB}/fluxer/ariya-icons/archive/
 DIST_SUBDIR = ariya-icons
-WRKSRC = ${WRKDIR}/ariya-icons-master
+WRKSRC = ${WRKDIR}/ariya-icons-${DISTNAME}
 
 USE_CMAKE = yes
 ICON_THEMES = yes

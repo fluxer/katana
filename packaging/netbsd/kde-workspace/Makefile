@@ -13,9 +13,9 @@ COMMENT = Katana workspace interface and basic tools
 LICENSE = gnu-gpl-v2 AND gnu-lgpl-v2.1
 HOMEPAGE = https://github.com/fluxer/kde-workspace
 
-MASTER_SITES = https://github.com/fluxer/kde-workspace/archive/
+MASTER_SITES = ${MASTER_SITE_GITHUB}/fluxer/kde-workspace/archive/
 DIST_SUBDIR = kde-workspace
-WRKSRC = ${WRKDIR}/kde-workspace-master
+WRKSRC = ${WRKDIR}/kde-workspace-${DISTNAME}
 CONFIGURE_DIRS= ${WRKDIR}/build
 CMAKE_ARG_PATH= ${WRKSRC}
 
@@ -39,7 +39,7 @@ post-extract:
 SUBST_CLASSES = pciutils
 SUBST_STAGE.pciutils = pre-configure
 SUBST_FILES.pciutils = kinfocenter/Modules/pci/kpci.cpp
-SUBST_MESSAGE.pciutils = Adjusting pciutils headers
+SUBST_MESSAGE.pciutils = Adjusting pci header inclusion
 SUBST_SED.pciutils = -e 's,<pci/pci.h>,<pciutils/pci.h>,g'
 
 DEPENDS = ariya-icons-[0-9]*:../../katana/ariya-icons
@@ -87,10 +87,10 @@ DEPENDS += icoutils-[0-9]*:../../graphics/icoutils
 .include "../../math/eigen3/buildlink3.mk"
 .include "../../geography/gpsd/buildlink3.mk"
 .include "../../security/libgcrypt/buildlink3.mk"
+.include "../../katana/libdbusmenu-katie/buildlink3.mk"
+.include "../../katana/attica-katie/buildlink3.mk"
 # TODO:
-# .include "../../katana/libdbusmenu-katie/buildlink3.mk"
 # .include "../../katana/libpolkit-katie/buildlink3.mk"
-# .include "../../katana/libattica-katie/buildlink3.mk"
 # TODO: fail to build on Linux
 # .include "../../security/libssh/buildlink3.mk"
 # .include "../../net/samba/buildlink3.mk"

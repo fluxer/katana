@@ -11,9 +11,9 @@ COMMENT = File indexing and file search framework adopted by Katana
 LICENSE = gnu-lgpl-v2
 HOMEPAGE = https://github.com/fluxer/strigi
 
-MASTER_SITES = https://github.com/fluxer/strigi/archive/
+MASTER_SITES = ${MASTER_SITE_GITHUB}/fluxer/strigi/archive/
 DIST_SUBDIR = strigi
-WRKSRC = ${WRKDIR}/strigi-master
+WRKSRC = ${WRKDIR}/strigi-${DISTNAME}
 CONFIGURE_DIRS= ${WRKDIR}/build
 CMAKE_ARG_PATH= ${WRKSRC}
 

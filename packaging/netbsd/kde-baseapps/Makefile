@@ -11,9 +11,9 @@ COMMENT = Katana core applications
 LICENSE = gnu-gpl-v2 AND gnu-lgpl-v2.1
 HOMEPAGE = https://github.com/fluxer/kde-baseapps
 
-MASTER_SITES = https://github.com/fluxer/kde-baseapps/archive/
+MASTER_SITES = ${MASTER_SITE_GITHUB}/fluxer/kde-baseapps/archive/
 DIST_SUBDIR = kde-baseapps
-WRKSRC = ${WRKDIR}/kde-baseapps-master
+WRKSRC = ${WRKDIR}/kde-baseapps-${DISTNAME}
 CONFIGURE_DIRS= ${WRKDIR}/build
 CMAKE_ARG_PATH= ${WRKSRC}
 

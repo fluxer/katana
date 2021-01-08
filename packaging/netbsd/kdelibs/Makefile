@@ -11,9 +11,9 @@ COMMENT = Katana core libraries
 LICENSE = gnu-gpl-v2 AND gnu-lgpl-v2.1
 HOMEPAGE = https://github.com/fluxer/kdelibs
 
-MASTER_SITES = https://github.com/fluxer/kdelibs/archive/
+MASTER_SITES = ${MASTER_SITE_GITHUB}/fluxer/kdelibs/archive/
 DIST_SUBDIR = kdelibs
-WRKSRC = ${WRKDIR}/kdelibs-master
+WRKSRC = ${WRKDIR}/kdelibs-${DISTNAME}
 CONFIGURE_DIRS= ${WRKDIR}/build
 CMAKE_ARG_PATH= ${WRKSRC}
 
@@ -58,7 +58,6 @@ DEPENDS += shared-mime-info-[0-9]*:../../databases/shared-mime-info
 .include "../../archivers/xz/buildlink3.mk"
 .include "../../archivers/bzip2/buildlink3.mk"
 .include "../../katana/strigi/buildlink3.mk"
-# TODO:
-# .include "../../katana/dbusmenu-katie/buildlink3.mk"
+.include "../../katana/libdbusmenu-katie/buildlink3.mk"
 .include "../../mk/krb5.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
