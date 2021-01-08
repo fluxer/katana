@@ -36,6 +36,9 @@ PKG_HOME.kdm = /var/lib/kdm
 post-extract:
 	${MKDIR} ${WRKDIR}/build
 
+post-install:
+	${RM} ${DESTDIR}${PREFIX}/share/config/kdm/*.bak
+
 SUBST_CLASSES = pciutils
 SUBST_STAGE.pciutils = pre-configure
 SUBST_FILES.pciutils = kinfocenter/Modules/pci/kpci.cpp
@@ -95,4 +98,5 @@ DEPENDS += icoutils-[0-9]*:../../graphics/icoutils
 # .include "../../security/libssh/buildlink3.mk"
 # .include "../../net/samba/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
+.include "../../mk/pam.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

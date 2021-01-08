@@ -8,6 +8,7 @@ bin/kblob.kss
 bin/kcheckrunning
 bin/kclock.kss
 bin/kcminit
+bin/kcminit_startup
 bin/kcmshell4
 bin/kde-cp
 bin/kde-mv
@@ -136,6 +137,7 @@ include/taskmanager/taskgroup.h
 include/taskmanager/taskitem.h
 include/taskmanager/taskmanager.h
 include/taskmanager/taskmanager_export.h
+lib/attica_kde.so
 lib/comicbookthumbnail.so
 lib/cursorthumbnail.so
 lib/devinfo.so
@@ -152,6 +154,7 @@ lib/ion_noaa.so
 lib/ion_wettercom.so
 lib/jpegthumbnail.so
 lib/kcm_access.so
+lib/kcm_attica.so
 lib/kcm_autostart.so
 lib/kcm_cgi.so
 lib/kcm_clock.so
@@ -503,6 +506,7 @@ lib/plasma_engine_places.so
 lib/plasma_engine_powermanagement.so
 lib/plasma_engine_share.so
 lib/plasma_engine_soliddevice.so
+lib/plasma_engine_statusnotifieritem.so
 lib/plasma_engine_systemmonitor.so
 lib/plasma_engine_tasks.so
 lib/plasma_engine_time.so
@@ -1151,6 +1155,7 @@ share/apps/plasma/services/org.kde.places.operations
 share/apps/plasma/services/powermanagementservice.operations
 share/apps/plasma/services/share.operations
 share/apps/plasma/services/soliddevice.operations
+share/apps/plasma/services/statusnotifieritem.operations
 share/apps/plasma/services/tasks.operations
 share/apps/plasma/shareprovider/im9/contents/code/main.js
 share/apps/plasma/shareprovider/im9/metadata.desktop
@@ -1740,6 +1745,7 @@ share/kde4/services/ioports.desktop
 share/kde4/services/joystick.desktop
 share/kde4/services/jpegthumbnail.desktop
 share/kde4/services/kaccess.desktop
+share/kde4/services/kcm_attica.desktop
 share/kde4/services/kcm_infosummary.desktop
 share/kde4/services/kcm_kdebugconfig.desktop
 share/kde4/services/kcm_kdnssd.desktop
@@ -1947,6 +1953,7 @@ share/kde4/services/plasma-toolbox-paneltoolbox.desktop
 share/kde4/services/plasma-wallpaper-color.desktop
 share/kde4/services/plasma-wallpaper-image.desktop
 share/kde4/services/plasma_applet_keyboard.desktop
+share/kde4/services/plasma_engine_statusnotifieritem.desktop
 share/kde4/services/powerdevilbrightnesscontrolaction.desktop
 share/kde4/services/powerdevildimdisplayaction.desktop
 share/kde4/services/powerdevildpmsaction.desktop
