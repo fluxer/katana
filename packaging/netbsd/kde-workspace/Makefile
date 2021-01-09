@@ -37,7 +37,7 @@ post-extract:
 	${MKDIR} ${WRKDIR}/build
 
 post-install:
-	${RM} ${DESTDIR}${PREFIX}/share/config/kdm/*.bak
+	${RM} -f ${DESTDIR}${PREFIX}/share/config/kdm/*.bak
 
 SUBST_CLASSES = pciutils
 SUBST_STAGE.pciutils = pre-configure
@@ -52,6 +52,10 @@ DEPENDS += dejavu-ttf-[0-9]*:../../fonts/dejavu-ttf
 # see above
 # DEPENDS += pciutils-[0-9]*:../../sysutils/pciutils
 DEPENDS += icoutils-[0-9]*:../../graphics/icoutils
+DEPENDS += xrdb-[0-9]*:../../x11/xrdb
+DEPENDS += xmessage-[0-9]*:../../x11/xmessage
+DEPENDS += xprop-[0-9]*:../../x11/xprop
+DEPENDS += socat-[0-9]*:../../net/socat
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
