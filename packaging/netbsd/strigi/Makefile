@@ -25,6 +25,7 @@ post-extract:
 	${MKDIR} ${WRKDIR}/build
 
 .include "../../graphics/exiv2/buildlink3.mk"
+.include "../../sysutils/attr/buildlink3.mk"
 .include "../../sysutils/file/buildlink3.mk"
 .include "../../multimedia/ffmpeg4/buildlink3.mk"
 .include "../../archivers/bzip2/buildlink3.mk"

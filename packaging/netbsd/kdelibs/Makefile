@@ -54,6 +54,7 @@ DEPENDS += shared-mime-info-[0-9]*:../../databases/shared-mime-info
 .include "../../x11/xcb-util-keysyms/buildlink3.mk"
 .include "../../x11/xcb-util-image/buildlink3.mk"
 .include "../../net/avahi/buildlink3.mk"
+.include "../../sysutils/attr/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../archivers/xz/buildlink3.mk"
 .include "../../archivers/bzip2/buildlink3.mk"
