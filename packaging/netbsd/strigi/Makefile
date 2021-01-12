@@ -24,6 +24,7 @@ USE_TOOLS = pkg-config
 post-extract:
 	${MKDIR} ${WRKDIR}/build
 
+.include "../../converters/libiconv/buildlink3.mk"
 .include "../../graphics/exiv2/buildlink3.mk"
 .include "../../sysutils/attr/buildlink3.mk"
 .include "../../sysutils/file/buildlink3.mk"
