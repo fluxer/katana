@@ -30,6 +30,7 @@ post-extract:
 
 DEPENDS = iceauth-[0-9]*:../../x11/iceauth
 DEPENDS += shared-mime-info-[0-9]*:../../databases/shared-mime-info
+DEPENDS += xdg-utils-[0-9]*:../../misc/xdg-utils
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
