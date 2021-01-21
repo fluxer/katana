@@ -3,8 +3,6 @@
 # https://wiki.netbsd.org/pkgsrc/intro_to_packaging/
 # https://www.netbsd.org/docs/pkgsrc/
 
-# TODO: rc.d file
-
 DISTNAME = master
 PKGNAME = kde-workspace-4.19.0.d20201217
 CATEGORIES = katana x11
@@ -31,7 +29,9 @@ REPLACE_PERL += kioslave/info/kde-info2html
 PKG_GROUPS = kdm
 PKG_USERS = kdm:kdm
 PKG_GECOS.kdm = Katana Display Manager
-PKG_HOME.kdm = /var/lib/kdm
+PKG_HOME.kdm = ${VARBASE}/lib/kdm
+
+RCD_SCRIPTS = kdm
 
 post-extract:
 	${MKDIR} ${WRKDIR}/build
