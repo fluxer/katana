@@ -10,5 +10,6 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs, sudo
 
 Package: katana-baseapps
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
-Depends: ${shlibs:Depends}, ${misc:Depends}, sudo, ctags, cppcheck
+Depends: ${shlibs:Depends}, ${misc:Depends}, sudo, ctags [linux-any],
+ cppcheck [linux-any]
 Description: Katana core applications

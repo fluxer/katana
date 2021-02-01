@@ -7,16 +7,16 @@ Vcs-Git: git://github.com/fluxer/kde-workspace.git
 Vcs-browser: https://github.com/fluxer/kde-workspace
 Standards-Version: 4.19.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
- katana-baseapps, xorg-dev, libnm-dev, libqalculate-dev, libgcrypt20-dev,
- libxklavier-dev, libxcb-icccm4-dev, libxcb-composite0-dev,
- libxcb-damage0-dev, libxcb-xfixes0-dev, libxcb-render0-dev,
- libxcb-randr0-dev, libxcb-shape0-dev, libxcb-shape0-dev, libxcb-shm0-dev,
- libxcb-sync-dev, libxcb-image0-dev, libxcb-render-util0-dev,
+ katana-baseapps, xorg-dev, libnm-dev [linux-any], libqalculate-dev,
+ libgcrypt20-dev, libxklavier-dev, libx11-xcb-dev, libxcb-icccm4-dev,
+ libxcb-composite0-dev, libxcb-damage0-dev, libxcb-xfixes0-dev,
+ libxcb-render0-dev, libxcb-randr0-dev, libxcb-shape0-dev, libxcb-shape0-dev,
+ libxcb-shm0-dev, libxcb-sync-dev, libxcb-image0-dev, libxcb-render-util0-dev,
  libxcb-keysyms1-dev, libxcb-xtest0-dev, libxcb-record0-dev, libglu1-mesa-dev,
  mesa-common-dev, libmtp-dev, python, libeigen3-dev, libgps-dev,
- libusb-1.0-0-dev, libssh-dev, libsmbclient-dev, perl-base, libraw1394-dev,
- libsensors4-dev, libgles2-mesa-dev, libpam0g-dev, libpci-dev, libdbusmenu-katie,
- libpolkit-katie, libattica-katie
+ libusb-1.0-0-dev, libssh-dev, libsmbclient-dev, perl-base,
+ libraw1394-dev [linux-any], libsensors4-dev, libgles2-mesa-dev, libpam0g-dev,
+ libpci-dev, libdbusmenu-katie, libpolkit-katie, libattica-katie
 
 Package: katana-workspace
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
