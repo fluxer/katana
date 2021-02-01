@@ -2,7 +2,7 @@
  
  set -e
  
- rm -rf obj-*-linux-gnu/
+ rm -rf obj-*-gnu/
  
  sudo apt-get build-dep .
  
