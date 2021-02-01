@@ -9,6 +9,6 @@ Standards-Version: 4.19.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev
 
 Package: libattica-katie
-Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Katie implementation of the Open Collaboration Services API
