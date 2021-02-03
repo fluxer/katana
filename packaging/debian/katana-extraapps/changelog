@@ -1,3 +1,9 @@
+katana-extraapps (4.20.0) unstable; urgency=medium
+
+  * Package update
+
+ -- Ivailo Monev <xakepa10@gmail.com>  Wed, 03 Feb 2021 10:33:05 +0000
+
 katana-extraapps (4.19.0) unstable; urgency=medium
 
   * Initial package

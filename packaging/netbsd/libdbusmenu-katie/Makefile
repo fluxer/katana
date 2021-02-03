@@ -4,7 +4,7 @@
 # https://www.netbsd.org/docs/pkgsrc/
 
 DISTNAME = master
-PKGNAME = libdbusmenu-katie-4.19.0.d20201217
+PKGNAME = libdbusmenu-katie-4.20.0.d20201217
 CATEGORIES = katana devel
 MAINTAINER = xakepa10@gmail.com
 COMMENT = Katie implementation of the DBusMenu protocol

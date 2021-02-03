@@ -4,7 +4,7 @@
 # https://www.netbsd.org/docs/pkgsrc/
 
 DISTNAME = master
-PKGNAME = kdelibs-4.19.0.d20201217
+PKGNAME = kdelibs-4.20.0.d20201217
 CATEGORIES = katana x11
 MAINTAINER = xakepa10@gmail.com
 COMMENT = Katana core libraries

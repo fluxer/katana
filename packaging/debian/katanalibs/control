@@ -5,7 +5,7 @@ Maintainer: Ivailo Monev <xakepa10@gmail.com>
 Homepage: https://github.com/fluxer/kdelibs
 Vcs-Git: git://github.com/fluxer/kdelibs.git
 Vcs-browser: https://github.com/fluxer/kdelibs
-Standards-Version: 4.19.0
+Standards-Version: 4.20.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev, libenchant-dev,
  libopenexr-dev, libmpv-dev [linux-any], libraw-dev, libmusicbrainz5-dev,
  xorg-dev, mesa-common-dev, libavahi-common-dev, krb5-multidev, perl-base,

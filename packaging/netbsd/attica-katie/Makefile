@@ -4,7 +4,7 @@
 # https://www.netbsd.org/docs/pkgsrc/
 
 DISTNAME = master
-PKGNAME = attica-katie-4.19.0.d20201217
+PKGNAME = attica-katie-4.20.0.d20201217
 CATEGORIES = katana net
 MAINTAINER = xakepa10@gmail.com
 COMMENT = Katie implementation of the Open Collaboration Services API
