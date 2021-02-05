@@ -1437,8 +1437,8 @@ lib/libkio.so
 lib/libkio.so.4
 lib/libkio.so.4.20
 lib/libkmediaplayer.so
-lib/libkmediaplayer.so.5
-lib/libkmediaplayer.so.5.15.0
+lib/libkmediaplayer.so.4
+lib/libkmediaplayer.so.4.20
 lib/libknotifyconfig.so
 lib/libknotifyconfig.so.4
 lib/libknotifyconfig.so.4.20
@@ -1577,7 +1577,6 @@ share/apps/cmake/modules/MacroLibrary.cmake
 share/apps/cmake/modules/MacroOptionalAddSubdirectory.cmake
 share/apps/cmake/modules/MacroOptionalFindPackage.cmake
 share/apps/cmake/modules/UnixAuth.cmake
-share/apps/cmake/modules/check_installed_exports_file.cmake
 share/apps/cmake/modules/cmake-modules-styleguide.txt
 share/apps/cmake/modules/kde4_cmake_uninstall.cmake.in
 share/apps/kauth/dbus_policy.stub
