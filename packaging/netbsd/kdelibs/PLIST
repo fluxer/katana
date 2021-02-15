@@ -1523,6 +1523,7 @@ share/apps/cmake/modules/FindKSane.cmake
 share/apps/cmake/modules/FindKipi.cmake
 share/apps/cmake/modules/FindLIBPARTED.cmake
 share/apps/cmake/modules/FindLibAttica.cmake
+share/apps/cmake/modules/FindLibDRM.cmake
 share/apps/cmake/modules/FindLibGPS.cmake
 share/apps/cmake/modules/FindLibGcrypt.cmake
 share/apps/cmake/modules/FindLibKonq.cmake

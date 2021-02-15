@@ -84,6 +84,7 @@ DEPENDS += socat-[0-9]*:../../net/socat
 .include "../../x11/xcb-util-wm/buildlink3.mk"
 .include "../../x11/xcb-util-renderutil/buildlink3.mk"
 .include "../../x11/xcb-util-keysyms/buildlink3.mk"
+.include "../../x11/libdrm/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/openexr/buildlink3.mk"
