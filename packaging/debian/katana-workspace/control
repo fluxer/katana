@@ -13,10 +13,10 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
  libxcb-render0-dev, libxcb-randr0-dev, libxcb-shape0-dev, libxcb-shape0-dev,
  libxcb-shm0-dev, libxcb-sync-dev, libxcb-image0-dev, libxcb-render-util0-dev,
  libxcb-keysyms1-dev, libxcb-xtest0-dev, libxcb-record0-dev, libglu1-mesa-dev,
- mesa-common-dev, libmtp-dev, python, libeigen3-dev, libgps-dev,
- libusb-1.0-0-dev, libssh-dev, libsmbclient-dev, perl-base, libdrm-dev,
- libraw1394-dev [linux-any], libsensors4-dev, libgles2-mesa-dev, libpam0g-dev,
- libpci-dev, libdbusmenu-katie, libpolkit-katie, libattica-katie
+ mesa-common-dev, libmtp-dev, python, libgps-dev, libusb-1.0-0-dev, libssh-dev,
+ libsmbclient-dev, perl-base, libdrm-dev, libraw1394-dev [linux-any],
+ libsensors4-dev, libgles2-mesa-dev, libpam0g-dev, libpci-dev,
+ libdbusmenu-katie, libpolkit-katie, libattica-katie
 
 Package: katana-workspace
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386

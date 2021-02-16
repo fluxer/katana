@@ -1503,7 +1503,6 @@ share/apps/cmake/modules/FindDNSSD.cmake
 share/apps/cmake/modules/FindDjVuLibre.cmake
 share/apps/cmake/modules/FindENCHANT.cmake
 share/apps/cmake/modules/FindEPub.cmake
-share/apps/cmake/modules/FindEigen3.cmake
 share/apps/cmake/modules/FindExiv2.cmake
 share/apps/cmake/modules/FindFFmpeg.cmake
 share/apps/cmake/modules/FindFFmpegThumbnailer.cmake

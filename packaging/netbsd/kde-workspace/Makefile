@@ -92,7 +92,6 @@ DEPENDS += socat-[0-9]*:../../net/socat
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../devel/libmtp/buildlink3.mk"
 .include "../../devel/libusb/buildlink3.mk"
-.include "../../math/eigen3/buildlink3.mk"
 .include "../../geography/gpsd/buildlink3.mk"
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
