@@ -1,0 +1,16 @@
+Source: libpoppler-katie
+Section: libdevel
+Priority: optional
+Maintainer: Ivailo Monev <xakepa10@gmail.com>
+Homepage: https://github.com/fluxer/poppler
+Vcs-Git: git://github.com/fluxer/poppler.git
+Vcs-browser: https://github.com/fluxer/poppler
+Standards-Version: 4.20.0
+Build-Depends: debhelper (>= 9~), cmake, libfreetype6-dev, libfontconfig1-dev,
+ libpng-dev, libjpeg-dev, libtiff5-dev, liblcms2-dev, libopenjp2-7-dev,
+ libnss3-dev, zlib1g-dev, libc6-dev, libcurl4-nss-dev, katie-dev
+
+Package: libpoppler-katie
+Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Katie bindings for poppler
