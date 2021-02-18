@@ -55,6 +55,8 @@ DEPENDS += icoutils-[0-9]*:../../graphics/icoutils
 DEPENDS += xrdb-[0-9]*:../../x11/xrdb
 DEPENDS += xmessage-[0-9]*:../../x11/xmessage
 DEPENDS += xprop-[0-9]*:../../x11/xprop
+DEPENDS += setxkbmap-[0-9]*:../../x11/setxkbmap
+DEPENDS += xmodmap-[0-9]*:../../x11/xmodmap
 DEPENDS += socat-[0-9]*:../../net/socat
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
