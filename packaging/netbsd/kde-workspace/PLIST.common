@@ -75,7 +75,6 @@ etc/dbus-1/system.d/org.kde.kcontrol.kcmclock.conf
 etc/dbus-1/system.d/org.kde.kcontrol.kcmkdm.conf
 etc/dbus-1/system.d/org.kde.kcontrol.kcmkwallet.conf
 etc/dbus-1/system.d/org.kde.ksysguard.processlisthelper.conf
-etc/dbus-1/system.d/org.kde.powerdevil.backlighthelper.conf
 etc/ksysguarddrc
 etc/xdg/menus/kde-information.menu
 include/KDE/Plasma/Weather/Ion
@@ -174,7 +173,6 @@ lib/kcm_icons.so
 lib/kcm_info.so
 lib/kcm_infosummary.so
 lib/kcm_input.so
-lib/kcm_joystick.so
 lib/kcm_kdebugconfig.so
 lib/kcm_kded.so
 lib/kcm_kdm.so
@@ -529,7 +527,6 @@ lib/svgthumbnail.so
 lib/textthumbnail.so
 lib/windowsexethumbnail.so
 lib/windowsimagethumbnail.so
-libexec/kde4/backlighthelper
 libexec/kde4/drkonqi
 libexec/kde4/fontinst
 libexec/kde4/fontinst_helper
@@ -1241,7 +1238,6 @@ share/dbus-1/system-services/org.kde.kcontrol.kcmclock.service
 share/dbus-1/system-services/org.kde.kcontrol.kcmkdm.service
 share/dbus-1/system-services/org.kde.kcontrol.kcmkwallet.service
 share/dbus-1/system-services/org.kde.ksysguard.processlisthelper.service
-share/dbus-1/system-services/org.kde.powerdevil.backlighthelper.service
 share/desktop-directories/kde-development-translation.directory
 share/desktop-directories/kde-development-webdevelopment.directory
 share/desktop-directories/kde-development.directory
@@ -1742,7 +1738,6 @@ share/kde4/services/ion-envcan.desktop
 share/kde4/services/ion-noaa.desktop
 share/kde4/services/ion-wettercom.desktop
 share/kde4/services/ioports.desktop
-share/kde4/services/joystick.desktop
 share/kde4/services/jpegthumbnail.desktop
 share/kde4/services/kaccess.desktop
 share/kde4/services/kcm_attica.desktop
