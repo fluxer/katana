@@ -52,6 +52,7 @@ DEPENDS += dejavu-ttf-[0-9]*:../../fonts/dejavu-ttf
 # see above
 # DEPENDS += pciutils-[0-9]*:../../sysutils/pciutils
 DEPENDS += icoutils-[0-9]*:../../graphics/icoutils
+DEPENDS += djvulibre-tools-[0-9]*:../../graphics/djvulibre-tools
 DEPENDS += xrdb-[0-9]*:../../x11/xrdb
 DEPENDS += xmessage-[0-9]*:../../x11/xmessage
 DEPENDS += xprop-[0-9]*:../../x11/xprop
