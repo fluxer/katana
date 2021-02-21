@@ -28,18 +28,23 @@ USE_TOOLS = pkg-config perl
 post-extract:
 	${MKDIR} ${WRKDIR}/build
 
-DEPENDS = ariya-icons-[0-9]*:../../katana/ariya-icons
+DEPENDS = freerdp2-[0-9]*:../../net/freerdp2
 
-# TODO: X11 dependencies
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
 .include "../../katana/kdelibs/buildlink3.mk"
 .include "../../katana/kde-baseapps/buildlink3.mk"
 .include "../../katana/kde-workspace/buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
+.include "../../x11/libXrender/buildlink3.mk"
+.include "../../x11/libXtst/buildlink3.mk"
+.include "../../x11/libXdamage/buildlink3.mk"
+.include "../../x11/libXext/buildlink3.mk"
+.include "../../x11/libXfixes/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/gmp/buildlink3.mk"
-.include "../../devel/boost-libs/buildlink3.mk"
+.include "../../devel/boost-headers/buildlink3.mk"
 .include "../../security/gpgme/buildlink3.mk"
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../../databases/sqlite3/buildlink3.mk"
@@ -71,8 +76,8 @@ DEPENDS = ariya-icons-[0-9]*:../../katana/ariya-icons
 .include "../../inputmethod/scim/buildlink3.mk"
 .include "../../katana/strigi/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
+.include "../../katana/qca-katie/buildlink3.mk"
 # TODO:
-# .include "../../katana/qca-katie/buildlink3.mk"
 # .include "../../katana/libpoppler-katie/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
