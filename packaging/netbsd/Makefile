@@ -9,7 +9,7 @@ SUBDIR += kde-extraapps
 SUBDIR += kde-workspace
 SUBDIR += kdelibs
 SUBDIR += libdbusmenu-katie
+SUBDIR += qca-katie
 SUBDIR += strigi
 
 .include "../mk/misc/category.mk"
-
