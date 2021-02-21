@@ -2,9 +2,9 @@ Source: qca-katie
 Section: libdevel
 Priority: optional
 Maintainer: Ivailo Monev <xakepa10@gmail.com>
-Homepage: https://github.com/fluxer/qca-qt
-Vcs-Git: git://github.com/fluxer/qca-qt.git
-Vcs-browser: https://github.com/fluxer/qca-qt
+Homepage: https://github.com/fluxer/qca
+Vcs-Git: git://github.com/fluxer/qca.git
+Vcs-browser: https://github.com/fluxer/qca
 Standards-Version: 4.20.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev, libssl-dev
 
