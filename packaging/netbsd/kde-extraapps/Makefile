@@ -42,7 +42,7 @@ DEPENDS = freerdp2-[0-9]*:../../net/freerdp2
 .include "../../x11/libXext/buildlink3.mk"
 .include "../../x11/libXfixes/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
-.include "../../devel/gettext-lib/buildlink3.mk"
+.include "../../devel/gettext-tools/buildlink3.mk"
 .include "../../devel/gmp/buildlink3.mk"
 .include "../../devel/boost-headers/buildlink3.mk"
 .include "../../security/gpgme/buildlink3.mk"
@@ -73,8 +73,10 @@ DEPENDS = freerdp2-[0-9]*:../../net/freerdp2
 .include "../../net/libvncserver/buildlink3.mk"
 .include "../../net/freerdp2/buildlink3.mk"
 .include "../../inputmethod/ibus/buildlink3.mk"
-.include "../../inputmethod/scim/buildlink3.mk"
+# TODO: does not build with it
+# .include "../../inputmethod/scim/buildlink3.mk"
 .include "../../katana/strigi/buildlink3.mk"
+.include "../../katana/attica-katie/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
 .include "../../katana/qca-katie/buildlink3.mk"
 # TODO:
