@@ -9,6 +9,7 @@ SUBDIR += kde-extraapps
 SUBDIR += kde-workspace
 SUBDIR += kdelibs
 SUBDIR += libdbusmenu-katie
+SUBDIR += poppler-katie
 SUBDIR += qca-katie
 SUBDIR += strigi
 
