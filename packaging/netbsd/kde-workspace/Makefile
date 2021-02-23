@@ -95,7 +95,6 @@ DEPENDS += iso-codes-[0-9]*:../../textproc/iso-codes
 .include "../../graphics/exiv2/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../devel/libmtp/buildlink3.mk"
-.include "../../devel/libusb/buildlink3.mk"
 .include "../../geography/gpsd/buildlink3.mk"
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
@@ -105,6 +104,7 @@ DEPENDS += iso-codes-[0-9]*:../../textproc/iso-codes
 # TODO: fail to build on Linux
 # .include "../../security/libssh/buildlink3.mk"
 # .include "../../net/samba/buildlink3.mk"
+.include "../../mk/libusb.buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../mk/pam.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
