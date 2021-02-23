@@ -485,6 +485,7 @@ lib/okularGenerator_ghostview.so
 lib/okularGenerator_kimgio.so
 lib/okularGenerator_ooo.so
 lib/okularGenerator_plucker.so
+lib/okularGenerator_poppler.so
 lib/okularGenerator_tiff.so
 lib/okularGenerator_txt.so
 lib/okularGenerator_xps.so
@@ -597,6 +598,7 @@ share/applications/kde4/okularApplication_fb.desktop
 share/applications/kde4/okularApplication_ghostview.desktop
 share/applications/kde4/okularApplication_kimgio.desktop
 share/applications/kde4/okularApplication_ooo.desktop
+share/applications/kde4/okularApplication_pdf.desktop
 share/applications/kde4/okularApplication_plucker.desktop
 share/applications/kde4/okularApplication_tiff.desktop
 share/applications/kde4/okularApplication_txt.desktop
@@ -1136,6 +1138,7 @@ share/config.kcfg/kuser.kcfg
 share/config.kcfg/lokalize.kcfg
 share/config.kcfg/okular.kcfg
 share/config.kcfg/okular_core.kcfg
+share/config.kcfg/pdfsettings.kcfg
 share/config.kcfg/pocreatorsettings.kcfg
 share/config/filelightrc
 share/dbus-1/interfaces/org.kde.akregator.part.xml
@@ -1396,6 +1399,7 @@ share/kde4/services/libokularGenerator_ghostview.desktop
 share/kde4/services/libokularGenerator_kimgio.desktop
 share/kde4/services/libokularGenerator_ooo.desktop
 share/kde4/services/libokularGenerator_plucker.desktop
+share/kde4/services/libokularGenerator_poppler.desktop
 share/kde4/services/libokularGenerator_tiff.desktop
 share/kde4/services/libokularGenerator_txt.desktop
 share/kde4/services/libokularGenerator_xps.desktop
@@ -1410,6 +1414,7 @@ share/kde4/services/okularGhostview.desktop
 share/kde4/services/okularKimgio.desktop
 share/kde4/services/okularOoo.desktop
 share/kde4/services/okularPlucker.desktop
+share/kde4/services/okularPoppler.desktop
 share/kde4/services/okularTiff.desktop
 share/kde4/services/okularTxt.desktop
 share/kde4/services/okularXps.desktop
