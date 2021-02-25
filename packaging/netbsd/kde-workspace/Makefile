@@ -23,8 +23,6 @@ CMAKE_ARGS = -DWITH_PCIUTILS=FALSE
 USE_LANGUAGES = c c++11
 USE_TOOLS = pkg-config perl
 REPLACE_PERL = kdm/confproc.pl
-REPLACE_PERL += kioslave/fish/fish.pl
-REPLACE_PERL += kioslave/info/kde-info2html
 
 PKG_GROUPS = kdm
 PKG_USERS = kdm:kdm
