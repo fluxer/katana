@@ -58,6 +58,7 @@ DEPENDS += setxkbmap-[0-9]*:../../x11/setxkbmap
 DEPENDS += xmodmap-[0-9]*:../../x11/xmodmap
 DEPENDS += socat-[0-9]*:../../net/socat
 DEPENDS += iso-codes-[0-9]*:../../textproc/iso-codes
+DEPENDS += mtools-[0-9]*:../../sysutils/mtools
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
