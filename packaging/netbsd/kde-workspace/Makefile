@@ -56,6 +56,7 @@ DEPENDS += xmessage-[0-9]*:../../x11/xmessage
 DEPENDS += xprop-[0-9]*:../../x11/xprop
 DEPENDS += setxkbmap-[0-9]*:../../x11/setxkbmap
 DEPENDS += xmodmap-[0-9]*:../../x11/xmodmap
+DEPENDS += xsetroot-[0-9]*:../../x11/xsetroot
 DEPENDS += socat-[0-9]*:../../net/socat
 DEPENDS += iso-codes-[0-9]*:../../textproc/iso-codes
 DEPENDS += mtools-[0-9]*:../../sysutils/mtools
