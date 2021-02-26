@@ -328,7 +328,6 @@ include/KDE/KParts/Factory
 include/KDE/KParts/FileInfoExtension
 include/KDE/KParts/GUIActivateEvent
 include/KDE/KParts/HistoryProvider
-include/KDE/KParts/HtmlExtension
 include/KDE/KParts/ListingExtension
 include/KDE/KParts/LiveConnectExtension
 include/KDE/KParts/MainWindow
@@ -985,14 +984,12 @@ include/kparts/event.h
 include/kparts/factory.h
 include/kparts/fileinfoextension.h
 include/kparts/historyprovider.h
-include/kparts/htmlextension.h
 include/kparts/kparts_export.h
 include/kparts/listingextension.h
 include/kparts/mainwindow.h
 include/kparts/part.h
 include/kparts/partmanager.h
 include/kparts/plugin.h
-include/kparts/scriptableextension.h
 include/kparts/statusbarextension.h
 include/kparts/textextension.h
 include/kpassivepopup.h
@@ -1205,14 +1202,6 @@ include/kxmlguifactory.h
 include/kxmlguiwindow.h
 include/kxyselector.h
 include/kzip.h
-include/libkcddb/cdinfo.h
-include/libkcddb/cdinfodialog.h
-include/libkcddb/client.h
-include/libkcddb/configbase.h
-include/libkcddb/genres.h
-include/libkcddb/kcddb.h
-include/libkcddb/kcddb_export.h
-include/libkcddb/kcddbconfig.h
 include/libkdcraw/dcrawinfocontainer.h
 include/libkdcraw/dcrawsettingswidget.h
 include/libkdcraw/kdcraw.h
@@ -1366,7 +1355,6 @@ lib/emoticonstheme_adium.so
 lib/emoticonstheme_kde.so
 lib/emoticonstheme_pidgin.so
 lib/emoticonstheme_xmpp.so
-lib/kcm_cddb.so
 lib/kcm_ssl.so
 lib/kde4/plugins/designer/kdewidgets.so
 lib/kde4/plugins/imageformats/kimg_dds.so
@@ -1398,9 +1386,6 @@ lib/kio_metainfo.so
 lib/krossmoduleforms.so
 lib/krossmodulekdetranslation.so
 lib/krossqts.so
-lib/libkcddb.so
-lib/libkcddb.so.4
-lib/libkcddb.so.4.20
 lib/libkcmutils.so
 lib/libkcmutils.so.4
 lib/libkcmutils.so.4.20
@@ -1497,21 +1482,18 @@ share/apps/LICENSES/QPL_V1.0
 share/apps/cmake/modules/FindACL.cmake
 share/apps/cmake/modules/FindAlsa.cmake
 share/apps/cmake/modules/FindAvahi.cmake
-share/apps/cmake/modules/FindCanberra.cmake
 share/apps/cmake/modules/FindDBusMenuQt.cmake
 share/apps/cmake/modules/FindDNSSD.cmake
 share/apps/cmake/modules/FindDjVuLibre.cmake
 share/apps/cmake/modules/FindENCHANT.cmake
 share/apps/cmake/modules/FindEPub.cmake
 share/apps/cmake/modules/FindExiv2.cmake
-share/apps/cmake/modules/FindFFmpeg.cmake
 share/apps/cmake/modules/FindFFmpegThumbnailer.cmake
 share/apps/cmake/modules/FindFLAC++.cmake
 share/apps/cmake/modules/FindFontconfig.cmake
 share/apps/cmake/modules/FindGIO.cmake
 share/apps/cmake/modules/FindGLIB2.cmake
 share/apps/cmake/modules/FindGMP.cmake
-share/apps/cmake/modules/FindGObject.cmake
 share/apps/cmake/modules/FindGSSAPI.cmake
 share/apps/cmake/modules/FindGettextPO.cmake
 share/apps/cmake/modules/FindGpgme.cmake
@@ -1522,6 +1504,7 @@ share/apps/cmake/modules/FindKDE4Workspace.cmake
 share/apps/cmake/modules/FindKSane.cmake
 share/apps/cmake/modules/FindKipi.cmake
 share/apps/cmake/modules/FindLIBPARTED.cmake
+share/apps/cmake/modules/FindLibATASmart.cmake
 share/apps/cmake/modules/FindLibAttica.cmake
 share/apps/cmake/modules/FindLibDRM.cmake
 share/apps/cmake/modules/FindLibGPS.cmake
@@ -1538,7 +1521,6 @@ share/apps/cmake/modules/FindLibXKlavier.cmake
 share/apps/cmake/modules/FindLibintl.cmake
 share/apps/cmake/modules/FindMPFR.cmake
 share/apps/cmake/modules/FindMtp.cmake
-share/apps/cmake/modules/FindMusicBrainz5.cmake
 share/apps/cmake/modules/FindNetworkManager.cmake
 share/apps/cmake/modules/FindOpenEXR.cmake
 share/apps/cmake/modules/FindOpenGLES.cmake
@@ -1546,7 +1528,6 @@ share/apps/cmake/modules/FindPAM.cmake
 share/apps/cmake/modules/FindPCIUTILS.cmake
 share/apps/cmake/modules/FindPolkitQt-1.cmake
 share/apps/cmake/modules/FindPopplerQt4.cmake
-share/apps/cmake/modules/FindPulseAudio.cmake
 share/apps/cmake/modules/FindQCA2.cmake
 share/apps/cmake/modules/FindQalculate.cmake
 share/apps/cmake/modules/FindRAW1394.cmake
@@ -1658,7 +1639,6 @@ share/apps/plasma/services/dataengineservice.operations
 share/apps/plasma/services/plasmoidservice.operations
 share/apps/plasma/services/storage.operations
 share/apps/proxyscout/proxyscout.notifyrc
-share/config.kcfg/libkcddb.kcfg
 share/config/accept-languages.codes
 share/config/colors/40.colors
 share/config/colors/Oxygen.colors
@@ -1720,7 +1700,6 @@ share/kde4/services/kded/kcookiejar.desktop
 share/kde4/services/kded/kssld.desktop
 share/kde4/services/kded/proxyscout.desktop
 share/kde4/services/kfilemodule.desktop
-share/kde4/services/libkcddb.desktop
 share/kde4/services/metainfo.protocol
 share/kde4/services/mms.protocol
 share/kde4/services/mmst.protocol

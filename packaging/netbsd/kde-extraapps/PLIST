@@ -391,7 +391,6 @@ lib/kerfuffle_libbz2.so
 lib/kerfuffle_libgz.so
 lib/kerfuffle_libxz.so
 lib/kget_bittorrentfactory.so
-lib/kget_browser_integration.so
 lib/kget_checksumsearchfactory.so
 lib/kget_kiofactory.so
 lib/kget_metalinkfactory.so
@@ -646,8 +645,6 @@ share/apps/desktoptheme/default/widgets/notes.svgz
 share/apps/desktoptheme/default/widgets/previewer-16.svgz
 share/apps/desktoptheme/default/widgets/previewer-22.svgz
 share/apps/desktoptheme/default/widgets/timer.svgz
-share/apps/dolphinpart/kpartplugins/kget_plug_in.desktop
-share/apps/dolphinpart/kpartplugins/kget_plug_in.rc
 share/apps/filelight/filelightui.rc
 share/apps/filelightpart/filelightpartui.rc
 share/apps/gvpart/gvpart.rc
@@ -768,8 +765,6 @@ share/apps/kvkbd/colors/light.css
 share/apps/kvkbd/colors/simple.css
 share/apps/kvkbd/pics/tray.png
 share/apps/kvkbd/themes/standart.xml
-share/apps/kwebkitpart/kpartplugins/kget_plug_in.desktop
-share/apps/kwebkitpart/kpartplugins/kget_plug_in.rc
 share/apps/lokalize/editorui.rc
 share/apps/lokalize/filesearchtabui.rc
 share/apps/lokalize/icons/hicolor/16x16/actions/approved.png

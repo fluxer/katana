@@ -7,13 +7,12 @@ Vcs-Git: git://github.com/fluxer/kdelibs.git
 Vcs-browser: https://github.com/fluxer/kdelibs
 Standards-Version: 4.20.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev, libenchant-dev,
- libopenexr-dev, libmpv-dev [linux-any], libraw-dev, libmusicbrainz5-dev,
- xorg-dev, mesa-common-dev, libavahi-common-dev, krb5-multidev, perl-base,
- libwebp-dev, libudev-dev [linux-any], liblzma-dev, libexiv2-dev,
- libilmbase-dev, libbz2-dev, libattr1-dev, libacl1-dev,
- libxcb-render-util0-dev, libxcb-keysyms1-dev, libxcb-image0-dev,
- libudisks2-dev [linux-any], strigi, libdbusmenu-katie,
- media-player-info [linux-any], krb5-config
+ libopenexr-dev, libmpv-dev [linux-any], libraw-dev, xorg-dev, mesa-common-dev,
+ libavahi-common-dev, krb5-multidev, perl-base, libwebp-dev,
+ libudev-dev [linux-any], liblzma-dev, libexiv2-dev, libilmbase-dev,
+ libbz2-dev, libattr1-dev, libacl1-dev, libxcb-render-util0-dev,
+ libxcb-keysyms1-dev, libxcb-image0-dev, libudisks2-dev [linux-any], strigi,
+ libdbusmenu-katie, media-player-info [linux-any], krb5-config
 
 Package: katanalibs
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386

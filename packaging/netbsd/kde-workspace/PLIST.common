@@ -178,6 +178,7 @@ lib/kcm_kdm.so
 lib/kcm_kdnssd.so
 lib/kcm_keyboard.so
 lib/kcm_keys.so
+lib/kcm_kmediaplayer.so
 lib/kcm_knotify.so
 lib/kcm_krunner_kill.so
 lib/kcm_ksplashthemes.so
@@ -1732,6 +1733,7 @@ share/kde4/services/kcm_pci.desktop
 share/kde4/services/kcmaccess.desktop
 share/kde4/services/kcmkded.desktop
 share/kde4/services/kcmlaunch.desktop
+share/kde4/services/kcmplayer.desktop
 share/kde4/services/kcmnotify.desktop
 share/kde4/services/kcmsmserver.desktop
 share/kde4/services/kcmtrash.desktop

@@ -60,7 +60,6 @@ lib/kcm_dolphinnavigation.so
 lib/kcm_dolphinservices.so
 lib/kcm_dolphinviewmodes.so
 lib/kcm_kio.so
-lib/kcm_kmediaplayer.so
 lib/kcm_kurifilt.so
 lib/kcm_useraccount.so
 lib/kded_favicons.so
@@ -529,7 +528,6 @@ share/kde4/services/kcmdolphingeneral.desktop
 share/kde4/services/kcmdolphinnavigation.desktop
 share/kde4/services/kcmdolphinservices.desktop
 share/kde4/services/kcmdolphinviewmodes.desktop
-share/kde4/services/kcmplayer.desktop
 share/kde4/services/kded/favicons.desktop
 share/kde4/services/kmediaplayerpart.desktop
 share/kde4/services/konsolepart.desktop

@@ -44,7 +44,6 @@ DEPENDS += xdg-utils-[0-9]*:../../misc/xdg-utils
 .include "../../graphics/jasper/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../multimedia/mpv/buildlink3.mk"
-.include "../../audio/libmusicbrainz5/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXtst/buildlink3.mk"
 .include "../../x11/libXcursor/buildlink3.mk"
