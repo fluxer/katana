@@ -24,5 +24,5 @@ Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hu
 Depends: ${shlibs:Depends}, ${misc:Depends}, ariya-icons, gdb, xterm,
  xserver-xorg, x11-xserver-utils, x11-xkb-utils, x11-utils, ttf-dejavu,
  lm-sensors, pciutils, icoutils, dbus-x11, iso-codes, djvulibre-bin, mtools,
- katie-tools, adduser
+ fortune, rar, unrar, katie-tools, adduser
 Description: Katana workspace interface and basic tools

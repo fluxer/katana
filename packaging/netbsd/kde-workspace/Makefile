@@ -61,6 +61,9 @@ DEPENDS += iceauth-[0-9]*:../../x11/iceauth
 DEPENDS += socat-[0-9]*:../../net/socat
 DEPENDS += iso-codes-[0-9]*:../../textproc/iso-codes
 DEPENDS += mtools-[0-9]*:../../sysutils/mtools
+DEPENDS += fortune-[0-9]*:../../games/fortune
+DEPENDS += rar-[0-9]*:../../archivers/rar
+DEPENDS += unrar-[0-9]*:../../archivers/unrar
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
