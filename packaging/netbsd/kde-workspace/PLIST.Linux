@@ -1,6 +1,3 @@
 @comment $NetBSD$
 lib/kcm_joystick.so
 share/kde4/services/joystick.desktop
-etc/dbus-1/system.d/org.kde.powerdevil.backlighthelper.conf
-share/dbus-1/system-services/org.kde.powerdevil.backlighthelper.service
-libexec/kde4/backlighthelper
