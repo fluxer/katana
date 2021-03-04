@@ -1526,7 +1526,6 @@ share/apps/cmake/modules/FindOpenEXR.cmake
 share/apps/cmake/modules/FindOpenGLES.cmake
 share/apps/cmake/modules/FindPAM.cmake
 share/apps/cmake/modules/FindPCIUTILS.cmake
-share/apps/cmake/modules/FindPolkitQt-1.cmake
 share/apps/cmake/modules/FindPopplerQt4.cmake
 share/apps/cmake/modules/FindQCA2.cmake
 share/apps/cmake/modules/FindQalculate.cmake
@@ -1541,7 +1540,6 @@ share/apps/cmake/modules/FindSqlite.cmake
 share/apps/cmake/modules/FindSudo.cmake
 share/apps/cmake/modules/FindTaglib.cmake
 share/apps/cmake/modules/FindUDev.cmake
-share/apps/cmake/modules/FindUDisks2.cmake
 share/apps/cmake/modules/FindWebP.cmake
 share/apps/cmake/modules/FindX11_XCB.cmake
 share/apps/cmake/modules/FindXCB.cmake
