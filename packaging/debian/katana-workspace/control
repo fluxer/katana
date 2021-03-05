@@ -21,7 +21,7 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
 
 Package: katana-workspace
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
-Depends: ${shlibs:Depends}, ${misc:Depends}, ariya-icons, gdb, xterm,
+Depends: ${shlibs:Depends}, ${misc:Depends}, ariya-icons, gdb, xterm, upower,
  xserver-xorg, x11-xserver-utils, x11-xkb-utils, x11-utils, ttf-dejavu,
  lm-sensors, pciutils, icoutils, dbus-x11, iso-codes, djvulibre-bin, mtools,
  fortune, rar, unrar, katie-tools, adduser
