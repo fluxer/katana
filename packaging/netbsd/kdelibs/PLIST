@@ -1531,6 +1531,7 @@ share/apps/cmake/modules/FindQCA2.cmake
 share/apps/cmake/modules/FindQalculate.cmake
 share/apps/cmake/modules/FindRAW1394.cmake
 share/apps/cmake/modules/FindSCIM.cmake
+share/apps/cmake/modules/FindStrigi.cmake
 share/apps/cmake/modules/FindSamba.cmake
 share/apps/cmake/modules/FindSane.cmake
 share/apps/cmake/modules/FindSensors.cmake
