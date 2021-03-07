@@ -8,7 +8,7 @@
  
  dpkg-buildpackage -uc -nc -b
  
- rm -vf ../*dbgsym*.deb
+ rm -vf ../*dbgsym*.deb *.ddeb
  
  sudo dpkg -i ../*.deb
  
