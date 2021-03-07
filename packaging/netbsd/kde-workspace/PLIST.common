@@ -517,6 +517,7 @@ lib/powerdevilhandlebuttoneventsaction_config.so
 lib/powerdevilkeyboardbrightnesscontrolaction_config.so
 lib/powerdevilrunscriptaction_config.so
 lib/powerdevilsuspendsessionaction_config.so
+lib/strigi/strigita_font.so
 lib/svgthumbnail.so
 lib/textthumbnail.so
 lib/windowsexethumbnail.so
