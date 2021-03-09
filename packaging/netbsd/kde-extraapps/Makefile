@@ -47,7 +47,6 @@ DEPENDS = freerdp2-[0-9]*:../../net/freerdp2
 .include "../../devel/boost-headers/buildlink3.mk"
 .include "../../security/gpgme/buildlink3.mk"
 .include "../../security/libgcrypt/buildlink3.mk"
-.include "../../databases/sqlite3/buildlink3.mk"
 .include "../../archivers/libarchive/buildlink3.mk"
 .include "../../audio/alsa-lib/buildlink3.mk"
 .include "../../audio/flac/buildlink3.mk"
