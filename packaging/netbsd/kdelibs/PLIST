@@ -1517,7 +1517,6 @@ share/apps/cmake/modules/FindLibSSH.cmake
 share/apps/cmake/modules/FindLibSpectre.cmake
 share/apps/cmake/modules/FindLibUSB.cmake
 share/apps/cmake/modules/FindLibVNCServer.cmake
-share/apps/cmake/modules/FindLibXKlavier.cmake
 share/apps/cmake/modules/FindLibintl.cmake
 share/apps/cmake/modules/FindMPFR.cmake
 share/apps/cmake/modules/FindMtp.cmake
