@@ -1537,7 +1537,6 @@ share/apps/cmake/modules/FindSane.cmake
 share/apps/cmake/modules/FindSensors.cmake
 share/apps/cmake/modules/FindSharedMimeInfo.cmake
 share/apps/cmake/modules/FindSpeechd.cmake
-share/apps/cmake/modules/FindSqlite.cmake
 share/apps/cmake/modules/FindSudo.cmake
 share/apps/cmake/modules/FindTaglib.cmake
 share/apps/cmake/modules/FindUDev.cmake
