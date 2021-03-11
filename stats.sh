@@ -3,7 +3,7 @@
 set -e
 
 cwd="$(pwd)"
-if ! type -p find ;then
+if ! type -p cloc ;then
     echo "cloc is not in your PATH"
     exit 1
 fi
