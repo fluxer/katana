@@ -33,6 +33,7 @@ DEPENDS += xdg-utils-[0-9]*:../../misc/xdg-utils
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../textproc/enchant2/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../graphics/openexr/buildlink3.mk"
