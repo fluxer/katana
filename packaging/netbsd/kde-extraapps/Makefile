@@ -70,7 +70,6 @@ DEPENDS = freerdp2-[0-9]*:../../net/freerdp2
 .include "../../inputmethod/ibus/buildlink3.mk"
 # TODO: does not build with it
 # .include "../../inputmethod/scim/buildlink3.mk"
-.include "../../katana/attica-katie/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
 .include "../../katana/qca-katie/buildlink3.mk"
 .include "../../katana/poppler-katie/buildlink3.mk"

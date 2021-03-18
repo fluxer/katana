@@ -506,15 +506,12 @@ lib/plasma_applet_fuzzy_clock.so
 lib/plasma_applet_icontasks.so
 lib/plasma_applet_incomingmsg.so
 lib/plasma_applet_kimpanel.so
-lib/plasma_applet_knowledgebase.so
 lib/plasma_applet_kolourpicker.so
 lib/plasma_applet_leavenote.so
 lib/plasma_applet_life.so
 lib/plasma_applet_luna.so
 lib/plasma_applet_magnifique.so
 lib/plasma_applet_notes.so
-lib/plasma_applet_opendesktop.so
-lib/plasma_applet_opendesktop_activities.so
 lib/plasma_applet_paste.so
 lib/plasma_applet_pastebin.so
 lib/plasma_applet_plasmaboard.so
@@ -536,7 +533,6 @@ lib/plasma_engine_kget.so
 lib/plasma_engine_kimpanel.so
 lib/plasma_engine_konsoleprofiles.so
 lib/plasma_engine_mixer.so
-lib/plasma_engine_ocs.so
 lib/plasma_engine_potd.so
 lib/plasma_kget_barapplet.so
 lib/plasma_kget_piechart.so
@@ -915,8 +911,6 @@ share/apps/okular/pics/upleftarrow.png
 share/apps/okular/shell.rc
 share/apps/okular/tools.xml
 share/apps/plasma-applet-frame/picture-frame-default.jpg
-share/apps/plasma-applet-opendesktop-activities/plasma-applet-opendesktop-activities.notifyrc
-share/apps/plasma-applet-opendesktop/user.css
 share/apps/plasma/packages/org.kde.lcdweather/contents/ui/LCDDigit.qml
 share/apps/plasma/packages/org.kde.lcdweather/contents/ui/LCDDisplay.qml
 share/apps/plasma/packages/org.kde.lcdweather/contents/ui/Wind.qml
@@ -966,7 +960,6 @@ share/apps/plasma/plasmoids/org.kde.printmanager/metadata.desktop
 share/apps/plasma/services/kdeobservatory.operations
 share/apps/plasma/services/kimpanel.operations
 share/apps/plasma/services/mixer.operations
-share/apps/plasma/services/ocsPerson.operations
 share/apps/plasma/services/org.kde.plasma.dataengine.konsoleprofiles.operations
 share/apps/plasma/wallpapers/org.kde.animals/contents/ui/Animal.qml
 share/apps/plasma/wallpapers/org.kde.animals/contents/ui/animals.qml
@@ -1426,15 +1419,12 @@ share/kde4/services/plasma-applet-fifteenPuzzle.desktop
 share/kde4/services/plasma-applet-icontasks.desktop
 share/kde4/services/plasma-applet-incomingmsg.desktop
 share/kde4/services/plasma-applet-kimpanel.desktop
-share/kde4/services/plasma-applet-knowledgebase.desktop
 share/kde4/services/plasma-applet-konsoleprofiles.desktop
 share/kde4/services/plasma-applet-leavenote.desktop
 share/kde4/services/plasma-applet-life.desktop
 share/kde4/services/plasma-applet-luna.desktop
 share/kde4/services/plasma-applet-magnifique.desktop
 share/kde4/services/plasma-applet-nowplaying.desktop
-share/kde4/services/plasma-applet-opendesktop-activities.desktop
-share/kde4/services/plasma-applet-opendesktop.desktop
 share/kde4/services/plasma-applet-paste.desktop
 share/kde4/services/plasma-applet-pastebin.desktop
 share/kde4/services/plasma-applet-previewer.desktop
@@ -1455,7 +1445,6 @@ share/kde4/services/plasma-containment-groupingdesktop.desktop
 share/kde4/services/plasma-containment-groupingpanel.desktop
 share/kde4/services/plasma-dataengine-kimpanel.desktop
 share/kde4/services/plasma-dataengine-konsoleprofiles.desktop
-share/kde4/services/plasma-dataengine-ocs.desktop
 share/kde4/services/plasma-dataengine-potd.desktop
 share/kde4/services/plasma-dict-default.desktop
 share/kde4/services/plasma-engine-kdeobservatory.desktop

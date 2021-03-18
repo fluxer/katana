@@ -102,7 +102,6 @@ DEPENDS += unrar-[0-9]*:../../archivers/unrar
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../../katana/strigi/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
-.include "../../katana/attica-katie/buildlink3.mk"
 # TODO: fail to build on Linux
 # .include "../../security/libssh/buildlink3.mk"
 # .include "../../net/samba/buildlink3.mk"

@@ -136,7 +136,6 @@ include/taskmanager/taskgroup.h
 include/taskmanager/taskitem.h
 include/taskmanager/taskmanager.h
 include/taskmanager/taskmanager_export.h
-lib/attica_kde.so
 lib/comicbookthumbnail.so
 lib/cursorthumbnail.so
 lib/devinfo.so
@@ -153,7 +152,6 @@ lib/ion_noaa.so
 lib/ion_wettercom.so
 lib/jpegthumbnail.so
 lib/kcm_access.so
-lib/kcm_attica.so
 lib/kcm_autostart.so
 lib/kcm_clock.so
 lib/kcm_colors.so
@@ -1724,7 +1722,6 @@ share/kde4/services/ion-wettercom.desktop
 share/kde4/services/ioports.desktop
 share/kde4/services/jpegthumbnail.desktop
 share/kde4/services/kaccess.desktop
-share/kde4/services/kcm_attica.desktop
 share/kde4/services/kcm_infosummary.desktop
 share/kde4/services/kcm_kdebugconfig.desktop
 share/kde4/services/kcm_kdnssd.desktop
