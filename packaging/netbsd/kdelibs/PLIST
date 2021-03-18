@@ -327,7 +327,6 @@ include/KDE/KParts/Event
 include/KDE/KParts/Factory
 include/KDE/KParts/FileInfoExtension
 include/KDE/KParts/GUIActivateEvent
-include/KDE/KParts/HistoryProvider
 include/KDE/KParts/ListingExtension
 include/KDE/KParts/LiveConnectExtension
 include/KDE/KParts/MainWindow
@@ -341,7 +340,6 @@ include/KDE/KParts/Plugin
 include/KDE/KParts/ReadOnlyPart
 include/KDE/KParts/ReadWritePart
 include/KDE/KParts/StatusBarExtension
-include/KDE/KParts/TextExtension
 include/KDE/KParts/WindowArgs
 include/KDE/KPassivePopup
 include/KDE/KPassivePopupMessageHandler
@@ -983,7 +981,6 @@ include/kparts/browserrun.h
 include/kparts/event.h
 include/kparts/factory.h
 include/kparts/fileinfoextension.h
-include/kparts/historyprovider.h
 include/kparts/kparts_export.h
 include/kparts/listingextension.h
 include/kparts/mainwindow.h
@@ -991,7 +988,6 @@ include/kparts/part.h
 include/kparts/partmanager.h
 include/kparts/plugin.h
 include/kparts/statusbarextension.h
-include/kparts/textextension.h
 include/kpassivepopup.h
 include/kpassivepopupmessagehandler.h
 include/kpassworddialog.h
