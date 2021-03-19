@@ -528,7 +528,6 @@ lib/plasma_applet_weatherstation.so
 lib/plasma_containment_griddesktop.so
 lib/plasma_containment_groupingdesktop.so
 lib/plasma_containment_groupingpanel.so
-lib/plasma_engine_kdeobservatory.so
 lib/plasma_engine_kget.so
 lib/plasma_engine_kimpanel.so
 lib/plasma_engine_konsoleprofiles.so
@@ -539,7 +538,6 @@ lib/plasma_kget_piechart.so
 lib/plasma_potd_apodprovider.so
 lib/plasma_potd_epodprovider.so
 lib/plasma_potd_flickrprovider.so
-lib/plasma_potd_oseiprovider.so
 lib/plasma_potd_wcpotdprovider.so
 lib/plasma_runner_datetime.so
 lib/plasma_wallpaper_pattern.so
@@ -957,7 +955,6 @@ share/apps/plasma/plasmoids/org.kde.printmanager/contents/ui/config.ui
 share/apps/plasma/plasmoids/org.kde.printmanager/contents/ui/printmanager.qml
 share/apps/plasma/plasmoids/org.kde.printmanager/contents/ui/private/RoundShadow.qml
 share/apps/plasma/plasmoids/org.kde.printmanager/metadata.desktop
-share/apps/plasma/services/kdeobservatory.operations
 share/apps/plasma/services/kimpanel.operations
 share/apps/plasma/services/mixer.operations
 share/apps/plasma/services/org.kde.plasma.dataengine.konsoleprofiles.operations
@@ -1407,7 +1404,6 @@ share/kde4/services/okularTiff.desktop
 share/kde4/services/okularTxt.desktop
 share/kde4/services/okularXps.desktop
 share/kde4/services/okular_part.desktop
-share/kde4/services/oseiprovider.desktop
 share/kde4/services/plasma-applet-bball.desktop
 share/kde4/services/plasma-applet-binaryclock.desktop
 share/kde4/services/plasma-applet-blackboard.desktop
@@ -1447,7 +1443,6 @@ share/kde4/services/plasma-dataengine-kimpanel.desktop
 share/kde4/services/plasma-dataengine-konsoleprofiles.desktop
 share/kde4/services/plasma-dataengine-potd.desktop
 share/kde4/services/plasma-dict-default.desktop
-share/kde4/services/plasma-engine-kdeobservatory.desktop
 share/kde4/services/plasma-engine-kget.desktop
 share/kde4/services/plasma-engine-mixer.desktop
 share/kde4/services/plasma-fileWatcher-default.desktop
