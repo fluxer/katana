@@ -5,7 +5,6 @@ COMMENT = Katana Desktop Environment
 SUBDIR += ariya-icons
 SUBDIR += libdbusmenu-katie
 SUBDIR += poppler-katie
-SUBDIR += qca-katie
 SUBDIR += strigi
 SUBDIR += kde-baseapps
 SUBDIR += kde-extraapps

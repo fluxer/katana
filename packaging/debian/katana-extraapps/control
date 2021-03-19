@@ -16,8 +16,7 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, katana-baseapps,
  libspectre-dev, libspeechd-dev, libswscale-dev, libtag1-dev, libtiff5-dev,
  uuid-dev, libudev-dev [linux-any], libscim-dev, libvncserver-dev,
  libxcb-randr0-dev, freerdp2-dev, libibus-1.0-dev, libboost-dev,
- libffmpegthumbnailer-dev, qca-katie, libbz2-dev, libdbusmenu-katie,
- libpoppler-katie
+ libffmpegthumbnailer-dev, libbz2-dev, libdbusmenu-katie, libpoppler-katie
 
 Package: katana-extraapps
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
