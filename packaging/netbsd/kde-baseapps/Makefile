@@ -19,7 +19,7 @@ CMAKE_ARG_PATH= ${WRKSRC}
 
 USE_CMAKE = yes
 USE_LANGUAGES = c c++11
-USE_TOOLS = pkg-config perl
+USE_TOOLS = pkg-config perl nice:run
 REPLACE_PERL = kate/part/syntax/data/generate-php.pl
 
 post-extract:
