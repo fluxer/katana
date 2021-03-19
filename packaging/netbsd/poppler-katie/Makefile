@@ -8,7 +8,7 @@ PKGNAME = poppler-katie-4.20.0.d20201217
 CATEGORIES = katana devel
 MAINTAINER = xakepa10@gmail.com
 COMMENT = Katie bindings for poppler
-LICENSE = gnu-lgpl-v2
+LICENSE = gnu-gpl-v2 AND gnu-gpl-v3
 HOMEPAGE = https://github.com/fluxer/poppler
 
 MASTER_SITES = ${MASTER_SITE_GITHUB}/fluxer/poppler/archive/
