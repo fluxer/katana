@@ -1521,7 +1521,6 @@ share/apps/cmake/modules/FindOpenGLES.cmake
 share/apps/cmake/modules/FindPAM.cmake
 share/apps/cmake/modules/FindPCIUTILS.cmake
 share/apps/cmake/modules/FindPopplerQt4.cmake
-share/apps/cmake/modules/FindQCA2.cmake
 share/apps/cmake/modules/FindQalculate.cmake
 share/apps/cmake/modules/FindRAW1394.cmake
 share/apps/cmake/modules/FindSCIM.cmake
