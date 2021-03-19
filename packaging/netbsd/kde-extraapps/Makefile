@@ -18,8 +18,6 @@ CONFIGURE_DIRS= ${WRKDIR}/build
 CMAKE_ARG_PATH= ${WRKSRC}
 
 USE_CMAKE = yes
-# does not build yet
-CMAKE_ARGS = -DBUILD_kuassel=FALSE
 # Linux only
 CMAKE_ARGS += -DBUILD_partitionmanager=FALSE
 USE_LANGUAGES = c c++11
