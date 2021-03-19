@@ -146,8 +146,6 @@ lib/fixhosturifilter.so
 lib/fontthumbnail.so
 lib/icon_mode.so
 lib/imagethumbnail.so
-lib/ion_bbcukmet.so
-lib/ion_envcan.so
 lib/ion_noaa.so
 lib/ion_wettercom.so
 lib/kcm_access.so
@@ -1714,8 +1712,6 @@ share/kde4/services/gzip.protocol
 share/kde4/services/icons.desktop
 share/kde4/services/imagethumbnail.desktop
 share/kde4/services/interrupts.desktop
-share/kde4/services/ion-bbcukmet.desktop
-share/kde4/services/ion-envcan.desktop
 share/kde4/services/ion-noaa.desktop
 share/kde4/services/ion-wettercom.desktop
 share/kde4/services/ioports.desktop
