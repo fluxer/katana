@@ -150,7 +150,6 @@ lib/ion_bbcukmet.so
 lib/ion_envcan.so
 lib/ion_noaa.so
 lib/ion_wettercom.so
-lib/jpegthumbnail.so
 lib/kcm_access.so
 lib/kcm_autostart.so
 lib/kcm_clock.so
@@ -1193,7 +1192,7 @@ share/autostart/krunner.desktop
 share/autostart/plasma-desktop.desktop
 share/autostart/plasma.desktop
 share/config.kcfg/freespacenotifier.kcfg
-share/config.kcfg/jpegcreatorsettings.kcfg
+share/config.kcfg/imagecreatorsettings.kcfg
 share/config.kcfg/klaunch.kcfg
 share/config.kcfg/kwin.kcfg
 share/config.kcfg/plasma-shell-desktop.kcfg
@@ -1720,7 +1719,6 @@ share/kde4/services/ion-envcan.desktop
 share/kde4/services/ion-noaa.desktop
 share/kde4/services/ion-wettercom.desktop
 share/kde4/services/ioports.desktop
-share/kde4/services/jpegthumbnail.desktop
 share/kde4/services/kaccess.desktop
 share/kde4/services/kcm_infosummary.desktop
 share/kde4/services/kcm_kdebugconfig.desktop
