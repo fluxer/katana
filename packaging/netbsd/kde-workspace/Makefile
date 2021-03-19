@@ -95,7 +95,6 @@ DEPENDS += unrar-[0-9]*:../../archivers/unrar
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/openexr/buildlink3.mk"
-.include "../../graphics/exiv2/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../devel/libmtp/buildlink3.mk"
 .include "../../geography/gpsd/buildlink3.mk"
