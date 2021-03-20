@@ -491,14 +491,12 @@ lib/plasma_engine_mpris2.so
 lib/plasma_engine_notifications.so
 lib/plasma_engine_places.so
 lib/plasma_engine_powermanagement.so
-lib/plasma_engine_share.so
 lib/plasma_engine_soliddevice.so
 lib/plasma_engine_statusnotifieritem.so
 lib/plasma_engine_systemmonitor.so
 lib/plasma_engine_tasks.so
 lib/plasma_engine_time.so
 lib/plasma_engine_weather.so
-lib/plasma_packagestructure_share.so
 lib/plasma_toolbox_desktoptoolbox.so
 lib/plasma_toolbox_paneltoolbox.so
 lib/plasma_wallpaper_color.so
@@ -1134,7 +1132,6 @@ share/apps/plasma/services/mpris2.operations
 share/apps/plasma/services/notifications.operations
 share/apps/plasma/services/org.kde.places.operations
 share/apps/plasma/services/powermanagementservice.operations
-share/apps/plasma/services/share.operations
 share/apps/plasma/services/soliddevice.operations
 share/apps/plasma/services/statusnotifieritem.operations
 share/apps/plasma/services/tasks.operations
@@ -1868,13 +1865,6 @@ share/kde4/services/plasma-dataengine-mpris2.desktop
 share/kde4/services/plasma-dataengine-notifications.desktop
 share/kde4/services/plasma-dataengine-places.desktop
 share/kde4/services/plasma-dataengine-powermanagement.desktop
-share/kde4/services/plasma-dataengine-share-addon-imgsusepasteorg.desktop
-share/kde4/services/plasma-dataengine-share-addon-imgur.desktop
-share/kde4/services/plasma-dataengine-share-addon-kde.desktop
-share/kde4/services/plasma-dataengine-share-addon-pastebincom.desktop
-share/kde4/services/plasma-dataengine-share-addon-pasteopensuseorg.desktop
-share/kde4/services/plasma-dataengine-share-addon-pasteubuntucom.desktop
-share/kde4/services/plasma-dataengine-share.desktop
 share/kde4/services/plasma-dataengine-soliddevice.desktop
 share/kde4/services/plasma-dataengine-systemmonitor.desktop
 share/kde4/services/plasma-dataengine-tasks.desktop
@@ -1883,7 +1873,6 @@ share/kde4/services/plasma-dataengine-weather.desktop
 share/kde4/services/plasma-geolocation-gps.desktop
 share/kde4/services/plasma-geolocation-ip.desktop
 share/kde4/services/plasma-kpart.desktop
-share/kde4/services/plasma-packagestructure-share.desktop
 share/kde4/services/plasma-pager-default.desktop
 share/kde4/services/plasma-runner-bookmarks.desktop
 share/kde4/services/plasma-runner-calculator.desktop
@@ -2105,7 +2094,6 @@ share/kde4/servicetypes/kwineffect.desktop
 share/kde4/servicetypes/kwinwindowswitcher.desktop
 share/kde4/servicetypes/plasma-geolocationprovider.desktop
 share/kde4/servicetypes/plasma-layout-template.desktop
-share/kde4/servicetypes/plasma_shareprovider.desktop
 share/kde4/servicetypes/powerdevilaction.desktop
 share/kde4/servicetypes/screensaver.desktop
 share/kde4/servicetypes/searchprovider.desktop

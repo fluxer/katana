@@ -1364,7 +1364,6 @@ lib/kde4/plugins/imageformats/kimg_ras.so
 lib/kde4/plugins/imageformats/kimg_rgb.so
 lib/kde4/plugins/imageformats/kimg_webp.so
 lib/kde4/plugins/imageformats/kimg_xcf.so
-lib/kde4/plugins/imageformats/kimg_xview.so
 lib/kde4/plugins/kauth/backend/kauth_backend_plugin.so
 lib/kde4/plugins/kauth/helper/kauth_helper_plugin.so
 lib/kde4/plugins/script/libkrossqtsplugin.so
@@ -1710,7 +1709,6 @@ share/kde4/services/qimageioplugins/rgb.desktop
 share/kde4/services/qimageioplugins/webp.desktop
 share/kde4/services/qimageioplugins/x-webp.desktop
 share/kde4/services/qimageioplugins/xcf.desktop
-share/kde4/services/qimageioplugins/xv.desktop
 share/kde4/services/rtsp.protocol
 share/kde4/services/rtspt.protocol
 share/kde4/services/rtspu.protocol

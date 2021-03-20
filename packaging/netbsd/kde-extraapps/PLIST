@@ -513,7 +513,6 @@ lib/plasma_applet_luna.so
 lib/plasma_applet_magnifique.so
 lib/plasma_applet_notes.so
 lib/plasma_applet_paste.so
-lib/plasma_applet_pastebin.so
 lib/plasma_applet_plasmaboard.so
 lib/plasma_applet_previewer.so
 lib/plasma_applet_qalculate.so
@@ -538,7 +537,6 @@ lib/plasma_kget_piechart.so
 lib/plasma_potd_apodprovider.so
 lib/plasma_potd_epodprovider.so
 lib/plasma_potd_flickrprovider.so
-lib/plasma_potd_wcpotdprovider.so
 lib/plasma_runner_datetime.so
 lib/plasma_wallpaper_pattern.so
 lib/plasma_wallpaper_potd.so
@@ -970,7 +968,6 @@ share/apps/plasma/wallpapers/org.kde.haenau/metadata.desktop
 share/apps/plasma/wallpapers/org.kde.hunyango/contents/ui/main.qml
 share/apps/plasma/wallpapers/org.kde.hunyango/contents/ui/wallpaper.svgz
 share/apps/plasma/wallpapers/org.kde.hunyango/metadata.desktop
-share/apps/plasma_pastebin/plasma_pastebin.notifyrc
 share/apps/plasma_wallpaper_pattern/patterns/bees.desktop
 share/apps/plasma_wallpaper_pattern/patterns/bees.png
 share/apps/plasma_wallpaper_pattern/patterns/celtic.desktop
@@ -1422,7 +1419,6 @@ share/kde4/services/plasma-applet-luna.desktop
 share/kde4/services/plasma-applet-magnifique.desktop
 share/kde4/services/plasma-applet-nowplaying.desktop
 share/kde4/services/plasma-applet-paste.desktop
-share/kde4/services/plasma-applet-pastebin.desktop
 share/kde4/services/plasma-applet-previewer.desktop
 share/kde4/services/plasma-applet-printmanager.desktop
 share/kde4/services/plasma-applet-qalculate.desktop
@@ -1474,7 +1470,6 @@ share/kde4/services/rawthumbnail.desktop
 share/kde4/services/rdp.protocol
 share/kde4/services/sambausershareplugin.desktop
 share/kde4/services/vnc.protocol
-share/kde4/services/wcpotdprovider.desktop
 share/kde4/servicetypes/akregator_plugin.desktop
 share/kde4/servicetypes/jovie_filterplugin.desktop
 share/kde4/servicetypes/kerfufflePlugin.desktop
