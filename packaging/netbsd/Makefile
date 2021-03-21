@@ -6,9 +6,17 @@ SUBDIR += ariya-icons
 SUBDIR += libdbusmenu-katie
 SUBDIR += poppler-katie
 SUBDIR += strigi
-SUBDIR += kde-baseapps
-SUBDIR += kde-extraapps
-SUBDIR += kde-workspace
 SUBDIR += kdelibs
+SUBDIR += kde-baseapps
+SUBDIR += kde-workspace
+SUBDIR += kde-extraapps
 
 .include "../mk/misc/category.mk"
+
+replace:
+	for sub in ariya-icons libdbusmenu-katie poppler-katie strigi \
+		 kdelibs kde-baseapps kde-workspace kde-extraapps;do \
+		 $(MAKE) -C $$sub replace; \
+	done
+
+.PHONY: replace
