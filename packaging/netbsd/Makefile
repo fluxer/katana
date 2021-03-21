@@ -14,6 +14,8 @@ SUBDIR += kde-extraapps
 .include "../mk/misc/category.mk"
 
 replace:
+	$(MAKE) distclean
+	$(MAKE) makesum
 	for sub in ariya-icons libdbusmenu-katie poppler-katie strigi \
 		 kdelibs kde-baseapps kde-workspace kde-extraapps;do \
 		 $(MAKE) -C $$sub replace; \
