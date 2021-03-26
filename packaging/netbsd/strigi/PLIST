@@ -67,7 +67,7 @@ lib/libstreams.so.0.8
 lib/pkgconfig/libstreamanalyzer.pc
 lib/pkgconfig/libstreams.pc
 lib/strigi/strigiea_ffmpeg.so
-lib/strigi/strigiea_jpeg.so
+lib/strigi/strigiea_exiv.so
 share/strigi/fieldproperties/homeless.rdfs
 share/strigi/fieldproperties/nao_data.rdfs
 share/strigi/fieldproperties/ncal_data.rdfs
