@@ -1531,7 +1531,6 @@ share/apps/cmake/modules/FindSharedMimeInfo.cmake
 share/apps/cmake/modules/FindSpeechd.cmake
 share/apps/cmake/modules/FindSudo.cmake
 share/apps/cmake/modules/FindTaglib.cmake
-share/apps/cmake/modules/FindUDev.cmake
 share/apps/cmake/modules/FindWebP.cmake
 share/apps/cmake/modules/FindX11_XCB.cmake
 share/apps/cmake/modules/FindXCB.cmake
