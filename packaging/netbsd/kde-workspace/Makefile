@@ -61,9 +61,10 @@ DEPENDS += iceauth-[0-9]*:../../x11/iceauth
 DEPENDS += socat-[0-9]*:../../net/socat
 DEPENDS += iso-codes-[0-9]*:../../textproc/iso-codes
 DEPENDS += mtools-[0-9]*:../../sysutils/mtools
-DEPENDS += fortune-[0-9]*:../../games/fortune
 DEPENDS += rar-[0-9]*:../../archivers/rar
 DEPENDS += unrar-[0-9]*:../../archivers/unrar
+# TODO: fails to build on Linux
+# DEPENDS += fortune-[0-9]*:../../games/fortune
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
@@ -101,7 +102,7 @@ DEPENDS += unrar-[0-9]*:../../archivers/unrar
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../../katana/strigi/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
-# TODO: fail to build on Linux
+# TODO: fails to build on Linux
 # .include "../../security/libssh/buildlink3.mk"
 # .include "../../net/samba/buildlink3.mk"
 .include "../../mk/libusb.buildlink3.mk"
