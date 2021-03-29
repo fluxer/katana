@@ -99,7 +99,6 @@ DEPENDS += unrar-[0-9]*:../../archivers/unrar
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../devel/libmtp/buildlink3.mk"
 .include "../../geography/gpsd/buildlink3.mk"
-.include "../../security/libgcrypt/buildlink3.mk"
 .include "../../katana/strigi/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
 # TODO: fails to build on Linux
