@@ -24,6 +24,8 @@ USE_TOOLS = pkg-config
 post-extract:
 	${MKDIR} ${WRKDIR}/build
 
+DEPENDS = poppler-utils-[0-9]*:../../print/poppler-utils
+
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../graphics/exiv2/buildlink3.mk"
 .include "../../sysutils/attr/buildlink3.mk"

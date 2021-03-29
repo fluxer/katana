@@ -12,5 +12,5 @@ Build-Depends: debhelper (>= 9~), cmake, libexiv2-dev, libmagic-dev,
 
 Package: strigi
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, poppler-utils
 Description: File indexing and file search framework adopted by Katana
