@@ -431,13 +431,12 @@ lib/libprocessui.so.4.20
 lib/librenaudioplugin.so
 lib/librenimageplugin.so
 lib/libsystemsettingsview.so
-lib/libsystemsettingsview.so.2
 lib/libtaskmanager.so
 lib/libtaskmanager.so.4
 lib/libtaskmanager.so.4.20
 lib/libweather_ion.so
-lib/libweather_ion.so.6
-lib/libweather_ion.so.6.0.0
+lib/libweather_ion.so.4
+lib/libweather_ion.so.4.20
 lib/localdomainurifilter.so
 lib/plasma-geolocation-gps.so
 lib/plasma-geolocation-ip.so
