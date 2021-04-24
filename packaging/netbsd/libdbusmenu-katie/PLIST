@@ -3,13 +3,9 @@ include/dbusmenu-katie/dbusmenu_export.h
 include/dbusmenu-katie/dbusmenu_version.h
 include/dbusmenu-katie/dbusmenuexporter.h
 include/dbusmenu-katie/dbusmenuimporter.h
-lib/cmake/dbusmenu-katie/dbusmenu-katie-config-version.cmake
-lib/cmake/dbusmenu-katie/dbusmenu-katie-config.cmake
-lib/cmake/dbusmenu-katie/dbusmenu-katie-targets-noconfig.cmake
-lib/cmake/dbusmenu-katie/dbusmenu-katie-targets.cmake
 lib/libdbusmenu-katie.so
-lib/libdbusmenu-katie.so.2
-lib/libdbusmenu-katie.so.2.6.0
+lib/libdbusmenu-katie.so.0
+lib/libdbusmenu-katie.so.0.9
 lib/pkgconfig/dbusmenu-katie.pc
 share/doc/libdbusmenu-katie-doc/annotated.html
 share/doc/libdbusmenu-katie-doc/bc_s.png
