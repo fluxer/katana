@@ -8,6 +8,6 @@ include/poppler/katie/poppler-optcontent.h
 include/poppler/katie/poppler-page-transition.h
 include/poppler/katie/poppler-qt4.h
 lib/libpoppler-katie.so
-lib/libpoppler-katie.so.72
-lib/libpoppler-katie.so.72.0.0
+lib/libpoppler-katie.so.0
+lib/libpoppler-katie.so.0.61
 lib/pkgconfig/poppler-katie.pc
