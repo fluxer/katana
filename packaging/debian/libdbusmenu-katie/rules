@@ -4,5 +4,4 @@
 	dh $@ --parallel
 
 override_dh_auto_configure:
-	dh_auto_configure -- -Wno-dev \
-		-DWITH_DOC=OFF
+	dh_auto_configure -- -Wno-dev

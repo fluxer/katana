@@ -24,7 +24,5 @@ USE_TOOLS = pkg-config
 post-extract:
 	${MKDIR} ${WRKDIR}/build
 
-BUILD_DEPENDS = doxygen-[0-9]*:../../devel/doxygen
-
 .include "../../devel/katie/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

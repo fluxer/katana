@@ -16,9 +16,7 @@ DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/libdbusmenu-qt-master
 
 USES = compiler:c++11-lang pkgconfig cmake
-# TODO: option for docs
-# BUILD_DEPENDS = doxygen:devel/doxygen
 LIB_DEPENDS = libKtCore.so:katana/katie libKtDBus.so:katana/katie
-CMAKE_ARGS = -Wno-dev -DWITH_DOC=OFF
+CMAKE_ARGS = -Wno-dev
 
 .include <bsd.port.mk>
