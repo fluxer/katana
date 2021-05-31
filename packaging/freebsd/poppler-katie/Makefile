@@ -18,8 +18,8 @@ WRKSRC = ${WRKDIR}/poppler-master
 USES = compiler:c++11-lang pkgconfig cmake
 # zlib is not part of any package
 # building against openjpeg15 because if both openjpeg and openjpeg2 are installed the header from
-# openjpeg15 will be found first by the compiler (openjpeg15 header is installed the local base
-# headers directory, openjpeg2 in prefixed directory)
+# openjpeg15 will be found first by the compiler (openjpeg15 header is installed in the local base
+# headers directory, openjpeg2 in a sub-directory of the local base headers directory)
 LIB_DEPENDS = libKtCore.so:katana/katie libnss3.so:security/nss \
 	libfontconfig.so:x11-fonts/fontconfig libfreetype.so:print/freetype2 \
 	libpng16.so:graphics/png libtiff.so:graphics/tiff libopenjpeg.so:graphics/openjpeg15 \
