@@ -2,7 +2,7 @@
 
 # https://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/
 
-PORTNAME = kdelibs
+PORTNAME = katanalibs
 DISTVERSION = 4.20.0.d20210531
 CATEGORIES = devel x11
 MAINTAINER = xakepa10@gmail.com

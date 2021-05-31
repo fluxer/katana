@@ -2,7 +2,7 @@
 
 # https://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/
 
-PORTNAME = kde-workspace
+PORTNAME = katana-workspace
 DISTVERSION = 4.20.0.d20210531
 CATEGORIES = devel x11
 MAINTAINER = xakepa10@gmail.com
@@ -24,8 +24,8 @@ USE_GL = gl glesv2 glu
 RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme
 # TODO: missing dependencies
-LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/kdelibs \
-	libkonq.so:katana/kde-baseapps libstreams.so:katana/strigi \
+LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
+	libkonq.so:katana/katana-baseapps libstreams.so:katana/strigi \
 	libdbusmenu-katie.so:katana/libdbusmenu-katie \
 	libxcb-image.so:x11/xcb-util-image libxcb-icccm.so:xcb-util-wm \
 	libxcb-render-util.so:x11/xcb-util-renderutil libxcb-keysyms.so:x11/xcb-util-keysyms

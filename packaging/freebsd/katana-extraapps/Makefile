@@ -2,7 +2,7 @@
 
 # https://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/
 
-PORTNAME = kde-extraapps
+PORTNAME = katana-extraapps
 DISTVERSION = 4.20.0.d20210531
 CATEGORIES = devel x11
 MAINTAINER = xakepa10@gmail.com
@@ -20,8 +20,8 @@ USE_XORG = x11 xrender xtst xdamage xext xfixes
 USE_PERL5 = build
 RUN_DEPENDS = xfreerdp:net/freerdp
 # TODO: missing dependencies
-LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/kdelibs \
-	libkonq.so:katana/kde-baseapps libplasmagenericshell.so:katana/kde-workspace \
+LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
+	libkonq.so:katana/katana-baseapps libplasmagenericshell.so:katana/katana-workspace \
 	libpoppler-katie.so:katana/poppler-katie libdbusmenu-katie.so:katana/libdbusmenu-katie
 CMAKE_ARGS = -Wno-dev -DBUILD_partitionmanager=FALSE
 
