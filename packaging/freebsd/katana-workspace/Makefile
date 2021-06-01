@@ -23,7 +23,6 @@ USE_SAMBA = build run
 USE_GL = gl glesv2 glu
 SHEBANG_FILES = kdm/confproc.pl
 USE_RC_SUBR = kdm
-# TODO: /var/lib/kdm with owner kdm:kdm
 USERS = kdm
 GROUPS = kdm
 # fortune and pam are not part of any package
@@ -48,5 +47,6 @@ CMAKE_ARGS = -Wno-dev
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/kde.pamd ${STAGEDIR}${PREFIX}/etc/pam.d/kde
+	${MKDIR} ${STAGEDIR}/var/lib/kdm
 
 .include <bsd.port.mk>

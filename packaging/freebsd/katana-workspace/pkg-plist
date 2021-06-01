@@ -2844,5 +2844,6 @@ share/wallpapers/Elarun/contents/screenshot.png
 share/wallpapers/Elarun/metadata.desktop
 share/wallpapers/stripes.png
 share/wallpapers/stripes.png.desktop
-etc/pam.d/kde
 @dir share/config/kdm/sessions
+etc/pam.d/kde
+@dir(kdm,kdm,0755) /var/lib/kdm
