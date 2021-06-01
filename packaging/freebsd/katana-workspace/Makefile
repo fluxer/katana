@@ -23,9 +23,10 @@ USE_SAMBA = build run
 USE_GL = gl glesv2 glu
 SHEBANG_FILES = kdm/confproc.pl
 USE_RC_SUBR = kdm
+# TODO: /var/lib/kdm with owner kdm:kdm
 USERS = kdm
 GROUPS = kdm
-# fortune is not part of any package
+# fortune and pam are not part of any package
 RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme \
 	gdb:devel/gdb xterm:x11/xterm \
@@ -35,7 +36,6 @@ RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	iceauth:x11/iceauth socat:net/socat iso-codes>=0:misc/iso-codes mtools:emulators/mtools \
 	rar:archivers/rar unrar:archivers/unrar
 # TODO: substitute for libusb?
-# TODO: which PAM package to depend on?
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libstreams.so:katana/strigi \
 	libdbusmenu-katie.so:katana/libdbusmenu-katie \
@@ -45,5 +45,8 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libpng.so:graphics/png libIlmImf.so:graphics/openexr libmtp.so:multimedia/libmtp \
 	libgps.so:astro/gpsd libssh.so:security/libssh libjpeg.so:graphics/jpeg-turbo
 CMAKE_ARGS = -Wno-dev
+
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/kde.pamd ${STAGEDIR}${PREFIX}/etc/pam.d/kde
 
 .include <bsd.port.mk>

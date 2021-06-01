@@ -19,10 +19,10 @@ USES = compiler:c++11-lang pkgconfig cmake desktop-file-utils xorg perl5 gettext
 USE_XORG = x11 xrender xtst xdamage xext xfixes
 USE_PERL5 = build
 USE_GETTEXT_TOOLS = build run
-RUN_DEPENDS = xfreerdp:net/freerdp
-# zlib is not part of any package
 # build and run depending on freerdp2 since the build system checks for its presence but in fact
 # only the binaries are needed
+RUN_DEPENDS = xfreerdp:net/freerdp
+# zlib is not part of any package
 # TODO: should depend on oss package?
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libplasmagenericshell.so:katana/katana-workspace \
