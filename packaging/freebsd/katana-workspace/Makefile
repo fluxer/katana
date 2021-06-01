@@ -27,7 +27,7 @@ RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libstreams.so:katana/strigi \
 	libdbusmenu-katie.so:katana/libdbusmenu-katie \
-	libxcb-image.so:x11/xcb-util-image libxcb-icccm.so:xcb-util-wm \
+	libxcb-image.so:x11/xcb-util-image libxcb-icccm.so:x11/xcb-util-wm \
 	libxcb-render-util.so:x11/xcb-util-renderutil libxcb-keysyms.so:x11/xcb-util-keysyms
 CMAKE_ARGS = -Wno-dev
 
