@@ -1,0 +1,22 @@
+#!/bin/sh
+#
+# $FreeBSD$
+#
+
+# PROVIDE: kdm
+# REQUIRE: DAEMON LOGIN moused syscons
+# KEYWORD: shutdown
+
+. /etc/rc.subr
+
+name="kdm"
+rcvar=kdm_enable
+
+load_rc_config $name
+
+: ${kdm_enable:="NO"}
+
+command="%%PREFIX%%/bin/kdm"
+pidfile="/var/run/kdm.pid"
+
+run_rc_command "$1"

@@ -15,14 +15,30 @@ DISTFILES = master.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-extraapps-master
 
-USES = compiler:c++11-lang pkgconfig cmake desktop-file-utils xorg perl5
+USES = compiler:c++11-lang pkgconfig cmake desktop-file-utils xorg perl5 gettext-tools libarchive
 USE_XORG = x11 xrender xtst xdamage xext xfixes
 USE_PERL5 = build
+USE_GETTEXT_TOOLS = build run
 RUN_DEPENDS = xfreerdp:net/freerdp
-# TODO: missing dependencies
+# zlib is not part of any package
+# build and run depending on freerdp2 since the build system checks for its presence but in fact
+# only the binaries are needed
+# TODO: should depend on oss package?
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libplasmagenericshell.so:katana/katana-workspace \
-	libpoppler-katie.so:katana/poppler-katie libdbusmenu-katie.so:katana/libdbusmenu-katie
+	libpoppler-katie.so:katana/poppler-katie libdbusmenu-katie.so:katana/libdbusmenu-katie \
+	libgmp.so:math/gmp libgpgme.so:security/gpgme libgcrypt.so:security/libgcrypt \
+	libasound.so:audio/alsa-lib libFLAC.so:audio/flac \
+	libspeechd.so:accessibility/speech-dispatcher libtag.so:audio/taglib \
+	libffmpegthumbnailer.so:multimedia/ffmpegthumbnailer libqalculate.so:math/libqalculate \
+	libcups.so:print/cups libspectre.so:print/libspectre libfreetype.so:print/freetype2 \
+	libdjvulibre.so:graphics/djvulibre libexiv2.so:graphics/exiv2 libpng.so:graphics/png \
+	libsane.so:graphics/sane-backends libtiff.so:graphics/tiff \
+	libepub.so:textproc/ebook-tools libhunspell-1.7.so:textproc/hunspell libmms.so:net/libmms \
+	libvncserver.so:net/libvncserver libfreerdp2.so:net/freerdp libibus-1.0.so:textproc/ibus \
+	libscim-1.0.so:textproc/scim libjpeg.so:graphics/jpeg-turbo
+# TODO: build time only but if specified in BUILD_DEPENDS it is always build, duh
+# BUILD_DEPENDS = libboost_system.so:devel/boost-libs
 CMAKE_ARGS = -Wno-dev -DBUILD_partitionmanager=FALSE
 
 .include <bsd.port.mk>
