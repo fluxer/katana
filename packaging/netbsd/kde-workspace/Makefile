@@ -54,6 +54,7 @@ DEPENDS += djvulibre-tools-[0-9]*:../../graphics/djvulibre-tools
 DEPENDS += xrdb-[0-9]*:../../x11/xrdb
 DEPENDS += xmessage-[0-9]*:../../x11/xmessage
 DEPENDS += xprop-[0-9]*:../../x11/xprop
+DEPENDS += xrandr[0-9]*:../../x11/xrandr
 DEPENDS += setxkbmap-[0-9]*:../../x11/setxkbmap
 DEPENDS += xmodmap-[0-9]*:../../x11/xmodmap
 DEPENDS += xsetroot-[0-9]*:../../x11/xsetroot
