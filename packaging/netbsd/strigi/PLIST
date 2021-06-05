@@ -27,7 +27,6 @@ include/strigi/indexplugin.h
 include/strigi/indexpluginloader.h
 include/strigi/indexreader.h
 include/strigi/indexwriter.h
-include/strigi/inputstreamreader.h
 include/strigi/kmpsearcher.h
 include/strigi/lzmainputstream.h
 include/strigi/mailinputstream.h
