@@ -22,8 +22,6 @@ include/strigi/filelister.h
 include/strigi/gzipinputstream.h
 include/strigi/indexeddocument.h
 include/strigi/indexmanager.h
-include/strigi/indexplugin.h
-include/strigi/indexpluginloader.h
 include/strigi/indexreader.h
 include/strigi/indexwriter.h
 include/strigi/kmpsearcher.h
