@@ -21,7 +21,6 @@ USE_CMAKE = yes
 USE_LANGUAGES = c c++11
 USE_TOOLS = pkg-config perl:run sh:run chmod chown
 REPLACE_PERL = kdeui/preparetips
-REPLACE_PERL += kio/misc/fileshareset
 # RPATH workaround for makekdewidgets
 MAKE_ENV = LD_LIBRARY_PATH=${WRKDIR}/build/lib
 

@@ -18,7 +18,7 @@ WRKSRC = ${WRKDIR}/kdelibs-master
 USES = compiler:c++11-lang pkgconfig cmake ssl desktop-file-utils shared-mime-info xorg perl5 shebangfix
 USE_XORG = x11 xtst xcursor xfixes xscrnsaver sm xcb
 USE_PERL5 = build run
-SHEBANG_FILES = kdeui/preparetips kio/misc/fileshareset
+SHEBANG_FILES = kdeui/preparetips
 RUN_DEPENDS = xdg-open:devel/xdg-utils ${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme
 # zlib and xz are not part of any package
 # TODO: more avahi dependencies may be needed
