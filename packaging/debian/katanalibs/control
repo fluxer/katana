@@ -16,6 +16,6 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, libenchant-dev,
 
 Package: katanalibs
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
-Depends: ${shlibs:Depends}, ${misc:Depends}, , ${perl:Depends}, xdg-utils,
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, xdg-utils,
  shared-mime-info, media-player-info [linux-any]
 Description: Katana core libraries
