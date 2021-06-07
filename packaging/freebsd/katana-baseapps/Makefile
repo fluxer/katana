@@ -19,7 +19,7 @@ USES = compiler:c++11-lang pkgconfig cmake desktop-file-utils xorg perl5 shebang
 USE_XORG = x11
 USE_PERL5 = build
 SHEBANG_FILES = kate/part/syntax/data/generate-php.pl
-RUN_DEPENDS = sudo:security/sudo ctags:devel/ctags cppcheck:devel/cppcheck \
+RUN_DEPENDS = xauth:x11/xauth sudo:security/sudo ctags:devel/ctags cppcheck:devel/cppcheck \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs
 CMAKE_ARGS = -Wno-dev

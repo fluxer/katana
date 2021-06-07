@@ -25,6 +25,8 @@ REPLACE_PERL = kate/part/syntax/data/generate-php.pl
 post-extract:
 	${MKDIR} ${WRKDIR}/build
 
+
+DEPENDS += xauth[0-9]*:../../x11/xauth
 DEPENDS += sudo-[0-9]*:../../security/sudo
 DEPENDS += exctags-[0-9]*:../../devel/exctags
 DEPENDS += cppcheck-[0-9]*:../../devel/cppcheck
