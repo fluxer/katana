@@ -171,8 +171,6 @@ include/KDE/KFileMetaInfoItem
 include/KDE/KFilePlacesModel
 include/KDE/KFilePlacesView
 include/KDE/KFilePreviewGenerator
-include/KDE/KFileShare
-include/KDE/KFileSharePropsPlugin
 include/KDE/KFileTreeView
 include/KDE/KFileWidget
 include/KDE/KFileWritePlugin
@@ -815,8 +813,6 @@ include/kfilemetainfoitem.h
 include/kfileplacesmodel.h
 include/kfileplacesview.h
 include/kfilepreviewgenerator.h
-include/kfileshare.h
-include/kfilesharedialog.h
 include/kfiletreeview.h
 include/kfilewidget.h
 include/kfilewriteplugin.h
@@ -1408,8 +1404,6 @@ lib/libthreadweaver.so.4
 lib/libthreadweaver.so.4.20
 lib/pkgconfig/libkdcraw.pc
 lib/pkgconfig/libkexiv2.pc
-libexec/kde4/filesharelist
-libexec/kde4/fileshareset
 libexec/kde4/kio_http_cache_cleaner
 libexec/kde4/kioslave
 libexec/kde4/klauncher
