@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, libenchant-dev,
  libavahi-common-dev, krb5-multidev, perl-base, libwebp-dev, libjpeg-dev,
  libudev-dev [linux-any], liblzma-dev, libexiv2-dev, libilmbase-dev,
  libbz2-dev, libattr1-dev, libacl1-dev, libxcb-render-util0-dev, zlib1g-dev,
- libxcb-keysyms1-dev, libxcb-image0-dev, krb5-config, strigi,
+ libxcb-keysyms1-dev, libxcb-image0-dev, krb5-config, libcdio-dev, strigi,
  libdbusmenu-katie, media-player-info [linux-any]
 
 Package: katanalibs
