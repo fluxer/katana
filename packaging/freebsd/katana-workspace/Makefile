@@ -17,7 +17,7 @@ WRKSRC = ${WRKDIR}/kde-workspace-master
 
 USES = compiler:c++11-lang pkgconfig cmake desktop-file-utils xorg perl5 samba gl shebangfix
 USE_XORG = x11 xinerama xcursor xfixes xrender xtst xdamage xcomposite xres xdmcp xft xi xau \
-	xscrnsaver sm xcb
+	xscrnsaver sm xcb xxf86vm
 USE_PERL5 = build
 USE_SAMBA = build run
 USE_GL = gl glu egl glesv2
