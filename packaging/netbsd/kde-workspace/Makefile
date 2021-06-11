@@ -88,6 +88,7 @@ DEPENDS += unrar-[0-9]*:../../archivers/unrar
 .include "../../x11/libXau/buildlink3.mk"
 .include "../../x11/libXScrnSaver/buildlink3.mk"
 .include "../../x11/libSM/buildlink3.mk"
+.include "../../x11/libXxf86vm/buildlink3.mk"
 .include "../../x11/libxcb/buildlink3.mk"
 .include "../../x11/xcb-util-image/buildlink3.mk"
 .include "../../x11/xcb-util-wm/buildlink3.mk"
