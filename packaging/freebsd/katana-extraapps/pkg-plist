@@ -502,7 +502,6 @@ lib/plasma_applet_icontasks.so
 lib/plasma_applet_incomingmsg.so
 lib/plasma_applet_kimpanel.so
 lib/plasma_applet_kolourpicker.so
-lib/plasma_applet_leavenote.so
 lib/plasma_applet_life.so
 lib/plasma_applet_luna.so
 lib/plasma_applet_magnifique.so
@@ -1400,7 +1399,6 @@ share/kde4/services/plasma-applet-icontasks.desktop
 share/kde4/services/plasma-applet-incomingmsg.desktop
 share/kde4/services/plasma-applet-kimpanel.desktop
 share/kde4/services/plasma-applet-konsoleprofiles.desktop
-share/kde4/services/plasma-applet-leavenote.desktop
 share/kde4/services/plasma-applet-life.desktop
 share/kde4/services/plasma-applet-luna.desktop
 share/kde4/services/plasma-applet-magnifique.desktop
