@@ -89,7 +89,6 @@ lib/libkonq.so.4
 lib/libkonq.so.4.20
 lib/libkonsoleprivate.so
 lib/plasma_applet_katesession.so
-share/appdata/dolphin.appdata.xml
 share/applications/kde4/dolphin.desktop
 share/applications/kde4/kate.desktop
 share/applications/kde4/kdepasswd.desktop
