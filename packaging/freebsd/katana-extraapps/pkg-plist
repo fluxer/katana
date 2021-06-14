@@ -549,8 +549,6 @@ libexec/kde4/bluedevil-requestconfirmation
 libexec/kde4/bluedevil-requestpin
 libexec/kde4/configure-printer
 libexec/kde4/kimpanel-scim-panel
-share/appdata/ark.appdata.xml
-share/appdata/kgpg.appdata.xml
 share/applications/kde4/KFloppy.desktop
 share/applications/kde4/akregator.desktop
 share/applications/kde4/ark.desktop
