@@ -44,7 +44,6 @@ lib/katemailfilesplugin.so
 lib/kateopenheaderplugin.so
 lib/katepart.so
 lib/kateprojectplugin.so
-lib/katereplicodeplugin.so
 lib/katesearchplugin.so
 lib/katesnippetsplugin.so
 lib/katesqlplugin.so
@@ -121,7 +120,6 @@ share/apps/kate/plugins/kategdb/ui.rc
 share/apps/kate/plugins/katekonsole/ui.rc
 share/apps/kate/plugins/katemailfiles/ui.rc
 share/apps/kate/plugins/kateopenheader/ui.rc
-share/apps/kate/plugins/katereplicodeplugin/ui.rc
 share/apps/kate/plugins/katesearch/ui.rc
 share/apps/kate/plugins/katesql/ui.rc
 share/apps/kate/plugins/katesymbolviewer/ui.rc
@@ -452,6 +450,8 @@ share/apps/konsole/solaris.keytab
 share/apps/ktexteditor_exporter/ktexteditor_exporterui.rc
 share/apps/ktexteditor_iconinserter/ktexteditor_iconinserterui.rc
 share/apps/ktexteditor_insertfile/ktexteditor_insertfileui.rc
+share/apps/ktexteditor_snippets/data/desktop.xml
+share/apps/ktexteditor_snippets/data/Markdown.xml
 share/config.kcfg/dolphin_compactmodesettings.kcfg
 share/config.kcfg/dolphin_detailsmodesettings.kcfg
 share/config.kcfg/dolphin_directoryviewpropertysettings.kcfg
@@ -511,7 +511,6 @@ share/kde4/services/katemailfilesplugin.desktop
 share/kde4/services/kateopenheader.desktop
 share/kde4/services/katepart.desktop
 share/kde4/services/kateprojectplugin.desktop
-share/kde4/services/katereplicodeplugin.desktop
 share/kde4/services/katesearch.desktop
 share/kde4/services/katesnippetsplugin.desktop
 share/kde4/services/katesql.desktop
