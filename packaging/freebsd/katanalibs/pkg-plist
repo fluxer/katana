@@ -395,7 +395,6 @@ include/KDE/KService
 include/KDE/KServiceAction
 include/KDE/KServiceGroup
 include/KDE/KServiceType
-include/KDE/KServiceTypeProfile
 include/KDE/KServiceTypeTrader
 include/KDE/KSessionManager
 include/KDE/KSettings/Dialog
@@ -1019,7 +1018,6 @@ include/kservice.h
 include/kserviceaction.h
 include/kservicegroup.h
 include/kservicetype.h
-include/kservicetypeprofile.h
 include/kservicetypetrader.h
 include/ksessionmanager.h
 include/ksettings.h
