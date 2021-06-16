@@ -876,10 +876,6 @@ share/apps/kmenuedit/icons/hicolor/22x22/actions/menu_new_sep.png
 share/apps/kmenuedit/icons/hicolor/32x32/actions/menu_new.png
 share/apps/kmenuedit/icons/hicolor/32x32/actions/menu_new_sep.png
 share/apps/kmenuedit/kmenueditui.rc
-share/apps/konqsidebartng/virtual_folders/remote/virtualfolder_network.desktop
-share/apps/konqsidebartng/virtual_folders/services/fonts.desktop
-share/apps/konqueror/dirtree/remote/mtp-network.desktop
-share/apps/konqueror/dirtree/remote/smb-network.desktop
 share/apps/kscreensaver/image.png
 share/apps/kscreensaver/kscience.png
 share/apps/kscreensaver/particle.png
