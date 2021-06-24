@@ -32,6 +32,7 @@ DEPENDS += exctags-[0-9]*:../../devel/exctags
 DEPENDS += cppcheck-[0-9]*:../../devel/cppcheck
 DEPENDS += lrzsz-[0-9]*:../../comms/lrzsz
 DEPENDS += libxml2-[0-9]*:../../textproc/libxml2
+DEPENDS += slocate-[0-9]*:../../sysutils/slocate
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
