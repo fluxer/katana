@@ -18,7 +18,6 @@ include/kate/pluginconfigpageinterface.h
 include/kate/pluginmanager.h
 include/kate_export.h
 include/konq_dndpopupmenuplugin.h
-include/konq_events.h
 include/konq_export.h
 include/konq_operations.h
 include/konq_popupmenu.h
