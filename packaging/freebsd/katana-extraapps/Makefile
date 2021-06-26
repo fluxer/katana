@@ -32,8 +32,8 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libffmpegthumbnailer.so:multimedia/ffmpegthumbnailer libqalculate.so:math/libqalculate \
 	libcups.so:print/cups libspectre.so:print/libspectre libfreetype.so:print/freetype2 \
 	libdjvulibre.so:graphics/djvulibre libexiv2.so:graphics/exiv2 libpng.so:graphics/png \
-	libsane.so:graphics/sane-backends libtiff.so:graphics/tiff \
-	libepub.so:textproc/ebook-tools libhunspell-1.7.so:textproc/hunspell libmms.so:net/libmms \
+	libsane.so:graphics/sane-backends libepub.so:textproc/ebook-tools \
+	libhunspell-1.7.so:textproc/hunspell libmms.so:net/libmms \
 	libvncserver.so:net/libvncserver libfreerdp2.so:net/freerdp libibus-1.0.so:textproc/ibus \
 	libscim-1.0.so:textproc/scim libjpeg.so:graphics/jpeg-turbo
 BUILD_DEPENDS = ${LOCALBASE}/include/boost/property_tree/ini_parser.hpp:devel/boost-libs
