@@ -27,6 +27,8 @@ post-extract:
 	${MKDIR} ${WRKDIR}/build
 
 DEPENDS = freerdp2-[0-9]*:../../net/freerdp2
+DEPENDS += libxslt-[0-9]*:../../textproc/libxslt
+DEPENDS += speech-dispatcher-[0-9]*:../../audio/speech-dispatcher
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
@@ -59,7 +61,6 @@ DEPENDS = freerdp2-[0-9]*:../../net/freerdp2
 .include "../../graphics/exiv2/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/sane-backends/buildlink3.mk"
-.include "../../graphics/tiff/buildlink3.mk"
 .include "../../textproc/ebook-tools/buildlink3.mk"
 .include "../../textproc/hunspell/buildlink3.mk"
 .include "../../net/libmms/buildlink3.mk"

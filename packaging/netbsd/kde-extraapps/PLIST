@@ -479,11 +479,9 @@ lib/okularGenerator_epub.so
 lib/okularGenerator_fax.so
 lib/okularGenerator_fb.so
 lib/okularGenerator_ghostview.so
-lib/okularGenerator_kimgio.so
 lib/okularGenerator_ooo.so
 lib/okularGenerator_plucker.so
 lib/okularGenerator_poppler.so
-lib/okularGenerator_tiff.so
 lib/okularGenerator_txt.so
 lib/okularGenerator_xps.so
 lib/okularpart.so
@@ -582,11 +580,9 @@ share/applications/kde4/okularApplication_epub.desktop
 share/applications/kde4/okularApplication_fax.desktop
 share/applications/kde4/okularApplication_fb.desktop
 share/applications/kde4/okularApplication_ghostview.desktop
-share/applications/kde4/okularApplication_kimgio.desktop
 share/applications/kde4/okularApplication_ooo.desktop
 share/applications/kde4/okularApplication_pdf.desktop
 share/applications/kde4/okularApplication_plucker.desktop
-share/applications/kde4/okularApplication_tiff.desktop
 share/applications/kde4/okularApplication_txt.desktop
 share/applications/kde4/okularApplication_xps.desktop
 share/applications/kde4/skanlite.desktop
@@ -1364,11 +1360,9 @@ share/kde4/services/libokularGenerator_epub.desktop
 share/kde4/services/libokularGenerator_fax.desktop
 share/kde4/services/libokularGenerator_fb.desktop
 share/kde4/services/libokularGenerator_ghostview.desktop
-share/kde4/services/libokularGenerator_kimgio.desktop
 share/kde4/services/libokularGenerator_ooo.desktop
 share/kde4/services/libokularGenerator_plucker.desktop
 share/kde4/services/libokularGenerator_poppler.desktop
-share/kde4/services/libokularGenerator_tiff.desktop
 share/kde4/services/libokularGenerator_txt.desktop
 share/kde4/services/libokularGenerator_xps.desktop
 share/kde4/services/obexftp.protocol
@@ -1379,11 +1373,9 @@ share/kde4/services/okularEPub.desktop
 share/kde4/services/okularFax.desktop
 share/kde4/services/okularFb.desktop
 share/kde4/services/okularGhostview.desktop
-share/kde4/services/okularKimgio.desktop
 share/kde4/services/okularOoo.desktop
 share/kde4/services/okularPlucker.desktop
 share/kde4/services/okularPoppler.desktop
-share/kde4/services/okularTiff.desktop
 share/kde4/services/okularTxt.desktop
 share/kde4/services/okularXps.desktop
 share/kde4/services/okular_part.desktop

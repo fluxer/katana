@@ -20,8 +20,9 @@ USE_XORG = x11 xrender xtst xdamage xext xfixes
 USE_PERL5 = build
 USE_GETTEXT_TOOLS = build run
 # build and run depending on freerdp2 since the build system checks for its presence but in fact
-# only the binaries are needed
-RUN_DEPENDS = xfreerdp:net/freerdp
+# only the binaries are needed, speech-dispatcher is both build and runtime dependancy
+RUN_DEPENDS = xfreerdp:net/freerdp xsltproc:textproc/libxslt \
+	speech-dispatcher:accessibility/speech-dispatcher
 # zlib and oss are not part of any package
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libplasmagenericshell.so:katana/katana-workspace \
@@ -32,8 +33,8 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libffmpegthumbnailer.so:multimedia/ffmpegthumbnailer libqalculate.so:math/libqalculate \
 	libcups.so:print/cups libspectre.so:print/libspectre libfreetype.so:print/freetype2 \
 	libdjvulibre.so:graphics/djvulibre libexiv2.so:graphics/exiv2 libpng.so:graphics/png \
-	libsane.so:graphics/sane-backends libtiff.so:graphics/tiff \
-	libepub.so:textproc/ebook-tools libhunspell-1.7.so:textproc/hunspell libmms.so:net/libmms \
+	libsane.so:graphics/sane-backends libepub.so:textproc/ebook-tools \
+	libhunspell-1.7.so:textproc/hunspell libmms.so:net/libmms \
 	libvncserver.so:net/libvncserver libfreerdp2.so:net/freerdp libibus-1.0.so:textproc/ibus \
 	libscim-1.0.so:textproc/scim libjpeg.so:graphics/jpeg-turbo
 BUILD_DEPENDS = ${LOCALBASE}/include/boost/property_tree/ini_parser.hpp:devel/boost-libs
