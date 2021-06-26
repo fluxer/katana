@@ -20,8 +20,9 @@ USE_XORG = x11 xrender xtst xdamage xext xfixes
 USE_PERL5 = build
 USE_GETTEXT_TOOLS = build run
 # build and run depending on freerdp2 since the build system checks for its presence but in fact
-# only the binaries are needed
-RUN_DEPENDS = xfreerdp:net/freerdp
+# only the binaries are needed, speech-dispatcher is both build and runtime dependancy
+RUN_DEPENDS = xfreerdp:net/freerdp xsltproc:textproc/libxslt \
+	speech-dispatcher:accessibility/speech-dispatcher
 # zlib and oss are not part of any package
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libplasmagenericshell.so:katana/katana-workspace \
