@@ -13,7 +13,7 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
  libxcb-shape0-dev, libxcb-shape0-dev, libxcb-shm0-dev, libxcb-sync-dev,
  libxcb-image0-dev, libxcb-render-util0-dev, libxcb-keysyms1-dev, libmtp-dev,
  libxcb-xtest0-dev, libxcb-record0-dev, libglu1-mesa-dev, mesa-common-dev,
- python, libgps-dev, libusb-1.0-0-dev, libssh-dev, libsmbclient-dev, perl-base,
+ libgps-dev, libusb-1.0-0-dev, libssh-dev, libsmbclient-dev, perl-base,
  libdrm-dev, libraw1394-dev [linux-any], libsensors4-dev, libgles2-mesa-dev,
  libpam0g-dev, libpci-dev, libopenexr-dev, liblzma-dev, libbz2-dev,
  libjpeg-dev, strigi, libdbusmenu-katie
