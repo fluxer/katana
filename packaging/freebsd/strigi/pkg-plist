@@ -56,10 +56,10 @@ include/strigi/variant.h
 include/strigi/zipinputstream.h
 lib/libstreamanalyzer.so
 lib/libstreamanalyzer.so.0
-lib/libstreamanalyzer.so.0.8
+lib/libstreamanalyzer.so.0.9
 lib/libstreams.so
 lib/libstreams.so.0
-lib/libstreams.so.0.8
+lib/libstreams.so.0.9
 lib/strigi/strigiea_exiv.so
 lib/strigi/strigiea_ffmpeg.so
 libdata/pkgconfig/libstreamanalyzer.pc
