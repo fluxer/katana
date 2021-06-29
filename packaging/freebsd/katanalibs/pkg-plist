@@ -227,7 +227,6 @@ include/KDE/KIO/NetAccess
 include/KDE/KIO/NetRC
 include/KDE/KIO/PreviewJob
 include/KDE/KIO/RenameDialog
-include/KDE/KIO/RenameDialogPlugin
 include/KDE/KIO/Scheduler
 include/KDE/KIO/SessionData
 include/KDE/KIO/SimpleJob
@@ -881,7 +880,6 @@ include/kio/netaccess.h
 include/kio/paste.h
 include/kio/previewjob.h
 include/kio/renamedialog.h
-include/kio/renamedialogplugin.h
 include/kio/scheduler.h
 include/kio/sessiondata.h
 include/kio/skipdialog.h
@@ -1687,7 +1685,6 @@ share/kde4/servicetypes/plasma-service.desktop
 share/kde4/servicetypes/plasma-toolbox.desktop
 share/kde4/servicetypes/plasma-wallpaper.desktop
 share/kde4/servicetypes/qimageio_plugin.desktop
-share/kde4/servicetypes/renamedialogplugin.desktop
 share/locale/all_languages
 share/locale/entry.desktop
 share/mime/packages/kde.xml

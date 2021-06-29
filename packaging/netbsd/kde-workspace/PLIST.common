@@ -428,8 +428,6 @@ lib/libprocesscore.so.4.20
 lib/libprocessui.so
 lib/libprocessui.so.4
 lib/libprocessui.so.4.20
-lib/librenaudioplugin.so
-lib/librenimageplugin.so
 lib/libsystemsettingsview.so
 lib/libtaskmanager.so
 lib/libtaskmanager.so.4
@@ -1895,8 +1893,6 @@ share/kde4/services/randr.desktop
 share/kde4/services/recentdocuments.desktop
 share/kde4/services/recentdocuments.protocol
 share/kde4/services/remote.protocol
-share/kde4/services/renaudiodlg.desktop
-share/kde4/services/renimagedlg.desktop
 share/kde4/services/screensaver.desktop
 share/kde4/services/scsi.desktop
 share/kde4/services/searchproviders/7digital.desktop
