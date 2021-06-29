@@ -60,8 +60,8 @@ lib/libstreamanalyzer.so.0.9
 lib/libstreams.so
 lib/libstreams.so.0
 lib/libstreams.so.0.9
-lib/strigi/strigiea_exiv.so
-lib/strigi/strigiea_ffmpeg.so
+lib/strigi/strigi_exiv.so
+lib/strigi/strigi_ffmpeg.so
 libdata/pkgconfig/libstreamanalyzer.pc
 libdata/pkgconfig/libstreams.pc
 %%DATADIR%%/fieldproperties/homeless.rdfs
