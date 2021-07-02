@@ -75,6 +75,8 @@ etc/dbus-1/system.d/org.kde.kcontrol.kcmkdm.conf
 etc/dbus-1/system.d/org.kde.kcontrol.kcmkwallet.conf
 etc/dbus-1/system.d/org.kde.ksysguard.processlisthelper.conf
 etc/ksysguarddrc
+etc/pam.d/kde
+etc/rc.d/kdm
 etc/xdg/menus/kde-information.menu
 include/KDE/Plasma/Weather/Ion
 include/kcommondecoration.h
@@ -1058,6 +1060,7 @@ share/apps/kwin/tabbox/window_strip/contents/ui/main.qml
 share/apps/kwin/tabbox/window_strip/metadata.desktop
 share/apps/kwin/tm_inner.png
 share/apps/kwin/tm_outer.png
+share/apps/networkstatus/networkstatus.notifyrc
 share/apps/plasma-desktop/plasma-desktop.notifyrc
 share/apps/plasma/packages/org.kde.desktop.widgetexplorer/contents/ui/AppletDelegate.qml
 share/apps/plasma/packages/org.kde.desktop.widgetexplorer/contents/ui/Tooltip.qml
@@ -2837,5 +2840,4 @@ share/wallpapers/Elarun/metadata.desktop
 share/wallpapers/stripes.png
 share/wallpapers/stripes.png.desktop
 @dir share/config/kdm/sessions
-etc/pam.d/kde
 @dir(kdm,kdm,0755) /var/lib/kdm
