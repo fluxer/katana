@@ -546,6 +546,7 @@ libexec/kde4/bluedevil-confirmmodechange
 libexec/kde4/bluedevil-requestconfirmation
 libexec/kde4/bluedevil-requestpin
 libexec/kde4/configure-printer
+libexec/kde4/kimpanel-ibus-panel
 libexec/kde4/kimpanel-scim-panel
 share/applications/kde4/KFloppy.desktop
 share/applications/kde4/akregator.desktop
@@ -1112,6 +1113,7 @@ share/dbus-1/interfaces/org.kde.kmix.mixset.xml
 share/dbus-1/interfaces/org.kde.ksnapshot.xml
 share/dbus-1/services/org.kde.ConfigurePrinter.service
 share/dbus-1/services/org.kde.kget.service
+share/ibus/component/kimpanel.xml
 share/icons/hicolor/128x128/actions/akregator.png
 share/icons/hicolor/128x128/actions/bball.png
 share/icons/hicolor/128x128/actions/document-share.png
