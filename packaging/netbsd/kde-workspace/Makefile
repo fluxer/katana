@@ -66,6 +66,7 @@ DEPENDS += rar-[0-9]*:../../archivers/rar
 DEPENDS += unrar-[0-9]*:../../archivers/unrar
 # TODO: fails to build on Linux
 # DEPENDS += fortune-[0-9]*:../../games/fortune
+DEPENDS += consolekit-[0-9]*:../../sysutils/consolekit
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
