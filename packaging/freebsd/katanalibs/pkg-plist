@@ -561,7 +561,6 @@ include/KDE/Plasma/Corona
 include/KDE/Plasma/DataContainer
 include/KDE/Plasma/DataEngine
 include/KDE/Plasma/DataEngineManager
-include/KDE/Plasma/DataEngineScript
 include/KDE/Plasma/DeclarativeWidget
 include/KDE/Plasma/Delegate
 include/KDE/Plasma/Dialog
@@ -589,7 +588,6 @@ include/KDE/Plasma/QueryMatch
 include/KDE/Plasma/RadioButton
 include/KDE/Plasma/RunnerContext
 include/KDE/Plasma/RunnerManager
-include/KDE/Plasma/RunnerScript
 include/KDE/Plasma/ScriptEngine
 include/KDE/Plasma/ScrollBar
 include/KDE/Plasma/ScrollWidget
@@ -612,7 +610,6 @@ include/KDE/Plasma/TreeView
 include/KDE/Plasma/Version
 include/KDE/Plasma/View
 include/KDE/Plasma/Wallpaper
-include/KDE/Plasma/WallpaperScript
 include/KDE/Plasma/WindowEffects
 include/KDE/Solid/AcAdapter
 include/KDE/Solid/AudioInterface
@@ -1210,10 +1207,7 @@ include/plasma/runnercontext.h
 include/plasma/runnermanager.h
 include/plasma/runnersyntax.h
 include/plasma/scripting/appletscript.h
-include/plasma/scripting/dataenginescript.h
-include/plasma/scripting/runnerscript.h
 include/plasma/scripting/scriptengine.h
-include/plasma/scripting/wallpaperscript.h
 include/plasma/service.h
 include/plasma/servicejob.h
 include/plasma/svg.h
