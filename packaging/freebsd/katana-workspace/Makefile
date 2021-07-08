@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 # https://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/
 
 PORTNAME = katana-workspace
@@ -42,7 +40,7 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libxcb-image.so:x11/xcb-util-image libxcb-icccm.so:x11/xcb-util-wm \
 	libxcb-render-util.so:x11/xcb-util-renderutil libxcb-keysyms.so:x11/xcb-util-keysyms \
 	libpci.so:sysutils/pciutils libqalculate.so:math/libqalculate libdrm.so:graphics/libdrm \
-	libpng.so:graphics/png libIlmImf.so:graphics/openexr libmtp.so:multimedia/libmtp \
+	libpng.so:graphics/png libOpenEXR.so:graphics/openexr libmtp.so:multimedia/libmtp \
 	libgps.so:astro/gpsd libssh.so:security/libssh libjpeg.so:graphics/jpeg-turbo
 CMAKE_ARGS = -Wno-dev
 
