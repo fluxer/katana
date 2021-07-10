@@ -14,6 +14,7 @@ DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/libdbusmenu-qt-master
 
 USES = compiler:c++11-lang pkgconfig cmake
+USE_LDCONFIG = yes
 LIB_DEPENDS = libKtCore.so:katana/katie libKtDBus.so:katana/katie
 CMAKE_ARGS = -Wno-dev
 

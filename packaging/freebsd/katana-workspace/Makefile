@@ -20,6 +20,7 @@ USE_XORG = x11 xinerama xcursor xfixes xrender xtst xdamage xcomposite xres xdmc
 USE_PERL5 = build
 USE_SAMBA = build run
 USE_GL = gl glu egl glesv2
+USE_LDCONFIG = yes
 SHEBANG_FILES = kdm/confproc.pl kcontrol/kfontinst/dbus/fontinst_x11
 USE_RC_SUBR = kdm
 USERS = kdm

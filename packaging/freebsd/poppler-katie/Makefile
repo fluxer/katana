@@ -14,6 +14,7 @@ DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/poppler-master
 
 USES = compiler:c++11-lang pkgconfig cmake jpeg
+USE_LDCONFIG = yes
 # zlib is not part of any package
 # building against openjpeg15 because if both openjpeg and openjpeg2 are installed the header from
 # openjpeg15 will be found first by the compiler (openjpeg15 header is installed in the local base
