@@ -13,7 +13,8 @@ DISTFILES = master.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-extraapps-master
 
-USES = compiler:c++11-lang pkgconfig cmake desktop-file-utils xorg perl5 gettext-tools libarchive
+USES = compiler:c++11-lang pkgconfig cmake xorg perl5 gettext-tools libarchive jpeg \
+	desktop-file-utils shared-mime-info
 USE_XORG = x11 xrender xtst xdamage xext xfixes
 USE_PERL5 = build
 USE_GETTEXT_TOOLS = build run
@@ -34,7 +35,7 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libsane.so:graphics/sane-backends libepub.so:textproc/ebook-tools \
 	libhunspell-1.7.so:textproc/hunspell libmms.so:net/libmms \
 	libvncserver.so:net/libvncserver libfreerdp2.so:net/freerdp libibus-1.0.so:textproc/ibus \
-	libscim-1.0.so:textproc/scim libjpeg.so:graphics/jpeg-turbo
+	libscim-1.0.so:textproc/scim
 BUILD_DEPENDS = ${LOCALBASE}/include/boost/property_tree/ini_parser.hpp:devel/boost-libs
 CMAKE_ARGS = -Wno-dev -DBUILD_partitionmanager=FALSE
 

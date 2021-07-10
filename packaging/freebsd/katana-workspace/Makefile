@@ -15,7 +15,7 @@ WRKSRC = ${WRKDIR}/kde-workspace-master
 
 USES = compiler:c++11-lang pkgconfig cmake desktop-file-utils xorg perl5 samba gl shebangfix
 USE_XORG = x11 xinerama xcursor xfixes xrender xtst xdamage xcomposite xres xdmcp xft xi xau \
-	xscrnsaver sm xcb xxf86vm
+	xscrnsaver xext ice sm xcb xxf86vm
 USE_PERL5 = build
 USE_SAMBA = build run
 USE_GL = gl glu egl glesv2
@@ -35,8 +35,8 @@ RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	ck-list-sessions:sysutils/consolekit2
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libstreams.so:katana/strigi \
-	libdbusmenu-katie.so:katana/libdbusmenu-katie \
-	libxcb-image.so:x11/xcb-util-image libxcb-icccm.so:x11/xcb-util-wm \
+	libdbusmenu-katie.so:katana/libdbusmenu-katie libfreetype.so:print/freetype2 \
+	x11-fonts/fontconfig libxcb-image.so:x11/xcb-util-image libxcb-icccm.so:x11/xcb-util-wm \
 	libxcb-render-util.so:x11/xcb-util-renderutil libxcb-keysyms.so:x11/xcb-util-keysyms \
 	libpci.so:sysutils/pciutils libqalculate.so:math/libqalculate libdrm.so:graphics/libdrm \
 	libpng.so:graphics/png libOpenEXR.so:graphics/openexr libmtp.so:multimedia/libmtp \
