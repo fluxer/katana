@@ -38,5 +38,6 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libscim-1.0.so:textproc/scim
 BUILD_DEPENDS = ${LOCALBASE}/include/boost/property_tree/ini_parser.hpp:devel/boost-libs
 CMAKE_ARGS = -Wno-dev -DBUILD_partitionmanager=FALSE
+LDFLAGS += -Wl,--as-needed
 
 .include <bsd.port.mk>
