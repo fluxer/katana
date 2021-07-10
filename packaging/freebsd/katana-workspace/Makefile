@@ -23,7 +23,7 @@ SHEBANG_FILES = kdm/confproc.pl kcontrol/kfontinst/dbus/fontinst_x11
 USE_RC_SUBR = kdm
 USERS = kdm
 GROUPS = kdm
-# fortune and pam are not part of any package
+# libusb, fortune and pam are not part of any package
 RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme \
 	gdb:devel/gdb xterm:x11/xterm \
@@ -33,7 +33,6 @@ RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	xsetroot:x11/xsetroot iceauth:x11/iceauth socat:net/socat iso-codes>=0:misc/iso-codes \
 	mtools:emulators/mtools rar:archivers/rar unrar:archivers/unrar \
 	ck-list-sessions:sysutils/consolekit2
-# TODO: substitute for libusb?
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libstreams.so:katana/strigi \
 	libdbusmenu-katie.so:katana/libdbusmenu-katie \
