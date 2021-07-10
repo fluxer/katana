@@ -13,7 +13,7 @@ DISTFILES = master.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/poppler-master
 
-USES = compiler:c++11-lang pkgconfig cmake
+USES = compiler:c++11-lang pkgconfig cmake jpeg
 # zlib is not part of any package
 # building against openjpeg15 because if both openjpeg and openjpeg2 are installed the header from
 # openjpeg15 will be found first by the compiler (openjpeg15 header is installed in the local base
@@ -21,7 +21,7 @@ USES = compiler:c++11-lang pkgconfig cmake
 LIB_DEPENDS = libKtCore.so:katana/katie libnss3.so:security/nss \
 	libfontconfig.so:x11-fonts/fontconfig libfreetype.so:print/freetype2 \
 	libpng16.so:graphics/png libtiff.so:graphics/tiff libopenjpeg.so:graphics/openjpeg15 \
-	liblcms2.so:graphics/lcms2 libcurl.so:ftp/curl libjpeg.so:graphics/jpeg-turbo
+	liblcms2.so:graphics/lcms2 libcurl.so:ftp/curl
 CMAKE_ARGS = -Wno-dev -DENABLE_LIBOPENJPEG=openjpeg1 -DENABLE_UTILS=OFF -DBUILD_TESTS=OFF \
 	-DBUILD_QT4_TESTS=OFF
 LDFLAGS += -Wl,--as-needed

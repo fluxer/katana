@@ -13,9 +13,10 @@ DISTFILES = master.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-workspace-master
 
-USES = compiler:c++11-lang pkgconfig cmake desktop-file-utils xorg perl5 samba gl shebangfix
+USES = compiler:c++11-lang pkgconfig cmake xorg perl5 samba gl jpeg desktop-file-utils \
+	shared-mime-info shebangfix
 USE_XORG = x11 xinerama xcursor xfixes xrender xtst xdamage xcomposite xres xdmcp xft xi xau \
-	xscrnsaver xext ice sm xcb xxf86vm
+	xscrnsaver xrandr xext ice sm xcb xxf86vm
 USE_PERL5 = build
 USE_SAMBA = build run
 USE_GL = gl glu egl glesv2
@@ -32,15 +33,16 @@ RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	xprop:x11/xprop xrandr:x11/xrandr setxkbmap:x11/setxkbmap xmodmap:x11/xmodmap \
 	xsetroot:x11/xsetroot iceauth:x11/iceauth socat:net/socat iso-codes>=0:misc/iso-codes \
 	mtools:emulators/mtools rar:archivers/rar unrar:archivers/unrar \
-	ck-list-sessions:sysutils/consolekit2
+	ck-list-sessions:sysutils/consolekit2 lspci:sysutils/pciutil
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libstreams.so:katana/strigi \
 	libdbusmenu-katie.so:katana/libdbusmenu-katie libfreetype.so:print/freetype2 \
-	x11-fonts/fontconfig libxcb-image.so:x11/xcb-util-image libxcb-icccm.so:x11/xcb-util-wm \
-	libxcb-render-util.so:x11/xcb-util-renderutil libxcb-keysyms.so:x11/xcb-util-keysyms \
-	libpci.so:sysutils/pciutils libqalculate.so:math/libqalculate libdrm.so:graphics/libdrm \
+	libfontconfig.so:x11-fonts/fontconfig libxcb-image.so:x11/xcb-util-image \
+	libxcb-icccm.so:x11/xcb-util-wm libxcb-render-util.so:x11/xcb-util-renderutil \
+	libxcb-keysyms.so:x11/xcb-util-keysyms libxkbfile.so:x11/libxkbfile \
+	libpci.so:devel/libpci libqalculate.so:math/libqalculate libdrm.so:graphics/libdrm \
 	libpng.so:graphics/png libOpenEXR.so:graphics/openexr libmtp.so:multimedia/libmtp \
-	libgps.so:astro/gpsd libssh.so:security/libssh libjpeg.so:graphics/jpeg-turbo
+	libgps.so:astro/gpsd libssh.so:security/libssh
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
 
