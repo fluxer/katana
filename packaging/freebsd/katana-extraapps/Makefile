@@ -18,6 +18,7 @@ USES = compiler:c++11-lang pkgconfig cmake xorg perl5 gettext-tools libarchive j
 USE_XORG = x11 xrender xtst xdamage xext xfixes
 USE_PERL5 = build
 USE_GETTEXT_TOOLS = build run
+USE_LDCONFIG = yes
 # build and run depending on freerdp2 since the build system checks for its presence but in fact
 # only the binaries are needed, speech-dispatcher is both build and runtime dependancy
 RUN_DEPENDS = xfreerdp:net/freerdp xsltproc:textproc/libxslt \

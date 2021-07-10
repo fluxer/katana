@@ -14,12 +14,13 @@ DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/strigi-master
 
 USES = compiler:c++11-lang pkgconfig cmake iconv
-LDFLAGS += -L${LOCALBASE}/lib ${ICONV_LIB}
+USE_LDCONFIG = yes
 RUN_DEPENDS = pdftotext:graphics/poppler-utils
 # libmagic and libz are not part of any package
 LIB_DEPENDS = libexiv2.so:graphics/exiv2 libavcodec.so:multimedia/ffmpeg \
 	libavformat.so:multimedia/ffmpeg libbz2.so:archivers/bzip2 \
 	libxml2.so:textproc/libxml2
 CMAKE_ARGS = -Wno-dev
+LDFLAGS += -L${LOCALBASE}/lib ${ICONV_LIB}
 
 .include <bsd.port.mk>

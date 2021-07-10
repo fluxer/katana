@@ -16,6 +16,7 @@ WRKSRC = ${WRKDIR}/kdelibs-master
 USES = compiler:c++11-lang pkgconfig cmake ssl xorg gettext-runtime desktop-file-utils \
 	shared-mime-info shebangfix
 USE_XORG = x11 xtst xcursor xfixes xscrnsaver xext sm xcb
+USE_LDCONFIG = yes
 SHEBANG_FILES = kdeui/preparetips
 RUN_DEPENDS = xdg-open:devel/xdg-utils \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme
