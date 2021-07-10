@@ -24,6 +24,7 @@ LIB_DEPENDS = libKtCore.so:katana/katie libnss3.so:security/nss \
 	liblcms2.so:graphics/lcms2 libcurl.so:ftp/curl libjpeg.so:graphics/jpeg-turbo
 CMAKE_ARGS = -Wno-dev -DENABLE_LIBOPENJPEG=openjpeg1 -DENABLE_UTILS=OFF -DBUILD_TESTS=OFF \
 	-DBUILD_QT4_TESTS=OFF
+LDFLAGS += -Wl,--as-needed
 # workaround to make it possible to link to libraries that are not specified as full paths
 LDFLAGS += -L${LOCALBASE}/lib
 

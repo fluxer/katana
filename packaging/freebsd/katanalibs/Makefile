@@ -29,5 +29,6 @@ LIB_DEPENDS = libKtCore.so:katana/katie libstreams.so:katana/strigi \
 	libexiv2.so:graphics/exiv2 libjasper.so:graphics/jasper libmpv.so:multimedia/mpv \
 	libdns_sd.so:net/avahi-libdns libbz2.so:archivers/bzip2 libkrb5.so:security/krb5
 CMAKE_ARGS = -Wno-dev
+LDFLAGS += -Wl,--as-needed
 
 .include <bsd.port.mk>

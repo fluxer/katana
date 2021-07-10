@@ -22,5 +22,6 @@ RUN_DEPENDS = xauth:x11/xauth sudo:security/sudo ctags:devel/ctags cppcheck:deve
 	lrz:comms/lrzsz xmllint:textproc/libxml2
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs
 CMAKE_ARGS = -Wno-dev
+LDFLAGS += -Wl,--as-needed
 
 .include <bsd.port.mk>

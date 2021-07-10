@@ -42,6 +42,7 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libpng.so:graphics/png libOpenEXR.so:graphics/openexr libmtp.so:multimedia/libmtp \
 	libgps.so:astro/gpsd libssh.so:security/libssh libjpeg.so:graphics/jpeg-turbo
 CMAKE_ARGS = -Wno-dev
+LDFLAGS += -Wl,--as-needed
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/kde.pamd ${STAGEDIR}${PREFIX}/etc/pam.d/kde
