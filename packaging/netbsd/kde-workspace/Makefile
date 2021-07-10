@@ -88,6 +88,8 @@ DEPENDS += consolekit-[0-9]*:../../sysutils/consolekit
 .include "../../x11/libXi/buildlink3.mk"
 .include "../../x11/libXau/buildlink3.mk"
 .include "../../x11/libXScrnSaver/buildlink3.mk"
+.include "../../x11/libXrandr/buildlink3.mk"
+.include "../../x11/libxkbfile/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"
 .include "../../x11/libICE/buildlink3.mk"
 .include "../../x11/libSM/buildlink3.mk"
