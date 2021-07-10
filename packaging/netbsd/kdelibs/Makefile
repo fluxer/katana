@@ -47,6 +47,7 @@ DEPENDS += xdg-utils-[0-9]*:../../misc/xdg-utils
 .include "../../x11/libXcursor/buildlink3.mk"
 .include "../../x11/libXfixes/buildlink3.mk"
 .include "../../x11/libXScrnSaver/buildlink3.mk"
+.include "../../x11/libXext/buildlink3.mk"
 .include "../../x11/libSM/buildlink3.mk"
 .include "../../x11/xcb-util-renderutil/buildlink3.mk"
 .include "../../x11/xcb-util-keysyms/buildlink3.mk"

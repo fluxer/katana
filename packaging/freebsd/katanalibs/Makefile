@@ -13,10 +13,12 @@ DISTFILES = master.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kdelibs-master
 
-USES = compiler:c++11-lang pkgconfig cmake ssl desktop-file-utils shared-mime-info xorg shebangfix
-USE_XORG = x11 xtst xcursor xfixes xscrnsaver sm xcb
+USES = compiler:c++11-lang pkgconfig cmake ssl xorg gettext-runtime desktop-file-utils \
+	shared-mime-info shebangfix
+USE_XORG = x11 xtst xcursor xfixes xscrnsaver xext sm xcb
 SHEBANG_FILES = kdeui/preparetips
-RUN_DEPENDS = xdg-open:devel/xdg-utils ${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme
+RUN_DEPENDS = xdg-open:devel/xdg-utils \
+	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme
 # zlib and xz are not part of any package
 # TODO: more avahi dependencies may be needed
 LIB_DEPENDS = libKtCore.so:katana/katie libstreams.so:katana/strigi \
@@ -24,9 +26,8 @@ LIB_DEPENDS = libKtCore.so:katana/katie libstreams.so:katana/strigi \
 	libxcb-keysyms.so:x11/xcb-util-keysyms libxcb-image.so:x11/xcb-util-image \
 	libxcb-render-util.so:x11/xcb-util-renderutil libenchant-2.so:textproc/enchant2 \
 	libOpenEXR.so:graphics/openexr libraw_r.so:graphics/libraw libwebp.so:graphics/webp \
-	libexiv2.so:graphics/exiv2 libjasper.so:graphics/jasper \
-	libmpv.so:multimedia/mpv libdns_sd.so:net/avahi-libdns libbz2.so:archivers/bzip2 \
-	libkrb5.so:security/krb5
+	libexiv2.so:graphics/exiv2 libjasper.so:graphics/jasper libmpv.so:multimedia/mpv \
+	libdns_sd.so:net/avahi-libdns libbz2.so:archivers/bzip2 libkrb5.so:security/krb5
 CMAKE_ARGS = -Wno-dev
 
 .include <bsd.port.mk>
