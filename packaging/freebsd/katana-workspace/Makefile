@@ -36,11 +36,12 @@ RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libstreams.so:katana/strigi \
 	libdbusmenu-katie.so:katana/libdbusmenu-katie libfreetype.so:print/freetype2 \
-	x11-fonts/fontconfig libxcb-image.so:x11/xcb-util-image libxcb-icccm.so:x11/xcb-util-wm \
-	libxcb-render-util.so:x11/xcb-util-renderutil libxcb-keysyms.so:x11/xcb-util-keysyms \
-	libpci.so:sysutils/pciutils libqalculate.so:math/libqalculate libdrm.so:graphics/libdrm \
-	libpng.so:graphics/png libOpenEXR.so:graphics/openexr libmtp.so:multimedia/libmtp \
-	libgps.so:astro/gpsd libssh.so:security/libssh libjpeg.so:graphics/jpeg-turbo
+	libfontconfig.so:x11-fonts/fontconfig libxcb-image.so:x11/xcb-util-image \
+	libxcb-icccm.so:x11/xcb-util-wm libxcb-render-util.so:x11/xcb-util-renderutil \
+	libxcb-keysyms.so:x11/xcb-util-keysyms libpci.so:sysutils/pciutils \
+	libqalculate.so:math/libqalculate libdrm.so:graphics/libdrm libpng.so:graphics/png \
+	libOpenEXR.so:graphics/openexr libmtp.so:multimedia/libmtp libgps.so:astro/gpsd \
+	libssh.so:security/libssh libjpeg.so:graphics/jpeg-turbo
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
 
