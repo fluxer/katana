@@ -68,6 +68,7 @@ bin/plasma-overlay
 bin/plasma-windowed
 bin/plasmapkg
 bin/solid-action-desktop-gen
+bin/solid-hardware
 bin/startkde
 bin/systemsettings
 etc/dbus-1/system.d/org.kde.fontinst.conf
