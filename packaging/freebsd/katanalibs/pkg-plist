@@ -1420,6 +1420,7 @@ share/apps/cmake/modules/FindGMP.cmake
 share/apps/cmake/modules/FindGSSAPI.cmake
 share/apps/cmake/modules/FindGettextPO.cmake
 share/apps/cmake/modules/FindGpgme.cmake
+share/apps/cmake/modules/FindGphoto2.cmake
 share/apps/cmake/modules/FindHUNSPELL.cmake
 share/apps/cmake/modules/FindIBus.cmake
 share/apps/cmake/modules/FindKDE4Internal.cmake
