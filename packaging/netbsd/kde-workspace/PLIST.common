@@ -210,7 +210,6 @@ lib/kde4/imports/org/kde/dirmodel/libdirmodelplugin.so
 lib/kde4/imports/org/kde/dirmodel/qmldir
 lib/kde4/imports/org/kde/draganddrop/libdraganddropplugin.so
 lib/kde4/imports/org/kde/draganddrop/qmldir
-lib/kde4/imports/org/kde/kwin/decoration/AppMenuButton.qml
 lib/kde4/imports/org/kde/kwin/decoration/ButtonGroup.qml
 lib/kde4/imports/org/kde/kwin/decoration/Decoration.qml
 lib/kde4/imports/org/kde/kwin/decoration/DecorationButton.qml
@@ -296,7 +295,6 @@ lib/kde4/plugins/designer/ksignalplotterwidgets.so
 lib/kde4/plugins/designer/ksysguardlsofwidgets.so
 lib/kde4/plugins/designer/ksysguardwidgets.so
 lib/kde4/plugins/gui_platform/libkde.so
-lib/kded_appmenu.so
 lib/kded_desktopnotifier.so
 lib/kded_device_automounter.so
 lib/kded_freespacenotifier.so
@@ -996,7 +994,6 @@ share/apps/kwalletmanager/icons/hicolor/22x22/actions/folder_closed.png
 share/apps/kwalletmanager/icons/hicolor/22x22/actions/folder_open.png
 share/apps/kwalletmanager/kwalletmanager.rc
 share/apps/kwin/aurorae.desktop
-share/apps/kwin/aurorae/AppMenuButton.qml
 share/apps/kwin/aurorae/AuroraeButton.qml
 share/apps/kwin/aurorae/AuroraeButtonGroup.qml
 share/apps/kwin/aurorae/AuroraeMaximizeButton.qml
@@ -1176,11 +1173,9 @@ share/config/kdm/kdmrc
 share/config/kshorturifilterrc
 share/config/plasma-desktoprc
 share/config/plasma-overlayrc
-share/dbus-1/interfaces/com.canonical.AppMenu.Registrar.xml
 share/dbus-1/interfaces/org.kde.KSMServerInterface.xml
 share/dbus-1/interfaces/org.kde.KTimeZoned.xml
 share/dbus-1/interfaces/org.kde.KWin.xml
-share/dbus-1/interfaces/org.kde.kded.appmenu.xml
 share/dbus-1/interfaces/org.kde.khotkeys.xml
 share/dbus-1/interfaces/org.kde.krunner.App.xml
 share/dbus-1/interfaces/org.kde.network.kioslavenotifier.xml
@@ -1701,7 +1696,6 @@ share/kde4/services/kcmnotify.desktop
 share/kde4/services/kcmsmserver.desktop
 share/kde4/services/kcmtrash.desktop
 share/kde4/services/kcmusb.desktop
-share/kde4/services/kded/appmenu.desktop
 share/kde4/services/kded/desktopnotifier.desktop
 share/kde4/services/kded/device_automounter.desktop
 share/kde4/services/kded/freespacenotifier.desktop
