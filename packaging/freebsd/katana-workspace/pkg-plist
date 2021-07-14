@@ -322,6 +322,7 @@ lib/kgreet_winbind.so
 lib/kio_applications.so
 lib/kio_archive.so
 lib/kio_bookmarks.so
+lib/kio_camera.so
 lib/kio_desktop.so
 lib/kio_filter.so
 lib/kio_floppy.so
@@ -1136,6 +1137,7 @@ share/apps/powerdevil/powerdevil.notifyrc
 share/apps/remoteview/mtp-network.desktop
 share/apps/remoteview/network.desktop
 share/apps/remoteview/smb-network.desktop
+share/apps/solid/actions/solid_camera.desktop
 share/apps/solid/actions/solid_mtp.desktop
 share/apps/solid/actions/test-predicate-openinwindow.desktop
 share/apps/solid/devices/solid-device-AcAdapter.desktop
@@ -1793,6 +1795,7 @@ share/kde4/services/localdomainurifilter.desktop
 share/kde4/services/lostfoundcategory.desktop
 share/kde4/services/lzma.protocol
 share/kde4/services/mouse.desktop
+share/kde4/services/camera.protocol
 share/kde4/services/mtp.protocol
 share/kde4/services/network.protocol
 share/kde4/services/networkinfocategory.desktop
