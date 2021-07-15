@@ -825,6 +825,7 @@ include/kfontsizeaction.h
 include/kfontutils.h
 include/kgesture.h
 include/kglobal.h
+include/kunitconversion.h
 include/kglobalaccel.h
 include/kglobalsettings.h
 include/kglobalshortcutinfo.h
