@@ -771,6 +771,7 @@ share/apps/kdm/sessions/afterstep.desktop
 share/apps/kdm/sessions/amiwm.desktop
 share/apps/kdm/sessions/asclassic.desktop
 share/apps/kdm/sessions/blackbox.desktop
+share/apps/kdm/sessions/budgie-desktop.desktop
 share/apps/kdm/sessions/cde.desktop
 share/apps/kdm/sessions/ctwm.desktop
 share/apps/kdm/sessions/e16.desktop
