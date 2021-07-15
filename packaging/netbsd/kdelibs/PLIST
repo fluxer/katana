@@ -1683,4 +1683,3 @@ share/kde4/servicetypes/qimageio_plugin.desktop
 share/locale/all_languages
 share/locale/entry.desktop
 share/mime/packages/kde.xml
-share/mime/packages/webp.xml
