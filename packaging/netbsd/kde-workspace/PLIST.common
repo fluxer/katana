@@ -560,9 +560,6 @@ share/apps/desktoptheme/air-netbook/colors
 share/apps/desktoptheme/air-netbook/metadata.desktop
 share/apps/desktoptheme/air-netbook/widgets/background.svgz
 share/apps/desktoptheme/air-netbook/widgets/panel-background.svgz
-share/apps/desktoptheme/appdashboard/metadata.desktop
-share/apps/desktoptheme/appdashboard/widgets/background.svgz
-share/apps/desktoptheme/appdashboard/widgets/newspaper-background.svgz
 share/apps/desktoptheme/default/calendar/mini-calendar.svgz
 share/apps/desktoptheme/default/colors
 share/apps/desktoptheme/default/dialogs/background.svgz
@@ -1731,8 +1728,6 @@ share/kde4/services/kurisearchfilter.desktop
 share/kde4/services/kwalletconfig.desktop
 share/kde4/services/kwalletd.desktop
 share/kde4/services/kwalletmanager_show.desktop
-share/kde4/services/kwin/dashboard.desktop
-share/kde4/services/kwin/dashboard_config.desktop
 share/kde4/services/kwin/diminactive.desktop
 share/kde4/services/kwin/diminactive_config.desktop
 share/kde4/services/kwin/dimscreen.desktop
@@ -1822,7 +1817,6 @@ share/kde4/services/plasma-applet-systemtray.desktop
 share/kde4/services/plasma-applet-trash.desktop
 share/kde4/services/plasma-applet-windowlist.desktop
 share/kde4/services/plasma-containment-desktop.desktop
-share/kde4/services/plasma-containment-desktopdashboard.desktop
 share/kde4/services/plasma-containment-newspaper.desktop
 share/kde4/services/plasma-containment-panel.desktop
 share/kde4/services/plasma-containment-saverdesktop.desktop

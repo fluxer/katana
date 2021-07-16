@@ -509,7 +509,6 @@ lib/plasma_applet_plasmaboard.so
 lib/plasma_applet_previewer.so
 lib/plasma_applet_qalculate.so
 lib/plasma_applet_rssnow.so
-lib/plasma_applet_showdashboard.so
 lib/plasma_applet_showdesktop.so
 lib/plasma_applet_spellcheck.so
 lib/plasma_applet_timer.so
@@ -1400,7 +1399,6 @@ share/kde4/services/plasma-applet-previewer.desktop
 share/kde4/services/plasma-applet-printmanager.desktop
 share/kde4/services/plasma-applet-qalculate.desktop
 share/kde4/services/plasma-applet-rssnow.desktop
-share/kde4/services/plasma-applet-showdashboard.desktop
 share/kde4/services/plasma-applet-showdesktop.desktop
 share/kde4/services/plasma-applet-spellcheck.desktop
 share/kde4/services/plasma-applet-systemloadviewer.desktop
