@@ -1737,7 +1737,6 @@ share/kde4/services/kwin/diminactive.desktop
 share/kde4/services/kwin/diminactive_config.desktop
 share/kde4/services/kwin/dimscreen.desktop
 share/kde4/services/kwin/highlightwindow.desktop
-share/kde4/services/kwin/kscreen.desktop
 share/kde4/services/kwin/kwin4_decoration_qml_plastik.desktop
 share/kde4/services/kwin/kwin4_desktop_switcher_informative.desktop
 share/kde4/services/kwin/kwin4_desktop_switcher_previews.desktop
