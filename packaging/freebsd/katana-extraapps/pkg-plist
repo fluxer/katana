@@ -412,10 +412,8 @@ lib/krunner_dictionary.so
 lib/krunner_katesessions.so
 lib/krunner_kget.so
 lib/krunner_konsolesessions.so
-lib/krunner_mediawiki.so
 lib/krunner_spellcheckrunner.so
 lib/krunner_translator.so
-lib/krunner_youtube.so
 lib/ksaneplugin.so
 lib/libakregatorinterfaces.so
 lib/libakregatorinterfaces.so.4
@@ -1147,7 +1145,6 @@ share/icons/hicolor/16x16/actions/kfloppy.png
 share/icons/hicolor/16x16/actions/kgpg.png
 share/icons/hicolor/16x16/actions/kmix.png
 share/icons/hicolor/16x16/actions/kompare.png
-share/icons/hicolor/16x16/actions/krunner_youtube.png
 share/icons/hicolor/16x16/actions/ksnapshot.png
 share/icons/hicolor/16x16/actions/ktimer.png
 share/icons/hicolor/16x16/actions/kuser.png
@@ -1170,7 +1167,6 @@ share/icons/hicolor/22x22/actions/kcolorchooser.png
 share/icons/hicolor/22x22/actions/kfloppy.png
 share/icons/hicolor/22x22/actions/kgpg.png
 share/icons/hicolor/22x22/actions/kompare.png
-share/icons/hicolor/22x22/actions/krunner_youtube.png
 share/icons/hicolor/22x22/actions/ksnapshot.png
 share/icons/hicolor/22x22/actions/kuser.png
 share/icons/hicolor/22x22/actions/lifegame.png
@@ -1195,7 +1191,6 @@ share/icons/hicolor/32x32/actions/kfloppy.png
 share/icons/hicolor/32x32/actions/kgpg.png
 share/icons/hicolor/32x32/actions/kmix.png
 share/icons/hicolor/32x32/actions/kompare.png
-share/icons/hicolor/32x32/actions/krunner_youtube.png
 share/icons/hicolor/32x32/actions/ksnapshot.png
 share/icons/hicolor/32x32/actions/ktimer.png
 share/icons/hicolor/32x32/actions/kuser.png
@@ -1219,7 +1214,6 @@ share/icons/hicolor/48x48/actions/kfloppy.png
 share/icons/hicolor/48x48/actions/kgpg.png
 share/icons/hicolor/48x48/actions/kmix.png
 share/icons/hicolor/48x48/actions/kompare.png
-share/icons/hicolor/48x48/actions/krunner_youtube.png
 share/icons/hicolor/48x48/actions/ksnapshot.png
 share/icons/hicolor/48x48/actions/ktimer.png
 share/icons/hicolor/48x48/actions/kuser.png
@@ -1241,7 +1235,6 @@ share/icons/hicolor/64x64/actions/eyes.png
 share/icons/hicolor/64x64/actions/filelight.png
 share/icons/hicolor/64x64/actions/kfloppy.png
 share/icons/hicolor/64x64/actions/kmix.png
-share/icons/hicolor/64x64/actions/krunner_youtube.png
 share/icons/hicolor/64x64/actions/kuser.png
 share/icons/hicolor/64x64/actions/lifegame.png
 share/icons/hicolor/64x64/actions/lokalize.png
@@ -1259,7 +1252,6 @@ share/icons/hicolor/scalable/actions/document-share.svgz
 share/icons/hicolor/scalable/actions/eyes.svgz
 share/icons/hicolor/scalable/actions/fifteenpuzzle.svgz
 share/icons/hicolor/scalable/actions/kompare.svgz
-share/icons/hicolor/scalable/actions/krunner_youtube.svgz
 share/icons/hicolor/scalable/actions/ksnapshot.svgz
 share/icons/hicolor/scalable/actions/lifegame.svgz
 share/icons/hicolor/scalable/actions/lokalize.svgz
@@ -1429,11 +1421,7 @@ share/kde4/services/plasma-runner-dictionary_config.desktop
 share/kde4/services/plasma-runner-kget.desktop
 share/kde4/services/plasma-runner-spellchecker.desktop
 share/kde4/services/plasma-runner-spellchecker_config.desktop
-share/kde4/services/plasma-runner-techbase.desktop
 share/kde4/services/plasma-runner-translator.desktop
-share/kde4/services/plasma-runner-wikipedia.desktop
-share/kde4/services/plasma-runner-wikitravel.desktop
-share/kde4/services/plasma-runner-youtube.desktop
 share/kde4/services/plasma-wallpaper-pattern.desktop
 share/kde4/services/plasma-wallpaper-potd.desktop
 share/kde4/services/plasma-wallpaper-qml.desktop
