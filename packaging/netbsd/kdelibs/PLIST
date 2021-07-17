@@ -501,10 +501,7 @@ include/KDE/KTzfileTimeZone
 include/KDE/KTzfileTimeZoneSource
 include/KDE/KUndoStack
 include/KDE/KUniqueApplication
-include/KDE/KUnitConversion/Converter
-include/KDE/KUnitConversion/Unit
-include/KDE/KUnitConversion/UnitCategory
-include/KDE/KUnitConversion/Value
+include/KDE/KUnitConversion
 include/KDE/KUriFilter
 include/KDE/KUriFilterData
 include/KDE/KUriFilterPlugin
@@ -825,7 +822,6 @@ include/kfontsizeaction.h
 include/kfontutils.h
 include/kgesture.h
 include/kglobal.h
-include/kunitconversion.h
 include/kglobalaccel.h
 include/kglobalsettings.h
 include/kglobalshortcutinfo.h
@@ -1119,11 +1115,7 @@ include/ktzfiletimezone.h
 include/kuiserverjobtracker.h
 include/kundostack.h
 include/kuniqueapplication.h
-include/kunitconversion/converter.h
-include/kunitconversion/kunitconversion_export.h
-include/kunitconversion/unit.h
-include/kunitconversion/unitcategory.h
-include/kunitconversion/value.h
+include/kunitconversion.h
 include/kurifilter.h
 include/kurl.h
 include/kurlcombobox.h
@@ -1381,9 +1373,6 @@ lib/libkpty.so.4.20
 lib/libktexteditor.so
 lib/libktexteditor.so.4
 lib/libktexteditor.so.4.20
-lib/libkunitconversion.so
-lib/libkunitconversion.so.4
-lib/libkunitconversion.so.4.20
 lib/libplasma.so
 lib/libplasma.so.4
 lib/libplasma.so.4.20
