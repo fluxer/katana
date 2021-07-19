@@ -536,6 +536,7 @@ lib/plasma_wallpaper_qml.so
 lib/plasma_wallpaper_virus.so
 lib/plasma_wallpaper_weather.so
 lib/plugins/designer/printmanagerwidget.so
+lib/AudioThumbs.so
 lib/pothumbnail.so
 lib/rawthumbnail.so
 lib/sambausershareplugin.so
@@ -1428,6 +1429,7 @@ share/kde4/services/plasma-wallpaper-qml.desktop
 share/kde4/services/plasma-wallpaper-virus.desktop
 share/kde4/services/plasma-wallpaper-weather.desktop
 share/kde4/services/plasma_applet_plasmaboard.desktop
+share/kde4/services/AudioThumbs.desktop
 share/kde4/services/pothumbnail.desktop
 share/kde4/services/rawthumbnail.desktop
 share/kde4/services/rdp.protocol
