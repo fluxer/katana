@@ -1128,6 +1128,7 @@ share/apps/plasma/services/soliddevice.operations
 share/apps/plasma/services/statusnotifieritem.operations
 share/apps/plasma/services/tasks.operations
 share/apps/powerdevil/powerdevil.notifyrc
+share/apps/remoteview/camera-network.desktop
 share/apps/remoteview/mtp-network.desktop
 share/apps/remoteview/network.desktop
 share/apps/solid/actions/solid_camera.desktop
