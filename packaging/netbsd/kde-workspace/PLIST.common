@@ -76,6 +76,7 @@ etc/dbus-1/system.d/org.kde.kcontrol.kcmclock.conf
 etc/dbus-1/system.d/org.kde.kcontrol.kcmkdm.conf
 etc/dbus-1/system.d/org.kde.kcontrol.kcmkwallet.conf
 etc/dbus-1/system.d/org.kde.ksysguard.processlisthelper.conf
+etc/dbus-1/system.d/org.kde.soliduiserver.mountunmounthelper.conf
 etc/ksysguarddrc
 etc/xdg/menus/kde-information.menu
 include/KDE/Plasma/Weather/Ion
@@ -531,6 +532,7 @@ libexec/kde4/kscreenlocker_greet
 libexec/kde4/ksysguardprocesslist_helper
 libexec/kde4/kwin_killer_helper
 libexec/kde4/kwin_rules_dialog
+libexec/kde4/soliduiserver_helper
 share/applications/kde4/kdesystemsettings.desktop
 share/applications/kde4/kfontview.desktop
 share/applications/kde4/kinfocenter.desktop
@@ -1189,6 +1191,7 @@ share/dbus-1/system-services/org.kde.kcontrol.kcmclock.service
 share/dbus-1/system-services/org.kde.kcontrol.kcmkdm.service
 share/dbus-1/system-services/org.kde.kcontrol.kcmkwallet.service
 share/dbus-1/system-services/org.kde.ksysguard.processlisthelper.service
+share/dbus-1/system-services/org.kde.soliduiserver.mountunmounthelper.service
 share/desktop-directories/kde-development-translation.directory
 share/desktop-directories/kde-development-webdevelopment.directory
 share/desktop-directories/kde-development.directory
