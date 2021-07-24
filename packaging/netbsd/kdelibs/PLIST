@@ -1643,7 +1643,6 @@ share/kde4/servicetypes/kdatatool.desktop
 share/kde4/servicetypes/kdedmodule.desktop
 share/kde4/servicetypes/kemoticonsTheme.desktop
 share/kde4/servicetypes/kfileitemactionplugin.desktop
-share/kde4/servicetypes/kfileplugin.desktop
 share/kde4/servicetypes/kfilewrite.desktop
 share/kde4/servicetypes/kiofilemodule.desktop
 share/kde4/servicetypes/kpart.desktop
