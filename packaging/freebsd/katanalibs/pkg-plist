@@ -1296,6 +1296,7 @@ lib/kde4/plugins/designer/kdewidgets.so
 lib/kde4/plugins/imageformats/kimg_dds.so
 lib/kde4/plugins/imageformats/kimg_eps.so
 lib/kde4/plugins/imageformats/kimg_exr.so
+lib/kde4/plugins/imageformats/kimg_hdr.so
 lib/kde4/plugins/imageformats/kimg_jp2.so
 lib/kde4/plugins/imageformats/kimg_pcx.so
 lib/kde4/plugins/imageformats/kimg_pic.so
