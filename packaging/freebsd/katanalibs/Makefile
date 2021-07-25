@@ -26,9 +26,10 @@ LIB_DEPENDS = libKtCore.so:katana/katie libstreams.so:katana/strigi \
 	libdbusmenu-katie.so:katana/libdbusmenu-katie \
 	libxcb-keysyms.so:x11/xcb-util-keysyms libxcb-image.so:x11/xcb-util-image \
 	libxcb-render-util.so:x11/xcb-util-renderutil libenchant-2.so:textproc/enchant2 \
-	libOpenEXR.so:graphics/openexr libraw_r.so:graphics/libraw libwebp.so:graphics/webp \
-	libexiv2.so:graphics/exiv2 libjasper.so:graphics/jasper libmpv.so:multimedia/mpv \
-	libdns_sd.so:net/avahi-libdns libbz2.so:archivers/bzip2 libkrb5.so:security/krb5
+	libraw_r.so:graphics/libraw libwebp.so:graphics/webp \
+	libMagick++-6.so:graphics/GraphicsMagick libexiv2.so:graphics/exiv2 \
+	libmpv.so:multimedia/mpv libdns_sd.so:net/avahi-libdns libbz2.so:archivers/bzip2 \
+	libkrb5.so:security/krb5
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
 
