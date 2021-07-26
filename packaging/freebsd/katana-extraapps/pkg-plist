@@ -413,7 +413,6 @@ lib/krunner_katesessions.so
 lib/krunner_kget.so
 lib/krunner_konsolesessions.so
 lib/krunner_spellcheckrunner.so
-lib/krunner_translator.so
 lib/ksaneplugin.so
 lib/libakregatorinterfaces.so
 lib/libakregatorinterfaces.so.4
@@ -1422,7 +1421,6 @@ share/kde4/services/plasma-runner-dictionary_config.desktop
 share/kde4/services/plasma-runner-kget.desktop
 share/kde4/services/plasma-runner-spellchecker.desktop
 share/kde4/services/plasma-runner-spellchecker_config.desktop
-share/kde4/services/plasma-runner-translator.desktop
 share/kde4/services/plasma-wallpaper-pattern.desktop
 share/kde4/services/plasma-wallpaper-potd.desktop
 share/kde4/services/plasma-wallpaper-qml.desktop
