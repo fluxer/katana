@@ -498,7 +498,6 @@ lib/plasma_applet_luna.so
 lib/plasma_applet_magnifique.so
 lib/plasma_applet_notes.so
 lib/plasma_applet_paste.so
-lib/plasma_applet_plasmaboard.so
 lib/plasma_applet_previewer.so
 lib/plasma_applet_qalculate.so
 lib/plasma_applet_rssnow.so
@@ -973,11 +972,6 @@ share/apps/plasma_wallpaper_pattern/patterns/triangles.desktop
 share/apps/plasma_wallpaper_pattern/patterns/triangles.png
 share/apps/plasma_wallpaper_pattern/patterns/xeroxstar.desktop
 share/apps/plasma_wallpaper_pattern/patterns/xeroxstar.png
-share/apps/plasmaboard/basic.xml
-share/apps/plasmaboard/extended.xml
-share/apps/plasmaboard/full.xml
-share/apps/plasmaboard/mid.xml
-share/apps/plasmaboard/tablet.xml
 share/apps/printmanager/printmanager.notifyrc
 share/apps/rssnow/feeds
 share/apps/solid/actions/gwenview_importer.desktop
@@ -1420,7 +1414,6 @@ share/kde4/services/plasma-wallpaper-potd.desktop
 share/kde4/services/plasma-wallpaper-qml.desktop
 share/kde4/services/plasma-wallpaper-virus.desktop
 share/kde4/services/plasma-wallpaper-weather.desktop
-share/kde4/services/plasma_applet_plasmaboard.desktop
 share/kde4/services/AudioThumbs.desktop
 share/kde4/services/pothumbnail.desktop
 share/kde4/services/rawthumbnail.desktop
