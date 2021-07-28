@@ -42,7 +42,7 @@ include/kompare/kompareinterface.h
 include/krdc/hostpreferences.h
 include/krdc/remoteview.h
 include/krdc/remoteviewfactory.h
-include/libkomparediff2/diff2export.h
+include/libkomparediff2/komparediff2_export.h
 include/libkomparediff2/difference.h
 include/libkomparediff2/diffhunk.h
 include/libkomparediff2/diffmodel.h
