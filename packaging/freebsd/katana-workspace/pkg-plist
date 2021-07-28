@@ -1191,6 +1191,7 @@ share/dbus-1/services/org.kde.fontinst.service
 share/dbus-1/services/org.kde.knotify.service
 share/dbus-1/services/org.kde.krunner.service
 share/dbus-1/services/org.kde.kuiserver.service
+share/dbus-1/services/org.kde.kwalletd.service
 share/dbus-1/system-services/org.kde.fontinst.service
 share/dbus-1/system-services/org.kde.kcontrol.kcmclock.service
 share/dbus-1/system-services/org.kde.kcontrol.kcmkdm.service
