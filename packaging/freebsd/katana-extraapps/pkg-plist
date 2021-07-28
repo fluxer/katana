@@ -345,10 +345,6 @@ lib/akregator_sharemicroblog_plugin.so
 lib/akregatorpart.so
 lib/arkpart.so
 lib/bluetoothfiletiemaction.so
-lib/cmake/KSane/KSaneConfig.cmake
-lib/cmake/libkomparediff2/LibKompareDiff2Config.cmake
-lib/cmake/libkomparediff2/LibKompareDiff2Targets-%%CMAKE_BUILD_TYPE%%.cmake
-lib/cmake/libkomparediff2/LibKompareDiff2Targets.cmake
 lib/ffmpegthumbs.so
 lib/filelightpart.so
 lib/gsthumbnail.so
@@ -536,8 +532,6 @@ lib/AudioThumbs.so
 lib/pothumbnail.so
 lib/rawthumbnail.so
 lib/sambausershareplugin.so
-libdata/pkgconfig/bluedevil.pc
-libdata/pkgconfig/libksane.pc
 libexec/kde4/bluedevil-authorize
 libexec/kde4/bluedevil-confirmmodechange
 libexec/kde4/bluedevil-requestconfirmation

@@ -1373,8 +1373,6 @@ lib/libsolid.so.4.20
 lib/libthreadweaver.so
 lib/libthreadweaver.so.4
 lib/libthreadweaver.so.4.20
-lib/pkgconfig/libkdcraw.pc
-lib/pkgconfig/libkexiv2.pc
 libexec/kde4/kio_http_cache_cleaner
 libexec/kde4/kioslave
 libexec/kde4/klauncher

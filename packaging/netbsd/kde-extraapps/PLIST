@@ -346,10 +346,6 @@ lib/akregator_sharemicroblog_plugin.so
 lib/akregatorpart.so
 lib/arkpart.so
 lib/bluetoothfiletiemaction.so
-lib/cmake/KSane/KSaneConfig.cmake
-lib/cmake/libkomparediff2/LibKompareDiff2Config.cmake
-lib/cmake/libkomparediff2/LibKompareDiff2Targets-noconfig.cmake
-lib/cmake/libkomparediff2/LibKompareDiff2Targets.cmake
 lib/ffmpegthumbs.so
 lib/filelightpart.so
 lib/gsthumbnail.so
@@ -482,8 +478,6 @@ lib/okularGenerator_poppler.so
 lib/okularGenerator_txt.so
 lib/okularGenerator_xps.so
 lib/okularpart.so
-lib/pkgconfig/bluedevil.pc
-lib/pkgconfig/libksane.pc
 lib/plasma-applet_systemloadviewer.so
 lib/plasma_applet_bball.so
 lib/plasma_applet_binaryclock.so
