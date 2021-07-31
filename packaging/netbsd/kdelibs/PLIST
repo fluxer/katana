@@ -204,7 +204,6 @@ include/KDE/KHueSaturationSelector
 include/KDE/KIEBookmarkExporterImpl
 include/KDE/KIEBookmarkImporter
 include/KDE/KIEBookmarkImporterImpl
-include/KDE/KIMProxy
 include/KDE/KIO/AccessManager
 include/KDE/KIO/AuthInfo
 include/KDE/KIO/ChmodJob
@@ -846,8 +845,6 @@ include/kidletime.h
 include/kidletime_export.h
 include/kimagefilepreview.h
 include/kimageio.h
-include/kimproxy.h
-include/kimproxy_export.h
 include/kinputdialog.h
 include/kio/accessmanager.h
 include/kio/authinfo.h
@@ -1337,9 +1334,6 @@ lib/libkfile.so.4.20
 lib/libkidletime.so
 lib/libkidletime.so.4
 lib/libkidletime.so.4.20
-lib/libkimproxy.so
-lib/libkimproxy.so.4
-lib/libkimproxy.so.4.20
 lib/libkio.so
 lib/libkio.so.4
 lib/libkio.so.4.20
@@ -1461,7 +1455,6 @@ share/apps/cmake/modules/cmake-modules-styleguide.txt
 share/apps/cmake/modules/kde4_cmake_uninstall.cmake.in
 share/apps/kauth/dbus_policy.stub
 share/apps/kauth/dbus_service.stub
-share/apps/kcm_componentchooser/kcm_instantmessenger.desktop
 share/apps/kcm_componentchooser/kcm_ktexteditor.desktop
 share/apps/kdeui/about/bar-bottom-left.png
 share/apps/kdeui/about/bar-bottom-middle.png
@@ -1553,7 +1546,6 @@ share/dbus-1/interfaces/org.kde.JobViewV2.xml
 share/dbus-1/interfaces/org.kde.KCookieServer.xml
 share/dbus-1/interfaces/org.kde.KDirNotify.xml
 share/dbus-1/interfaces/org.kde.KGlobalAccel.xml
-share/dbus-1/interfaces/org.kde.KIMIface.xml
 share/dbus-1/interfaces/org.kde.KLauncher.xml
 share/dbus-1/interfaces/org.kde.KPasswdServer.xml
 share/dbus-1/interfaces/org.kde.KSpeech.xml
@@ -1619,7 +1611,6 @@ share/kde4/services/webdav.protocol
 share/kde4/services/webdavs.protocol
 share/kde4/servicetypes/application.desktop
 share/kde4/servicetypes/browserview.desktop
-share/kde4/servicetypes/dbusinstantmessenger.desktop
 share/kde4/servicetypes/dbustexttospeech.desktop
 share/kde4/servicetypes/kbytesedit.desktop
 share/kde4/servicetypes/kcmodule.desktop
