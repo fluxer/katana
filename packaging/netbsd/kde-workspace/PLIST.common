@@ -959,13 +959,6 @@ share/apps/ksysguard/ProcessTable.sgrd
 share/apps/ksysguard/SystemLoad2.sgrd
 share/apps/ksysguard/ksysguard.notifyrc
 share/apps/ksysguard/ksysguardui.rc
-share/apps/ksysguard/scripts/README
-share/apps/ksysguard/scripts/smaps/helper.js
-share/apps/ksysguard/scripts/smaps/index.html
-share/apps/ksysguard/scripts/smaps/main.js
-share/apps/ksysguard/scripts/smaps/smaps.desktop
-share/apps/ksysguard/scripts/smaps/sorttable.js
-share/apps/ksysguard/scripts/smaps/style.css
 share/apps/kthememanager/themes/HighContrastDark-big/HighContrastDark-big.preview.png
 share/apps/kthememanager/themes/HighContrastDark-big/HighContrastDark-big.xml
 share/apps/kthememanager/themes/HighContrastDark/HighContrastDark.preview.png
