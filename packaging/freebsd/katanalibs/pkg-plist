@@ -1387,7 +1387,6 @@ share/apps/cmake/modules/FindExiv2.cmake
 share/apps/cmake/modules/FindFFmpegThumbnailer.cmake
 share/apps/cmake/modules/FindFLAC++.cmake
 share/apps/cmake/modules/FindFontconfig.cmake
-share/apps/cmake/modules/FindGIO.cmake
 share/apps/cmake/modules/FindGLIB2.cmake
 share/apps/cmake/modules/FindGMP.cmake
 share/apps/cmake/modules/FindGSSAPI.cmake
@@ -1395,7 +1394,6 @@ share/apps/cmake/modules/FindGettextPO.cmake
 share/apps/cmake/modules/FindGpgme.cmake
 share/apps/cmake/modules/FindGphoto2.cmake
 share/apps/cmake/modules/FindHUNSPELL.cmake
-share/apps/cmake/modules/FindIBus.cmake
 share/apps/cmake/modules/FindKDE4Internal.cmake
 share/apps/cmake/modules/FindKDE4Workspace.cmake
 share/apps/cmake/modules/FindKSane.cmake
@@ -1424,7 +1422,6 @@ share/apps/cmake/modules/FindPCIUTILS.cmake
 share/apps/cmake/modules/FindPopplerQt4.cmake
 share/apps/cmake/modules/FindQalculate.cmake
 share/apps/cmake/modules/FindRAW1394.cmake
-share/apps/cmake/modules/FindSCIM.cmake
 share/apps/cmake/modules/FindSamba.cmake
 share/apps/cmake/modules/FindSane.cmake
 share/apps/cmake/modules/FindSensors.cmake
