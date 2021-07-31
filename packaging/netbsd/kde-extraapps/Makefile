@@ -67,9 +67,6 @@ DEPENDS += ghostscript-[0-9]*:../../print/ghostscript
 .include "../../net/libmms/buildlink3.mk"
 .include "../../net/libvncserver/buildlink3.mk"
 .include "../../net/freerdp2/buildlink3.mk"
-.include "../../inputmethod/ibus/buildlink3.mk"
-# TODO: does not build with it
-# .include "../../inputmethod/scim/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
 .include "../../katana/poppler-katie/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"

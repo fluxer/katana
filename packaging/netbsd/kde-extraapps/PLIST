@@ -492,7 +492,6 @@ lib/plasma_applet_frame.so
 lib/plasma_applet_fuzzy_clock.so
 lib/plasma_applet_icontasks.so
 lib/plasma_applet_incomingmsg.so
-lib/plasma_applet_kimpanel.so
 lib/plasma_applet_kolourpicker.so
 lib/plasma_applet_life.so
 lib/plasma_applet_luna.so
@@ -512,7 +511,6 @@ lib/plasma_containment_griddesktop.so
 lib/plasma_containment_groupingdesktop.so
 lib/plasma_containment_groupingpanel.so
 lib/plasma_engine_kget.so
-lib/plasma_engine_kimpanel.so
 lib/plasma_engine_konsoleprofiles.so
 lib/plasma_engine_mixer.so
 lib/plasma_engine_potd.so
@@ -537,7 +535,6 @@ libexec/kde4/bluedevil-confirmmodechange
 libexec/kde4/bluedevil-requestconfirmation
 libexec/kde4/bluedevil-requestpin
 libexec/kde4/configure-printer
-libexec/kde4/kimpanel-ibus-panel
 share/applications/kde4/KFloppy.desktop
 share/applications/kde4/akregator.desktop
 share/applications/kde4/ark.desktop
@@ -925,7 +922,6 @@ share/apps/plasma/plasmoids/org.kde.printmanager/contents/ui/config.ui
 share/apps/plasma/plasmoids/org.kde.printmanager/contents/ui/printmanager.qml
 share/apps/plasma/plasmoids/org.kde.printmanager/contents/ui/private/RoundShadow.qml
 share/apps/plasma/plasmoids/org.kde.printmanager/metadata.desktop
-share/apps/plasma/services/kimpanel.operations
 share/apps/plasma/services/mixer.operations
 share/apps/plasma/services/org.kde.plasma.dataengine.konsoleprofiles.operations
 share/apps/plasma/wallpapers/org.kde.animals/contents/ui/Animal.qml
@@ -1081,7 +1077,6 @@ share/config.kcfg/kget_mirrorsearchfactory.kcfg
 share/config.kcfg/kget_mmsfactory.kcfg
 share/config.kcfg/kget_multisegkiofactory.kcfg
 share/config.kcfg/kgpg.kcfg
-share/config.kcfg/kimpanelconfig.kcfg
 share/config.kcfg/krdc.kcfg
 share/config.kcfg/kuser.kcfg
 share/config.kcfg/lokalize.kcfg
@@ -1098,7 +1093,6 @@ share/dbus-1/interfaces/org.kde.kmix.mixset.xml
 share/dbus-1/interfaces/org.kde.ksnapshot.xml
 share/dbus-1/services/org.kde.ConfigurePrinter.service
 share/dbus-1/services/org.kde.kget.service
-share/ibus/component/kimpanel.xml
 share/icons/hicolor/128x128/actions/akregator.png
 share/icons/hicolor/128x128/actions/bball.png
 share/icons/hicolor/128x128/actions/document-share.png
@@ -1368,7 +1362,6 @@ share/kde4/services/plasma-applet-eyes.desktop
 share/kde4/services/plasma-applet-fifteenPuzzle.desktop
 share/kde4/services/plasma-applet-icontasks.desktop
 share/kde4/services/plasma-applet-incomingmsg.desktop
-share/kde4/services/plasma-applet-kimpanel.desktop
 share/kde4/services/plasma-applet-konsoleprofiles.desktop
 share/kde4/services/plasma-applet-life.desktop
 share/kde4/services/plasma-applet-luna.desktop
@@ -1390,7 +1383,6 @@ share/kde4/services/plasma-clock-fuzzy.desktop
 share/kde4/services/plasma-containment-griddesktop.desktop
 share/kde4/services/plasma-containment-groupingdesktop.desktop
 share/kde4/services/plasma-containment-groupingpanel.desktop
-share/kde4/services/plasma-dataengine-kimpanel.desktop
 share/kde4/services/plasma-dataengine-konsoleprofiles.desktop
 share/kde4/services/plasma-dataengine-potd.desktop
 share/kde4/services/plasma-dict-default.desktop
