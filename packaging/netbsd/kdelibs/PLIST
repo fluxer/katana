@@ -1139,17 +1139,6 @@ include/kxmlguifactory.h
 include/kxmlguiwindow.h
 include/kxyselector.h
 include/kzip.h
-include/libkdcraw/dcrawinfocontainer.h
-include/libkdcraw/dcrawsettingswidget.h
-include/libkdcraw/kdcraw.h
-include/libkdcraw/kdcraw_export.h
-include/libkdcraw/rawdecodingsettings.h
-include/libkdcraw/rawfiles.h
-include/libkdcraw/rcombobox.h
-include/libkdcraw/rexpanderbox.h
-include/libkdcraw/rnuminput.h
-include/libkdcraw/squeezedcombobox.h
-include/libkdcraw/version.h
 include/libkexiv2/altlangstredit.h
 include/libkexiv2/countryselector.h
 include/libkexiv2/kexiv2.h
@@ -1307,9 +1296,6 @@ lib/kio_metainfo.so
 lib/libkcmutils.so
 lib/libkcmutils.so.4
 lib/libkcmutils.so.4.20
-lib/libkdcraw.so
-lib/libkdcraw.so.4
-lib/libkdcraw.so.4.20
 lib/libkdeclarative.so
 lib/libkdeclarative.so.4
 lib/libkdeclarative.so.4.20
@@ -1517,10 +1503,6 @@ share/apps/kdewidgets/pics/ktextedit.png
 share/apps/kdewidgets/pics/kurlcomborequester.png
 share/apps/kdewidgets/pics/kurllabel.png
 share/apps/kdewidgets/pics/kurlrequester.png
-share/apps/libkdcraw/profiles/compatibleWithAdobeRGB1998.icc
-share/apps/libkdcraw/profiles/prophoto.icm
-share/apps/libkdcraw/profiles/srgb-d65.icm
-share/apps/libkdcraw/profiles/widegamut.icm
 share/apps/libkexiv2/data/topicset.iptc-subjectcode.xml
 share/apps/plasma/services/dataengineservice.operations
 share/apps/plasma/services/plasmoidservice.operations
@@ -1555,10 +1537,6 @@ share/dbus-1/interfaces/org.kde.kaudioplayer.xml
 share/dbus-1/interfaces/org.kde.kded.xml
 share/dbus-1/interfaces/org.kde.kglobalaccel.Component.xml
 share/dbus-1/interfaces/org.kde.kio.FileUndoManager.xml
-share/icons/hicolor/128x128/actions/kdcraw.png
-share/icons/hicolor/32x32/actions/kdcraw.png
-share/icons/hicolor/48x48/actions/kdcraw.png
-share/icons/hicolor/64x64/actions/kdcraw.png
 share/kde4/services/data.protocol
 share/kde4/services/emoticonstheme_adium.desktop
 share/kde4/services/emoticonstheme_kde.desktop
@@ -1589,6 +1567,7 @@ share/kde4/services/qimageioplugins/pcx.desktop
 share/kde4/services/qimageioplugins/psd.desktop
 share/kde4/services/qimageioplugins/webp.desktop
 share/kde4/services/qimageioplugins/x-webp.desktop
+share/kde4/services/qimageioplugins/x-dcraw.desktop
 share/kde4/services/qimageioplugins/xcf.desktop
 share/kde4/services/rtsp.protocol
 share/kde4/services/rtspt.protocol

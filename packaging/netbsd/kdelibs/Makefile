@@ -36,7 +36,6 @@ DEPENDS += xdg-utils-[0-9]*:../../misc/xdg-utils
 .include "../../textproc/enchant2/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../graphics/ImageMagick/buildlink3.mk"
-.include "../../graphics/libraw/buildlink3.mk"
 .include "../../graphics/libwebp/buildlink3.mk"
 .include "../../graphics/exiv2/buildlink3.mk"
 .include "../../graphics/ilmbase/buildlink3.mk"
