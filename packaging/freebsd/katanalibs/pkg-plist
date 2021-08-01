@@ -1138,16 +1138,8 @@ include/kxmlguifactory.h
 include/kxmlguiwindow.h
 include/kxyselector.h
 include/kzip.h
-include/libkexiv2/altlangstredit.h
-include/libkexiv2/countryselector.h
-include/libkexiv2/kexiv2.h
-include/libkexiv2/kexiv2_export.h
-include/libkexiv2/kexiv2data.h
-include/libkexiv2/kexiv2previews.h
-include/libkexiv2/msgtextedit.h
-include/libkexiv2/rotationmatrix.h
-include/libkexiv2/subjectwidget.h
-include/libkexiv2/version.h
+include/kexiv2.h
+include/kexiv2_export.h
 include/nepomuk/kratingpainter.h
 include/nepomuk/kratingwidget.h
 include/netwm.h
@@ -1502,7 +1494,6 @@ share/apps/kdewidgets/pics/ktextedit.png
 share/apps/kdewidgets/pics/kurlcomborequester.png
 share/apps/kdewidgets/pics/kurllabel.png
 share/apps/kdewidgets/pics/kurlrequester.png
-share/apps/libkexiv2/data/topicset.iptc-subjectcode.xml
 share/apps/plasma/services/dataengineservice.operations
 share/apps/plasma/services/plasmoidservice.operations
 share/apps/plasma/services/storage.operations
