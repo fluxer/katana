@@ -43,7 +43,7 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libxcb-keysyms.so:x11/xcb-util-keysyms libxkbfile.so:x11/libxkbfile \
 	libpci.so:devel/libpci libqalculate.so:math/libqalculate libdrm.so:graphics/libdrm \
 	libpng.so:graphics/png libOpenEXR.so:graphics/openexr libmtp.so:multimedia/libmtp \
-	libgps.so:astro/gpsd libssh.so:security/libssh libgphoto2.so:graphics/gphoto2
+	libssh.so:security/libssh libgphoto2.so:graphics/gphoto2
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
 

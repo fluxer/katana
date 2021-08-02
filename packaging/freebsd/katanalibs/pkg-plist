@@ -1379,7 +1379,6 @@ share/apps/cmake/modules/FindKipi.cmake
 share/apps/cmake/modules/FindLIBPARTED.cmake
 share/apps/cmake/modules/FindLibATASmart.cmake
 share/apps/cmake/modules/FindLibDRM.cmake
-share/apps/cmake/modules/FindLibGPS.cmake
 share/apps/cmake/modules/FindLibGcrypt.cmake
 share/apps/cmake/modules/FindLibKonq.cmake
 share/apps/cmake/modules/FindLibLZMA.cmake
