@@ -1375,7 +1375,6 @@ share/apps/cmake/modules/FindHUNSPELL.cmake
 share/apps/cmake/modules/FindKDE4Internal.cmake
 share/apps/cmake/modules/FindKDE4Workspace.cmake
 share/apps/cmake/modules/FindKSane.cmake
-share/apps/cmake/modules/FindKipi.cmake
 share/apps/cmake/modules/FindLIBPARTED.cmake
 share/apps/cmake/modules/FindLibATASmart.cmake
 share/apps/cmake/modules/FindLibDRM.cmake
