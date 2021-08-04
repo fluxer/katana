@@ -206,7 +206,7 @@ lib/kcm_style.so
 lib/kcm_trash.so
 lib/kcm_usb.so
 lib/kcm_workspaceoptions.so
-lib/kcmspellchecking.so
+lib/kcm_spellchecking.so
 lib/kde4/imports/org/kde/dirmodel/libdirmodelplugin.so
 lib/kde4/imports/org/kde/dirmodel/qmldir
 lib/kde4/imports/org/kde/draganddrop/libdraganddropplugin.so
@@ -1660,6 +1660,7 @@ share/kde4/services/kcm_kdnssd.desktop
 share/kde4/services/kcm_keyboard.desktop
 share/kde4/services/kcm_memory.desktop
 share/kde4/services/kcm_pci.desktop
+share/kde4/services/kcm_spellchecking.desktop
 share/kde4/services/kcmaccess.desktop
 share/kde4/services/kcmkded.desktop
 share/kde4/services/kcmlaunch.desktop
@@ -1990,7 +1991,6 @@ share/kde4/services/settings-workspace-behavior.desktop
 share/kde4/services/settings.protocol
 share/kde4/services/smbstatus.desktop
 share/kde4/services/solid-actions.desktop
-share/kde4/services/spellchecking.desktop
 share/kde4/services/standard_actions.desktop
 share/kde4/services/style.desktop
 share/kde4/services/svgthumbnail.desktop
