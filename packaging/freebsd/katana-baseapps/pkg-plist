@@ -421,10 +421,6 @@ share/apps/kdm/pics/users/bomb.png
 share/apps/keditbookmarks/keditbookmarks-genui.rc
 share/apps/keditbookmarks/keditbookmarksui.rc
 share/apps/kmediaplayer/kmediaplayerui.rc
-share/apps/konqueror/pics/arrow_bottomleft.png
-share/apps/konqueror/pics/arrow_bottomright.png
-share/apps/konqueror/pics/arrow_topleft.png
-share/apps/konqueror/pics/arrow_topright.png
 share/apps/konsole/BlackOnLightYellow.colorscheme
 share/apps/konsole/BlackOnRandomLight.colorscheme
 share/apps/konsole/BlackOnWhite.colorscheme
