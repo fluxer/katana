@@ -407,6 +407,7 @@ lib/krunner_charrunner.so
 lib/krunner_converter.so
 lib/krunner_dictionary.so
 lib/krunner_katesessions.so
+lib/krunner_kemu.so
 lib/krunner_kget.so
 lib/krunner_konsolesessions.so
 lib/krunner_spellcheckrunner.so
@@ -1085,6 +1086,7 @@ share/config.kcfg/pdfsettings.kcfg
 share/config.kcfg/pocreatorsettings.kcfg
 share/config/filelightrc
 share/dbus-1/interfaces/org.kde.akregator.part.xml
+share/dbus-1/interfaces/org.kde.kemu.xml
 share/dbus-1/interfaces/org.kde.kgpg.Key.xml
 share/dbus-1/interfaces/org.kde.kmix.control.xml
 share/dbus-1/interfaces/org.kde.kmix.mixer.xml
@@ -1287,6 +1289,7 @@ share/kde4/services/kcm_cron.desktop
 share/kde4/services/kcm_printer_manager.desktop
 share/kde4/services/kcmkttsd.desktop
 share/kde4/services/kded/bluedevil.desktop
+share/kde4/services/kded/kemu.desktop
 share/kde4/services/kded/kmixd.desktop
 share/kde4/services/kded/obexftpdaemon.desktop
 share/kde4/services/kded/printmanager.desktop
@@ -1397,6 +1400,7 @@ share/kde4/services/plasma-runner-converter.desktop
 share/kde4/services/plasma-runner-datetime.desktop
 share/kde4/services/plasma-runner-dictionary.desktop
 share/kde4/services/plasma-runner-dictionary_config.desktop
+share/kde4/services/plasma-runner-kemu.desktop
 share/kde4/services/plasma-runner-kget.desktop
 share/kde4/services/plasma-runner-spellchecker.desktop
 share/kde4/services/plasma-runner-spellchecker_config.desktop
