@@ -30,6 +30,7 @@ DEPENDS = freerdp2-[0-9]*:../../net/freerdp2
 DEPENDS += libxslt-[0-9]*:../../textproc/libxslt
 DEPENDS += speech-dispatcher-[0-9]*:../../audio/speech-dispatcher
 DEPENDS += ghostscript-[0-9]*:../../print/ghostscript
+DEPENDS += qemu-[0-9]*:../../emulators/qemu
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"

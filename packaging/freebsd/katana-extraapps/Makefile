@@ -21,9 +21,10 @@ USE_GETTEXT_TOOLS = build run
 USE_GHOSTSCRIPT = run
 USE_LDCONFIG = yes
 # build and run depending on freerdp2 since the build system checks for its presence but in fact
-# only the binaries are needed, speech-dispatcher is both build and runtime dependancy
+# only the binaries are needed, speech-dispatcher is both build and runtime dependancy, qemu is
+# runtime only
 RUN_DEPENDS = xfreerdp:net/freerdp xsltproc:textproc/libxslt \
-	speech-dispatcher:accessibility/speech-dispatcher
+	speech-dispatcher:accessibility/speech-dispatcher qemu-system-i386:emulators/qemu
 # zlib and oss are not part of any package
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libplasmagenericshell.so:katana/katana-workspace \
