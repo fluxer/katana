@@ -50,7 +50,6 @@ DEPENDS += ghostscript-[0-9]*:../../print/ghostscript
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../../archivers/libarchive/buildlink3.mk"
 .include "../../audio/alsa-lib/buildlink3.mk"
-.include "../../audio/flac/buildlink3.mk"
 .include "../../audio/speech-dispatcher/buildlink3.mk"
 .include "../../audio/taglib/buildlink3.mk"
 .include "../../multimedia/ffmpegthumbnailer/buildlink3.mk"

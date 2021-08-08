@@ -29,13 +29,12 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libplasmagenericshell.so:katana/katana-workspace \
 	libpoppler-katie.so:katana/poppler-katie libdbusmenu-katie.so:katana/libdbusmenu-katie \
 	libgmp.so:math/gmp libgpgme.so:security/gpgme libgcrypt.so:security/libgcrypt \
-	libasound.so:audio/alsa-lib libFLAC.so:audio/flac \
-	libspeechd.so:accessibility/speech-dispatcher libtag.so:audio/taglib \
-	libffmpegthumbnailer.so:multimedia/ffmpegthumbnailer libqalculate.so:math/libqalculate \
-	libcups.so:print/cups libspectre.so:print/libspectre libfreetype.so:print/freetype2 \
-	libdjvulibre.so:graphics/djvulibre libexiv2.so:graphics/exiv2 libpng.so:graphics/png \
-	libsane.so:graphics/sane-backends libepub.so:textproc/ebook-tools \
-	libhunspell-1.7.so:textproc/hunspell libmms.so:net/libmms \
+	libasound.so:audio/alsa-lib libspeechd.so:accessibility/speech-dispatcher \
+	libtag.so:audio/taglib libffmpegthumbnailer.so:multimedia/ffmpegthumbnailer \
+	libqalculate.so:math/libqalculate libcups.so:print/cups libspectre.so:print/libspectre \
+	libfreetype.so:print/freetype2 libdjvulibre.so:graphics/djvulibre \
+	libexiv2.so:graphics/exiv2 libpng.so:graphics/png libsane.so:graphics/sane-backends \
+	libepub.so:textproc/ebook-tools libhunspell-1.7.so:textproc/hunspell libmms.so:net/libmms \
 	libvncserver.so:net/libvncserver libfreerdp2.so:net/freerdp
 BUILD_DEPENDS = ${LOCALBASE}/include/boost/property_tree/ini_parser.hpp:devel/boost-libs
 CMAKE_ARGS = -Wno-dev -DBUILD_partitionmanager=FALSE

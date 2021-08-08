@@ -1364,7 +1364,6 @@ share/apps/cmake/modules/FindDjVuLibre.cmake
 share/apps/cmake/modules/FindEPub.cmake
 share/apps/cmake/modules/FindExiv2.cmake
 share/apps/cmake/modules/FindFFmpegThumbnailer.cmake
-share/apps/cmake/modules/FindFLAC++.cmake
 share/apps/cmake/modules/FindFontconfig.cmake
 share/apps/cmake/modules/FindGLIB2.cmake
 share/apps/cmake/modules/FindGMP.cmake
