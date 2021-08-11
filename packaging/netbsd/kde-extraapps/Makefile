@@ -65,6 +65,7 @@ DEPENDS += qemu-[0-9]*:../../emulators/qemu
 .include "../../textproc/ebook-tools/buildlink3.mk"
 .include "../../textproc/hunspell/buildlink3.mk"
 .include "../../net/libmms/buildlink3.mk"
+.include "../../net/libtorrent-rasterbar/buildlink3.mk"
 .include "../../net/libvncserver/buildlink3.mk"
 .include "../../net/freerdp2/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"

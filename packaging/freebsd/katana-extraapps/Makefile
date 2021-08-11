@@ -36,7 +36,8 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libfreetype.so:print/freetype2 libdjvulibre.so:graphics/djvulibre \
 	libexiv2.so:graphics/exiv2 libpng.so:graphics/png libsane.so:graphics/sane-backends \
 	libepub.so:textproc/ebook-tools libhunspell-1.7.so:textproc/hunspell libmms.so:net/libmms \
-	libvncserver.so:net/libvncserver libfreerdp2.so:net/freerdp
+	libvncserver.so:net/libvncserver libfreerdp2.so:net/freerdp \
+	libtorrent-rasterbar.so:net-p2p/libtorrent-rasterbar
 BUILD_DEPENDS = ${LOCALBASE}/include/boost/property_tree/ini_parser.hpp:devel/boost-libs
 CMAKE_ARGS = -Wno-dev -DBUILD_partitionmanager=FALSE
 LDFLAGS += -Wl,--as-needed
