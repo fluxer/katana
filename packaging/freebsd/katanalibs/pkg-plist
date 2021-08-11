@@ -1382,6 +1382,7 @@ share/apps/cmake/modules/FindLibKonq.cmake
 share/apps/cmake/modules/FindLibLZMA.cmake
 share/apps/cmake/modules/FindLibMms.cmake
 share/apps/cmake/modules/FindLibNXCL.cmake
+share/apps/cmake/modules/FindLibTorrent.cmake
 share/apps/cmake/modules/FindLibSSH.cmake
 share/apps/cmake/modules/FindLibSpectre.cmake
 share/apps/cmake/modules/FindLibUSB.cmake
