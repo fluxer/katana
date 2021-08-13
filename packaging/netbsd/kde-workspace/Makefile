@@ -4,7 +4,7 @@
 # https://www.netbsd.org/docs/pkgsrc/
 
 DISTNAME = master
-PKGNAME = kde-workspace-4.20.0.d20201217
+PKGNAME = kde-workspace-4.21.0.d20201217
 CATEGORIES = katana x11
 MAINTAINER = xakepa10@gmail.com
 COMMENT = Katana workspace interface and basic tools

@@ -1,7 +1,7 @@
 # https://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/
 
 PORTNAME = ariya-icons
-DISTVERSION = 4.20.0.d20210531
+DISTVERSION = 4.21.0.d20210531
 CATEGORIES = graphics x11-themes
 MAINTAINER = xakepa10@gmail.com
 COMMENT = Ariya icon theme for use with Katana

@@ -1,4 +1,10 @@
-ariya-icons (4.20.0) unstable; urgency=medium
+ariya-icons (4.21.0) unstable; urgency=medium
+
+  * Package update
+
+ -- Ivailo Monev <xakepa10@gmail.com>  Fri, 13 Aug 2020 07:32:58 +0200
+
+ariya-icons (4.20.0) stable; urgency=medium
 
   * Package update
 

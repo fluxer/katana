@@ -4,7 +4,7 @@
 # https://www.netbsd.org/docs/pkgsrc/
 
 DISTNAME = master
-PKGNAME = ariya-icons-4.20.0.d20201217
+PKGNAME = ariya-icons-4.21.0.d20201217
 CATEGORIES = katana graphics
 MAINTAINER = xakepa10@gmail.com
 COMMENT = Ariya icon theme for use with Katana

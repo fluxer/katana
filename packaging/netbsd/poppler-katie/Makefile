@@ -4,7 +4,7 @@
 # https://www.netbsd.org/docs/pkgsrc/
 
 DISTNAME = master
-PKGNAME = poppler-katie-4.20.0.d20201217
+PKGNAME = poppler-katie-4.21.0.d20201217
 CATEGORIES = katana devel
 MAINTAINER = xakepa10@gmail.com
 COMMENT = Katie bindings for poppler
