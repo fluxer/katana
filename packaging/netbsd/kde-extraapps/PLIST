@@ -310,7 +310,6 @@ lib/plasma_applet_notes.so
 lib/plasma_applet_paste.so
 lib/plasma_applet_previewer.so
 lib/plasma_applet_qalculate.so
-lib/plasma_applet_rssnow.so
 lib/plasma_applet_showdesktop.so
 lib/plasma_applet_spellcheck.so
 lib/plasma_applet_timer.so
@@ -407,9 +406,6 @@ share/apps/desktoptheme/default/icontasks/dropindicators.svgz
 share/apps/desktoptheme/default/icontasks/indicators.svgz
 share/apps/desktoptheme/default/icontasks/launcherseparator.svgz
 share/apps/desktoptheme/default/icontasks/progress.svgz
-share/apps/desktoptheme/default/rssnow/arrows.svgz
-share/apps/desktoptheme/default/rssnow/background.svgz
-share/apps/desktoptheme/default/rssnow/rssnow.svgz
 share/apps/desktoptheme/default/weather/wind-arrows.svgz
 share/apps/desktoptheme/default/weatherstation/lcd2.svgz
 share/apps/desktoptheme/default/weatherstation/lcd_digits.svgz
@@ -776,7 +772,6 @@ share/apps/plasma_wallpaper_pattern/patterns/triangles.png
 share/apps/plasma_wallpaper_pattern/patterns/xeroxstar.desktop
 share/apps/plasma_wallpaper_pattern/patterns/xeroxstar.png
 share/apps/printmanager/printmanager.notifyrc
-share/apps/rssnow/feeds
 share/apps/solid/actions/gwenview_importer.desktop
 share/apps/solid/actions/gwenview_importer_camera.desktop
 share/apps/yakuake/skins/README
@@ -1177,7 +1172,6 @@ share/kde4/services/plasma-applet-paste.desktop
 share/kde4/services/plasma-applet-previewer.desktop
 share/kde4/services/plasma-applet-printmanager.desktop
 share/kde4/services/plasma-applet-qalculate.desktop
-share/kde4/services/plasma-applet-rssnow.desktop
 share/kde4/services/plasma-applet-showdesktop.desktop
 share/kde4/services/plasma-applet-spellcheck.desktop
 share/kde4/services/plasma-applet-systemloadviewer.desktop
