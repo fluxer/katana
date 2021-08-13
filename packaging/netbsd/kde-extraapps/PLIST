@@ -155,9 +155,7 @@ lib/akregator_config_appearance.so
 lib/akregator_config_archive.so
 lib/akregator_config_browser.so
 lib/akregator_config_general.so
-lib/akregator_config_sharemicroblog.so
 lib/akregator_mk4storage_plugin.so
-lib/akregator_sharemicroblog_plugin.so
 lib/akregatorpart.so
 lib/arkpart.so
 lib/bluetoothfiletiemaction.so
@@ -395,7 +393,6 @@ share/apps/akregator/articleviewer.rc
 share/apps/akregator/pageviewer.rc
 share/apps/akregator/pics/kmmsgnew.png
 share/apps/akregator/pics/kmmsgunseen.png
-share/apps/akregator_sharemicroblog_plugin/akregator_sharemicroblog_plugin.rc
 share/apps/ark/ark_part.rc
 share/apps/ark/arkui.rc
 share/apps/bball/bball.svgz
@@ -1071,10 +1068,8 @@ share/kde4/services/akregator_config_appearance.desktop
 share/kde4/services/akregator_config_archive.desktop
 share/kde4/services/akregator_config_browser.desktop
 share/kde4/services/akregator_config_general.desktop
-share/kde4/services/akregator_config_sharemicroblog.desktop
 share/kde4/services/akregator_mk4storage_plugin.desktop
 share/kde4/services/akregator_part.desktop
-share/kde4/services/akregator_sharemicroblog_plugin.desktop
 share/kde4/services/apodprovider.desktop
 share/kde4/services/ark_dndextract.desktop
 share/kde4/services/ark_part.desktop
