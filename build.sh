@@ -53,8 +53,7 @@ for p in "${packs[@]}";do
             -DENABLE_TESTING=OFF \
             -DCMAKE_SKIP_INSTALL_RPATH=ON \
             -DCMAKE_INSTALL_PREFIX="$prefix" \
-            -DSYSCONF_INSTALL_DIR=/etc \
-            -DWITH_Xmms=OFF $@
+            -DSYSCONF_INSTALL_DIR=/etc
     make
     $sudo make install
     cd ..
