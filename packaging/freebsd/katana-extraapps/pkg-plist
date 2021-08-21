@@ -188,6 +188,7 @@ lib/kde4/imports/org/kde/okular/qmldir
 lib/kde4/imports/org/kde/printmanager/libprintmanager.so
 lib/kde4/imports/org/kde/printmanager/qmldir
 lib/kded_bluedevil.so
+lib/kded_kemu.so
 lib/kded_kmixd.so
 lib/kded_obexftpdaemon.so
 lib/kded_printmanager.so
