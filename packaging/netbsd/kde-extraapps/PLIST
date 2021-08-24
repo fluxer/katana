@@ -389,8 +389,6 @@ share/apps/akregator/about/top-left-akregator.png
 share/apps/akregator/akregator.notifyrc
 share/apps/akregator/akregator_part.rc
 share/apps/akregator/akregator_shell.rc
-share/apps/akregator/articleviewer.rc
-share/apps/akregator/pageviewer.rc
 share/apps/akregator/pics/kmmsgnew.png
 share/apps/akregator/pics/kmmsgunseen.png
 share/apps/ark/ark_part.rc
