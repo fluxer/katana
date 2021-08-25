@@ -13,9 +13,8 @@ DISTFILES = master.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-baseapps-master
 
-USES = compiler:c++11-lang pkgconfig cmake desktop-file-utils xorg perl5 shebangfix
+USES = compiler:c++11-lang pkgconfig cmake desktop-file-utils xorg shebangfix
 USE_XORG = x11
-USE_PERL5 = build
 USE_LDCONFIG = yes
 SHEBANG_FILES = kate/part/syntax/data/generate-php.pl
 RUN_DEPENDS = xauth:x11/xauth sudo:security/sudo ctags:devel/ctags cppcheck:devel/cppcheck \
