@@ -1022,7 +1022,6 @@ include/kshortcut.h
 include/kshortcutsdialog.h
 include/kshortcutseditor.h
 include/kshortcutwidget.h
-include/ksocketfactory.h
 include/ksortablelist.h
 include/kspeech.h
 include/kspeech_export.h
