@@ -8,7 +8,7 @@ Vcs-browser: https://github.com/fluxer/kdelibs
 Standards-Version: 4.21.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev, libenchant-dev,
  libmagick++-dev, libmpv-dev [linux-any], xorg-dev,
- libavahi-common-dev, krb5-multidev, libwebp-dev, libjpeg-dev,
+ libavahi-common-dev, krb5-multidev, libwebp-dev,
  libudev-dev [linux-any], liblzma-dev, libexiv2-dev, libbz2-dev,
  libattr1-dev, libacl1-dev, zlib1g-dev, krb5-config,
  libcdio-dev [linux-any], media-player-info [linux-any], strigi,
