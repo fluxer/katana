@@ -1227,7 +1227,6 @@ include/solid/deviceinterface.h
 include/solid/devicenotifier.h
 include/solid/dvbinterface.h
 include/solid/genericinterface.h
-include/solid/internetgateway.h
 include/solid/networking.h
 include/solid/networkinterface.h
 include/solid/networkshare.h
