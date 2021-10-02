@@ -11,12 +11,11 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, katana-baseapps,
  libattr1-dev, libarchive-dev, libasound2-dev, libatasmart-dev, libavcodec-dev,
  libavformat-dev, libavutil-dev, libblkid-dev, libcups2-dev, libdjvulibre-dev,
  libepub-dev, libexiv2-dev, libfreetype6-dev, libgcrypt20-dev,
- libgettextpo-dev, libgmp-dev, libmms-dev, libhunspell-dev,
- libjpeg-dev, libpng-dev, libparted-dev, libqalculate-dev, libsane-dev,
- libspectre-dev, libspeechd-dev, libswscale-dev, libtag1-dev, uuid-dev,
- libudev-dev [linux-any], libvncserver-dev, freerdp2-dev, libboost-dev,
- libffmpegthumbnailer-dev, libbz2-dev, libtorrent-rasterbar-dev,
- libdbusmenu-katie, libpoppler-katie
+ libgettextpo-dev, libgmp-dev, libmms-dev, libjpeg-dev, libpng-dev,
+ libparted-dev, libqalculate-dev, libsane-dev, libspectre-dev, libspeechd-dev,
+ libswscale-dev, libtag1-dev, uuid-dev, libudev-dev [linux-any],
+ libvncserver-dev, freerdp2-dev, libboost-dev, libffmpegthumbnailer-dev,
+ libbz2-dev, libtorrent-rasterbar-dev, libdbusmenu-katie, libpoppler-katie
 
 Package: katana-extraapps
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386

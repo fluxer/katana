@@ -63,7 +63,6 @@ DEPENDS += qemu-[0-9]*:../../emulators/qemu
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/sane-backends/buildlink3.mk"
 .include "../../textproc/ebook-tools/buildlink3.mk"
-.include "../../textproc/hunspell/buildlink3.mk"
 .include "../../net/libmms/buildlink3.mk"
 .include "../../net/libtorrent-rasterbar/buildlink3.mk"
 .include "../../net/libvncserver/buildlink3.mk"
