@@ -45,7 +45,6 @@ lib/katepart.so
 lib/kateprojectplugin.so
 lib/katesearchplugin.so
 lib/katesnippetsplugin.so
-lib/katesqlplugin.so
 lib/katesymbolviewerplugin.so
 lib/katetabbarextensionplugin.so
 lib/katetabifyplugin.so
@@ -95,11 +94,6 @@ share/applications/kde4/kmediaplayer.desktop
 share/applications/kde4/konsole.desktop
 share/apps/dolphin/dolphinui.rc
 share/apps/dolphinpart/dolphinpart.rc
-share/apps/kate/icons/hicolor/16x16/actions/sql-field-pk.png
-share/apps/kate/icons/hicolor/16x16/actions/sql-field-red.png
-share/apps/kate/icons/hicolor/16x16/actions/sql-field.png
-share/apps/kate/icons/hicolor/16x16/actions/sql-table.png
-share/apps/kate/icons/hicolor/16x16/actions/sql-view.png
 share/apps/kate/kateui.rc
 share/apps/kate/plugins/filetree/ui.rc
 share/apps/kate/plugins/kate_kttsd/ui.rc
@@ -120,7 +114,6 @@ share/apps/kate/plugins/katekonsole/ui.rc
 share/apps/kate/plugins/katemailfiles/ui.rc
 share/apps/kate/plugins/kateopenheader/ui.rc
 share/apps/kate/plugins/katesearch/ui.rc
-share/apps/kate/plugins/katesql/ui.rc
 share/apps/kate/plugins/katesymbolviewer/ui.rc
 share/apps/kate/plugins/katetabbarextension/ui.rc
 share/apps/kate/plugins/katetabify/ui.rc
@@ -508,7 +501,6 @@ share/kde4/services/katepart.desktop
 share/kde4/services/kateprojectplugin.desktop
 share/kde4/services/katesearch.desktop
 share/kde4/services/katesnippetsplugin.desktop
-share/kde4/services/katesql.desktop
 share/kde4/services/katesymbolviewer.desktop
 share/kde4/services/katetabbarextension.desktop
 share/kde4/services/katetabifyplugin.desktop
