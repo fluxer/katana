@@ -1492,7 +1492,6 @@ share/apps/kdewidgets/pics/kurllabel.png
 share/apps/kdewidgets/pics/kurlrequester.png
 share/apps/plasma/services/dataengineservice.operations
 share/apps/plasma/services/plasmoidservice.operations
-share/apps/plasma/services/storage.operations
 share/apps/proxyscout/proxyscout.notifyrc
 share/config/accept-languages.codes
 share/config/colors/40.colors
