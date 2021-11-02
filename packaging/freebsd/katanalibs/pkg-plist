@@ -618,6 +618,7 @@ include/KDE/Solid/DeviceInterface
 include/KDE/Solid/DeviceNotifier
 include/KDE/Solid/DvbInterface
 include/KDE/Solid/GenericInterface
+include/KDE/Solid/Graphic
 include/KDE/Solid/NetworkInterface
 include/KDE/Solid/NetworkShare
 include/KDE/Solid/Networking
@@ -1215,6 +1216,7 @@ include/solid/deviceinterface.h
 include/solid/devicenotifier.h
 include/solid/dvbinterface.h
 include/solid/genericinterface.h
+include/solid/graphic.h
 include/solid/networking.h
 include/solid/networkinterface.h
 include/solid/networkshare.h
