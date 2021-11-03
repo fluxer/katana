@@ -1109,6 +1109,7 @@ share/apps/solid/devices/solid-device-Block.desktop
 share/apps/solid/devices/solid-device-Button.desktop
 share/apps/solid/devices/solid-device-Camera.desktop
 share/apps/solid/devices/solid-device-DvbInterface.desktop
+share/apps/solid/devices/solid-device-Graphic.desktop
 share/apps/solid/devices/solid-device-NetworkInterface.desktop
 share/apps/solid/devices/solid-device-OpticalDisc.desktop
 share/apps/solid/devices/solid-device-OpticalDrive.desktop
