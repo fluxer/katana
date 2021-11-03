@@ -616,7 +616,6 @@ include/KDE/Solid/Camera
 include/KDE/Solid/Device
 include/KDE/Solid/DeviceInterface
 include/KDE/Solid/DeviceNotifier
-include/KDE/Solid/DvbInterface
 include/KDE/Solid/GenericInterface
 include/KDE/Solid/Graphic
 include/KDE/Solid/NetworkInterface
@@ -1214,7 +1213,6 @@ include/solid/camera.h
 include/solid/device.h
 include/solid/deviceinterface.h
 include/solid/devicenotifier.h
-include/solid/dvbinterface.h
 include/solid/genericinterface.h
 include/solid/graphic.h
 include/solid/networking.h
@@ -1226,8 +1224,6 @@ include/solid/portablemediaplayer.h
 include/solid/powermanagement.h
 include/solid/predicate.h
 include/solid/processor.h
-include/solid/serialinterface.h
-include/solid/smartcardreader.h
 include/solid/solid_export.h
 include/solid/solidnamespace.h
 include/solid/storageaccess.h

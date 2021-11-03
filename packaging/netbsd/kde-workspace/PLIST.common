@@ -1108,15 +1108,12 @@ share/apps/solid/devices/solid-device-Battery.desktop
 share/apps/solid/devices/solid-device-Block.desktop
 share/apps/solid/devices/solid-device-Button.desktop
 share/apps/solid/devices/solid-device-Camera.desktop
-share/apps/solid/devices/solid-device-DvbInterface.desktop
 share/apps/solid/devices/solid-device-Graphic.desktop
 share/apps/solid/devices/solid-device-NetworkInterface.desktop
 share/apps/solid/devices/solid-device-OpticalDisc.desktop
 share/apps/solid/devices/solid-device-OpticalDrive.desktop
 share/apps/solid/devices/solid-device-PortableMediaPlayer.desktop
 share/apps/solid/devices/solid-device-Processor.desktop
-share/apps/solid/devices/solid-device-SerialInterface.desktop
-share/apps/solid/devices/solid-device-SmartCardReader.desktop
 share/apps/solid/devices/solid-device-StorageAccess.desktop
 share/apps/solid/devices/solid-device-StorageDrive.desktop
 share/apps/solid/devices/solid-device-StorageVolume.desktop
