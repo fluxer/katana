@@ -210,7 +210,6 @@ include/KDE/KIO/ChmodJob
 include/KDE/KIO/Connection
 include/KDE/KIO/CopyInfo
 include/KDE/KIO/CopyJob
-include/KDE/KIO/DavJob
 include/KDE/KIO/DeleteJob
 include/KDE/KIO/FileCopyJob
 include/KDE/KIO/FileJob
@@ -840,7 +839,6 @@ include/kio/authinfo.h
 include/kio/chmodjob.h
 include/kio/connection.h
 include/kio/copyjob.h
-include/kio/davjob.h
 include/kio/deletejob.h
 include/kio/directorysizejob.h
 include/kio/filejob.h
