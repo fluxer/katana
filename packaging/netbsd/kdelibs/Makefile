@@ -18,7 +18,7 @@ CONFIGURE_DIRS= ${WRKDIR}/build
 CMAKE_ARG_PATH= ${WRKSRC}
 
 USE_CMAKE = yes
-USE_LANGUAGES = c c++11
+USE_LANGUAGES = c c++
 USE_TOOLS = pkg-config sh:run chmod chown
 REPLACE_SH = kdeui/preparetips
 # RPATH workaround for makekdewidgets

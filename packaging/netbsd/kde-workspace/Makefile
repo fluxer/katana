@@ -20,7 +20,7 @@ CMAKE_ARG_PATH= ${WRKSRC}
 USE_CMAKE = yes
 # static only on Linux
 CMAKE_ARGS = -DWITH_PCIUTILS=FALSE
-USE_LANGUAGES = c c++11
+USE_LANGUAGES = c c++
 USE_TOOLS = pkg-config perl sh:run
 REPLACE_PERL = kdm/confproc.pl
 

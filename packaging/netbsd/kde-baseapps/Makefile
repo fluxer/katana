@@ -18,7 +18,7 @@ CONFIGURE_DIRS= ${WRKDIR}/build
 CMAKE_ARG_PATH= ${WRKSRC}
 
 USE_CMAKE = yes
-USE_LANGUAGES = c c++11
+USE_LANGUAGES = c c++
 USE_TOOLS = pkg-config nice:run
 REPLACE_PERL = kate/part/syntax/data/generate-php.pl
 
