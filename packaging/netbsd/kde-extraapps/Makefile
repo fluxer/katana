@@ -26,8 +26,9 @@ USE_TOOLS = pkg-config perl
 post-extract:
 	${MKDIR} ${WRKDIR}/build
 
-DEPENDS = freerdp2-[0-9]*:../../net/freerdp2
-DEPENDS += libxslt-[0-9]*:../../textproc/libxslt
+# TODO: fails to build on Linux
+# DEPENDS = freerdp2-[0-9]*:../../net/freerdp2
+DEPENDS = libxslt-[0-9]*:../../textproc/libxslt
 DEPENDS += speech-dispatcher-[0-9]*:../../audio/speech-dispatcher
 DEPENDS += ghostscript-[0-9]*:../../print/ghostscript
 DEPENDS += qemu-[0-9]*:../../emulators/qemu
@@ -66,7 +67,8 @@ DEPENDS += qemu-[0-9]*:../../emulators/qemu
 .include "../../net/libmms/buildlink3.mk"
 .include "../../net/libtorrent-rasterbar/buildlink3.mk"
 .include "../../net/libvncserver/buildlink3.mk"
-.include "../../net/freerdp2/buildlink3.mk"
+# see above
+# .include "../../net/freerdp2/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
 .include "../../katana/poppler-katie/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
