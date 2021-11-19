@@ -332,6 +332,7 @@ lib/kio_network.so
 lib/kio_recentdocuments.so
 lib/kio_remote.so
 lib/kio_settings.so
+lib/kio_smb.so
 lib/kio_thumbnail.so
 lib/kio_trash.so
 lib/krunner_bookmarksrunner.so
@@ -1099,6 +1100,7 @@ share/apps/powerdevil/powerdevil.notifyrc
 share/apps/remoteview/camera-network.desktop
 share/apps/remoteview/mtp-network.desktop
 share/apps/remoteview/network.desktop
+share/apps/remoteview/smb-network.desktop
 share/apps/solid/actions/solid_camera.desktop
 share/apps/solid/actions/solid_mtp.desktop
 share/apps/solid/actions/test-predicate-openinwindow.desktop
@@ -1992,6 +1994,7 @@ share/kde4/services/style.desktop
 share/kde4/services/svgthumbnail.desktop
 share/kde4/services/tar.protocol
 share/kde4/services/textthumbnail.desktop
+share/kde4/services/smb.protocol
 share/kde4/services/thumbnail.protocol
 share/kde4/services/trash.protocol
 share/kde4/services/windowsexethumbnail.desktop
