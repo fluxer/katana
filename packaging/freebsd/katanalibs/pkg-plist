@@ -1524,6 +1524,7 @@ share/kde4/services/qimageioplugins/pcx.desktop
 share/kde4/services/qimageioplugins/psd.desktop
 share/kde4/services/qimageioplugins/tga.desktop
 share/kde4/services/qimageioplugins/tiff.desktop
+share/kde4/services/qimageioplugins/gif.desktop
 share/kde4/services/qimageioplugins/webp.desktop
 share/kde4/services/qimageioplugins/x-webp.desktop
 share/kde4/services/qimageioplugins/x-dcraw.desktop
