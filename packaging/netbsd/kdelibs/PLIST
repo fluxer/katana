@@ -1514,6 +1514,10 @@ share/kde4/services/mmst.protocol
 share/kde4/services/mmsu.protocol
 share/kde4/services/plasma-applet-extenderapplet.desktop
 share/kde4/services/pnm.protocol
+share/kde4/services/qimageioplugins/pbm.desktop
+share/kde4/services/qimageioplugins/pgm.desktop
+share/kde4/services/qimageioplugins/ppm.desktop
+share/kde4/services/qimageioplugins/xbm.desktop
 share/kde4/services/qimageioplugins/bmp.desktop
 share/kde4/services/qimageioplugins/dds.desktop
 share/kde4/services/qimageioplugins/eps.desktop
