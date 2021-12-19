@@ -30,7 +30,8 @@ DEPENDS += xauth-[0-9]*:../../x11/xauth
 DEPENDS += sudo-[0-9]*:../../security/sudo
 DEPENDS += exctags-[0-9]*:../../devel/exctags
 DEPENDS += cppcheck-[0-9]*:../../devel/cppcheck
-DEPENDS += lrzsz-[0-9]*:../../comms/lrzsz
+# TODO: fails to build on Linux
+# DEPENDS += lrzsz-[0-9]*:../../comms/lrzsz
 DEPENDS += libxml2-[0-9]*:../../textproc/libxml2
 DEPENDS += slocate-[0-9]*:../../sysutils/slocate
 
