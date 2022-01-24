@@ -870,9 +870,7 @@ share/apps/kmenuedit/icons/hicolor/22x22/actions/menu_new_sep.png
 share/apps/kmenuedit/icons/hicolor/32x32/actions/menu_new.png
 share/apps/kmenuedit/icons/hicolor/32x32/actions/menu_new_sep.png
 share/apps/kmenuedit/kmenueditui.rc
-share/apps/kscreensaver/image.png
 share/apps/kscreensaver/kscience.png
-share/apps/kscreensaver/particle.png
 share/apps/ksmserver/ksmserver.notifyrc
 share/apps/ksmserver/screenlocker/org.kde.passworddialog/contents/ui/AccelButton.qml
 share/apps/ksmserver/screenlocker/org.kde.passworddialog/contents/ui/Greeter.qml
