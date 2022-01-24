@@ -30,7 +30,6 @@ bin/klorenz.kss
 bin/kmenuedit
 bin/kmimetypefinder
 bin/knotify4
-bin/kpartsaver.kss
 bin/kpolygon.kss
 bin/kquitapp
 bin/krandom.kss
@@ -1608,7 +1607,6 @@ share/kde4/services/ScreenSavers/KSlideshow.desktop
 share/kde4/services/ScreenSavers/KVm.desktop
 share/kde4/services/ScreenSavers/asciiquarium.desktop
 share/kde4/services/ScreenSavers/kblank.desktop
-share/kde4/services/ScreenSavers/kpartsaver.desktop
 share/kde4/services/ScreenSavers/krandom.desktop
 share/kde4/services/ServiceMenus/installfont.desktop
 share/kde4/services/applications.protocol
