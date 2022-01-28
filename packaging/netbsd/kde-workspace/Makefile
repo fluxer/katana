@@ -113,6 +113,5 @@ DEPENDS += consolekit-[0-9]*:../../sysutils/consolekit
 # .include "../../security/libssh/buildlink3.mk"
 .include "../../net/samba/buildlink3.mk"
 .include "../../mk/libusb.buildlink3.mk"
-.include "../../mk/jpeg.buildlink3.mk"
 .include "../../mk/pam.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
