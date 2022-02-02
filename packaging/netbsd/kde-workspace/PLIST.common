@@ -508,7 +508,6 @@ lib/powerdevilkeyboardbrightnesscontrolaction_config.so
 lib/powerdevilrunscriptaction_config.so
 lib/powerdevilsuspendsessionaction_config.so
 lib/strigi/strigi_font.so
-lib/svgthumbnail.so
 lib/textthumbnail.so
 lib/windowsexethumbnail.so
 lib/windowsimagethumbnail.so
@@ -823,7 +822,6 @@ share/apps/kdm/themes/auros/KdmGreeterTheme.desktop
 share/apps/kdm/themes/auros/auros-box.svg
 share/apps/kdm/themes/auros/auros.svg
 share/apps/kdm/themes/auros/auros.xml
-share/apps/kdm/themes/auros/background.svg
 share/apps/kdm/themes/auros/branding-icon.png
 share/apps/kdm/themes/auros/screenshot.png
 share/apps/kdm/themes/auros/session.png
@@ -1987,7 +1985,6 @@ share/kde4/services/smbstatus.desktop
 share/kde4/services/solid-actions.desktop
 share/kde4/services/standard_actions.desktop
 share/kde4/services/style.desktop
-share/kde4/services/svgthumbnail.desktop
 share/kde4/services/tar.protocol
 share/kde4/services/textthumbnail.desktop
 share/kde4/services/smb.protocol
