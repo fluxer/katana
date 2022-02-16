@@ -53,5 +53,4 @@ DEPENDS += xdg-utils-[0-9]*:../../misc/xdg-utils
 .include "../../archivers/bzip2/buildlink3.mk"
 .include "../../katana/strigi/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
-.include "../../mk/krb5.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

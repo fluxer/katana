@@ -1,6 +1,5 @@
 bin/kbuildsycoca4
 bin/kconfig_compiler
-bin/kcookiejar4
 bin/kde4-config
 bin/kded4
 bin/kdeinit4
@@ -203,7 +202,6 @@ include/KDE/KHueSaturationSelector
 include/KDE/KIEBookmarkExporterImpl
 include/KDE/KIEBookmarkImporter
 include/KDE/KIEBookmarkImporterImpl
-include/KDE/KIO/AccessManager
 include/KDE/KIO/AuthInfo
 include/KDE/KIO/ChmodJob
 include/KDE/KIO/Connection
@@ -833,7 +831,6 @@ include/kidletime_export.h
 include/kimagefilepreview.h
 include/kimageio.h
 include/kinputdialog.h
-include/kio/accessmanager.h
 include/kio/authinfo.h
 include/kio/chmodjob.h
 include/kio/connection.h
@@ -1247,7 +1244,6 @@ lib/kde4/plugins/imageformats/kimg_webp.so
 lib/kde4/plugins/kauth/backend/kauth_backend_plugin.so
 lib/kde4/plugins/kauth/helper/kauth_helper_plugin.so
 lib/kded_kaudioplayer.so
-lib/kded_kcookiejar.so
 lib/kded_kssld.so
 lib/kded_proxyscout.so
 lib/kfilemodule.so
@@ -1312,7 +1308,6 @@ lib/libplasma.so.4.21
 lib/libsolid.so
 lib/libsolid.so.4
 lib/libsolid.so.4.21
-libexec/kde4/kio_http_cache_cleaner
 libexec/kde4/kioslave
 libexec/kde4/klauncher
 libexec/kde4/kpac_dhcp_helper
@@ -1334,7 +1329,6 @@ share/apps/cmake/modules/FindFFmpegThumbnailer.cmake
 share/apps/cmake/modules/FindFontconfig.cmake
 share/apps/cmake/modules/FindGLIB2.cmake
 share/apps/cmake/modules/FindGMP.cmake
-share/apps/cmake/modules/FindGSSAPI.cmake
 share/apps/cmake/modules/FindGettextPO.cmake
 share/apps/cmake/modules/FindGpgme.cmake
 share/apps/cmake/modules/FindGphoto2.cmake
@@ -1476,7 +1470,6 @@ share/dbus-1/interfaces/org.freedesktop.PowerManagement.xml
 share/dbus-1/interfaces/org.kde.JobView.xml
 share/dbus-1/interfaces/org.kde.JobViewServer.xml
 share/dbus-1/interfaces/org.kde.JobViewV2.xml
-share/dbus-1/interfaces/org.kde.KCookieServer.xml
 share/dbus-1/interfaces/org.kde.KDirNotify.xml
 share/dbus-1/interfaces/org.kde.KGlobalAccel.xml
 share/dbus-1/interfaces/org.kde.KLauncher.xml
@@ -1499,11 +1492,9 @@ share/kde4/services/emoticonstheme_xmpp.desktop
 share/kde4/services/file.protocol
 share/kde4/services/ftp.protocol
 share/kde4/services/http.protocol
-share/kde4/services/http_cache_cleaner.desktop
 share/kde4/services/https.protocol
 share/kde4/services/kcm_ssl.desktop
 share/kde4/services/kded/kaudioplayer.desktop
-share/kde4/services/kded/kcookiejar.desktop
 share/kde4/services/kded/kssld.desktop
 share/kde4/services/kded/proxyscout.desktop
 share/kde4/services/kfilemodule.desktop
