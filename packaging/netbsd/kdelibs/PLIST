@@ -225,7 +225,6 @@ include/KDE/KIO/NetRC
 include/KDE/KIO/PreviewJob
 include/KDE/KIO/RenameDialog
 include/KDE/KIO/Scheduler
-include/KDE/KIO/SessionData
 include/KDE/KIO/SimpleJob
 include/KDE/KIO/SkipDialog
 include/KDE/KIO/Slave
@@ -816,11 +815,6 @@ include/kglobalshortcutinfo_p.h
 include/kguiitem.h
 include/khbox.h
 include/khelpmenu.h
-include/khexedit/byteseditinterface.h
-include/khexedit/charcolumninterface.h
-include/khexedit/clipboardinterface.h
-include/khexedit/valuecolumninterface.h
-include/khexedit/zoominterface.h
 include/khistorycombobox.h
 include/khuesaturationselect.h
 include/kicon.h
@@ -844,8 +838,6 @@ include/kio/filejob.h
 include/kio/fileundomanager.h
 include/kio/forwardingslavebase.h
 include/kio/global.h
-include/kio/http.h
-include/kio/http_slave_defaults.h
 include/kio/ioslave_defaults.h
 include/kio/job.h
 include/kio/jobclasses.h
@@ -859,7 +851,6 @@ include/kio/paste.h
 include/kio/previewjob.h
 include/kio/renamedialog.h
 include/kio/scheduler.h
-include/kio/sessiondata.h
 include/kio/skipdialog.h
 include/kio/slave.h
 include/kio/slavebase.h
@@ -1528,12 +1519,9 @@ share/kde4/services/qimageioplugins/xcf.desktop
 share/kde4/services/rtsp.protocol
 share/kde4/services/rtspt.protocol
 share/kde4/services/rtspu.protocol
-share/kde4/services/webdav.protocol
-share/kde4/services/webdavs.protocol
 share/kde4/servicetypes/application.desktop
 share/kde4/servicetypes/browserview.desktop
 share/kde4/servicetypes/dbustexttospeech.desktop
-share/kde4/servicetypes/kbytesedit.desktop
 share/kde4/servicetypes/kcmodule.desktop
 share/kde4/servicetypes/kcmoduleinit.desktop
 share/kde4/servicetypes/kdatatool.desktop
