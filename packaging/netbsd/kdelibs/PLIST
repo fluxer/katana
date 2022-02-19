@@ -119,9 +119,6 @@ include/KDE/KCursor
 include/KDE/KDBusServiceStarter
 include/KDE/KDEDModule
 include/KDE/KDEPrintDialog
-include/KDE/KDataTool
-include/KDE/KDataToolAction
-include/KDE/KDataToolInfo
 include/KDE/KDateComboBox
 include/KDE/KDatePicker
 include/KDE/KDateTable
@@ -193,10 +190,6 @@ include/KDE/KGlobalShortcutInfo
 include/KDE/KGradientSelector
 include/KDE/KGuiItem
 include/KDE/KHBox
-include/KDE/KHE/CharColumnInterface
-include/KDE/KHE/ClipboardInterface
-include/KDE/KHE/ValueColumnInterface
-include/KDE/KHE/ZoomInterface
 include/KDE/KHelpMenu
 include/KDE/KHistoryComboBox
 include/KDE/KHueSaturationSelector
@@ -225,7 +218,6 @@ include/KDE/KIO/NetRC
 include/KDE/KIO/PreviewJob
 include/KDE/KIO/RenameDialog
 include/KDE/KIO/Scheduler
-include/KDE/KIO/SessionData
 include/KDE/KIO/SimpleJob
 include/KDE/KIO/SkipDialog
 include/KDE/KIO/Slave
@@ -234,7 +226,6 @@ include/KDE/KIO/SlaveConfig
 include/KDE/KIO/SlaveInterface
 include/KDE/KIO/StatJob
 include/KDE/KIO/StoredTransferJob
-include/KDE/KIO/TCPSlaveBase
 include/KDE/KIO/Task
 include/KDE/KIO/TransferJob
 include/KDE/KIcon
@@ -728,7 +719,6 @@ include/kcoreconfigskeleton.h
 include/kcrash.h
 include/kcurrencycode.h
 include/kcursor.h
-include/kdatatool.h
 include/kdatecombobox.h
 include/kdatepicker.h
 include/kdatetable.h
@@ -816,11 +806,6 @@ include/kglobalshortcutinfo_p.h
 include/kguiitem.h
 include/khbox.h
 include/khelpmenu.h
-include/khexedit/byteseditinterface.h
-include/khexedit/charcolumninterface.h
-include/khexedit/clipboardinterface.h
-include/khexedit/valuecolumninterface.h
-include/khexedit/zoominterface.h
 include/khistorycombobox.h
 include/khuesaturationselect.h
 include/kicon.h
@@ -844,8 +829,6 @@ include/kio/filejob.h
 include/kio/fileundomanager.h
 include/kio/forwardingslavebase.h
 include/kio/global.h
-include/kio/http.h
-include/kio/http_slave_defaults.h
 include/kio/ioslave_defaults.h
 include/kio/job.h
 include/kio/jobclasses.h
@@ -859,14 +842,12 @@ include/kio/paste.h
 include/kio/previewjob.h
 include/kio/renamedialog.h
 include/kio/scheduler.h
-include/kio/sessiondata.h
 include/kio/skipdialog.h
 include/kio/slave.h
 include/kio/slavebase.h
 include/kio/slaveconfig.h
 include/kio/slaveinterface.h
 include/kio/sslui.h
-include/kio/tcpslavebase.h
 include/kio/thumbcreator.h
 include/kio/thumbsequencecreator.h
 include/kio/udsentry.h
@@ -1485,7 +1466,6 @@ share/dbus-1/interfaces/org.kde.kaudioplayer.xml
 share/dbus-1/interfaces/org.kde.kded.xml
 share/dbus-1/interfaces/org.kde.kglobalaccel.Component.xml
 share/dbus-1/interfaces/org.kde.kio.FileUndoManager.xml
-share/kde4/services/data.protocol
 share/kde4/services/emoticonstheme_adium.desktop
 share/kde4/services/emoticonstheme_kde.desktop
 share/kde4/services/emoticonstheme_pidgin.desktop
@@ -1528,15 +1508,11 @@ share/kde4/services/qimageioplugins/xcf.desktop
 share/kde4/services/rtsp.protocol
 share/kde4/services/rtspt.protocol
 share/kde4/services/rtspu.protocol
-share/kde4/services/webdav.protocol
-share/kde4/services/webdavs.protocol
 share/kde4/servicetypes/application.desktop
 share/kde4/servicetypes/browserview.desktop
 share/kde4/servicetypes/dbustexttospeech.desktop
-share/kde4/servicetypes/kbytesedit.desktop
 share/kde4/servicetypes/kcmodule.desktop
 share/kde4/servicetypes/kcmoduleinit.desktop
-share/kde4/servicetypes/kdatatool.desktop
 share/kde4/servicetypes/kdedmodule.desktop
 share/kde4/servicetypes/kemoticonsTheme.desktop
 share/kde4/servicetypes/kfileitemactionplugin.desktop
