@@ -48,7 +48,7 @@ DEPENDS += xdg-utils-[0-9]*:../../misc/xdg-utils
 .include "../../x11/libSM/buildlink3.mk"
 .include "../../net/avahi/buildlink3.mk"
 .include "../../sysutils/attr/buildlink3.mk"
-.include "../../security/openssl/buildlink3.mk"
+.include "../../www/curl/buildlink3.mk"
 .include "../../archivers/xz/buildlink3.mk"
 .include "../../archivers/bzip2/buildlink3.mk"
 .include "../../katana/strigi/buildlink3.mk"
