@@ -485,8 +485,6 @@ lib/plasma_engine_favicons.so
 lib/plasma_engine_filebrowser.so
 lib/plasma_engine_geolocation.so
 lib/plasma_engine_hotplug.so
-lib/plasma_engine_keystate.so
-lib/plasma_engine_mouse.so
 lib/plasma_engine_mpris2.so
 lib/plasma_engine_notifications.so
 lib/plasma_engine_places.so
@@ -1086,7 +1084,6 @@ share/apps/plasma/plasmoids/org.kde.notifications/metadata.desktop
 share/apps/plasma/services/applicationjobs.operations
 share/apps/plasma/services/apps.operations
 share/apps/plasma/services/hotplug.operations
-share/apps/plasma/services/modifierkeystate.operations
 share/apps/plasma/services/mpris2.operations
 share/apps/plasma/services/notifications.operations
 share/apps/plasma/services/org.kde.places.operations
@@ -1803,8 +1800,6 @@ share/kde4/services/plasma-dataengine-favicons.desktop
 share/kde4/services/plasma-dataengine-filebrowser.desktop
 share/kde4/services/plasma-dataengine-geolocation.desktop
 share/kde4/services/plasma-dataengine-hotplug.desktop
-share/kde4/services/plasma-dataengine-keystate.desktop
-share/kde4/services/plasma-dataengine-mouse.desktop
 share/kde4/services/plasma-dataengine-mpris2.desktop
 share/kde4/services/plasma-dataengine-notifications.desktop
 share/kde4/services/plasma-dataengine-places.desktop

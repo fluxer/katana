@@ -283,7 +283,6 @@ include/KDE/KNSBookmarkExporter
 include/KDE/KNSBookmarkExporterImpl
 include/KDE/KNSBookmarkImporter
 include/KDE/KNSBookmarkImporterImpl
-include/KDE/KNTLM
 include/KDE/KNameAndUrlInputDialog
 include/KDE/KNewFileMenu
 include/KDE/KNewPasswordDialog
@@ -834,8 +833,6 @@ include/kio/job.h
 include/kio/jobclasses.h
 include/kio/jobuidelegate.h
 include/kio/kio_export.h
-include/kio/kntlm.h
-include/kio/kntlm_export.h
 include/kio/metainfojob.h
 include/kio/netaccess.h
 include/kio/paste.h
@@ -847,7 +844,6 @@ include/kio/slave.h
 include/kio/slavebase.h
 include/kio/slaveconfig.h
 include/kio/slaveinterface.h
-include/kio/sslui.h
 include/kio/thumbcreator.h
 include/kio/thumbsequencecreator.h
 include/kio/udsentry.h
@@ -1219,15 +1215,12 @@ lib/emoticonstheme_adium.so
 lib/emoticonstheme_kde.so
 lib/emoticonstheme_pidgin.so
 lib/emoticonstheme_xmpp.so
-lib/kcm_ssl.so
 lib/kde4/plugins/designer/kdewidgets.so
 lib/kde4/plugins/imageformats/kimg_magick.so
 lib/kde4/plugins/imageformats/kimg_webp.so
 lib/kde4/plugins/kauth/backend/kauth_backend_plugin.so
 lib/kde4/plugins/kauth/helper/kauth_helper_plugin.so
 lib/kded_kaudioplayer.so
-lib/kded_kssld.so
-lib/kded_proxyscout.so
 lib/kfilemodule.so
 lib/kio_file.so
 lib/kio_ftp.so
@@ -1269,9 +1262,6 @@ lib/libkmediaplayer.so.4.21
 lib/libknotifyconfig.so
 lib/libknotifyconfig.so.4
 lib/libknotifyconfig.so.4.21
-lib/libkntlm.so
-lib/libkntlm.so.4
-lib/libkntlm.so.4.21
 lib/libkparts.so
 lib/libkparts.so.4
 lib/libkparts.so.4.21
@@ -1292,7 +1282,6 @@ lib/libsolid.so.4
 lib/libsolid.so.4.21
 libexec/kde4/kioslave
 libexec/kde4/klauncher
-libexec/kde4/kpac_dhcp_helper
 libexec/kde4/lnusertemp
 share/applications/kde4/kmailservice.desktop
 share/applications/kde4/ktelnetservice.desktop
@@ -1437,7 +1426,6 @@ share/apps/kdewidgets/pics/kurllabel.png
 share/apps/kdewidgets/pics/kurlrequester.png
 share/apps/plasma/services/dataengineservice.operations
 share/apps/plasma/services/plasmoidservice.operations
-share/apps/proxyscout/proxyscout.notifyrc
 share/config/accept-languages.codes
 share/config/colors/40.colors
 share/config/colors/Oxygen.colors
@@ -1474,10 +1462,7 @@ share/kde4/services/file.protocol
 share/kde4/services/ftp.protocol
 share/kde4/services/http.protocol
 share/kde4/services/https.protocol
-share/kde4/services/kcm_ssl.desktop
 share/kde4/services/kded/kaudioplayer.desktop
-share/kde4/services/kded/kssld.desktop
-share/kde4/services/kded/proxyscout.desktop
 share/kde4/services/kfilemodule.desktop
 share/kde4/services/metainfo.protocol
 share/kde4/services/mms.protocol
