@@ -320,7 +320,6 @@ lib/kgreet_generic.so
 lib/kgreet_winbind.so
 lib/kio_applications.so
 lib/kio_archive.so
-lib/kio_bookmarks.so
 lib/kio_camera.so
 lib/kio_desktop.so
 lib/kio_filter.so
@@ -856,7 +855,6 @@ share/apps/kglobalaccel/kglobalaccel.notifyrc
 share/apps/khotkeys/defaults.khotkeys
 share/apps/khotkeys/printscreen.khotkeys
 share/apps/kinfocenter/kinfocenterui.rc
-share/apps/kio_bookmarks/kio_bookmarks.css
 share/apps/kio_desktop/DesktopLinks/Home.desktop
 share/apps/kio_desktop/directory.desktop
 share/apps/kio_desktop/directory.trash
@@ -1604,7 +1602,6 @@ share/kde4/services/ServiceMenus/installfont.desktop
 share/kde4/services/applications.protocol
 share/kde4/services/ar.protocol
 share/kde4/services/autostart.desktop
-share/kde4/services/bookmarks.protocol
 share/kde4/services/bzip.protocol
 share/kde4/services/bzip2.protocol
 share/kde4/services/clock.desktop

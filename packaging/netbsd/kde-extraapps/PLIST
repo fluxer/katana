@@ -280,6 +280,7 @@ lib/okularGenerator_epub.so
 lib/okularGenerator_fax.so
 lib/okularGenerator_fb.so
 lib/okularGenerator_ghostview.so
+lib/okularGenerator_md.so
 lib/okularGenerator_ooo.so
 lib/okularGenerator_plucker.so
 lib/okularGenerator_poppler.so
@@ -372,6 +373,7 @@ share/applications/kde4/okularApplication_epub.desktop
 share/applications/kde4/okularApplication_fax.desktop
 share/applications/kde4/okularApplication_fb.desktop
 share/applications/kde4/okularApplication_ghostview.desktop
+share/applications/kde4/okularApplication_md.desktop
 share/applications/kde4/okularApplication_ooo.desktop
 share/applications/kde4/okularApplication_pdf.desktop
 share/applications/kde4/okularApplication_plucker.desktop
@@ -1033,6 +1035,7 @@ share/kde4/services/libokularGenerator_epub.desktop
 share/kde4/services/libokularGenerator_fax.desktop
 share/kde4/services/libokularGenerator_fb.desktop
 share/kde4/services/libokularGenerator_ghostview.desktop
+share/kde4/services/libokularGenerator_md.desktop
 share/kde4/services/libokularGenerator_ooo.desktop
 share/kde4/services/libokularGenerator_plucker.desktop
 share/kde4/services/libokularGenerator_poppler.desktop
@@ -1046,6 +1049,7 @@ share/kde4/services/okularEPub.desktop
 share/kde4/services/okularFax.desktop
 share/kde4/services/okularFb.desktop
 share/kde4/services/okularGhostview.desktop
+share/kde4/services/okularMarkdown.desktop
 share/kde4/services/okularOoo.desktop
 share/kde4/services/okularPlucker.desktop
 share/kde4/services/okularPoppler.desktop
