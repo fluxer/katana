@@ -341,7 +341,6 @@ include/KDE/KPluginLoader
 include/KDE/KPluginSelector
 include/KDE/KPopupFrame
 include/KDE/KPreviewWidgetBase
-include/KDE/KPrintPreview
 include/KDE/KProcess
 include/KDE/KProgressDialog
 include/KDE/KPropertiesDialog
@@ -928,8 +927,6 @@ include/kplugininfo.h
 include/kpluginloader.h
 include/kpluginselector.h
 include/kpreviewwidgetbase.h
-include/kprintpreview.h
-include/kprintutils_export.h
 include/kprocess.h
 include/kprogressdialog.h
 include/kpropertiesdialog.h
@@ -1264,9 +1261,6 @@ lib/libknotifyconfig.so.4.21
 lib/libkparts.so
 lib/libkparts.so.4
 lib/libkparts.so.4.21
-lib/libkprintutils.so
-lib/libkprintutils.so.4
-lib/libkprintutils.so.4.21
 lib/libkpty.so
 lib/libkpty.so.4
 lib/libkpty.so.4.21
