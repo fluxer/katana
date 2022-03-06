@@ -71,5 +71,4 @@ DEPENDS += qemu-[0-9]*:../../emulators/qemu
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
 .include "../../katana/poppler-katie/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
-.include "../../mk/jpeg.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
