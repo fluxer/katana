@@ -61,7 +61,6 @@ DEPENDS += qemu-[0-9]*:../../emulators/qemu
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/djvulibre-lib/buildlink3.mk"
 .include "../../graphics/exiv2/buildlink3.mk"
-.include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/sane-backends/buildlink3.mk"
 .include "../../textproc/ebook-tools/buildlink3.mk"
 .include "../../net/libmms/buildlink3.mk"
