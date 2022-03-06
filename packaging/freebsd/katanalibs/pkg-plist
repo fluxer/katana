@@ -302,8 +302,6 @@ include/KDE/KPageWidgetItem
 include/KDE/KPageWidgetModel
 include/KDE/KParts/BrowserExtension
 include/KDE/KParts/BrowserHostExtension
-include/KDE/KParts/BrowserInterface
-include/KDE/KParts/BrowserRun
 include/KDE/KParts/Event
 include/KDE/KParts/Factory
 include/KDE/KParts/FileInfoExtension
@@ -341,7 +339,6 @@ include/KDE/KPluginLoader
 include/KDE/KPluginSelector
 include/KDE/KPopupFrame
 include/KDE/KPreviewWidgetBase
-include/KDE/KPrintPreview
 include/KDE/KProcess
 include/KDE/KProgressDialog
 include/KDE/KPropertiesDialog
@@ -897,9 +894,6 @@ include/kpageview.h
 include/kpagewidget.h
 include/kpagewidgetmodel.h
 include/kparts/browserextension.h
-include/kparts/browserinterface.h
-include/kparts/browseropenorsavequestion.h
-include/kparts/browserrun.h
 include/kparts/event.h
 include/kparts/factory.h
 include/kparts/fileinfoextension.h
@@ -928,8 +922,6 @@ include/kplugininfo.h
 include/kpluginloader.h
 include/kpluginselector.h
 include/kpreviewwidgetbase.h
-include/kprintpreview.h
-include/kprintutils_export.h
 include/kprocess.h
 include/kprogressdialog.h
 include/kpropertiesdialog.h
@@ -1264,9 +1256,6 @@ lib/libknotifyconfig.so.4.21
 lib/libkparts.so
 lib/libkparts.so.4
 lib/libkparts.so.4.21
-lib/libkprintutils.so
-lib/libkprintutils.so.4
-lib/libkprintutils.so.4.21
 lib/libkpty.so
 lib/libkpty.so.4
 lib/libkpty.so.4.21
@@ -1493,7 +1482,6 @@ share/kde4/services/rtsp.protocol
 share/kde4/services/rtspt.protocol
 share/kde4/services/rtspu.protocol
 share/kde4/servicetypes/application.desktop
-share/kde4/servicetypes/browserview.desktop
 share/kde4/servicetypes/dbustexttospeech.desktop
 share/kde4/servicetypes/kcmodule.desktop
 share/kde4/servicetypes/kcmoduleinit.desktop
