@@ -302,7 +302,6 @@ include/KDE/KPageWidget
 include/KDE/KPageWidgetItem
 include/KDE/KPageWidgetModel
 include/KDE/KParts/BrowserExtension
-include/KDE/KParts/BrowserHostExtension
 include/KDE/KParts/Event
 include/KDE/KParts/Factory
 include/KDE/KParts/FileInfoExtension
@@ -320,7 +319,6 @@ include/KDE/KParts/Plugin
 include/KDE/KParts/ReadOnlyPart
 include/KDE/KParts/ReadWritePart
 include/KDE/KParts/StatusBarExtension
-include/KDE/KParts/WindowArgs
 include/KDE/KPassivePopup
 include/KDE/KPassivePopupMessageHandler
 include/KDE/KPasswordDialog
