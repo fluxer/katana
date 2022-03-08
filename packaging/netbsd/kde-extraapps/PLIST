@@ -389,9 +389,9 @@ share/apps/akregator/pics/kmmsgnew.png
 share/apps/akregator/pics/kmmsgunseen.png
 share/apps/ark/ark_part.rc
 share/apps/ark/arkui.rc
-share/apps/bball/bball.svgz
+share/apps/bball/bball.png
 share/apps/bball/bounce.ogg
-share/apps/bball/football.svgz
+share/apps/bball/football.png
 share/apps/bluedevil/bluedevil.notifyrc
 share/apps/bluedevilwizard/pin-code-database.xml
 share/apps/desktoptheme/default/bubblemon/bubble.svg
@@ -410,8 +410,7 @@ share/apps/desktoptheme/default/weatherstation/wind_arrows.svgz
 share/apps/desktoptheme/default/widgets/eyes.svg
 share/apps/desktoptheme/default/widgets/luna.svgz
 share/apps/desktoptheme/default/widgets/notes.svgz
-share/apps/desktoptheme/default/widgets/previewer-16.svgz
-share/apps/desktoptheme/default/widgets/previewer-22.svgz
+share/apps/desktoptheme/default/widgets/previewer.svgz
 share/apps/desktoptheme/default/widgets/timer.svgz
 share/apps/filelight/filelightui.rc
 share/apps/filelightpart/filelightpartui.rc
@@ -603,7 +602,7 @@ share/apps/plasma/plasmoids/konsoleprofiles/contents/ui/konsoleprofiles.qml
 share/apps/plasma/plasmoids/konsoleprofiles/metadata.desktop
 share/apps/plasma/plasmoids/nowplaying/contents/code/service.js
 share/apps/plasma/plasmoids/nowplaying/contents/config/main.xml
-share/apps/plasma/plasmoids/nowplaying/contents/theme/nowplaying/nocover.svgz
+share/apps/plasma/plasmoids/nowplaying/contents/ui/images/nocover.png
 share/apps/plasma/plasmoids/nowplaying/contents/ui/AlbumArt.qml
 share/apps/plasma/plasmoids/nowplaying/contents/ui/CompactLayout.qml
 share/apps/plasma/plasmoids/nowplaying/contents/ui/Controls.qml

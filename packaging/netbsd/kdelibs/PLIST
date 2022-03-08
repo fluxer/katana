@@ -146,9 +146,6 @@ include/KDE/KDualAction
 include/KDE/KEMailSettings
 include/KDE/KEditListWidget
 include/KDE/KEditToolBar
-include/KDE/KEmoticons
-include/KDE/KEmoticonsProvider
-include/KDE/KEmoticonsTheme
 include/KDE/KEncodingFileDialog
 include/KDE/KExtendableItemDelegate
 include/KDE/KFadeWidgetEffect
@@ -750,10 +747,6 @@ include/kdualaction.h
 include/keditlistwidget.h
 include/kedittoolbar.h
 include/kemailsettings.h
-include/kemoticons.h
-include/kemoticons_export.h
-include/kemoticonsprovider.h
-include/kemoticonstheme.h
 include/kencodingdetector.h
 include/kencodingfiledialog.h
 include/kexiv2.h
@@ -1201,10 +1194,6 @@ include/sonnet/dictionarycombobox.h
 include/sonnet/globals.h
 include/sonnet/highlighter.h
 include/sonnet/speller.h
-lib/emoticonstheme_adium.so
-lib/emoticonstheme_kde.so
-lib/emoticonstheme_pidgin.so
-lib/emoticonstheme_xmpp.so
 lib/kde4/plugins/designer/kdewidgets.so
 lib/kde4/plugins/imageformats/kimg_magick.so
 lib/kde4/plugins/imageformats/kimg_webp.so
@@ -1231,9 +1220,6 @@ lib/libkdeui.so.4.21
 lib/libkdnssd.so
 lib/libkdnssd.so.4
 lib/libkdnssd.so.4.21
-lib/libkemoticons.so
-lib/libkemoticons.so.4
-lib/libkemoticons.so.4.21
 lib/libkexiv2.so
 lib/libkexiv2.so.4
 lib/libkexiv2.so.4.21
@@ -1441,10 +1427,6 @@ share/dbus-1/interfaces/org.kde.kaudioplayer.xml
 share/dbus-1/interfaces/org.kde.kded.xml
 share/dbus-1/interfaces/org.kde.kglobalaccel.Component.xml
 share/dbus-1/interfaces/org.kde.kio.FileUndoManager.xml
-share/kde4/services/emoticonstheme_adium.desktop
-share/kde4/services/emoticonstheme_kde.desktop
-share/kde4/services/emoticonstheme_pidgin.desktop
-share/kde4/services/emoticonstheme_xmpp.desktop
 share/kde4/services/file.protocol
 share/kde4/services/ftp.protocol
 share/kde4/services/http.protocol
@@ -1485,7 +1467,6 @@ share/kde4/servicetypes/dbustexttospeech.desktop
 share/kde4/servicetypes/kcmodule.desktop
 share/kde4/servicetypes/kcmoduleinit.desktop
 share/kde4/servicetypes/kdedmodule.desktop
-share/kde4/servicetypes/kemoticonsTheme.desktop
 share/kde4/servicetypes/kfileitemactionplugin.desktop
 share/kde4/servicetypes/kfilewrite.desktop
 share/kde4/servicetypes/kiofilemodule.desktop
