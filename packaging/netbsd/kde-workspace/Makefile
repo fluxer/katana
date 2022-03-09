@@ -107,7 +107,6 @@ DEPENDS += consolekit-[0-9]*:../../sysutils/consolekit
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../devel/libgphoto2/buildlink3.mk"
 .include "../../devel/libmtp/buildlink3.mk"
-.include "../../katana/strigi/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
 # TODO: fails to build on Linux
 # .include "../../security/libssh/buildlink3.mk"
