@@ -165,7 +165,6 @@ include/KDE/KFilePlacesView
 include/KDE/KFilePreviewGenerator
 include/KDE/KFileTreeView
 include/KDE/KFileWidget
-include/KDE/KFileWritePlugin
 include/KDE/KFilterBase
 include/KDE/KFilterDev
 include/KDE/KFilterProxySearchLine
@@ -767,7 +766,6 @@ include/kfileplacesview.h
 include/kfilepreviewgenerator.h
 include/kfiletreeview.h
 include/kfilewidget.h
-include/kfilewriteplugin.h
 include/kfilterbase.h
 include/kfilterdev.h
 include/kfilterproxysearchline.h
@@ -1155,7 +1153,6 @@ include/plasma/widgets/textedit.h
 include/plasma/widgets/toolbutton.h
 include/plasma/widgets/treeview.h
 include/plasma/windoweffects.h
-include/predicateproperties.h
 include/qtest_kde.h
 include/solid/acadapter.h
 include/solid/audiointerface.h
@@ -1304,7 +1301,6 @@ share/apps/cmake/modules/FindSane.cmake
 share/apps/cmake/modules/FindSensors.cmake
 share/apps/cmake/modules/FindSharedMimeInfo.cmake
 share/apps/cmake/modules/FindSpeechd.cmake
-share/apps/cmake/modules/FindStrigi.cmake
 share/apps/cmake/modules/FindSudo.cmake
 share/apps/cmake/modules/FindTaglib.cmake
 share/apps/cmake/modules/FindWebP.cmake
@@ -1463,7 +1459,6 @@ share/kde4/servicetypes/kcmodule.desktop
 share/kde4/servicetypes/kcmoduleinit.desktop
 share/kde4/servicetypes/kdedmodule.desktop
 share/kde4/servicetypes/kfileitemactionplugin.desktop
-share/kde4/servicetypes/kfilewrite.desktop
 share/kde4/servicetypes/kiofilemodule.desktop
 share/kde4/servicetypes/kpart.desktop
 share/kde4/servicetypes/kplugininfo.desktop
