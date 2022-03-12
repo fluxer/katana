@@ -116,7 +116,6 @@ include/KDE/KConfigSkeletonItem
 include/KDE/KCrash
 include/KDE/KCurrencyCode
 include/KDE/KCursor
-include/KDE/KDBusServiceStarter
 include/KDE/KDEDModule
 include/KDE/KDEPrintDialog
 include/KDE/KDateComboBox
@@ -716,7 +715,6 @@ include/kdatetimeedit.h
 include/kdatetimewidget.h
 include/kdatewidget.h
 include/kdbusconnectionpool.h
-include/kdbusservicestarter.h
 include/kde_file.h
 include/kde_terminal_interface.h
 include/kdebug.h
