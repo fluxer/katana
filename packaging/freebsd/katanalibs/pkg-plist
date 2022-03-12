@@ -206,7 +206,6 @@ include/KDE/KIO/JobClasses
 include/KDE/KIO/JobUiDelegate
 include/KDE/KIO/ListJob
 include/KDE/KIO/MetaData
-include/KDE/KIO/MetaInfoJob
 include/KDE/KIO/MimetypeJob
 include/KDE/KIO/MultiGetJob
 include/KDE/KIO/NetAccess
@@ -818,7 +817,6 @@ include/kio/job.h
 include/kio/jobclasses.h
 include/kio/jobuidelegate.h
 include/kio/kio_export.h
-include/kio/metainfojob.h
 include/kio/netaccess.h
 include/kio/paste.h
 include/kio/previewjob.h
@@ -1203,7 +1201,6 @@ lib/kfilemodule.so
 lib/kio_file.so
 lib/kio_ftp.so
 lib/kio_http.so
-lib/kio_metainfo.so
 lib/libkcmutils.so
 lib/libkcmutils.so.4
 lib/libkcmutils.so.4.21
@@ -1432,7 +1429,6 @@ share/kde4/services/http.protocol
 share/kde4/services/https.protocol
 share/kde4/services/kded/kaudioplayer.desktop
 share/kde4/services/kfilemodule.desktop
-share/kde4/services/metainfo.protocol
 share/kde4/services/mms.protocol
 share/kde4/services/mmst.protocol
 share/kde4/services/mmsu.protocol

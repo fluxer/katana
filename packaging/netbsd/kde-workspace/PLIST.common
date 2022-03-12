@@ -167,6 +167,7 @@ lib/kcm_info.so
 lib/kcm_infosummary.so
 lib/kcm_input.so
 lib/kcm_kdebugconfig.so
+lib/kcm_kmetainfoconfig.so
 lib/kcm_kded.so
 lib/kcm_kdm.so
 lib/kcm_kdnssd.so
@@ -1593,6 +1594,7 @@ share/kde4/services/ioports.desktop
 share/kde4/services/kaccess.desktop
 share/kde4/services/kcm_infosummary.desktop
 share/kde4/services/kcm_kdebugconfig.desktop
+share/kde4/services/kcm_kmetainfoconfig.desktop
 share/kde4/services/kcm_kdnssd.desktop
 share/kde4/services/kcm_keyboard.desktop
 share/kde4/services/kcm_memory.desktop

@@ -630,15 +630,6 @@ share/apps/plasma/plasmoids/org.kde.printmanager/contents/ui/private/RoundShadow
 share/apps/plasma/plasmoids/org.kde.printmanager/metadata.desktop
 share/apps/plasma/services/mixer.operations
 share/apps/plasma/services/org.kde.plasma.dataengine.konsoleprofiles.operations
-share/apps/plasma/wallpapers/org.kde.animals/contents/ui/Animal.qml
-share/apps/plasma/wallpapers/org.kde.animals/contents/ui/animals.qml
-share/apps/plasma/wallpapers/org.kde.animals/metadata.desktop
-share/apps/plasma/wallpapers/org.kde.haenau/contents/ui/BackgroundElement.qml
-share/apps/plasma/wallpapers/org.kde.haenau/contents/ui/BottomBackgroundElement.qml
-share/apps/plasma/wallpapers/org.kde.haenau/contents/ui/RightBackgroundElement.qml
-share/apps/plasma/wallpapers/org.kde.haenau/contents/ui/main.qml
-share/apps/plasma/wallpapers/org.kde.haenau/contents/ui/wallpaper.svgz
-share/apps/plasma/wallpapers/org.kde.haenau/metadata.desktop
 share/apps/plasma/wallpapers/org.kde.hunyango/contents/ui/main.qml
 share/apps/plasma/wallpapers/org.kde.hunyango/contents/ui/wallpaper.svgz
 share/apps/plasma/wallpapers/org.kde.hunyango/metadata.desktop
