@@ -7,18 +7,18 @@ Vcs-Git: git://github.com/fluxer/kde-extraapps.git
 Vcs-browser: https://github.com/fluxer/kde-extraapps
 Standards-Version: 4.21.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev, katana-baseapps,
- katana-workspace, xorg-dev, zlib1g-dev, libgpgme-dev, libacl1-dev,
- libattr1-dev, libarchive-dev, libasound2-dev, libatasmart-dev, libavcodec-dev,
- libavformat-dev, libavutil-dev, libblkid-dev, libcups2-dev, libdjvulibre-dev,
+ katana-workspace, xorg-dev, zlib1g-dev, libacl1-dev, libavcodec-dev,
+ libattr1-dev, libarchive-dev, libasound2-dev, libatasmart-dev,
+ libavformat-dev, libavutil-dev, libblkid-dev, libdjvulibre-dev,
  libepub-dev, libexiv2-dev, libfreetype6-dev, libgcrypt20-dev,
  libgettextpo-dev, libgmp-dev, libmms-dev, libparted-dev,
- libqalculate-dev, libsane-dev, libspectre-dev, libspeechd-dev, libswscale-dev,
+ libqalculate-dev, libspectre-dev, libspeechd-dev, libswscale-dev,
  libtag1-dev, uuid-dev, libudev-dev [linux-any], libvncserver-dev,
- freerdp2-dev, libboost-dev, libffmpegthumbnailer-dev, libbz2-dev,
+ freerdp2-dev, libffmpegthumbnailer-dev, libbz2-dev,
  libtorrent-rasterbar-dev, libdbusmenu-katie, libpoppler-katie
 
 Package: katana-extraapps
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
-Depends: ${shlibs:Depends}, ${misc:Depends}, freerdp2-x11, bluez-obexd, xsltproc,
+Depends: ${shlibs:Depends}, ${misc:Depends}, freerdp2-x11, xsltproc,
  speech-dispatcher, ghostscript, qemu-system-x86
 Description: Katana extra applications
