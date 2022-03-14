@@ -157,7 +157,6 @@ include/KDE/KFileItemList
 include/KDE/KFileItemListProperties
 include/KDE/KFileMetaDataWidget
 include/KDE/KFileMetaInfo
-include/KDE/KFileMetaInfoGroup
 include/KDE/KFileMetaInfoItem
 include/KDE/KFilePlacesModel
 include/KDE/KFilePlacesView
@@ -490,8 +489,6 @@ include/KDE/KUrlRequesterDialog
 include/KDE/KUser
 include/KDE/KUserGroup
 include/KDE/KVBox
-include/KDE/KViewStateMaintainer
-include/KDE/KViewStateSaver
 include/KDE/KWallet/Wallet
 include/KDE/KWidgetItemDelegate
 include/KDE/KWidgetJobTracker
@@ -1059,8 +1056,6 @@ include/kurlrequester.h
 include/kurlrequesterdialog.h
 include/kuser.h
 include/kvbox.h
-include/kviewstatemaintainer.h
-include/kviewstatesaver.h
 include/kwallet.h
 include/kwidgetitemdelegate.h
 include/kwidgetjobtracker.h
