@@ -283,7 +283,6 @@ include/KDE/KNotification
 include/KDE/KNotificationRestrictions
 include/KDE/KNotifyConfigWidget
 include/KDE/KNumInput
-include/KDE/KOCRDialog
 include/KDE/KOpenWithDialog
 include/KDE/KOperaBookmarkExporterImpl
 include/KDE/KOperaBookmarkImporter
@@ -359,7 +358,6 @@ include/KDE/KRun
 include/KDE/KSambaShare
 include/KDE/KSambaShareData
 include/KDE/KSaveFile
-include/KDE/KScanDialog
 include/KDE/KSelectAction
 include/KDE/KSelectionOwner
 include/KDE/KSelectionWatcher
@@ -937,7 +935,6 @@ include/krun.h
 include/ksambashare.h
 include/ksambasharedata.h
 include/ksavefile.h
-include/kscan.h
 include/kselectaction.h
 include/kselector.h
 include/kseparator.h
@@ -1460,7 +1457,6 @@ share/kde4/servicetypes/kpropertiesdialogplugin.desktop
 share/kde4/servicetypes/kregexpeditor.desktop
 share/kde4/servicetypes/krop.desktop
 share/kde4/servicetypes/krwp.desktop
-share/kde4/servicetypes/kscan.desktop
 share/kde4/servicetypes/ktexteditor.desktop
 share/kde4/servicetypes/ktexteditor_loadsavefiltercheckplugin.desktop
 share/kde4/servicetypes/ktexteditorplugin.desktop
