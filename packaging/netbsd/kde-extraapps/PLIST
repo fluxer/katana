@@ -66,6 +66,7 @@ lib/kcm_kget_metalinkfactory.so
 lib/kcm_kget_mirrorsearchfactory.so
 lib/kcm_kget_mmsfactory.so
 lib/kcm_kget_multisegkiofactory.so
+lib/kcm_kget_torrentfactory.so
 lib/kcm_krdc_rdpplugin.so
 lib/kcm_krdc_vncplugin.so
 lib/kcm_krunner_audioplayercontrol.so
@@ -617,6 +618,7 @@ share/kde4/services/kerfuffle_libbz2.desktop
 share/kde4/services/kerfuffle_libgz.desktop
 share/kde4/services/kerfuffle_libxz.desktop
 share/kde4/services/kget_torrentfactory.desktop
+share/kde4/services/kget_torrentfactory_config.desktop
 share/kde4/services/kget_checksumsearchfactory.desktop
 share/kde4/services/kget_checksumsearchfactory_config.desktop
 share/kde4/services/kget_kiofactory.desktop
