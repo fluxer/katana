@@ -1261,7 +1261,6 @@ share/apps/cmake/modules/FindGpgme.cmake
 share/apps/cmake/modules/FindGphoto2.cmake
 share/apps/cmake/modules/FindKDE4Internal.cmake
 share/apps/cmake/modules/FindKDE4Workspace.cmake
-share/apps/cmake/modules/FindKSane.cmake
 share/apps/cmake/modules/FindLIBPARTED.cmake
 share/apps/cmake/modules/FindLibATASmart.cmake
 share/apps/cmake/modules/FindLibDRM.cmake
@@ -1287,7 +1286,6 @@ share/apps/cmake/modules/FindPopplerQt4.cmake
 share/apps/cmake/modules/FindQalculate.cmake
 share/apps/cmake/modules/FindRAW1394.cmake
 share/apps/cmake/modules/FindSamba.cmake
-share/apps/cmake/modules/FindSane.cmake
 share/apps/cmake/modules/FindSensors.cmake
 share/apps/cmake/modules/FindSharedMimeInfo.cmake
 share/apps/cmake/modules/FindSpeechd.cmake
@@ -1415,11 +1413,7 @@ share/kde4/services/http.protocol
 share/kde4/services/https.protocol
 share/kde4/services/kded/kaudioplayer.desktop
 share/kde4/services/kfilemodule.desktop
-share/kde4/services/mms.protocol
-share/kde4/services/mmst.protocol
-share/kde4/services/mmsu.protocol
 share/kde4/services/plasma-applet-extenderapplet.desktop
-share/kde4/services/pnm.protocol
 share/kde4/services/qimageioplugins/pbm.desktop
 share/kde4/services/qimageioplugins/pgm.desktop
 share/kde4/services/qimageioplugins/ppm.desktop
@@ -1440,9 +1434,6 @@ share/kde4/services/qimageioplugins/webp.desktop
 share/kde4/services/qimageioplugins/x-webp.desktop
 share/kde4/services/qimageioplugins/x-dcraw.desktop
 share/kde4/services/qimageioplugins/xcf.desktop
-share/kde4/services/rtsp.protocol
-share/kde4/services/rtspt.protocol
-share/kde4/services/rtspu.protocol
 share/kde4/servicetypes/application.desktop
 share/kde4/servicetypes/dbustexttospeech.desktop
 share/kde4/servicetypes/kcmodule.desktop

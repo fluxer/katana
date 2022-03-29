@@ -157,7 +157,6 @@ lib/plasma_applet_luna.so
 lib/plasma_applet_magnifique.so
 lib/plasma_applet_notes.so
 lib/plasma_applet_paste.so
-lib/plasma_applet_previewer.so
 lib/plasma_applet_qalculate.so
 lib/plasma_applet_showdesktop.so
 lib/plasma_applet_spellcheck.so
@@ -236,7 +235,6 @@ share/apps/desktoptheme/default/weatherstation/wind_arrows.svgz
 share/apps/desktoptheme/default/widgets/eyes.svg
 share/apps/desktoptheme/default/widgets/luna.svgz
 share/apps/desktoptheme/default/widgets/notes.svgz
-share/apps/desktoptheme/default/widgets/previewer.svgz
 share/apps/desktoptheme/default/widgets/timer.svgz
 share/apps/filelight/filelightui.rc
 share/apps/filelightpart/filelightpartui.rc
@@ -472,7 +470,6 @@ share/icons/hicolor/128x128/actions/ktimer.png
 share/icons/hicolor/128x128/actions/kuser.png
 share/icons/hicolor/128x128/actions/lifegame.png
 share/icons/hicolor/128x128/actions/luna.png
-share/icons/hicolor/128x128/actions/previewer.png
 share/icons/hicolor/128x128/actions/qalculate-applet.png
 share/icons/hicolor/128x128/apps/ark.png
 share/icons/hicolor/128x128/apps/gwenview.png
@@ -492,7 +489,6 @@ share/icons/hicolor/16x16/actions/lifegame.png
 share/icons/hicolor/16x16/actions/luna.png
 share/icons/hicolor/16x16/actions/male.png
 share/icons/hicolor/16x16/actions/nospeak.png
-share/icons/hicolor/16x16/actions/previewer.png
 share/icons/hicolor/16x16/actions/speak.png
 share/icons/hicolor/16x16/apps/ark.png
 share/icons/hicolor/16x16/apps/gwenview.png
@@ -507,7 +503,6 @@ share/icons/hicolor/22x22/actions/kuser.png
 share/icons/hicolor/22x22/actions/lifegame.png
 share/icons/hicolor/22x22/actions/luna.png
 share/icons/hicolor/22x22/actions/nospeak.png
-share/icons/hicolor/22x22/actions/previewer.png
 share/icons/hicolor/22x22/actions/speak.png
 share/icons/hicolor/22x22/apps/ark.png
 share/icons/hicolor/22x22/apps/gwenview.png
@@ -525,7 +520,6 @@ share/icons/hicolor/32x32/actions/kuser.png
 share/icons/hicolor/32x32/actions/lifegame.png
 share/icons/hicolor/32x32/actions/luna.png
 share/icons/hicolor/32x32/actions/nospeak.png
-share/icons/hicolor/32x32/actions/previewer.png
 share/icons/hicolor/32x32/actions/speak.png
 share/icons/hicolor/32x32/actions/view_filelight.png
 share/icons/hicolor/32x32/apps/ark.png
@@ -542,7 +536,6 @@ share/icons/hicolor/48x48/actions/kuser.png
 share/icons/hicolor/48x48/actions/lifegame.png
 share/icons/hicolor/48x48/actions/luna.png
 share/icons/hicolor/48x48/actions/nospeak.png
-share/icons/hicolor/48x48/actions/previewer.png
 share/icons/hicolor/48x48/actions/qalculate-applet.png
 share/icons/hicolor/48x48/actions/speak.png
 share/icons/hicolor/48x48/apps/ark.png
@@ -557,7 +550,6 @@ share/icons/hicolor/64x64/actions/kmix.png
 share/icons/hicolor/64x64/actions/kuser.png
 share/icons/hicolor/64x64/actions/lifegame.png
 share/icons/hicolor/64x64/actions/luna.png
-share/icons/hicolor/64x64/actions/previewer.png
 share/icons/hicolor/64x64/apps/ark.png
 share/icons/hicolor/64x64/apps/gwenview.png
 share/icons/hicolor/64x64/apps/kget.png
@@ -579,7 +571,6 @@ share/kde4/services/CharacterRunner.desktop
 share/kde4/services/ServiceMenus/ark_addtoservicemenu.desktop
 share/kde4/services/ServiceMenus/ark_servicemenu.desktop
 share/kde4/services/ServiceMenus/kget_download.desktop
-share/kde4/services/ServiceMenus/preview.desktop
 share/kde4/services/ServiceMenus/slideshow.desktop
 share/kde4/services/ServiceMenus/smb2rdc.desktop
 share/kde4/services/about-distro.desktop
@@ -668,7 +659,6 @@ share/kde4/services/plasma-applet-luna.desktop
 share/kde4/services/plasma-applet-magnifique.desktop
 share/kde4/services/plasma-applet-nowplaying.desktop
 share/kde4/services/plasma-applet-paste.desktop
-share/kde4/services/plasma-applet-previewer.desktop
 share/kde4/services/plasma-applet-qalculate.desktop
 share/kde4/services/plasma-applet-showdesktop.desktop
 share/kde4/services/plasma-applet-spellcheck.desktop
