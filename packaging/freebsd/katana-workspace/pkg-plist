@@ -2690,5 +2690,4 @@ share/wallpapers/stripes.png.desktop
 share/xsessions/kde-plasma-safe.desktop
 share/xsessions/kde-plasma.desktop
 share/pixmaps/plasma.png
-@dir share/config/kdm/sessions
 @dir(kdm,kdm,0755) /var/lib/kdm
