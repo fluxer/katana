@@ -13,22 +13,18 @@ DISTFILES = master.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-workspace-master
 
-USES = compiler:c++11-lang pkgconfig cmake xorg perl5 samba gl desktop-file-utils \
+USES = compiler:c++11-lang pkgconfig cmake xorg samba gl desktop-file-utils \
 	shared-mime-info shebangfix
-USE_XORG = x11 xinerama xcursor xfixes xrender xtst xdamage xcomposite xres xdmcp xft xi xau \
+USE_XORG = x11 xinerama xcursor xfixes xrender xtst xdamage xcomposite xres xft xi xau \
 	xscrnsaver xrandr xext ice sm xcb xxf86vm
-USE_PERL5 = build
 USE_SAMBA = build run
 USE_GL = gl glu egl glesv2
 USE_LDCONFIG = yes
-SHEBANG_FILES = kdm/confproc.pl kcontrol/kfontinst/dbus/fontinst_x11
-USE_RC_SUBR = kdm
-USERS = kdm
-GROUPS = kdm
+SHEBANG_FILES = kcontrol/kfontinst/dbus/fontinst_x11
 # libusb, fortune and pam are not part of any package
 RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme \
-	gdb:devel/gdb xterm:x11/xterm Xorg:x11-servers/xorg-server \
+	gdb:devel/gdb Xorg:x11-servers/xorg-server \
 	${LOCALBASE}/share/fonts/dejavu/DejaVuSansMono.ttf:x11-fonts/dejavu \
 	wrestool:graphics/icoutils ddjvu:graphics/djvulibre xrdb:x11/xrdb xmessage:x11/xmessage \
 	xprop:x11/xprop xrandr:x11/xrandr setxkbmap:x11/setxkbmap xmodmap:x11/xmodmap \
@@ -42,12 +38,12 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libxcb-render-util.so:x11/xcb-util-renderutil libxcb-keysyms.so:x11/xcb-util-keysyms \
 	libxkbfile.so:x11/libxkbfile libpci.so:devel/libpci libqalculate.so:math/libqalculate \
 	libdrm.so:graphics/libdrm libpng.so:graphics/png libOpenEXR.so:graphics/openexr \
-	libmtp.so:multimedia/libmtp libssh.so:security/libssh libgphoto2.so:graphics/libgphoto2
+	libmtp.so:multimedia/libmtp libssh.so:security/libssh libgphoto2.so:graphics/libgphoto2 \
+	liblightdm-gobject-1.so:x11/lightdm
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/kde.pamd ${STAGEDIR}${PREFIX}/etc/pam.d/kde
-	${MKDIR} ${STAGEDIR}/var/lib/kdm
 
 .include <bsd.port.mk>

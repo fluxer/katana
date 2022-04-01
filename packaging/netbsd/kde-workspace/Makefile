@@ -21,21 +21,10 @@ USE_CMAKE = yes
 # static only on Linux
 CMAKE_ARGS = -DWITH_PCIUTILS=FALSE
 USE_LANGUAGES = c c++
-USE_TOOLS = pkg-config perl sh:run
-REPLACE_PERL = kdm/confproc.pl
-
-PKG_GROUPS = kdm
-PKG_USERS = kdm:kdm
-PKG_GECOS.kdm = Katana Display Manager
-PKG_HOME.kdm = ${VARBASE}/lib/kdm
-
-RCD_SCRIPTS = kdm
+USE_TOOLS = pkg-config sh:run
 
 post-extract:
 	${MKDIR} ${WRKDIR}/build
-
-post-install:
-	${RM} -f ${DESTDIR}${PREFIX}/share/config/kdm/*.bak
 
 SUBST_CLASSES = pciutils
 SUBST_STAGE.pciutils = pre-configure
@@ -45,7 +34,6 @@ SUBST_SED.pciutils = -e 's,<pci/pci.h>,<pciutils/pci.h>,g'
 
 DEPENDS = ariya-icons-[0-9]*:../../katana/ariya-icons
 DEPENDS += gdb-[0-9]*:../../devel/gdb
-DEPENDS += xterm-[0-9]*:../../x11/xterm
 DEPENDS += dejavu-ttf-[0-9]*:../../fonts/dejavu-ttf
 # see above
 # DEPENDS += pciutils-[0-9]*:../../sysutils/pciutils
@@ -82,7 +70,6 @@ DEPENDS += consolekit-[0-9]*:../../sysutils/consolekit
 .include "../../x11/libXdamage/buildlink3.mk"
 .include "../../x11/libXcomposite/buildlink3.mk"
 .include "../../x11/libXres/buildlink3.mk"
-.include "../../x11/libXdmcp/buildlink3.mk"
 .include "../../x11/libXft/buildlink3.mk"
 .include "../../x11/libXi/buildlink3.mk"
 .include "../../x11/libXau/buildlink3.mk"
