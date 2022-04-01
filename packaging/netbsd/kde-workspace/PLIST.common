@@ -1,5 +1,4 @@
 @comment $NetBSD$
-bin/genkdmconf
 bin/kaccess
 bin/kapplymousetheme
 bin/kbanner.kss
@@ -15,8 +14,6 @@ bin/kde-mv
 bin/kde-open
 bin/kde4-menu
 bin/kdeasciiquarium.kss
-bin/kdm
-bin/kdmctl
 bin/keditfiletype
 bin/kfile4
 bin/kfontinst
@@ -71,7 +68,6 @@ bin/startkde
 bin/systemsettings
 etc/dbus-1/system.d/org.kde.fontinst.conf
 etc/dbus-1/system.d/org.kde.kcontrol.kcmclock.conf
-etc/dbus-1/system.d/org.kde.kcontrol.kcmkdm.conf
 etc/dbus-1/system.d/org.kde.kcontrol.kcmkwallet.conf
 etc/dbus-1/system.d/org.kde.ksysguard.processlisthelper.conf
 etc/dbus-1/system.d/org.kde.soliduiserver.mountunmounthelper.conf
@@ -169,7 +165,6 @@ lib/kcm_input.so
 lib/kcm_kdebugconfig.so
 lib/kcm_kmetainfoconfig.so
 lib/kcm_kded.so
-lib/kcm_kdm.so
 lib/kcm_kdnssd.so
 lib/kcm_keyboard.so
 lib/kcm_keys.so
@@ -513,10 +508,7 @@ libexec/kde4/fontinst_x11
 libexec/kde4/kcheckpass
 libexec/kde4/kcm_kwallet_helper
 libexec/kde4/kcmdatetimehelper
-libexec/kde4/kcmkdmhelper
 libexec/kde4/kdeeject
-libexec/kde4/kdm_config
-libexec/kde4/kdm_greet
 libexec/kde4/kdontchangethehostname
 libexec/kde4/kfontprint
 libexec/kde4/kioexec
@@ -692,8 +684,6 @@ share/apps/desktoptheme/oxygen/widgets/toolbox.svgz
 share/apps/desktoptheme/oxygen/widgets/tooltip.svgz
 share/apps/desktoptheme/oxygen/widgets/translucentbackground.svgz
 share/apps/desktoptheme/oxygen/widgets/viewitem.svgz
-share/apps/doc/kdm/README
-share/apps/doc/kdm/greeter.dtd
 share/apps/drkonqi/debuggers/external/gdbrc
 share/apps/drkonqi/debuggers/external/kdbgrc
 share/apps/drkonqi/debuggers/internal/dbxrc
@@ -744,48 +734,6 @@ share/apps/kdisplay/app-defaults/XV.ad
 share/apps/kdisplay/app-defaults/Xawtv.ad
 share/apps/kdisplay/app-defaults/Xdvi.ad
 share/apps/kdisplay/app-defaults/Xpdf.ad
-share/apps/kdm/pics/kdelogo.png
-share/apps/kdm/pics/shutdown.png
-share/apps/kdm/pics/users/default1.png
-share/apps/kdm/pics/users/default2.png
-share/apps/kdm/pics/users/default3.png
-share/apps/kdm/pics/users/root1.png
-share/apps/kdm/themes/ariya/KdmGreeterTheme.desktop
-share/apps/kdm/themes/ariya/ariya.xml
-share/apps/kdm/themes/ariya/lineedit_active.png
-share/apps/kdm/themes/ariya/lineedit_normal.png
-share/apps/kdm/themes/ariya/lock.png
-share/apps/kdm/themes/ariya/login_active.png
-share/apps/kdm/themes/ariya/login_normal.png
-share/apps/kdm/themes/ariya/pw_icon.png
-share/apps/kdm/themes/ariya/rectangle.png
-share/apps/kdm/themes/ariya/rectangle_overlay.png
-share/apps/kdm/themes/ariya/screenshot.png
-share/apps/kdm/themes/ariya/session_normal.png
-share/apps/kdm/themes/ariya/system_normal.png
-share/apps/kdm/themes/ariya/user_icon.png
-share/apps/kdm/themes/auros/KdmGreeterTheme.desktop
-share/apps/kdm/themes/auros/auros-box.svg
-share/apps/kdm/themes/auros/auros.png
-share/apps/kdm/themes/auros/auros.xml
-share/apps/kdm/themes/auros/branding-icon.png
-share/apps/kdm/themes/auros/screenshot.png
-share/apps/kdm/themes/auros/session.png
-share/apps/kdm/themes/auros/system.png
-share/apps/kdm/themes/elarun/KdmGreeterTheme.desktop
-share/apps/kdm/themes/elarun/elarun.xml
-share/apps/kdm/themes/elarun/lineedit_active.png
-share/apps/kdm/themes/elarun/lineedit_normal.png
-share/apps/kdm/themes/elarun/lock.png
-share/apps/kdm/themes/elarun/login_active.png
-share/apps/kdm/themes/elarun/login_normal.png
-share/apps/kdm/themes/elarun/pw_icon.png
-share/apps/kdm/themes/elarun/rectangle.png
-share/apps/kdm/themes/elarun/rectangle_overlay.png
-share/apps/kdm/themes/elarun/screenshot.png
-share/apps/kdm/themes/elarun/session_normal.png
-share/apps/kdm/themes/elarun/system_normal.png
-share/apps/kdm/themes/elarun/user_icon.png
 share/apps/kfontinst/icons/ariya/16x16/actions/addfont.png
 share/apps/kfontinst/icons/ariya/16x16/actions/disablefont.png
 share/apps/kfontinst/icons/ariya/16x16/actions/enablefont.png
@@ -1066,14 +1014,6 @@ share/config.kcfg/imagecreatorsettings.kcfg
 share/config.kcfg/klaunch.kcfg
 share/config.kcfg/kwin.kcfg
 share/config.kcfg/plasma-shell-desktop.kcfg
-share/config/kdm/README
-share/config/kdm/Xaccess
-share/config/kdm/Xreset
-share/config/kdm/Xsession
-share/config/kdm/Xsetup
-share/config/kdm/Xstartup
-share/config/kdm/Xwilling
-share/config/kdm/kdmrc
 share/config/kshorturifilterrc
 share/config/plasma-desktoprc
 share/config/plasma-overlayrc
@@ -1090,7 +1030,6 @@ share/dbus-1/services/org.kde.kuiserver.service
 share/dbus-1/services/org.kde.kwalletd.service
 share/dbus-1/system-services/org.kde.fontinst.service
 share/dbus-1/system-services/org.kde.kcontrol.kcmclock.service
-share/dbus-1/system-services/org.kde.kcontrol.kcmkdm.service
 share/dbus-1/system-services/org.kde.kcontrol.kcmkwallet.service
 share/dbus-1/system-services/org.kde.ksysguard.processlisthelper.service
 share/dbus-1/system-services/org.kde.soliduiserver.mountunmounthelper.service
@@ -1577,7 +1516,6 @@ share/kde4/services/kded/remotedirnotify.desktop
 share/kde4/services/kded/solidautoeject.desktop
 share/kde4/services/kded/soliduiserver.desktop
 share/kde4/services/kded/statusnotifierwatcher.desktop
-share/kde4/services/kdm.desktop
 share/kde4/services/keys.desktop
 share/kde4/services/kfontviewpart.desktop
 share/kde4/services/kglobalaccel.desktop
@@ -2685,4 +2623,3 @@ share/wallpapers/stripes.png.desktop
 share/xsessions/kde-plasma-safe.desktop
 share/xsessions/kde-plasma.desktop
 share/pixmaps/plasma.png
-@pkgdir share/config/kdm/sessions
