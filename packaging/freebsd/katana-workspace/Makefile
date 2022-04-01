@@ -30,7 +30,7 @@ RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	xprop:x11/xprop xrandr:x11/xrandr setxkbmap:x11/setxkbmap xmodmap:x11/xmodmap \
 	xsetroot:x11/xsetroot iceauth:x11/iceauth socat:net/socat iso-codes>=0:misc/iso-codes \
 	mtools:emulators/mtools rar:archivers/rar unrar:archivers/unrar \
-	ck-list-sessions:sysutils/consolekit2 lspci:sysutils/pciutils
+	ck-list-sessions:sysutils/consolekit2 lspci:sysutils/pciutils lightdm:x11/lightdm
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps  libdbusmenu-katie.so:katana/libdbusmenu-katie \
 	libfreetype.so:print/freetype2 libfontconfig.so:x11-fonts/fontconfig \
