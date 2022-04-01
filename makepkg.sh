@@ -2,9 +2,11 @@
 
 set -e
 
+export DISTDIR="$HOME/distdir"
+
 make distclean
 make makesum
 make repackage
-make reinstall
+sudo make reinstall
 
 mv -vf work/pkg/*.pkg "$HOME/katana-freebsd/"
