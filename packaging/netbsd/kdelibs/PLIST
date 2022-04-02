@@ -1276,6 +1276,7 @@ share/apps/cmake/modules/FindLibTorrent.cmake
 share/apps/cmake/modules/FindLibUSB.cmake
 share/apps/cmake/modules/FindLibVNCServer.cmake
 share/apps/cmake/modules/FindLibintl.cmake
+share/apps/cmake/modules/FindLightDM.cmake
 share/apps/cmake/modules/FindMPFR.cmake
 share/apps/cmake/modules/FindMtp.cmake
 share/apps/cmake/modules/FindNetworkManager.cmake
