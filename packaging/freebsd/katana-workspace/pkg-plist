@@ -292,6 +292,7 @@ lib/kde4/plugins/designer/ksignalplotterwidgets.so
 lib/kde4/plugins/designer/ksysguardlsofwidgets.so
 lib/kde4/plugins/designer/ksysguardwidgets.so
 lib/kde4/plugins/gui_platform/libkde.so
+lib/kde4/plugins/styles/oxygen.so
 lib/kded_desktopnotifier.so
 lib/kded_device_automounter.so
 lib/kded_freespacenotifier.so
@@ -494,7 +495,6 @@ lib/plasma_toolbox_desktoptoolbox.so
 lib/plasma_toolbox_paneltoolbox.so
 lib/plasma_wallpaper_color.so
 lib/plasma_wallpaper_image.so
-lib/plugins/styles/oxygen.so
 lib/powerdevilbrightnesscontrolaction_config.so
 lib/powerdevildimdisplayaction_config.so
 lib/powerdevildpmsaction.so
