@@ -712,7 +712,6 @@ share/apps/kcmlocale/pics/background.png
 share/apps/kcmsolidactions/solid-action-template.desktop
 share/apps/kcmstyle/kcmstyle.notifyrc
 share/apps/kcmusb/usb.ids
-share/apps/kcontrol/pics/anchor.png
 share/apps/kde/kde.notifyrc
 share/apps/kdisplay/app-defaults/AAAAAAGeneral.ad
 share/apps/kdisplay/app-defaults/AAAMotif.ad
@@ -2618,8 +2617,6 @@ share/wallpapers/Elarun/contents/images/1280x720.png
 share/wallpapers/Elarun/contents/images/1280x800.png
 share/wallpapers/Elarun/contents/screenshot.png
 share/wallpapers/Elarun/metadata.desktop
-share/wallpapers/stripes.png
-share/wallpapers/stripes.png.desktop
 share/xsessions/kde-plasma-safe.desktop
 share/xsessions/kde-plasma.desktop
 share/pixmaps/plasma.png
