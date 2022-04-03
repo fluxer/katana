@@ -68,7 +68,6 @@ bin/systemsettings
 etc/dbus-1/system.d/org.kde.fontinst.conf
 etc/dbus-1/system.d/org.kde.kcontrol.kcmclock.conf
 etc/dbus-1/system.d/org.kde.kcontrol.kcmkgreeter.conf
-etc/dbus-1/system.d/org.kde.kcontrol.kcmkwallet.conf
 etc/dbus-1/system.d/org.kde.ksysguard.processlisthelper.conf
 etc/dbus-1/system.d/org.kde.soliduiserver.mountunmounthelper.conf
 etc/ksysguarddrc
@@ -296,7 +295,6 @@ lib/kde4/plugins/styles/oxygen.so
 lib/kded_desktopnotifier.so
 lib/kded_device_automounter.so
 lib/kded_freespacenotifier.so
-lib/kded_kephal.so
 lib/kded_keyboard.so
 lib/kded_khotkeys.so
 lib/kded_kpasswdserver.so
@@ -358,9 +356,6 @@ lib/kwin_oxygen_config.so
 lib/libkdecorations.so
 lib/libkdecorations.so.4
 lib/libkdecorations.so.4.21
-lib/libkephal.so
-lib/libkephal.so.4
-lib/libkephal.so.4.21
 lib/libkfontinst.so
 lib/libkfontinst.so.4
 lib/libkfontinst.so.4.21
@@ -511,7 +506,6 @@ libexec/kde4/fontinst
 libexec/kde4/fontinst_helper
 libexec/kde4/fontinst_x11
 libexec/kde4/kcheckpass
-libexec/kde4/kcm_kwallet_helper
 libexec/kde4/kcmdatetimehelper
 libexec/kde4/kcmkgreeterhelper
 libexec/kde4/kdeeject
@@ -536,7 +530,6 @@ share/applications/kde4/ksysguard.desktop
 share/applications/kde4/kwalletmanager-kwalletd.desktop
 share/applications/kde4/kwalletmanager.desktop
 share/applications/kde4/systemsettings.desktop
-share/apps/cmake/modules/FindKephal.cmake
 share/apps/cmake/modules/KDE4WorkspaceConfig.cmake
 share/apps/cmake/modules/KDE4WorkspaceLibraryTargets-%%CMAKE_BUILD_TYPE%%.cmake
 share/apps/cmake/modules/KDE4WorkspaceLibraryTargets.cmake
@@ -1037,7 +1030,6 @@ share/dbus-1/services/org.kde.kwalletd.service
 share/dbus-1/system-services/org.kde.fontinst.service
 share/dbus-1/system-services/org.kde.kcontrol.kcmclock.service
 share/dbus-1/system-services/org.kde.kcontrol.kcmkgreeter.service
-share/dbus-1/system-services/org.kde.kcontrol.kcmkwallet.service
 share/dbus-1/system-services/org.kde.ksysguard.processlisthelper.service
 share/dbus-1/system-services/org.kde.soliduiserver.mountunmounthelper.service
 share/desktop-directories/kde-development-translation.directory
@@ -1510,7 +1502,6 @@ share/kde4/services/kcmusb.desktop
 share/kde4/services/kded/desktopnotifier.desktop
 share/kde4/services/kded/device_automounter.desktop
 share/kde4/services/kded/freespacenotifier.desktop
-share/kde4/services/kded/kephal.desktop
 share/kde4/services/kded/keyboard.desktop
 share/kde4/services/kded/khotkeys.desktop
 share/kde4/services/kded/kpasswdserver.desktop
