@@ -487,7 +487,6 @@ include/KDE/KUrlRequesterDialog
 include/KDE/KUser
 include/KDE/KUserGroup
 include/KDE/KVBox
-include/KDE/KWallet/Wallet
 include/KDE/KWidgetItemDelegate
 include/KDE/KWidgetJobTracker
 include/KDE/KWindowInfo
@@ -888,6 +887,8 @@ include/kparts/plugin.h
 include/kparts/statusbarextension.h
 include/kpassivepopup.h
 include/kpassivepopupmessagehandler.h
+include/kpasswdstore.h
+include/kpasswdstore_export.h
 include/kpassworddialog.h
 include/kpastetextaction.h
 include/kpixmapregionselectordialog.h
@@ -1055,7 +1056,6 @@ include/kurlrequester.h
 include/kurlrequesterdialog.h
 include/kuser.h
 include/kvbox.h
-include/kwallet.h
 include/kwidgetitemdelegate.h
 include/kwidgetjobtracker.h
 include/kwindowinfo.h
@@ -1215,6 +1215,9 @@ lib/libkidletime.so.4.21
 lib/libkio.so
 lib/libkio.so.4
 lib/libkio.so.4.21
+lib/libkpasswdstore.so
+lib/libkpasswdstore.so.4
+lib/libkpasswdstore.so.4.21
 lib/libkmediaplayer.so
 lib/libkmediaplayer.so.4
 lib/libkmediaplayer.so.4.21
@@ -1397,9 +1400,7 @@ share/dbus-1/interfaces/org.kde.JobViewV2.xml
 share/dbus-1/interfaces/org.kde.KDirNotify.xml
 share/dbus-1/interfaces/org.kde.KGlobalAccel.xml
 share/dbus-1/interfaces/org.kde.KLauncher.xml
-share/dbus-1/interfaces/org.kde.KPasswdServer.xml
 share/dbus-1/interfaces/org.kde.KSpeech.xml
-share/dbus-1/interfaces/org.kde.KWallet.xml
 share/dbus-1/interfaces/org.kde.Solid.Networking.Client.xml
 share/dbus-1/interfaces/org.kde.Solid.PowerManagement.PolicyAgent.xml
 share/dbus-1/interfaces/org.kde.StatusNotifierItem.xml

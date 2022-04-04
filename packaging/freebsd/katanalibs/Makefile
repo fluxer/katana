@@ -13,7 +13,7 @@ DISTFILES = master.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kdelibs-master
 
-USES = compiler:c++11-lang pkgconfig cmake xorg gettext-runtime desktop-file-utils \
+USES = compiler:c++11-lang pkgconfig cmake xorg ssl gettext-runtime desktop-file-utils \
 	shared-mime-info shebangfix
 USE_XORG = x11 xtst xcursor xfixes xscrnsaver xext sm
 USE_LDCONFIG = yes
