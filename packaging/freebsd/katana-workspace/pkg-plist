@@ -288,10 +288,10 @@ lib/kde4/plugins/designer/ksignalplotterwidgets.so
 lib/kde4/plugins/designer/ksysguardlsofwidgets.so
 lib/kde4/plugins/designer/ksysguardwidgets.so
 lib/kde4/plugins/gui_platform/libkde.so
+lib/kde4/plugins/styles/oxygen.so
 lib/kded_desktopnotifier.so
 lib/kded_device_automounter.so
 lib/kded_freespacenotifier.so
-lib/kded_kephal.so
 lib/kded_keyboard.so
 lib/kded_khotkeys.so
 lib/kded_ktimezoned.so
@@ -352,9 +352,6 @@ lib/kwin_oxygen_config.so
 lib/libkdecorations.so
 lib/libkdecorations.so.4
 lib/libkdecorations.so.4.21
-lib/libkephal.so
-lib/libkephal.so.4
-lib/libkephal.so.4.21
 lib/libkfontinst.so
 lib/libkfontinst.so.4
 lib/libkfontinst.so.4.21
@@ -486,7 +483,6 @@ lib/plasma_toolbox_desktoptoolbox.so
 lib/plasma_toolbox_paneltoolbox.so
 lib/plasma_wallpaper_color.so
 lib/plasma_wallpaper_image.so
-lib/plugins/styles/oxygen.so
 lib/powerdevilbrightnesscontrolaction_config.so
 lib/powerdevildimdisplayaction_config.so
 lib/powerdevildpmsaction.so
@@ -525,7 +521,6 @@ share/applications/kde4/knetattach.desktop
 share/applications/kde4/krandrtray.desktop
 share/applications/kde4/ksysguard.desktop
 share/applications/kde4/systemsettings.desktop
-share/apps/cmake/modules/FindKephal.cmake
 share/apps/cmake/modules/KDE4WorkspaceConfig.cmake
 share/apps/cmake/modules/KDE4WorkspaceLibraryTargets-%%CMAKE_BUILD_TYPE%%.cmake
 share/apps/cmake/modules/KDE4WorkspaceLibraryTargets.cmake
@@ -1482,7 +1477,6 @@ share/kde4/services/kcmusb.desktop
 share/kde4/services/kded/desktopnotifier.desktop
 share/kde4/services/kded/device_automounter.desktop
 share/kde4/services/kded/freespacenotifier.desktop
-share/kde4/services/kded/kephal.desktop
 share/kde4/services/kded/keyboard.desktop
 share/kde4/services/kded/khotkeys.desktop
 share/kde4/services/kded/ktimezoned.desktop
