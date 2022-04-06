@@ -888,6 +888,7 @@ include/kparts/plugin.h
 include/kparts/statusbarextension.h
 include/kpassivepopup.h
 include/kpassivepopupmessagehandler.h
+include/kpasswdroulettedialog.h
 include/kpasswdstore.h
 include/kpasswdstore_export.h
 include/kpassworddialog.h
@@ -1185,6 +1186,7 @@ lib/kde4/plugins/imageformats/kimg_webp.so
 lib/kde4/plugins/kauth/backend/kauth_backend_plugin.so
 lib/kde4/plugins/kauth/helper/kauth_helper_plugin.so
 lib/kded_kaudioplayer.so
+lib/kded_kpasswdstore.so
 lib/kfilemodule.so
 lib/kio_file.so
 lib/kio_ftp.so
@@ -1216,9 +1218,6 @@ lib/libkidletime.so.4.21
 lib/libkio.so
 lib/libkio.so.4
 lib/libkio.so.4.21
-lib/libkpasswdstore.so
-lib/libkpasswdstore.so.4
-lib/libkpasswdstore.so.4.21
 lib/libkmediaplayer.so
 lib/libkmediaplayer.so.4
 lib/libkmediaplayer.so.4.21
@@ -1228,6 +1227,9 @@ lib/libknotifyconfig.so.4.21
 lib/libkparts.so
 lib/libkparts.so.4
 lib/libkparts.so.4.21
+lib/libkpasswdstore.so
+lib/libkpasswdstore.so.4
+lib/libkpasswdstore.so.4.21
 lib/libkpty.so
 lib/libkpty.so.4
 lib/libkpty.so.4.21
@@ -1410,11 +1412,13 @@ share/dbus-1/interfaces/org.kde.kaudioplayer.xml
 share/dbus-1/interfaces/org.kde.kded.xml
 share/dbus-1/interfaces/org.kde.kglobalaccel.Component.xml
 share/dbus-1/interfaces/org.kde.kio.FileUndoManager.xml
+share/dbus-1/interfaces/org.kde.kpasswdstore.xml
 share/kde4/services/file.protocol
 share/kde4/services/ftp.protocol
 share/kde4/services/http.protocol
 share/kde4/services/https.protocol
 share/kde4/services/kded/kaudioplayer.desktop
+share/kde4/services/kded/kpasswdstore.desktop
 share/kde4/services/kfilemodule.desktop
 share/kde4/services/plasma-applet-extenderapplet.desktop
 share/kde4/services/qimageioplugins/pbm.desktop

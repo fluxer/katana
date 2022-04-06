@@ -28,7 +28,7 @@ RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	${LOCALBASE}/share/fonts/dejavu/DejaVuSansMono.ttf:x11-fonts/dejavu \
 	wrestool:graphics/icoutils ddjvu:graphics/djvulibre xrdb:x11/xrdb xmessage:x11/xmessage \
 	xprop:x11/xprop xrandr:x11/xrandr setxkbmap:x11/setxkbmap xmodmap:x11/xmodmap \
-	xsetroot:x11/xsetroot iceauth:x11/iceauth socat:net/socat iso-codes>=0:misc/iso-codes \
+	xsetroot:x11/xsetroot iceauth:x11/iceauth iso-codes>=0:misc/iso-codes \
 	mtools:emulators/mtools rar:archivers/rar unrar:archivers/unrar \
 	ck-list-sessions:sysutils/consolekit2 lspci:sysutils/pciutils lightdm:x11/lightdm
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
