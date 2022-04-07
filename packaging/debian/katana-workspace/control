@@ -17,13 +17,13 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
  libraw1394-dev [linux-any], libsensors4-dev, libgles2-mesa-dev, libpci-dev,
  libopenexr-dev, libfreetype6-dev, libgphoto2-dev, libfontconfig1-dev,
  liblzma-dev, libbz2-dev, liblightdm-gobject-dev | liblightdm-gobject-1-dev,
- libdbusmenu-katie
+ libgeoclue-2-dev, libdbusmenu-katie
 
 Package: katana-workspace
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
 Depends: ${shlibs:Depends}, ${misc:Depends}, ariya-icons, gdb, upower,
  xserver-xorg, x11-xserver-utils, x11-xkb-utils, x11-utils, fonts-dejavu,
  lm-sensors, pciutils, icoutils, dbus-x11, iso-codes, djvulibre-bin, mtools,
- fortune, katie-tools, lightdm, samba, cryptsetup-bin [linux-any]
+ fortune, katie-tools, lightdm, samba, geoclue-2.0, cryptsetup-bin [linux-any]
 Recommends: rar, unrar
 Description: Katana workspace interface and basic tools
