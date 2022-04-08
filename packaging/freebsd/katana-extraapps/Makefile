@@ -24,7 +24,8 @@ USE_LDCONFIG = yes
 # only the binaries are needed, speech-dispatcher is both build and runtime dependancy, qemu is
 # runtime only
 RUN_DEPENDS = xfreerdp:net/freerdp xsltproc:textproc/libxslt \
-	speech-dispatcher:accessibility/speech-dispatcher qemu-system-i386:emulators/qemu
+	speech-dispatcher:accessibility/speech-dispatcher qemu-system-i386:emulators/qemu \
+	kpsewhich:devel/text-kpathsea
 # zlib and oss are not part of any package
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libplasmagenericshell.so:katana/katana-workspace \

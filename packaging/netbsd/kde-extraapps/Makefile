@@ -32,6 +32,7 @@ DEPENDS = libxslt-[0-9]*:../../textproc/libxslt
 DEPENDS += speech-dispatcher-[0-9]*:../../audio/speech-dispatcher
 DEPENDS += ghostscript-[0-9]*:../../print/ghostscript
 DEPENDS += qemu-[0-9]*:../../emulators/qemu
+DEPENDS += kpathsea-[0-9]*:../../print/kpathsea
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
