@@ -13,7 +13,7 @@ DISTFILES = master.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-extraapps-master
 
-USES = compiler:c++11-lang pkgconfig cmake xorg perl5 gettext-tools libarchive \
+USES = compiler:c++11-lang pkgconfig cmake xorg ssl perl5 gettext-tools libarchive \
 	ghostscript desktop-file-utils shared-mime-info
 USE_XORG = x11 xrender xtst xdamage xext xfixes
 USE_PERL5 = build
@@ -30,9 +30,9 @@ RUN_DEPENDS = xfreerdp:net/freerdp xsltproc:textproc/libxslt \
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libplasmagenericshell.so:katana/katana-workspace \
 	libpoppler-katie.so:katana/poppler-katie libdbusmenu-katie.so:katana/libdbusmenu-katie \
-	libgmp.so:math/gmp libgcrypt.so:security/libgcrypt libexiv2.so:graphics/exiv2 \
-	libasound.so:audio/alsa-lib libspeechd.so:accessibility/speech-dispatcher \
-	libtag.so:audio/taglib libffmpegthumbnailer.so:multimedia/ffmpegthumbnailer \
+	libgmp.so:math/gmp libexiv2.so:graphics/exiv2 libasound.so:audio/alsa-lib \
+	libspeechd.so:accessibility/speech-dispatcher libtag.so:audio/taglib \
+	libffmpegthumbnailer.so:multimedia/ffmpegthumbnailer \
 	libqalculate.so:math/libqalculate libspectre.so:print/libspectre \
 	libfreetype.so:print/freetype2 libdjvulibre.so:graphics/djvulibre \
 	libepub.so:textproc/ebook-tools libmms.so:net/libmms libvncserver.so:net/libvncserver \

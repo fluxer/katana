@@ -48,7 +48,7 @@ DEPENDS += kpathsea-[0-9]*:../../print/kpathsea
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../devel/gettext-tools/buildlink3.mk"
 .include "../../devel/gmp/buildlink3.mk"
-.include "../../security/libgcrypt/buildlink3.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../archivers/libarchive/buildlink3.mk"
 .include "../../audio/alsa-lib/buildlink3.mk"
 .include "../../audio/speech-dispatcher/buildlink3.mk"
