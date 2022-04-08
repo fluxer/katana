@@ -1284,7 +1284,6 @@ share/apps/cmake/modules/FindLibintl.cmake
 share/apps/cmake/modules/FindLightDM.cmake
 share/apps/cmake/modules/FindMPFR.cmake
 share/apps/cmake/modules/FindMtp.cmake
-share/apps/cmake/modules/FindNetworkManager.cmake
 share/apps/cmake/modules/FindOpenEXR.cmake
 share/apps/cmake/modules/FindOpenGLES.cmake
 share/apps/cmake/modules/FindPAM.cmake

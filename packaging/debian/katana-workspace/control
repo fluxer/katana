@@ -7,7 +7,7 @@ Vcs-Git: git://github.com/fluxer/kde-workspace.git
 Vcs-browser: https://github.com/fluxer/kde-workspace
 Standards-Version: 4.21.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
- katana-baseapps, xorg-dev, libnm-dev [linux-any], libqalculate-dev,
+ katana-baseapps, xorg-dev, libqalculate-dev, libgeoclue-2-dev,
  libxxf86vm-dev, libx11-xcb-dev, libxcb-icccm4-dev, libxcb-composite0-dev,
  libxcb-damage0-dev, libxcb-xfixes0-dev, libxcb-render0-dev, libxcb-randr0-dev,
  libxcb-shape0-dev, libxcb-shape0-dev, libxcb-shm0-dev, libxcb-sync-dev,
@@ -17,7 +17,7 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
  libraw1394-dev [linux-any], libsensors4-dev, libgles2-mesa-dev, libpci-dev,
  libopenexr-dev, libfreetype6-dev, libgphoto2-dev, libfontconfig1-dev,
  liblzma-dev, libbz2-dev, liblightdm-gobject-dev | liblightdm-gobject-1-dev,
- libgeoclue-2-dev, libdbusmenu-katie
+ libdbusmenu-katie
 
 Package: katana-workspace
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
