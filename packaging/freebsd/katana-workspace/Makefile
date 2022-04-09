@@ -14,7 +14,7 @@ DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-workspace-master
 
 USES = compiler:c++11-lang pkgconfig cmake xorg samba gl desktop-file-utils \
-	shared-mime-info shebangfix
+	shared-mime-info
 USE_XORG = x11 xinerama xcursor xfixes xrender xtst xdamage xcomposite xres xft xi xau \
 	xscrnsaver xrandr xext ice sm xcb xxf86vm
 USE_SAMBA = build run
