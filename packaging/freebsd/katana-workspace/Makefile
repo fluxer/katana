@@ -35,7 +35,6 @@ RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps  libdbusmenu-katie.so:katana/libdbusmenu-katie \
 	libfreetype.so:print/freetype2 libfontconfig.so:x11-fonts/fontconfig \
-	libxcb-image.so:x11/xcb-util-image libxcb-icccm.so:x11/xcb-util-wm \
 	libxcb-render-util.so:x11/xcb-util-renderutil libxcb-keysyms.so:x11/xcb-util-keysyms \
 	libxkbfile.so:x11/libxkbfile libpci.so:devel/libpci libqalculate.so:math/libqalculate \
 	libdrm.so:graphics/libdrm libpng.so:graphics/png libOpenEXR.so:graphics/openexr \
