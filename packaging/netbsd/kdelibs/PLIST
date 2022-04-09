@@ -1264,14 +1264,12 @@ share/apps/cmake/modules/FindGLIB2.cmake
 share/apps/cmake/modules/FindGMP.cmake
 share/apps/cmake/modules/FindGeoClue.cmake
 share/apps/cmake/modules/FindGettextPO.cmake
-share/apps/cmake/modules/FindGpgme.cmake
 share/apps/cmake/modules/FindGphoto2.cmake
 share/apps/cmake/modules/FindKDE4Internal.cmake
 share/apps/cmake/modules/FindKDE4Workspace.cmake
 share/apps/cmake/modules/FindLIBPARTED.cmake
 share/apps/cmake/modules/FindLibATASmart.cmake
 share/apps/cmake/modules/FindLibDRM.cmake
-share/apps/cmake/modules/FindLibGcrypt.cmake
 share/apps/cmake/modules/FindLibKonq.cmake
 share/apps/cmake/modules/FindLibLZMA.cmake
 share/apps/cmake/modules/FindLibMms.cmake
