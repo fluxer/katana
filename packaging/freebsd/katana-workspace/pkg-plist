@@ -170,6 +170,7 @@ lib/kcm_kgreeterconfig.so
 lib/kcm_kmediaplayer.so
 lib/kcm_kmetainfoconfig.so
 lib/kcm_knotify.so
+lib/kcm_kpasswdstoreconfig.so
 lib/kcm_krunner_kill.so
 lib/kcm_ksplashthemes.so
 lib/kcm_kwin4_effect_builtins.so
@@ -1464,6 +1465,7 @@ share/kde4/services/kcm_kdnssd.desktop
 share/kde4/services/kcm_keyboard.desktop
 share/kde4/services/kcm_kgreeterconfig.desktop
 share/kde4/services/kcm_kmetainfoconfig.desktop
+share/kde4/services/kcm_kpasswdstoreconfig.desktop
 share/kde4/services/kcm_memory.desktop
 share/kde4/services/kcm_pci.desktop
 share/kde4/services/kcm_spellchecking.desktop
