@@ -13,7 +13,7 @@ DISTFILES = master.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-extraapps-master
 
-USES = compiler:c++11-lang pkgconfig cmake xorg ssl perl5 gettext-tools libarchive \
+USES = compiler:c++11-lang pkgconfig cmake xorg ssl gettext-tools libarchive \
 	ghostscript desktop-file-utils shared-mime-info
 USE_XORG = x11 xrender xtst xdamage xext xfixes
 USE_PERL5 = build

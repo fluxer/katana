@@ -21,7 +21,7 @@ USE_CMAKE = yes
 # Linux only
 CMAKE_ARGS += -DBUILD_partitionmanager=FALSE
 USE_LANGUAGES = c c++
-USE_TOOLS = pkg-config perl
+USE_TOOLS = pkg-config
 
 post-extract:
 	${MKDIR} ${WRKDIR}/build
