@@ -73,7 +73,6 @@ lib/kcm_krunner_spellcheck.so
 lib/kcm_kttsd.so
 lib/kded_kemu.so
 lib/kded_kmixd.so
-lib/kerfuffle_clilha.so
 lib/kerfuffle_clirar.so
 lib/kerfuffle_libarchive.so
 lib/kerfuffle_libbz2.so
@@ -592,7 +591,6 @@ share/kde4/services/kcm_cron.desktop
 share/kde4/services/kcmkttsd.desktop
 share/kde4/services/kded/kemu.desktop
 share/kde4/services/kded/kmixd.desktop
-share/kde4/services/kerfuffle_clilha.desktop
 share/kde4/services/kerfuffle_clirar.desktop
 share/kde4/services/kerfuffle_libarchive.desktop
 share/kde4/services/kerfuffle_libarchive_readonly.desktop
