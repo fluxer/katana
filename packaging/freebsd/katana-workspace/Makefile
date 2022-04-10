@@ -18,7 +18,7 @@ USES = compiler:c++11-lang pkgconfig cmake xorg samba gl desktop-file-utils \
 USE_XORG = x11 xinerama xcursor xfixes xrender xtst xdamage xcomposite xres xft xi xau \
 	xscrnsaver xrandr xext ice sm xcb xxf86vm
 USE_SAMBA = build run
-USE_GL = gl glu egl glesv2
+USE_GL = gl glu egl
 USE_LDCONFIG = yes
 SHEBANG_FILES = kcontrol/kfontinst/dbus/fontinst_x11
 # libusb, fortune and pam are not part of any package

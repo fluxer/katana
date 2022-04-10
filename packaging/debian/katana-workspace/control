@@ -13,7 +13,7 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
  libxcb-shape0-dev, libxcb-sync-dev, libxcb-render-util0-dev,
  libxcb-keysyms1-dev, libmtp-dev, libglu1-mesa-dev, mesa-common-dev,
  libusb-1.0-0-dev, libssh-dev, libsmbclient-dev, libdrm-dev, libpam0g-dev,
- libraw1394-dev [linux-any], libsensors4-dev, libgles2-mesa-dev, libpci-dev,
+ libraw1394-dev [linux-any], libsensors4-dev, libegl-dev, libpci-dev,
  libopenexr-dev, libfreetype6-dev, libgphoto2-dev, libfontconfig1-dev,
  liblzma-dev, libbz2-dev, liblightdm-gobject-dev | liblightdm-gobject-1-dev,
  libdbusmenu-katie
