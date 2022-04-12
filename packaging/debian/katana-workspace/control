@@ -12,7 +12,7 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
  libxcb-xfixes0-dev, libxcb-render0-dev, libxcb-randr0-dev,
  libxcb-shape0-dev, libxcb-sync-dev, libxcb-render-util0-dev,
  libxcb-keysyms1-dev, libmtp-dev, libglu1-mesa-dev, mesa-common-dev,
- libusb-1.0-0-dev, libssh-dev, libsmbclient-dev, libdrm-dev, libpam0g-dev,
+ libusb-1.0-0-dev, libssh-dev, libsmbclient-dev, libdrm-dev,
  libraw1394-dev [linux-any], libsensors4-dev, libegl-dev, libpci-dev,
  libopenexr-dev, libfreetype6-dev, libgphoto2-dev, libfontconfig1-dev,
  liblzma-dev, libbz2-dev, liblightdm-gobject-dev | liblightdm-gobject-1-dev,
@@ -23,7 +23,7 @@ Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hu
 Depends: ${shlibs:Depends}, ${misc:Depends}, ariya-icons, gdb, upower,
  xserver-xorg, x11-xserver-utils, x11-xkb-utils, x11-utils, fonts-dejavu,
  lm-sensors, pciutils, icoutils, dbus-x11, iso-codes, djvulibre-bin, mtools,
- fortune, katie-tools, lightdm, samba, geoclue-2.0, hwdata, qrencode,
+ xscreensaver, katie-tools, lightdm, samba, geoclue-2.0, hwdata, qrencode,
  cryptsetup-bin [linux-any]
 Recommends: rar, unrar
 Description: Katana workspace interface and basic tools

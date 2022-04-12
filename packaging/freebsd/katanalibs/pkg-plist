@@ -1283,7 +1283,6 @@ share/apps/cmake/modules/FindLightDM.cmake
 share/apps/cmake/modules/FindMPFR.cmake
 share/apps/cmake/modules/FindMtp.cmake
 share/apps/cmake/modules/FindOpenEXR.cmake
-share/apps/cmake/modules/FindPAM.cmake
 share/apps/cmake/modules/FindPCIUTILS.cmake
 share/apps/cmake/modules/FindPopplerQt4.cmake
 share/apps/cmake/modules/FindQalculate.cmake
@@ -1310,7 +1309,6 @@ share/apps/cmake/modules/MacroDBusAddActivationService.cmake
 share/apps/cmake/modules/MacroLibrary.cmake
 share/apps/cmake/modules/MacroOptionalAddSubdirectory.cmake
 share/apps/cmake/modules/MacroOptionalFindPackage.cmake
-share/apps/cmake/modules/UnixAuth.cmake
 share/apps/cmake/modules/cmake-modules-styleguide.txt
 share/apps/cmake/modules/kde4_cmake_uninstall.cmake.in
 share/apps/kauth/dbus_policy.stub

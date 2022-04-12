@@ -16,12 +16,12 @@ WRKSRC = ${WRKDIR}/kde-workspace-master
 USES = compiler:c++11-lang pkgconfig cmake xorg samba gl desktop-file-utils \
 	shared-mime-info
 USE_XORG = x11 xinerama xcursor xfixes xrender xtst xdamage xcomposite xres xft xi xau \
-	xscrnsaver xrandr xext ice sm xcb xxf86vm
+	xrandr xext ice sm xcb xxf86vm
 USE_SAMBA = build run
 USE_GL = gl glu egl
 USE_LDCONFIG = yes
 SHEBANG_FILES = kcontrol/kfontinst/dbus/fontinst_x11
-# libusb, fortune and pam are not part of any package
+# libusb is not part of any package
 RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme \
 	gdb:devel/gdb Xorg:x11-servers/xorg-server \
@@ -31,7 +31,8 @@ RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	xsetroot:x11/xsetroot iceauth:x11/iceauth iso-codes>=0:misc/iso-codes \
 	mtools:emulators/mtools rar:archivers/rar unrar:archivers/unrar \
 	ck-list-sessions:sysutils/consolekit2 lspci:sysutils/pciutils lightdm:x11/lightdm \
-	${LOCALBASE}/share/usbids/usb.ids:misc/usbids qrencode:graphics/libqrencode
+	${LOCALBASE}/share/usbids/usb.ids:misc/usbids qrencode:graphics/libqrencode \
+	xscreensaver:x11/xscreensaver
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps  libdbusmenu-katie.so:katana/libdbusmenu-katie \
 	libfreetype.so:print/freetype2 libfontconfig.so:x11-fonts/fontconfig \
@@ -42,8 +43,5 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	liblightdm-gobject-1.so:x11/lightdm libgeoclue-2.so:net/geoclue
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
-
-post-install:
-	${INSTALL_DATA} ${WRKSRC}/kde.pamd ${STAGEDIR}${PREFIX}/etc/pam.d/kde
 
 .include <bsd.port.mk>

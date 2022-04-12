@@ -52,9 +52,9 @@ DEPENDS += iso-codes-[0-9]*:../../textproc/iso-codes
 DEPENDS += mtools-[0-9]*:../../sysutils/mtools
 DEPENDS += rar-[0-9]*:../../archivers/rar
 DEPENDS += unrar-[0-9]*:../../archivers/unrar
-DEPENDS += fortune-[0-9]*:../../games/fortune
 DEPENDS += consolekit-[0-9]*:../../sysutils/consolekit
 DEPENDS += qrencode-[0-9]*:../../converters/qrencode
+DEPENDS += xscreensaver-[0-9]*:../../x11/xscreensaver
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
@@ -74,7 +74,6 @@ DEPENDS += qrencode-[0-9]*:../../converters/qrencode
 .include "../../x11/libXft/buildlink3.mk"
 .include "../../x11/libXi/buildlink3.mk"
 .include "../../x11/libXau/buildlink3.mk"
-.include "../../x11/libXScrnSaver/buildlink3.mk"
 .include "../../x11/libXrandr/buildlink3.mk"
 .include "../../x11/libxkbfile/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"
@@ -99,5 +98,4 @@ DEPENDS += qrencode-[0-9]*:../../converters/qrencode
 # .include "../../security/libssh/buildlink3.mk"
 .include "../../net/samba/buildlink3.mk"
 .include "../../mk/libusb.buildlink3.mk"
-.include "../../mk/pam.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

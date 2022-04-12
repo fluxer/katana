@@ -1,4 +1,3 @@
 @comment $NetBSD$
 lib/kio_nfs.so
-share/kde4/services/nfs.protocol
-share/config/kdm/Xresources
+share/kde4/services/nfs.
