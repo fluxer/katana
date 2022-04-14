@@ -14,7 +14,7 @@ DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-extraapps-master
 
 USES = compiler:c++11-lang pkgconfig cmake xorg ssl gettext-tools libarchive \
-	ghostscript desktop-file-utils shared-mime-info
+	ghostscript desktop-file-utils
 USE_XORG = x11 xrender xtst xdamage xext xfixes
 USE_PERL5 = build
 USE_GETTEXT_TOOLS = build run
