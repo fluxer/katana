@@ -1190,6 +1190,7 @@ lib/kded_kaudioplayer.so
 lib/kded_kpasswdstore.so
 lib/kfilemetadata_exiv2.so
 lib/kfilemetadata_ffmpeg.so
+lib/kfilemetadata_taglib.so
 lib/kfilemodule.so
 lib/kio_file.so
 lib/kio_ftp.so
@@ -1420,6 +1421,7 @@ share/kde4/services/kded/kaudioplayer.desktop
 share/kde4/services/kded/kpasswdstore.desktop
 share/kde4/services/kfilemetadata_exiv2.desktop
 share/kde4/services/kfilemetadata_ffmpeg.desktop
+share/kde4/services/kfilemetadata_taglib.desktop
 share/kde4/services/kfilemodule.desktop
 share/kde4/services/plasma-applet-extenderapplet.desktop
 share/kde4/services/qimageioplugins/pbm.desktop
