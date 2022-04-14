@@ -10,8 +10,7 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, libenchant-2-dev,
  libmagick++-dev, libmpv-dev [linux-any], xorg-dev, libavahi-common-dev,
  libwebp-dev, libudev-dev [linux-any], liblzma-dev, libexiv2-dev, libbz2-dev,
  libattr1-dev, libacl1-dev, zlib1g-dev, libcdio-dev [linux-any], libssl-dev,
- libcurl4-nss-dev, media-player-info [linux-any], libextractor-dev,
- libdbusmenu-katie
+ libcurl4-nss-dev, media-player-info [linux-any], libdbusmenu-katie
 
 Package: katanalibs
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
