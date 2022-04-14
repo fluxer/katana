@@ -26,7 +26,7 @@ LIB_DEPENDS = libKtCore.so:katana/katie libdbusmenu-katie.so:katana/libdbusmenu-
 	libenchant-2.so:textproc/enchant2 libwebp.so:graphics/webp \
 	libMagick++-6.so:graphics/ImageMagick6 libexiv2.so:graphics/exiv2 \
 	libmpv.so:multimedia/mpv libdns_sd.so:net/avahi-libdns libbz2.so:archivers/bzip2 \
-	libcurl.so:ftp/curl
+	libcurl.so:ftp/curl libavcodec.so:multimedia/ffmpeg
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
 
