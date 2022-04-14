@@ -752,6 +752,7 @@ include/kfileitem.h
 include/kfileitemactions.h
 include/kfileitemdelegate.h
 include/kfileitemlistproperties.h
+include/kfilemetadata.h
 include/kfilemetadataconfigurationwidget.h
 include/kfilemetadatawidget.h
 include/kfilemetainfo.h
@@ -1187,6 +1188,8 @@ lib/kde4/plugins/kauth/backend/kauth_backend_plugin.so
 lib/kde4/plugins/kauth/helper/kauth_helper_plugin.so
 lib/kded_kaudioplayer.so
 lib/kded_kpasswdstore.so
+lib/kfilemetadata_exiv2.so
+lib/kfilemetadata_ffmpeg.so
 lib/kfilemodule.so
 lib/kio_file.so
 lib/kio_ftp.so
@@ -1311,6 +1314,7 @@ share/apps/cmake/modules/MacroLibrary.cmake
 share/apps/cmake/modules/MacroOptionalAddSubdirectory.cmake
 share/apps/cmake/modules/MacroOptionalFindPackage.cmake
 share/apps/cmake/modules/cmake-modules-styleguide.txt
+share/apps/cmake/modules/kde4_exec.sh.in
 share/apps/cmake/modules/kde4_cmake_uninstall.cmake.in
 share/apps/kauth/dbus_policy.stub
 share/apps/kauth/dbus_service.stub
@@ -1414,6 +1418,8 @@ share/kde4/services/http.protocol
 share/kde4/services/https.protocol
 share/kde4/services/kded/kaudioplayer.desktop
 share/kde4/services/kded/kpasswdstore.desktop
+share/kde4/services/kfilemetadata_exiv2.desktop
+share/kde4/services/kfilemetadata_ffmpeg.desktop
 share/kde4/services/kfilemodule.desktop
 share/kde4/services/plasma-applet-extenderapplet.desktop
 share/kde4/services/qimageioplugins/pbm.desktop
@@ -1442,6 +1448,7 @@ share/kde4/servicetypes/kcmodule.desktop
 share/kde4/servicetypes/kcmoduleinit.desktop
 share/kde4/servicetypes/kdedmodule.desktop
 share/kde4/servicetypes/kfileitemactionplugin.desktop
+share/kde4/servicetypes/kfilemetadataplugin.desktop
 share/kde4/servicetypes/kiofilemodule.desktop
 share/kde4/servicetypes/kpart.desktop
 share/kde4/servicetypes/kplugininfo.desktop
