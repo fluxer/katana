@@ -646,8 +646,10 @@ share/apps/desktoptheme/oxygen/widgets/translucentbackground.svgz
 share/apps/desktoptheme/oxygen/widgets/viewitem.svgz
 share/apps/drkonqi/debuggers/external/gdbrc
 share/apps/drkonqi/debuggers/external/kdbgrc
+share/apps/drkonqi/debuggers/external/lldbrc
 share/apps/drkonqi/debuggers/internal/dbxrc
 share/apps/drkonqi/debuggers/internal/gdbrc
+share/apps/drkonqi/debuggers/internal/lldbrc
 share/apps/drkonqi/pics/crash.png
 share/apps/freespacenotifier/freespacenotifier.notifyrc
 share/apps/hardwarenotifications/hardwarenotifications.notifyrc
