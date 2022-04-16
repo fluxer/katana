@@ -1188,6 +1188,7 @@ lib/kde4/plugins/kauth/backend/kauth_backend_plugin.so
 lib/kde4/plugins/kauth/helper/kauth_helper_plugin.so
 lib/kded_kaudioplayer.so
 lib/kded_kpasswdstore.so
+lib/kfilemetadata_epub.so
 lib/kfilemetadata_exiv2.so
 lib/kfilemetadata_ffmpeg.so
 lib/kfilemetadata_taglib.so
@@ -1419,6 +1420,7 @@ share/kde4/services/http.protocol
 share/kde4/services/https.protocol
 share/kde4/services/kded/kaudioplayer.desktop
 share/kde4/services/kded/kpasswdstore.desktop
+share/kde4/services/kfilemetadata_epub.desktop
 share/kde4/services/kfilemetadata_exiv2.desktop
 share/kde4/services/kfilemetadata_ffmpeg.desktop
 share/kde4/services/kfilemetadata_taglib.desktop
