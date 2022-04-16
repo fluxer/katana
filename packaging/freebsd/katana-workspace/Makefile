@@ -21,10 +21,10 @@ USE_SAMBA = build run
 USE_GL = gl glu egl
 USE_LDCONFIG = yes
 SHEBANG_FILES = kcontrol/kfontinst/dbus/fontinst_x11
-# libusb is not part of any package
+# lldb and libusb are not part of any package
 RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme \
-	gdb:devel/gdb Xorg:x11-servers/xorg-server \
+	Xorg:x11-servers/xorg-server \
 	${LOCALBASE}/share/fonts/dejavu/DejaVuSansMono.ttf:x11-fonts/dejavu \
 	wrestool:graphics/icoutils ddjvu:graphics/djvulibre xrdb:x11/xrdb xmessage:x11/xmessage \
 	xprop:x11/xprop xrandr:x11/xrandr setxkbmap:x11/setxkbmap xmodmap:x11/xmodmap \
