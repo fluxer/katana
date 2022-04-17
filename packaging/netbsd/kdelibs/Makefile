@@ -40,6 +40,7 @@ DEPENDS += xdg-utils-[0-9]*:../../misc/xdg-utils
 .include "../../graphics/libwebp/buildlink3.mk"
 .include "../../graphics/exiv2/buildlink3.mk"
 .include "../../textproc/ebook-tools/buildlink3.mk"
+.include "../../print/poppler-cpp/buildlink3.mk"
 .include "../../audio/taglib/buildlink3.mk"
 .include "../../multimedia/ffmpeg4/buildlink3.mk"
 .include "../../multimedia/mpv/buildlink3.mk"
