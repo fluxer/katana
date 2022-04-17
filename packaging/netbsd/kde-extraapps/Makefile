@@ -56,6 +56,7 @@ DEPENDS += kpathsea-[0-9]*:../../print/kpathsea
 .include "../../multimedia/ffmpegthumbnailer/buildlink3.mk"
 .include "../../math/qalculate/buildlink3.mk"
 .include "../../print/libspectre/buildlink3.mk"
+.include "../../print/poppler-cpp/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/djvulibre-lib/buildlink3.mk"
 .include "../../graphics/exiv2/buildlink3.mk"
@@ -66,6 +67,5 @@ DEPENDS += kpathsea-[0-9]*:../../print/kpathsea
 # see above
 # .include "../../net/freerdp2/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
-.include "../../katana/poppler-katie/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

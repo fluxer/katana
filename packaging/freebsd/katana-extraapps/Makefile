@@ -29,14 +29,15 @@ RUN_DEPENDS = xfreerdp:net/freerdp xsltproc:textproc/libxslt \
 # zlib and oss are not part of any package
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libkonq.so:katana/katana-baseapps libplasmagenericshell.so:katana/katana-workspace \
-	libpoppler-katie.so:katana/poppler-katie libdbusmenu-katie.so:katana/libdbusmenu-katie \
-	libgmp.so:math/gmp libexiv2.so:graphics/exiv2 libasound.so:audio/alsa-lib \
+	libdbusmenu-katie.so:katana/libdbusmenu-katie libgmp.so:math/gmp \
+	libexiv2.so:graphics/exiv2 libasound.so:audio/alsa-lib \
 	libspeechd.so:accessibility/speech-dispatcher libtag.so:audio/taglib \
 	libffmpegthumbnailer.so:multimedia/ffmpegthumbnailer \
 	libqalculate.so:math/libqalculate libspectre.so:print/libspectre \
 	libfreetype.so:print/freetype2 libdjvulibre.so:graphics/djvulibre \
 	libepub.so:textproc/ebook-tools libmms.so:net/libmms libvncserver.so:net/libvncserver \
-	libfreerdp2.so:net/freerdp libtorrent-rasterbar.so:net-p2p/libtorrent-rasterbar
+	libfreerdp2.so:net/freerdp libtorrent-rasterbar.so:net-p2p/libtorrent-rasterbar \
+	libpoppler-cpp.so:graphics/poppler
 CMAKE_ARGS = -Wno-dev -DBUILD_partitionmanager=FALSE
 LDFLAGS += -Wl,--as-needed
 
