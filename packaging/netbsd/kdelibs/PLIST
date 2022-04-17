@@ -1292,7 +1292,6 @@ share/apps/cmake/modules/FindMtp.cmake
 share/apps/cmake/modules/FindOpenEXR.cmake
 share/apps/cmake/modules/FindPCIUTILS.cmake
 share/apps/cmake/modules/FindPoppler.cmake
-share/apps/cmake/modules/FindPopplerQt4.cmake
 share/apps/cmake/modules/FindQalculate.cmake
 share/apps/cmake/modules/FindRAW1394.cmake
 share/apps/cmake/modules/FindSamba.cmake
