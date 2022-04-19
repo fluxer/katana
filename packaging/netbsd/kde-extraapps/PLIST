@@ -452,7 +452,6 @@ share/config.kcfg/krdc.kcfg
 share/config.kcfg/kuser.kcfg
 share/config.kcfg/okular.kcfg
 share/config.kcfg/okular_core.kcfg
-share/config.kcfg/pdfsettings.kcfg
 share/config.kcfg/pocreatorsettings.kcfg
 share/config/filelightrc
 share/dbus-1/interfaces/org.kde.kemu.xml
