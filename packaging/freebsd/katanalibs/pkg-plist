@@ -906,6 +906,8 @@ include/kpluginfactory.h
 include/kplugininfo.h
 include/kpluginloader.h
 include/kpluginselector.h
+include/kpowermanager.h
+include/kpowermanager_export.h
 include/kpreviewwidgetbase.h
 include/kprocess.h
 include/kprogressdialog.h
@@ -1187,6 +1189,7 @@ lib/kde4/plugins/kauth/backend/kauth_backend_plugin.so
 lib/kde4/plugins/kauth/helper/kauth_helper_plugin.so
 lib/kded_kaudioplayer.so
 lib/kded_kpasswdstore.so
+lib/kded_kpowermanager.so
 lib/kfilemetadata_epub.so
 lib/kfilemetadata_exiv2.so
 lib/kfilemetadata_ffmpeg.so
@@ -1235,6 +1238,9 @@ lib/libkparts.so.4.21
 lib/libkpasswdstore.so
 lib/libkpasswdstore.so.4
 lib/libkpasswdstore.so.4.21
+lib/libkpowermanager.so
+lib/libkpowermanager.so.4
+lib/libkpowermanager.so.4.21
 lib/libkpty.so
 lib/libkpty.so.4
 lib/libkpty.so.4.21
@@ -1316,8 +1322,8 @@ share/apps/cmake/modules/MacroLibrary.cmake
 share/apps/cmake/modules/MacroOptionalAddSubdirectory.cmake
 share/apps/cmake/modules/MacroOptionalFindPackage.cmake
 share/apps/cmake/modules/cmake-modules-styleguide.txt
-share/apps/cmake/modules/kde4_exec.sh.in
 share/apps/cmake/modules/kde4_cmake_uninstall.cmake.in
+share/apps/cmake/modules/kde4_exec.sh.in
 share/apps/kauth/dbus_policy.stub
 share/apps/kauth/dbus_service.stub
 share/apps/kcm_componentchooser/kcm_ktexteditor.desktop
@@ -1406,7 +1412,6 @@ share/dbus-1/interfaces/org.kde.KGlobalAccel.xml
 share/dbus-1/interfaces/org.kde.KLauncher.xml
 share/dbus-1/interfaces/org.kde.KSpeech.xml
 share/dbus-1/interfaces/org.kde.Solid.Networking.Client.xml
-share/dbus-1/interfaces/org.kde.Solid.PowerManagement.PolicyAgent.xml
 share/dbus-1/interfaces/org.kde.StatusNotifierItem.xml
 share/dbus-1/interfaces/org.kde.StatusNotifierWatcher.xml
 share/dbus-1/interfaces/org.kde.kaudioplayer.xml
@@ -1414,12 +1419,14 @@ share/dbus-1/interfaces/org.kde.kded.xml
 share/dbus-1/interfaces/org.kde.kglobalaccel.Component.xml
 share/dbus-1/interfaces/org.kde.kio.FileUndoManager.xml
 share/dbus-1/interfaces/org.kde.kpasswdstore.xml
+share/dbus-1/interfaces/org.kde.kpowermanager.xml
 share/kde4/services/file.protocol
 share/kde4/services/ftp.protocol
 share/kde4/services/http.protocol
 share/kde4/services/https.protocol
 share/kde4/services/kded/kaudioplayer.desktop
 share/kde4/services/kded/kpasswdstore.desktop
+share/kde4/services/kded/kpowermanager.desktop
 share/kde4/services/kfilemetadata_epub.desktop
 share/kde4/services/kfilemetadata_exiv2.desktop
 share/kde4/services/kfilemetadata_ffmpeg.desktop

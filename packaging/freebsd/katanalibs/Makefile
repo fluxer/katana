@@ -19,7 +19,8 @@ USE_XORG = x11 xtst xcursor xfixes xscrnsaver xext sm
 USE_LDCONFIG = yes
 SHEBANG_FILES = kdeui/preparetips
 RUN_DEPENDS = xdg-open:devel/xdg-utils \
-	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme
+	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme \
+	ck-list-sessions:sysutils/consolekit2
 # zlib and xz are not part of any package
 # TODO: more avahi dependencies may be needed
 LIB_DEPENDS = libKtCore.so:katana/katie libdbusmenu-katie.so:katana/libdbusmenu-katie \
