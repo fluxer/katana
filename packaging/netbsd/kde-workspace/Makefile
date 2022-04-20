@@ -52,7 +52,6 @@ DEPENDS += iso-codes-[0-9]*:../../textproc/iso-codes
 DEPENDS += mtools-[0-9]*:../../sysutils/mtools
 DEPENDS += rar-[0-9]*:../../archivers/rar
 DEPENDS += unrar-[0-9]*:../../archivers/unrar
-DEPENDS += consolekit-[0-9]*:../../sysutils/consolekit
 DEPENDS += qrencode-[0-9]*:../../converters/qrencode
 DEPENDS += xscreensaver-[0-9]*:../../x11/xscreensaver
 

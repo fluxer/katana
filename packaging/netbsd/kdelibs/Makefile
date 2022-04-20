@@ -29,6 +29,7 @@ post-extract:
 
 DEPENDS = shared-mime-info-[0-9]*:../../databases/shared-mime-info
 DEPENDS += xdg-utils-[0-9]*:../../misc/xdg-utils
+DEPENDS += consolekit-[0-9]*:../../sysutils/consolekit
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
