@@ -13,6 +13,7 @@ bin/kwrapper4
 bin/makekdewidgets
 bin/preparetips
 etc/dbus-1/system.d/org.kde.auth.conf
+etc/dbus-1/system.d/org.kde.kpowermanager.helper.conf
 etc/xdg/menus/applications.menu
 include/KDE/DNSSD/Configuration
 include/KDE/DNSSD/DomainBrowser
@@ -1256,6 +1257,7 @@ lib/libsolid.so.4
 lib/libsolid.so.4.21
 libexec/kde4/kioslave
 libexec/kde4/klauncher
+libexec/kde4/kpowermanager_helper
 libexec/kde4/lnusertemp
 share/applications/kde4/kmailservice.desktop
 share/applications/kde4/ktelnetservice.desktop
@@ -1421,6 +1423,7 @@ share/dbus-1/interfaces/org.kde.kglobalaccel.Component.xml
 share/dbus-1/interfaces/org.kde.kio.FileUndoManager.xml
 share/dbus-1/interfaces/org.kde.kpasswdstore.xml
 share/dbus-1/interfaces/org.kde.kpowermanager.xml
+share/dbus-1/system-services/org.kde.kpowermanager.helper.service
 share/kde4/services/file.protocol
 share/kde4/services/ftp.protocol
 share/kde4/services/http.protocol
