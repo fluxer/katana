@@ -875,6 +875,7 @@ share/apps/plasma/plasmoids/battery/contents/ui/BatteryIcon.qml
 share/apps/plasma/plasmoids/battery/contents/ui/BatteryItem.qml
 share/apps/plasma/plasmoids/battery/contents/ui/CompactRepresentation.qml
 share/apps/plasma/plasmoids/battery/contents/ui/PopupDialog.qml
+share/apps/plasma/plasmoids/battery/contents/ui/PowerManagementItem.qml
 share/apps/plasma/plasmoids/battery/contents/ui/ScrollableListView.qml
 share/apps/plasma/plasmoids/battery/contents/ui/batterymonitor.qml
 share/apps/plasma/plasmoids/battery/metadata.desktop
