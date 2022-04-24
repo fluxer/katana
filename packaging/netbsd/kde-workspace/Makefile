@@ -18,8 +18,6 @@ CONFIGURE_DIRS= ${WRKDIR}/build
 CMAKE_ARG_PATH= ${WRKSRC}
 
 USE_CMAKE = yes
-# static only on Linux
-CMAKE_ARGS = -DWITH_PCIUTILS=FALSE
 USE_LANGUAGES = c c++
 USE_TOOLS = pkg-config sh:run
 
@@ -35,8 +33,7 @@ SUBST_SED.pciutils = -e 's,<pci/pci.h>,<pciutils/pci.h>,g'
 DEPENDS = ariya-icons-[0-9]*:../../katana/ariya-icons
 DEPENDS += gdb-[0-9]*:../../devel/gdb
 DEPENDS += dejavu-ttf-[0-9]*:../../fonts/dejavu-ttf
-# see above
-# DEPENDS += pciutils-[0-9]*:../../sysutils/pciutils
+DEPENDS += pciutils-[0-9]*:../../sysutils/pciutils
 DEPENDS += usbids-[0-9]*:../../misc/usbids
 DEPENDS += icoutils-[0-9]*:../../graphics/icoutils
 DEPENDS += djvulibre-tools-[0-9]*:../../graphics/djvulibre-tools
