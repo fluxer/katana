@@ -385,7 +385,7 @@ lib/libweather_ion.so
 lib/libweather_ion.so.4
 lib/libweather_ion.so.4.21
 lib/localdomainurifilter.so
-lib/plasma-geolocation-geoclue.so
+lib/plasma-geolocation-geoplugin.so
 lib/plasma-geolocation-hostip.so
 lib/plasma-geolocation-ipinfo.so
 lib/plasma-kpart.so
@@ -1541,7 +1541,7 @@ share/kde4/services/plasma-dataengine-systemmonitor.desktop
 share/kde4/services/plasma-dataengine-tasks.desktop
 share/kde4/services/plasma-dataengine-time.desktop
 share/kde4/services/plasma-dataengine-weather.desktop
-share/kde4/services/plasma-geolocation-geoclue.desktop
+share/kde4/services/plasma-geolocation-geoplugin.desktop
 share/kde4/services/plasma-geolocation-hostip.desktop
 share/kde4/services/plasma-geolocation-ipinfo.desktop
 share/kde4/services/plasma-kpart.desktop

@@ -1275,7 +1275,6 @@ share/apps/cmake/modules/FindFFmpegThumbnailer.cmake
 share/apps/cmake/modules/FindFontconfig.cmake
 share/apps/cmake/modules/FindGLIB2.cmake
 share/apps/cmake/modules/FindGMP.cmake
-share/apps/cmake/modules/FindGeoClue.cmake
 share/apps/cmake/modules/FindGettextPO.cmake
 share/apps/cmake/modules/FindGphoto2.cmake
 share/apps/cmake/modules/FindKDE4Internal.cmake

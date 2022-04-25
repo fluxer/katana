@@ -87,7 +87,6 @@ DEPENDS += xscreensaver-[0-9]*:../../x11/xscreensaver
 .include "../../graphics/openexr/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../graphics/glu/buildlink3.mk"
-.include "../../geography/geoclue/buildlink3.mk"
 .include "../../devel/libgphoto2/buildlink3.mk"
 .include "../../devel/libmtp/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"

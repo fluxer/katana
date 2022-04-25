@@ -39,7 +39,7 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libxkbfile.so:x11/libxkbfile libpci.so:devel/libpci libqalculate.so:math/libqalculate \
 	libdrm.so:graphics/libdrm libpng.so:graphics/png libOpenEXR.so:graphics/openexr \
 	libmtp.so:multimedia/libmtp libssh.so:security/libssh libgphoto2.so:graphics/libgphoto2 \
-	liblightdm-gobject-1.so:x11/lightdm libgeoclue-2.so:net/geoclue
+	liblightdm-gobject-1.so:x11/lightdm
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
 
