@@ -696,6 +696,7 @@ share/apps/kfontinst/icons/ariya/scalable/actions/fontstatus.svgz
 share/apps/kfontinst/kfontviewpart.rc
 share/apps/kfontview/kfontviewui.rc
 share/apps/kglobalaccel/kglobalaccel.notifyrc
+share/apps/kgreeter/rectangle.png
 share/apps/khotkeys/defaults.khotkeys
 share/apps/khotkeys/printscreen.khotkeys
 share/apps/kinfocenter/kinfocenterui.rc
