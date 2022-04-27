@@ -871,7 +871,6 @@ share/apps/plasma/packages/org.kde.systemtray/contents/ui/StatusNotifierItem.qml
 share/apps/plasma/packages/org.kde.systemtray/contents/ui/TrayIcon.qml
 share/apps/plasma/packages/org.kde.systemtray/contents/ui/main.qml
 share/apps/plasma/plasmoids/battery/contents/code/logic.js
-share/apps/plasma/plasmoids/battery/contents/config/main.xml
 share/apps/plasma/plasmoids/battery/contents/ui/BatteryIcon.qml
 share/apps/plasma/plasmoids/battery/contents/ui/BatteryItem.qml
 share/apps/plasma/plasmoids/battery/contents/ui/CompactRepresentation.qml
