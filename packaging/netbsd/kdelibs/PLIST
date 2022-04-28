@@ -302,7 +302,6 @@ include/KDE/KParts/Factory
 include/KDE/KParts/FileInfoExtension
 include/KDE/KParts/GUIActivateEvent
 include/KDE/KParts/ListingExtension
-include/KDE/KParts/LiveConnectExtension
 include/KDE/KParts/MainWindow
 include/KDE/KParts/OpenUrlEvent
 include/KDE/KParts/Part
