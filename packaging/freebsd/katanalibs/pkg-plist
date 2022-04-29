@@ -1332,6 +1332,8 @@ share/apps/kauth/dbus_service.stub
 share/apps/kcm_componentchooser/kcm_ktexteditor.desktop
 share/apps/kdevicedatabase/pci.ids
 share/apps/kdevicedatabase/usb.ids
+share/apps/kdevicedatabase/kde4_pci.ids
+share/apps/kdevicedatabase/kde4_usb.ids
 share/apps/kdeui/about/bar-bottom-left.png
 share/apps/kdeui/about/bar-bottom-middle.png
 share/apps/kdeui/about/bar-bottom-right.png
