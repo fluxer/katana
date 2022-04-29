@@ -695,6 +695,7 @@ share/apps/kfontinst/icons/ariya/scalable/actions/fontstatus.svgz
 share/apps/kfontinst/kfontviewpart.rc
 share/apps/kfontview/kfontviewui.rc
 share/apps/kglobalaccel/kglobalaccel.notifyrc
+share/apps/kgreeter/rectangle.png
 share/apps/khotkeys/defaults.khotkeys
 share/apps/khotkeys/printscreen.khotkeys
 share/apps/kinfocenter/kinfocenterui.rc
@@ -869,7 +870,6 @@ share/apps/plasma/packages/org.kde.systemtray/contents/ui/StatusNotifierItem.qml
 share/apps/plasma/packages/org.kde.systemtray/contents/ui/TrayIcon.qml
 share/apps/plasma/packages/org.kde.systemtray/contents/ui/main.qml
 share/apps/plasma/plasmoids/battery/contents/code/logic.js
-share/apps/plasma/plasmoids/battery/contents/config/main.xml
 share/apps/plasma/plasmoids/battery/contents/ui/BatteryIcon.qml
 share/apps/plasma/plasmoids/battery/contents/ui/BatteryItem.qml
 share/apps/plasma/plasmoids/battery/contents/ui/CompactRepresentation.qml

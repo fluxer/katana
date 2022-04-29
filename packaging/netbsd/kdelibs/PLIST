@@ -231,6 +231,8 @@ include/KDE/KIconLoader
 include/KDE/KIconTheme
 include/KDE/KIdentityProxyModel
 include/KDE/KIdleTime
+include/KDE/KExiv2
+include/KDE/KPasswdStore
 include/KDE/KImageFilePreview
 include/KDE/KImageIO
 include/KDE/KInputDialog
@@ -300,7 +302,6 @@ include/KDE/KParts/Factory
 include/KDE/KParts/FileInfoExtension
 include/KDE/KParts/GUIActivateEvent
 include/KDE/KParts/ListingExtension
-include/KDE/KParts/LiveConnectExtension
 include/KDE/KParts/MainWindow
 include/KDE/KParts/OpenUrlEvent
 include/KDE/KParts/Part
@@ -723,6 +724,7 @@ include/kdesktopfile.h
 include/kdesktopfileactions.h
 include/kdeui_export.h
 include/kdeversion.h
+include/kdevicedatabase.h
 include/kdialog.h
 include/kdialogbuttonbox.h
 include/kdialogjobuidelegate.h
