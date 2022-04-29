@@ -34,7 +34,6 @@ DEPENDS = ariya-icons-[0-9]*:../../katana/ariya-icons
 DEPENDS += gdb-[0-9]*:../../devel/gdb
 DEPENDS += dejavu-ttf-[0-9]*:../../fonts/dejavu-ttf
 DEPENDS += pciutils-[0-9]*:../../sysutils/pciutils
-DEPENDS += usbids-[0-9]*:../../misc/usbids
 DEPENDS += icoutils-[0-9]*:../../graphics/icoutils
 DEPENDS += djvulibre-tools-[0-9]*:../../graphics/djvulibre-tools
 DEPENDS += xrdb-[0-9]*:../../x11/xrdb

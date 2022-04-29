@@ -1328,6 +1328,8 @@ share/apps/cmake/modules/kde4_exec.sh.in
 share/apps/kauth/dbus_policy.stub
 share/apps/kauth/dbus_service.stub
 share/apps/kcm_componentchooser/kcm_ktexteditor.desktop
+share/apps/kdevicedatabase/pci.ids
+share/apps/kdevicedatabase/usb.ids
 share/apps/kdeui/about/bar-bottom-left.png
 share/apps/kdeui/about/bar-bottom-middle.png
 share/apps/kdeui/about/bar-bottom-right.png

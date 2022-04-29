@@ -653,7 +653,6 @@ share/apps/kcmkeys/wm3.kksrc
 share/apps/kcmlocale/pics/background.png
 share/apps/kcmsolidactions/solid-action-template.desktop
 share/apps/kcmstyle/kcmstyle.notifyrc
-share/apps/kcmusb/usb.ids
 share/apps/kde/kde.notifyrc
 share/apps/kdisplay/app-defaults/AAAAAAGeneral.ad
 share/apps/kdisplay/app-defaults/AAAMotif.ad
