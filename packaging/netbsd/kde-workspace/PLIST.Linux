@@ -1,3 +1,5 @@
 @comment $NetBSD$
 lib/kcm_joystick.so
+lib/kcm_kernel.so
 share/kde4/services/joystick.desktop
+share/kde4/services/kernel.desktop
