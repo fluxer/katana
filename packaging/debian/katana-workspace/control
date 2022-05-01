@@ -16,7 +16,7 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
  libraw1394-dev [linux-any], libsensors4-dev, libegl-dev, libpci-dev,
  libopenexr-dev, libfreetype6-dev, libfontconfig1-dev, liblzma-dev,
  libbz2-dev, liblightdm-gobject-dev | liblightdm-gobject-1-dev,
- libdbusmenu-katie
+ libkmod-dev, libdbusmenu-katie
 
 Package: katana-workspace
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
