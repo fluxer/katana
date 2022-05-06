@@ -145,7 +145,6 @@ lib/kcm_input.so
 lib/kcm_kdebugconfig.so
 lib/kcm_kmetainfoconfig.so
 lib/kcm_kded.so
-lib/kcm_kdnssd.so
 lib/kcm_keyboard.so
 lib/kcm_keys.so
 lib/kcm_kmediaplayer.so
@@ -276,7 +275,6 @@ lib/kded_kscreensaver.so
 lib/kded_ktimezoned.so
 lib/kded_ktouchpadenabler.so
 lib/kded_networkstatus.so
-lib/kded_networkwatcher.so
 lib/kded_randrmonitor.so
 lib/kded_recentdocumentsnotifier.so
 lib/kded_remotedirnotify.so
@@ -350,9 +348,6 @@ lib/libkworkspace.so.4.21
 lib/liblsofui.so
 lib/liblsofui.so.4
 lib/liblsofui.so.4.21
-lib/libmolletnetwork.so
-lib/libmolletnetwork.so.4
-lib/libmolletnetwork.so.4.21
 lib/liboxygenstyle.so
 lib/liboxygenstyle.so.4
 lib/liboxygenstyle.so.4.21
@@ -948,7 +943,6 @@ share/dbus-1/interfaces/org.kde.KWin.xml
 share/dbus-1/interfaces/org.kde.khotkeys.xml
 share/dbus-1/interfaces/org.kde.krunner.App.xml
 share/dbus-1/interfaces/org.kde.kscreensaver.xml
-share/dbus-1/interfaces/org.kde.network.kioslavenotifier.xml
 share/dbus-1/services/org.kde.fontinst.service
 share/dbus-1/services/org.kde.knotify.service
 share/dbus-1/services/org.kde.krunner.service
@@ -1387,7 +1381,6 @@ share/kde4/services/kcm_infosummary.desktop
 share/kde4/services/kcm_kdebugconfig.desktop
 share/kde4/services/kcm_kmetainfoconfig.desktop
 share/kde4/services/kcm_kpasswdstoreconfig.desktop
-share/kde4/services/kcm_kdnssd.desktop
 share/kde4/services/kcm_keyboard.desktop
 share/kde4/services/kcm_memory.desktop
 share/kde4/services/kcm_pci.desktop
@@ -1409,7 +1402,6 @@ share/kde4/services/kded/kscreensaver.desktop
 share/kde4/services/kded/ktimezoned.desktop
 share/kde4/services/kded/ktouchpadenabler.desktop
 share/kde4/services/kded/networkstatus.desktop
-share/kde4/services/kded/networkwatcher.desktop
 share/kde4/services/kded/randrmonitor.desktop
 share/kde4/services/kded/recentdocumentsnotifier.desktop
 share/kde4/services/kded/remotedirnotify.desktop
