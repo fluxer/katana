@@ -1,5 +1,13 @@
 @comment $NetBSD$
+etc/dbus-1/system.d/org.kde.kcontrol.kcmkfirewall.conf
 lib/kcm_joystick.so
 lib/kcm_kernel.so
+lib/kcm_kfirewallconfig.so
+lib/kded_kfirewall.so
+libexec/kde4/kcmkfirewallhelper
 share/kde4/services/joystick.desktop
 share/kde4/services/kernel.desktop
+share/kde4/services/kcm_kfirewallconfig.desktop
+share/kde4/services/kded/kfirewall.desktop
+share/dbus-1/interfaces/org.kde.kfirewall.xml
+share/dbus-1/system-services/org.kde.kcontrol.kcmkfirewall.service
