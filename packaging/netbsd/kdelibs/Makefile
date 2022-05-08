@@ -55,6 +55,7 @@ DEPENDS += consolekit-[0-9]*:../../sysutils/consolekit
 .include "../../net/avahi/buildlink3.mk"
 .include "../../sysutils/attr/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
+.include "../../www/libmicrohttpd/buildlink3.mk"
 .include "../../archivers/xz/buildlink3.mk"
 .include "../../archivers/bzip2/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"

@@ -604,6 +604,8 @@ include/KDE/kdbgstream
 include/KDE/kndbgstream
 include/kdnssd.h
 include/kdnssd_export.h
+include/khttp.h
+include/khttp_export.h
 include/fixx11h.h
 include/k3icon_p.h
 include/kaboutapplicationdialog.h
@@ -1201,6 +1203,9 @@ lib/libkdeui.so.4.21
 lib/libkdnssd.so
 lib/libkdnssd.so.4
 lib/libkdnssd.so.4.21
+lib/libkhttp.so
+lib/libkhttp.so.4
+lib/libkhttp.so.4.21
 lib/libkexiv2.so
 lib/libkexiv2.so.4
 lib/libkexiv2.so.4.21
