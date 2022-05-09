@@ -491,7 +491,6 @@ share/kde4/services/ktexteditor_lumen.desktop
 share/kde4/services/netpref.desktop
 share/kde4/services/plasma-applet-katesession.desktop
 share/kde4/services/proxy.desktop
-share/kde4/services/smb.desktop
 share/kde4/servicetypes/fileviewversioncontrolplugin.desktop
 share/kde4/servicetypes/kateplugin.desktop
 share/kde4/servicetypes/konqdndpopupmenuplugin.desktop
