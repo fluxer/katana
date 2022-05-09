@@ -269,6 +269,7 @@ lib/kde4/plugins/styles/oxygen.so
 lib/kded_desktopnotifier.so
 lib/kded_device_automounter.so
 lib/kded_freespacenotifier.so
+lib/kded_kdirshare.so
 lib/kded_keyboard.so
 lib/kded_khotkeys.so
 lib/kded_kscreensaver.so
@@ -281,6 +282,7 @@ lib/kded_remotedirnotify.so
 lib/kded_solidautoeject.so
 lib/kded_soliduiserver.so
 lib/kded_statusnotifierwatcher.so
+lib/kdirshareplugin.so
 lib/keyboard_layout_widget.so
 lib/kfontviewpart.so
 lib/kio_applications.so
@@ -649,6 +651,7 @@ share/apps/kcmlocale/pics/background.png
 share/apps/kcmsolidactions/solid-action-template.desktop
 share/apps/kcmstyle/kcmstyle.notifyrc
 share/apps/kde/kde.notifyrc
+share/apps/kdirshare/kdirshare.notifyrc
 share/apps/kdisplay/app-defaults/AAAAAAGeneral.ad
 share/apps/kdisplay/app-defaults/AAAMotif.ad
 share/apps/kdisplay/app-defaults/AAATk.ad
@@ -940,6 +943,7 @@ share/config/plasma-desktoprc
 share/dbus-1/interfaces/org.kde.KSMServerInterface.xml
 share/dbus-1/interfaces/org.kde.KTimeZoned.xml
 share/dbus-1/interfaces/org.kde.KWin.xml
+share/dbus-1/interfaces/org.kde.kdirshare.xml
 share/dbus-1/interfaces/org.kde.khotkeys.xml
 share/dbus-1/interfaces/org.kde.krunner.App.xml
 share/dbus-1/interfaces/org.kde.kscreensaver.xml
@@ -1396,6 +1400,7 @@ share/kde4/services/kcmusb.desktop
 share/kde4/services/kded/desktopnotifier.desktop
 share/kde4/services/kded/device_automounter.desktop
 share/kde4/services/kded/freespacenotifier.desktop
+share/kde4/services/kded/kdirshare.desktop
 share/kde4/services/kded/keyboard.desktop
 share/kde4/services/kded/khotkeys.desktop
 share/kde4/services/kded/kscreensaver.desktop
@@ -1408,6 +1413,7 @@ share/kde4/services/kded/remotedirnotify.desktop
 share/kde4/services/kded/solidautoeject.desktop
 share/kde4/services/kded/soliduiserver.desktop
 share/kde4/services/kded/statusnotifierwatcher.desktop
+share/kde4/services/kdirshareplugin.desktop
 share/kde4/services/keys.desktop
 share/kde4/services/kfontviewpart.desktop
 share/kde4/services/kglobalaccel.desktop
