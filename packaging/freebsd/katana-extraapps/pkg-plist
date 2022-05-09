@@ -182,7 +182,6 @@ lib/plasma_wallpaper_qml.so
 lib/plasma_wallpaper_virus.so
 lib/plasma_wallpaper_weather.so
 lib/pothumbnail.so
-lib/sambausershareplugin.so
 share/applications/kde4/ark.desktop
 share/applications/kde4/filelight.desktop
 share/applications/kde4/gwenview.desktop
@@ -694,7 +693,6 @@ share/kde4/services/plasma-wallpaper-virus.desktop
 share/kde4/services/plasma-wallpaper-weather.desktop
 share/kde4/services/pothumbnail.desktop
 share/kde4/services/rdp.protocol
-share/kde4/services/sambausershareplugin.desktop
 share/kde4/services/vnc.protocol
 share/kde4/servicetypes/jovie_filterplugin.desktop
 share/kde4/servicetypes/kerfufflePlugin.desktop

@@ -265,7 +265,6 @@ include/KDE/KMozillaBookmarkImporterImpl
 include/KDE/KMultiTabBar
 include/KDE/KMultiTabBarButton
 include/KDE/KMultiTabBarTab
-include/KDE/KNFSShare
 include/KDE/KNSBookmarkExporter
 include/KDE/KNSBookmarkExporterImpl
 include/KDE/KNSBookmarkImporter
@@ -348,8 +347,6 @@ include/KDE/KRichTextEdit
 include/KDE/KRichTextWidget
 include/KDE/KRuler
 include/KDE/KRun
-include/KDE/KSambaShare
-include/KDE/KSambaShareData
 include/KDE/KSaveFile
 include/KDE/KSelectAction
 include/KDE/KSelectionOwner
@@ -850,7 +847,6 @@ include/kmultitabbar.h
 include/knameandurlinputdialog.h
 include/knewfilemenu.h
 include/knewpassworddialog.h
-include/knfsshare.h
 include/knotification.h
 include/knotificationrestrictions.h
 include/knotifyconfig_export.h
@@ -925,8 +921,6 @@ include/krichtextedit.h
 include/krichtextwidget.h
 include/kruler.h
 include/krun.h
-include/ksambashare.h
-include/ksambasharedata.h
 include/ksavefile.h
 include/kselectaction.h
 include/kselector.h
