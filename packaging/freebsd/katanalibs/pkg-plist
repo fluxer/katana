@@ -137,6 +137,7 @@ include/KDE/KEMailSettings
 include/KDE/KEditListWidget
 include/KDE/KEditToolBar
 include/KDE/KEncodingFileDialog
+include/KDE/KExiv2
 include/KDE/KExtendableItemDelegate
 include/KDE/KFadeWidgetEffect
 include/KDE/KFile
@@ -221,8 +222,6 @@ include/KDE/KIconLoader
 include/KDE/KIconTheme
 include/KDE/KIdentityProxyModel
 include/KDE/KIdleTime
-include/KDE/KExiv2
-include/KDE/KPasswdStore
 include/KDE/KImageFilePreview
 include/KDE/KImageIO
 include/KDE/KInputDialog
@@ -304,6 +303,7 @@ include/KDE/KParts/ReadWritePart
 include/KDE/KParts/StatusBarExtension
 include/KDE/KPassivePopup
 include/KDE/KPassivePopupMessageHandler
+include/KDE/KPasswdStore
 include/KDE/KPasswordDialog
 include/KDE/KPasteTextAction
 include/KDE/KPixmapRegionSelectorDialog
@@ -598,10 +598,6 @@ include/KDE/Sonnet/Highlighter
 include/KDE/ThumbCreator
 include/KDE/kdbgstream
 include/KDE/kndbgstream
-include/kdnssd.h
-include/kdnssd_export.h
-include/khttp.h
-include/khttp_export.h
 include/fixx11h.h
 include/k3icon_p.h
 include/kaboutapplicationdialog.h
@@ -717,6 +713,8 @@ include/kdirselectdialog.h
 include/kdirsortfilterproxymodel.h
 include/kdirwatch.h
 include/kdiskfreespaceinfo.h
+include/kdnssd.h
+include/kdnssd_export.h
 include/kdualaction.h
 include/keditlistwidget.h
 include/kedittoolbar.h
@@ -768,6 +766,8 @@ include/kguiitem.h
 include/khbox.h
 include/khelpmenu.h
 include/khistorycombobox.h
+include/khttp.h
+include/khttp_export.h
 include/khuesaturationselect.h
 include/kicon.h
 include/kicondialog.h
@@ -1196,15 +1196,15 @@ lib/libkdeui.so.4.21
 lib/libkdnssd.so
 lib/libkdnssd.so.4
 lib/libkdnssd.so.4.21
-lib/libkhttp.so
-lib/libkhttp.so.4
-lib/libkhttp.so.4.21
 lib/libkexiv2.so
 lib/libkexiv2.so.4
 lib/libkexiv2.so.4.21
 lib/libkfile.so
 lib/libkfile.so.4
 lib/libkfile.so.4.21
+lib/libkhttp.so
+lib/libkhttp.so.4
+lib/libkhttp.so.4.21
 lib/libkidletime.so
 lib/libkidletime.so.4
 lib/libkidletime.so.4.21
@@ -1313,10 +1313,6 @@ share/apps/cmake/modules/kde4_exec.sh.in
 share/apps/kauth/dbus_policy.stub
 share/apps/kauth/dbus_service.stub
 share/apps/kcm_componentchooser/kcm_ktexteditor.desktop
-share/apps/kdevicedatabase/pci.ids
-share/apps/kdevicedatabase/usb.ids
-share/apps/kdevicedatabase/kde4_pci.ids
-share/apps/kdevicedatabase/kde4_usb.ids
 share/apps/kdeui/about/bar-bottom-left.png
 share/apps/kdeui/about/bar-bottom-middle.png
 share/apps/kdeui/about/bar-bottom-right.png
@@ -1345,6 +1341,10 @@ share/apps/kdeui/pics/kdeprint_nup4.png
 share/apps/kdeui/pics/kdeprint_nupother.png
 share/apps/kdeui/pics/ktip-bulb.png
 share/apps/kdeui/pics/thumb_frame.png
+share/apps/kdevicedatabase/kde4_pci.ids
+share/apps/kdevicedatabase/kde4_usb.ids
+share/apps/kdevicedatabase/pci.ids
+share/apps/kdevicedatabase/usb.ids
 share/apps/kdewidgets/pics/kactionselector.png
 share/apps/kdewidgets/pics/kactivelabel.png
 share/apps/kdewidgets/pics/kcmodule.png

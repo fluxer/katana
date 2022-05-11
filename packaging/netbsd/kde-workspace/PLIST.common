@@ -385,6 +385,7 @@ lib/localdomainurifilter.so
 lib/plasma-geolocation-geoplugin.so
 lib/plasma-geolocation-hostip.so
 lib/plasma-geolocation-ipinfo.so
+lib/plasma-geolocation-mozilla.so
 lib/plasma-kpart.so
 lib/plasma_applet_calendar.so
 lib/plasma_applet_clock.so
@@ -1540,6 +1541,7 @@ share/kde4/services/plasma-dataengine-weather.desktop
 share/kde4/services/plasma-geolocation-geoplugin.desktop
 share/kde4/services/plasma-geolocation-hostip.desktop
 share/kde4/services/plasma-geolocation-ipinfo.desktop
+share/kde4/services/plasma-geolocation-mozilla.desktop
 share/kde4/services/plasma-kpart.desktop
 share/kde4/services/plasma-pager-default.desktop
 share/kde4/services/plasma-runner-bookmarks.desktop
