@@ -5,7 +5,7 @@ Maintainer: Ivailo Monev <xakepa10@gmail.com>
 Homepage: https://github.com/fluxer/kde-l10n
 Vcs-Git: git://github.com/fluxer/kde-l10n.git
 Vcs-browser: https://github.com/fluxer/kde-l10n
-Standards-Version: 4.21.0
+Standards-Version: 4.22.0
 Build-Depends: debhelper (>= 9~), cmake, katanalibs, gettext
 
 Package: katana-l10n

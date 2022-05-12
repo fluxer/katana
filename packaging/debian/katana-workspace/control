@@ -5,7 +5,7 @@ Maintainer: Ivailo Monev <xakepa10@gmail.com>
 Homepage: https://github.com/fluxer/kde-workspace
 Vcs-Git: git://github.com/fluxer/kde-workspace.git
 Vcs-browser: https://github.com/fluxer/kde-workspace
-Standards-Version: 4.21.0
+Standards-Version: 4.22.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
  katana-baseapps, xorg-dev, libqalculate-dev, libgphoto2-dev,
  libxxf86vm-dev, libx11-xcb-dev, libxcb-composite0-dev, libxcb-damage0-dev,
