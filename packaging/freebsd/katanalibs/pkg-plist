@@ -1176,6 +1176,7 @@ lib/kfilemetadata_epub.so
 lib/kfilemetadata_exiv2.so
 lib/kfilemetadata_ffmpeg.so
 lib/kfilemetadata_poppler.so
+lib/kfilemetadata_spectre.so
 lib/kfilemetadata_taglib.so
 lib/kfilemodule.so
 lib/kio_file.so
@@ -1422,6 +1423,7 @@ share/kde4/services/kfilemetadata_epub.desktop
 share/kde4/services/kfilemetadata_exiv2.desktop
 share/kde4/services/kfilemetadata_ffmpeg.desktop
 share/kde4/services/kfilemetadata_poppler.desktop
+share/kde4/services/kfilemetadata_spectre.desktop
 share/kde4/services/kfilemetadata_taglib.desktop
 share/kde4/services/kfilemodule.desktop
 share/kde4/services/plasma-applet-extenderapplet.desktop
