@@ -1397,7 +1397,6 @@ share/dbus-1/interfaces/org.freedesktop.PowerManagement.Inhibit.xml
 share/dbus-1/interfaces/org.freedesktop.PowerManagement.xml
 share/dbus-1/interfaces/org.kde.JobView.xml
 share/dbus-1/interfaces/org.kde.JobViewServer.xml
-share/dbus-1/interfaces/org.kde.JobViewV2.xml
 share/dbus-1/interfaces/org.kde.KDirNotify.xml
 share/dbus-1/interfaces/org.kde.KGlobalAccel.xml
 share/dbus-1/interfaces/org.kde.KLauncher.xml
