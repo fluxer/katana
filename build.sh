@@ -41,7 +41,7 @@ if [ "$(id -u)" != "0" ];then
     sudo="sudo"
 fi
 
-packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace")
+packs=("ariya-icons" "kdelibs" "kde-workspace")
 
 source "$(dirname $0)/fetch.sh"
 

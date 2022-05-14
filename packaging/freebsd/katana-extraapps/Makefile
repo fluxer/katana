@@ -28,7 +28,7 @@ RUN_DEPENDS = xfreerdp:net/freerdp xsltproc:textproc/libxslt \
 	kpsewhich:devel/tex-kpathsea
 # zlib and oss are not part of any package
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
-	libkonq.so:katana/katana-baseapps libplasmagenericshell.so:katana/katana-workspace \
+	libplasmagenericshell.so:katana/katana-workspace \
 	libdbusmenu-katie.so:katana/libdbusmenu-katie libgmp.so:math/gmp \
 	libexiv2.so:graphics/exiv2 libasound.so:audio/alsa-lib \
 	libspeechd.so:accessibility/speech-dispatcher libtag.so:audio/taglib \

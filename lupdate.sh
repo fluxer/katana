@@ -3,12 +3,12 @@
 set -e
 
 version="$1"
-packs=("kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
+packs=("kdelibs" "kde-workspace" "kde-extraapps" "kde-l10n")
 cwd="$(pwd)"
 
 source "$(dirname $0)/fetch.sh"
 
-packs=("kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps")
+packs=("kdelibs" "kde-workspace" "kde-extraapps")
 
 for p in "${packs[@]}";do
     echo "Updating translations of $p..."

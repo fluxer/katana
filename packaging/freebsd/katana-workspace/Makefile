@@ -4,7 +4,7 @@ PORTNAME = katana-workspace
 DISTVERSION = 4.22.0.d20220512
 CATEGORIES = devel x11
 MAINTAINER = xakepa10@gmail.com
-COMMENT = Katana workspace interface and basic tools
+COMMENT = Katana workspace interface, base applications and tools
 LICENSE = LGPL20 LGPL21
 LICENSE_COMB = multi
 
@@ -13,32 +13,32 @@ DISTFILES = master.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-workspace-master
 
-USES = compiler:c++11-lang pkgconfig cmake xorg samba gl desktop-file-utils \
+USES = compiler:c++11-lang pkgconfig cmake xorg samba gl shebangfix desktop-file-utils \
 	shared-mime-info
 USE_XORG = x11 xinerama xcursor xfixes xrender xtst xdamage xcomposite xres xft xi xau \
 	xrandr xext ice sm xcb xxf86vm
 USE_SAMBA = build run
 USE_GL = gl glu egl
 USE_LDCONFIG = yes
-SHEBANG_FILES = kcontrol/kfontinst/dbus/fontinst_x11
+SHEBANG_FILES = kcontrol/kfontinst/dbus/fontinst_x11 kate/part/syntax/data/generate-php.pl
 # lldb and libusb are not part of any package
 RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme \
-	Xorg:x11-servers/xorg-server \
 	${LOCALBASE}/share/fonts/dejavu/DejaVuSansMono.ttf:x11-fonts/dejavu \
-	wrestool:graphics/icoutils ddjvu:graphics/djvulibre xrdb:x11/xrdb xmessage:x11/xmessage \
-	xprop:x11/xprop xrandr:x11/xrandr setxkbmap:x11/setxkbmap xmodmap:x11/xmodmap \
-	xsetroot:x11/xsetroot iceauth:x11/iceauth iso-codes>=0:misc/iso-codes \
-	mtools:emulators/mtools rar:archivers/rar unrar:archivers/unrar \
-	lspci:sysutils/pciutils lightdm:x11/lightdm \
-	qrencode:graphics/libqrencode xscreensaver:x11/xscreensaver
+	Xorg:x11-servers/xorg-server wrestool:graphics/icoutils ddjvu:graphics/djvulibre \
+	xrdb:x11/xrdb xmessage:x11/xmessage xauth:x11/xauth xprop:x11/xprop xrandr:x11/xrandr \
+	setxkbmap:x11/setxkbmap xmodmap:x11/xmodmap xsetroot:x11/xsetroot iceauth:x11/iceauth \
+	iso-codes>=0:misc/iso-codes mtools:emulators/mtools rar:archivers/rar \
+	unrar:archivers/unrar lspci:sysutils/pciutils lightdm:x11/lightdm \
+	qrencode:graphics/libqrencode xscreensaver:x11/xscreensaver sudo:security/sudo \
+	ctags:devel/ctags cppcheck:devel/cppcheck lrz:comms/lrzsz
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
-	libkonq.so:katana/katana-baseapps  libdbusmenu-katie.so:katana/libdbusmenu-katie \
-	libfreetype.so:print/freetype2 libfontconfig.so:x11-fonts/fontconfig \
-	libxcb-render-util.so:x11/xcb-util-renderutil libxcb-keysyms.so:x11/xcb-util-keysyms \
-	libxkbfile.so:x11/libxkbfile libpci.so:devel/libpci libqalculate.so:math/libqalculate \
-	libdrm.so:graphics/libdrm libpng.so:graphics/png libOpenEXR.so:graphics/openexr \
-	libmtp.so:multimedia/libmtp libssh.so:security/libssh libgphoto2.so:graphics/libgphoto2 \
+	libdbusmenu-katie.so:katana/libdbusmenu-katie libfreetype.so:print/freetype2 \
+	libfontconfig.so:x11-fonts/fontconfig libxcb-render-util.so:x11/xcb-util-renderutil \
+	libxcb-keysyms.so:x11/xcb-util-keysyms libxkbfile.so:x11/libxkbfile \
+	libpci.so:devel/libpci libqalculate.so:math/libqalculate libdrm.so:graphics/libdrm \
+	libpng.so:graphics/png libOpenEXR.so:graphics/openexr libmtp.so:multimedia/libmtp \
+	libssh.so:security/libssh libgphoto2.so:graphics/libgphoto2 \
 	liblightdm-gobject-1.so:x11/lightdm
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed

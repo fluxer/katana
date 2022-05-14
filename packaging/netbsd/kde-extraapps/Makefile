@@ -37,7 +37,6 @@ DEPENDS += kpathsea-[0-9]*:../../print/kpathsea
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
 .include "../../katana/kdelibs/buildlink3.mk"
-.include "../../katana/kde-baseapps/buildlink3.mk"
 .include "../../katana/kde-workspace/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXrender/buildlink3.mk"

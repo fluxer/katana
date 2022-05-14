@@ -6,7 +6,7 @@ Homepage: https://github.com/fluxer/kde-extraapps
 Vcs-Git: git://github.com/fluxer/kde-extraapps.git
 Vcs-browser: https://github.com/fluxer/kde-extraapps
 Standards-Version: 4.22.0
-Build-Depends: debhelper (>= 9~), cmake, katie-dev, katana-baseapps,
+Build-Depends: debhelper (>= 9~), cmake, katie-dev,
  katana-workspace, xorg-dev, zlib1g-dev, libacl1-dev, libavcodec-dev,
  libattr1-dev, libarchive-dev, libasound2-dev, libatasmart-dev,
  libavformat-dev, libavutil-dev, libblkid-dev, libdjvulibre-dev,

@@ -3,7 +3,7 @@
 set -e
 
 version="$1"
-packs=("kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps")
+packs=("kdelibs" "kde-workspace" "kde-extraapps")
 cwd="$(pwd)"
 
 if ! type -p doxygen;then

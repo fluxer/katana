@@ -6,7 +6,6 @@
 # - kdelibs/CMakeLists.txt
 # - kdelibs/cmake/modules/FindKDE4Internal.cmake
 # - kdelibs/cmake/modules/KDE4Defaults.cmake
-# - kde-baseapps/CMakeLists.txt
 # - kde-workspace/CMakeLists.txt
 # - kde-extraapps/CMakeLists.txt
 # - kde-extraapps/*/CMakeLists.txt
@@ -15,7 +14,7 @@
 set -e
 
 version="$1"
-packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
+packs=("ariya-icons" "kdelibs" "kde-workspace" "kde-extraapps" "kde-l10n")
 cwd="$(pwd)"
 
 if [ -z "$version" ];then

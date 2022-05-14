@@ -7,7 +7,7 @@ DISTNAME = master
 PKGNAME = kde-workspace-4.22.0.d20220512
 CATEGORIES = katana x11
 MAINTAINER = xakepa10@gmail.com
-COMMENT = Katana workspace interface and basic tools
+COMMENT = Katana workspace interface, base applications and tools
 LICENSE = gnu-gpl-v2 AND gnu-lgpl-v2.1
 HOMEPAGE = https://github.com/fluxer/kde-workspace
 
@@ -19,7 +19,8 @@ CMAKE_ARG_PATH= ${WRKSRC}
 
 USE_CMAKE = yes
 USE_LANGUAGES = c c++
-USE_TOOLS = pkg-config sh:run
+USE_TOOLS = pkg-config sh:run nice:run
+REPLACE_PERL = kate/part/syntax/data/generate-php.pl
 
 post-extract:
 	${MKDIR} ${WRKDIR}/build
@@ -44,17 +45,23 @@ DEPENDS += setxkbmap-[0-9]*:../../x11/setxkbmap
 DEPENDS += xmodmap-[0-9]*:../../x11/xmodmap
 DEPENDS += xsetroot-[0-9]*:../../x11/xsetroot
 DEPENDS += iceauth-[0-9]*:../../x11/iceauth
+DEPENDS += xauth-[0-9]*:../../x11/xauth
 DEPENDS += iso-codes-[0-9]*:../../textproc/iso-codes
 DEPENDS += mtools-[0-9]*:../../sysutils/mtools
 DEPENDS += rar-[0-9]*:../../archivers/rar
 DEPENDS += unrar-[0-9]*:../../archivers/unrar
 DEPENDS += qrencode-[0-9]*:../../converters/qrencode
 DEPENDS += xscreensaver-[0-9]*:../../x11/xscreensaver
+DEPENDS += sudo-[0-9]*:../../security/sudo
+DEPENDS += exctags-[0-9]*:../../devel/exctags
+DEPENDS += cppcheck-[0-9]*:../../devel/cppcheck
+# TODO: fails to build on Linux
+# DEPENDS += lrzsz-[0-9]*:../../comms/lrzsz
+DEPENDS += slocate-[0-9]*:../../sysutils/slocate
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/katie/buildlink3.mk"
 .include "../../katana/kdelibs/buildlink3.mk"
-.include "../../katana/kde-baseapps/buildlink3.mk"
 .include "../../sysutils/pciutils/buildlink3.mk"
 .include "../../math/qalculate/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"

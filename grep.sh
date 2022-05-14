@@ -2,7 +2,7 @@
 
 set -e
 
-packs=("kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps")
+packs=("kdelibs" "kde-workspace" "kde-extraapps")
 
 for p in "${packs[@]}";do
     echo "Searching $p..."

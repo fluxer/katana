@@ -7,7 +7,7 @@ if [ -z "$1" ];then
     # git pull --tags
     date="$(git log --tags --simplify-by-decoration --pretty='%ad' --date='short' | head -n1)"
 fi
-packs=("ariya-icons" "kdelibs" "kde-baseapps" "kde-workspace" "kde-extraapps" "kde-l10n")
+packs=("ariya-icons" "kdelibs" "kde-workspace" "kde-extraapps" "kde-l10n")
 cwd="$(pwd)"
 if [ -z "$date" ];then
     echo "Pass a date"
