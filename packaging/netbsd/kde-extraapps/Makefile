@@ -67,4 +67,5 @@ DEPENDS += kpathsea-[0-9]*:../../print/kpathsea
 # .include "../../net/freerdp2/buildlink3.mk"
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
