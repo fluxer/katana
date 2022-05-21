@@ -1411,6 +1411,7 @@ share/dbus-1/interfaces/org.kde.kglobalaccel.Component.xml
 share/dbus-1/interfaces/org.kde.kio.FileUndoManager.xml
 share/dbus-1/interfaces/org.kde.kpasswdstore.xml
 share/dbus-1/interfaces/org.kde.kpowermanager.xml
+share/dbus-1/services/org.kde.kded.service
 share/dbus-1/system-services/org.kde.kpowermanager.helper.service
 share/kde4/services/file.protocol
 share/kde4/services/ftp.protocol
