@@ -1311,6 +1311,7 @@ share/apps/cmake/modules/MacroOptionalFindPackage.cmake
 share/apps/cmake/modules/cmake-modules-styleguide.txt
 share/apps/cmake/modules/kde4_cmake_uninstall.cmake.in
 share/apps/cmake/modules/kde4_exec.sh.in
+share/apps/cmake/modules/kde4_test.sh.in
 share/apps/kauth/dbus_policy.stub
 share/apps/kauth/dbus_service.stub
 share/apps/kcm_componentchooser/kcm_ktexteditor.desktop
