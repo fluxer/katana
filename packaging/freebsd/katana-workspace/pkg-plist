@@ -1364,6 +1364,7 @@ share/dbus-1/interfaces/org.kde.khotkeys.xml
 share/dbus-1/interfaces/org.kde.krunner.App.xml
 share/dbus-1/interfaces/org.kde.kscreensaver.xml
 share/dbus-1/services/org.kde.fontinst.service
+share/dbus-1/services/org.kde.kglobalaccel.service
 share/dbus-1/services/org.kde.knotify.service
 share/dbus-1/services/org.kde.krunner.service
 share/dbus-1/services/org.kde.kuiserver.service
