@@ -3,8 +3,6 @@ bin/kconfig_compiler
 bin/kde4-config
 bin/kded4
 bin/kdeinit4
-bin/kdeinit4_shutdown
-bin/kdeinit4_wrapper
 bin/kmailservice
 bin/kshell4
 bin/ktelnetservice
