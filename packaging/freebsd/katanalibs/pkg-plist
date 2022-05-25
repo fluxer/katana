@@ -1241,7 +1241,6 @@ lib/libsolid.so.4.22
 libexec/kde4/kioslave
 libexec/kde4/klauncher
 libexec/kde4/kpowermanager_helper
-libexec/kde4/lnusertemp
 share/applications/kde4/kmailservice.desktop
 share/applications/kde4/ktelnetservice.desktop
 share/apps/LICENSES/ARTISTIC
