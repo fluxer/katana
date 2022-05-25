@@ -5,9 +5,7 @@ bin/kde4-config
 bin/kded4
 bin/kdeinit4
 bin/kmailservice
-bin/kshell4
 bin/ktelnetservice
-bin/kwrapper4
 bin/makekdewidgets
 bin/preparetips
 etc/dbus-1/system.d/org.kde.auth.conf
