@@ -313,6 +313,7 @@ share/apps/kvkbd/colors/legacy.css
 share/apps/kvkbd/colors/light.css
 share/apps/kvkbd/colors/simple.css
 share/apps/kvkbd/pics/tray.png
+share/apps/kvkbd/themes/standart.css
 share/apps/kvkbd/themes/standart.xml
 share/apps/okular/icons/hicolor/16x16/actions/okular-fb2.png
 share/apps/okular/icons/hicolor/16x16/actions/okular-gv.png
