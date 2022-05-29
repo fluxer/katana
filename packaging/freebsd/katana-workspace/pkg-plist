@@ -347,7 +347,6 @@ lib/kio_archive.so
 lib/kio_camera.so
 lib/kio_desktop.so
 lib/kio_filenamesearch.so
-lib/kio_filter.so
 lib/kio_floppy.so
 lib/kio_fonts.so
 lib/kio_mtp.so
@@ -1777,8 +1776,6 @@ share/kde4/services/applications.protocol
 share/kde4/services/ar.protocol
 share/kde4/services/autostart.desktop
 share/kde4/services/bookmarks.desktop
-share/kde4/services/bzip.protocol
-share/kde4/services/bzip2.protocol
 share/kde4/services/camera.protocol
 share/kde4/services/clock.desktop
 share/kde4/services/colors.desktop
@@ -1816,7 +1813,6 @@ share/kde4/services/fonts.desktop
 share/kde4/services/fonts.protocol
 share/kde4/services/fontthumbnail.desktop
 share/kde4/services/graphicalinfocategory.desktop
-share/kde4/services/gzip.protocol
 share/kde4/services/icons.desktop
 share/kde4/services/imagethumbnail.desktop
 share/kde4/services/interrupts.desktop
@@ -1954,7 +1950,6 @@ share/kde4/services/kwintabbox.desktop
 share/kde4/services/language.desktop
 share/kde4/services/localdomainurifilter.desktop
 share/kde4/services/lostfoundcategory.desktop
-share/kde4/services/lzma.protocol
 share/kde4/services/mouse.desktop
 share/kde4/services/mtp.protocol
 share/kde4/services/netpref.desktop
@@ -2192,7 +2187,6 @@ share/kde4/services/windowsexethumbnail.desktop
 share/kde4/services/windowsimagethumbnail.desktop
 share/kde4/services/workspaceoptions.desktop
 share/kde4/services/xserver.desktop
-share/kde4/services/xz.protocol
 share/kde4/services/zip.protocol
 share/kde4/servicetypes/fileviewversioncontrolplugin.desktop
 share/kde4/servicetypes/kateplugin.desktop

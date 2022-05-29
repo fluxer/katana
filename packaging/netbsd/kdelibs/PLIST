@@ -1378,6 +1378,15 @@ share/apps/kdewidgets/pics/ktextedit.png
 share/apps/kdewidgets/pics/kurlcomborequester.png
 share/apps/kdewidgets/pics/kurllabel.png
 share/apps/kdewidgets/pics/kurlrequester.png
+share/apps/kio/pics/group-grey.png
+share/apps/kio/pics/group.png
+share/apps/kio/pics/mask.png
+share/apps/kio/pics/others-grey.png
+share/apps/kio/pics/others.png
+share/apps/kio/pics/user-grey.png
+share/apps/kio/pics/user.png
+share/apps/kio/pics/yes.png
+share/apps/kio/pics/yespartial.png
 share/apps/plasma/services/dataengineservice.operations
 share/apps/plasma/services/plasmoidservice.operations
 share/config/accept-languages.codes
