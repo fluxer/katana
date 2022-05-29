@@ -558,6 +558,7 @@ share/icons/ariya/128x128/mimetypes/text-x-pascal.png
 share/icons/ariya/128x128/mimetypes/text-x-patch.png
 share/icons/ariya/128x128/mimetypes/text-x-po.png
 share/icons/ariya/128x128/mimetypes/text-x-python.png
+share/icons/ariya/128x128/mimetypes/text-x-python3.png
 share/icons/ariya/128x128/mimetypes/text-x-qml.png
 share/icons/ariya/128x128/mimetypes/text-x-readme.png
 share/icons/ariya/128x128/mimetypes/text-x-rpm-spec.png
@@ -1764,6 +1765,7 @@ share/icons/ariya/16x16/mimetypes/text-x-pascal.png
 share/icons/ariya/16x16/mimetypes/text-x-patch.png
 share/icons/ariya/16x16/mimetypes/text-x-po.png
 share/icons/ariya/16x16/mimetypes/text-x-python.png
+share/icons/ariya/16x16/mimetypes/text-x-python3.png
 share/icons/ariya/16x16/mimetypes/text-x-qml.png
 share/icons/ariya/16x16/mimetypes/text-x-readme.png
 share/icons/ariya/16x16/mimetypes/text-x-rpm-spec.png
@@ -3075,6 +3077,7 @@ share/icons/ariya/22x22/mimetypes/text-x-patch.png
 share/icons/ariya/22x22/mimetypes/text-x-plain.png
 share/icons/ariya/22x22/mimetypes/text-x-po.png
 share/icons/ariya/22x22/mimetypes/text-x-python.png
+share/icons/ariya/22x22/mimetypes/text-x-python3.png
 share/icons/ariya/22x22/mimetypes/text-x-qml.png
 share/icons/ariya/22x22/mimetypes/text-x-readme.png
 share/icons/ariya/22x22/mimetypes/text-x-rpm-spec.png
@@ -4358,6 +4361,7 @@ share/icons/ariya/32x32/mimetypes/text-x-pascal.png
 share/icons/ariya/32x32/mimetypes/text-x-patch.png
 share/icons/ariya/32x32/mimetypes/text-x-po.png
 share/icons/ariya/32x32/mimetypes/text-x-python.png
+share/icons/ariya/32x32/mimetypes/text-x-python3.png
 share/icons/ariya/32x32/mimetypes/text-x-qml.png
 share/icons/ariya/32x32/mimetypes/text-x-readme.png
 share/icons/ariya/32x32/mimetypes/text-x-rpm-spec.png
@@ -5583,6 +5587,7 @@ share/icons/ariya/48x48/mimetypes/text-x-pascal.png
 share/icons/ariya/48x48/mimetypes/text-x-patch.png
 share/icons/ariya/48x48/mimetypes/text-x-po.png
 share/icons/ariya/48x48/mimetypes/text-x-python.png
+share/icons/ariya/48x48/mimetypes/text-x-python3.png
 share/icons/ariya/48x48/mimetypes/text-x-qml.png
 share/icons/ariya/48x48/mimetypes/text-x-readme.png
 share/icons/ariya/48x48/mimetypes/text-x-rpm-spec.png
@@ -6293,6 +6298,7 @@ share/icons/ariya/64x64/mimetypes/text-x-pascal.png
 share/icons/ariya/64x64/mimetypes/text-x-patch.png
 share/icons/ariya/64x64/mimetypes/text-x-po.png
 share/icons/ariya/64x64/mimetypes/text-x-python.png
+share/icons/ariya/64x64/mimetypes/text-x-python3.png
 share/icons/ariya/64x64/mimetypes/text-x-qml.png
 share/icons/ariya/64x64/mimetypes/text-x-readme.png
 share/icons/ariya/64x64/mimetypes/text-x-rpm-spec.png
