@@ -718,7 +718,6 @@ include/kencodingdetector.h
 include/kencodingfiledialog.h
 include/kexiv2.h
 include/kexiv2_export.h
-include/kexportplugin.h
 include/kextendableitemdelegate.h
 include/kfadewidgeteffect.h
 include/kfile.h
