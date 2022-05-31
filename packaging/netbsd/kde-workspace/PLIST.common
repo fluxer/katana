@@ -732,7 +732,6 @@ share/apps/kate/plugins/katefiletemplates/templates/cppgpl.cpp.katetemplate
 share/apps/kate/plugins/katefiletemplates/templates/cppgpl.hh.katetemplate
 share/apps/kate/plugins/katefiletemplates/templates/cpplgpl.cpp.katetemplate
 share/apps/kate/plugins/katefiletemplates/templates/cpplgpl.hh.katetemplate
-share/apps/kate/plugins/katefiletemplates/templates/docbookchapter.xml.katetemplate
 share/apps/kate/plugins/katefiletemplates/templates/html.katetemplate
 share/apps/kate/plugins/katefiletemplates/templates/language.xml.katetemplate
 share/apps/kate/plugins/katefiletemplates/ui.rc
