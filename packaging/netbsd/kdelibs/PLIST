@@ -1280,7 +1280,6 @@ share/apps/cmake/modules/FindPCIUTILS.cmake
 share/apps/cmake/modules/FindPoppler.cmake
 share/apps/cmake/modules/FindQalculate.cmake
 share/apps/cmake/modules/FindRAW1394.cmake
-share/apps/cmake/modules/FindSamba.cmake
 share/apps/cmake/modules/FindSensors.cmake
 share/apps/cmake/modules/FindSharedMimeInfo.cmake
 share/apps/cmake/modules/FindSpeechd.cmake

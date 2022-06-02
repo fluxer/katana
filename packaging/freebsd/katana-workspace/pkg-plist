@@ -351,12 +351,10 @@ lib/kio_floppy.so
 lib/kio_fonts.so
 lib/kio_mtp.so
 lib/kio_network.so
-lib/kio_nfs.so
 lib/kio_recentdocuments.so
 lib/kio_remote.so
 lib/kio_settings.so
 lib/kio_sftp.so
-lib/kio_smb.so
 lib/kio_thumbnail.so
 lib/kio_trash.so
 lib/kmediaplayerpart.so
@@ -1954,7 +1952,6 @@ share/kde4/services/mtp.protocol
 share/kde4/services/netpref.desktop
 share/kde4/services/network.protocol
 share/kde4/services/networkinfocategory.desktop
-share/kde4/services/nfs.protocol
 share/kde4/services/nic.desktop
 share/kde4/services/opengl.desktop
 share/kde4/services/plasma-applet-analogclock.desktop
@@ -2173,7 +2170,6 @@ share/kde4/services/settings-workspace-appearance-and-behavior.desktop
 share/kde4/services/settings-workspace-behavior.desktop
 share/kde4/services/settings.protocol
 share/kde4/services/sftp.protocol
-share/kde4/services/smb.protocol
 share/kde4/services/smbstatus.desktop
 share/kde4/services/solid-actions.desktop
 share/kde4/services/standard_actions.desktop

@@ -98,6 +98,5 @@ DEPENDS += slocate-[0-9]*:../../sysutils/slocate
 .include "../../katana/libdbusmenu-katie/buildlink3.mk"
 # TODO: fails to build on Linux
 # .include "../../security/libssh/buildlink3.mk"
-.include "../../net/samba/buildlink3.mk"
 .include "../../mk/libusb.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

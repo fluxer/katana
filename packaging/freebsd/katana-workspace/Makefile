@@ -13,11 +13,10 @@ DISTFILES = master.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-workspace-master
 
-USES = compiler:c++11-lang pkgconfig cmake xorg samba gl shebangfix desktop-file-utils \
+USES = compiler:c++11-lang pkgconfig cmake xorg gl shebangfix desktop-file-utils \
 	shared-mime-info
 USE_XORG = x11 xinerama xcursor xfixes xrender xtst xdamage xcomposite xres xft xi xau \
 	xrandr xext ice sm xcb xxf86vm
-USE_SAMBA = lib
 USE_GL = gl glu egl
 USE_LDCONFIG = yes
 SHEBANG_FILES = kcontrol/kfontinst/dbus/fontinst_x11 kate/part/syntax/data/generate-php.pl
