@@ -51,7 +51,6 @@ DEPENDS += mtools-[0-9]*:../../sysutils/mtools
 DEPENDS += rar-[0-9]*:../../archivers/rar
 DEPENDS += unrar-[0-9]*:../../archivers/unrar
 DEPENDS += qrencode-[0-9]*:../../converters/qrencode
-DEPENDS += xscreensaver-[0-9]*:../../x11/xscreensaver
 DEPENDS += sudo-[0-9]*:../../security/sudo
 DEPENDS += exctags-[0-9]*:../../devel/exctags
 DEPENDS += cppcheck-[0-9]*:../../devel/cppcheck
