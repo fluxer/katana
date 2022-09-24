@@ -222,7 +222,6 @@ lib/kcm_nic.so
 lib/kcm_opengl.so
 lib/kcm_pci.so
 lib/kcm_randr.so
-lib/kcm_samba.so
 lib/kcm_smserver.so
 lib/kcm_solid_actions.so
 lib/kcm_spellchecking.so
@@ -320,7 +319,7 @@ lib/kde4/imports/org/kde/runnermodel/qmldir
 lib/kde4/plugins/designer/ksignalplotterwidgets.so
 lib/kde4/plugins/designer/ksysguardlsofwidgets.so
 lib/kde4/plugins/designer/ksysguardwidgets.so
-lib/kde4/plugins/gui_platform/libkde.so
+lib/kde4/plugins/gui_platform/kde.so
 lib/kde4/plugins/styles/oxygen.so
 lib/kded_desktopnotifier.so
 lib/kded_device_automounter.so
@@ -1301,7 +1300,6 @@ share/apps/plasma/services/tasks.operations
 share/apps/remoteview/camera-network.desktop
 share/apps/remoteview/mtp-network.desktop
 share/apps/remoteview/network.desktop
-share/apps/remoteview/smb-network.desktop
 share/apps/solid/actions/solid_camera.desktop
 share/apps/solid/actions/solid_mtp.desktop
 share/apps/solid/actions/test-predicate-openinwindow.desktop
@@ -2170,7 +2168,6 @@ share/kde4/services/settings-workspace-appearance-and-behavior.desktop
 share/kde4/services/settings-workspace-behavior.desktop
 share/kde4/services/settings.protocol
 share/kde4/services/sftp.protocol
-share/kde4/services/smbstatus.desktop
 share/kde4/services/solid-actions.desktop
 share/kde4/services/standard_actions.desktop
 share/kde4/services/style.desktop
@@ -2970,7 +2967,6 @@ share/templates/.source/Floppy.desktop
 share/templates/.source/HD.desktop
 share/templates/.source/HTMLFile.html
 share/templates/.source/MO-Device.desktop
-share/templates/.source/NFS.desktop
 share/templates/.source/Program.desktop
 share/templates/.source/TextFile.txt
 share/templates/.source/URL.desktop
@@ -2985,7 +2981,6 @@ share/templates/linkDVDROM.desktop
 share/templates/linkFloppy.desktop
 share/templates/linkHD.desktop
 share/templates/linkMO.desktop
-share/templates/linkNFS.desktop
 share/templates/linkPath.desktop
 share/templates/linkProgram.desktop
 share/templates/linkURL.desktop

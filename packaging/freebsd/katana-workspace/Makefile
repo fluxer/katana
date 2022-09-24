@@ -8,10 +8,10 @@ COMMENT = Katana workspace interface, base applications and tools
 LICENSE = LGPL20 LGPL21
 LICENSE_COMB = multi
 
-MASTER_SITES = https://TODO.com
-DISTFILES = TODO.tar.gz
+MASTER_SITES = https://osdn.net/projects/kde/news/
+DISTFILES = rss
 DIST_SUBDIR = ${PORTNAME}
-WRKSRC = ${WRKDIR}/kde-workspace-master
+WRKSRC = ${WRKDIR}/kde-workspace.git
 
 USES = compiler:c++11-lang pkgconfig cmake xorg gl shebangfix desktop-file-utils \
 	shared-mime-info
@@ -41,5 +41,9 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	liblightdm-gobject-1.so:x11/lightdm
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
+
+do-extract:
+	@rm -vrf ${WRKSRC}
+	@git clone --depth=1 git://git.osdn.net/gitroot/kde/kde-workspace.git ${WRKSRC}
 
 .include <bsd.port.mk>

@@ -8,14 +8,18 @@ COMMENT = Ariya icon theme for use with Katana
 LICENSE = LGPL3+
 LICENSE_COMB = single
 
-MASTER_SITES = https://TODO.com
-DISTFILES = TODO.tar.gz
+MASTER_SITES = https://osdn.net/projects/kde/news/
+DISTFILES = rss
 DIST_SUBDIR = ${PORTNAME}
-WRKSRC = ${WRKDIR}/ariya-icons-master
+WRKSRC = ${WRKDIR}/ariya-icons.git
 
 USES = compiler:c++11-lang pkgconfig cmake
 INSTALLS_ICONS = yes
 NO_ARCH = yes
 INSTALL_TARGET = install
+
+do-extract:
+	@rm -vrf ${WRKSRC}
+	@git clone --depth=1 git://git.osdn.net/gitroot/kde/ariya-icons.git ${WRKSRC}
 
 .include <bsd.port.mk>

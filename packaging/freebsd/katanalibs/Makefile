@@ -8,10 +8,10 @@ COMMENT = Katana core libraries
 LICENSE = LGPL20 LGPL21
 LICENSE_COMB = multi
 
-MASTER_SITES = https://TODO.com
-DISTFILES = TODO.tar.gz
+MASTER_SITES = https://osdn.net/projects/kde/news/
+DISTFILES = rss
 DIST_SUBDIR = ${PORTNAME}
-WRKSRC = ${WRKDIR}/kdelibs-master
+WRKSRC = ${WRKDIR}/kdelibs.git
 
 USES = compiler:c++11-lang pkgconfig cmake xorg ssl gettext-runtime desktop-file-utils \
 	shared-mime-info shebangfix
@@ -31,5 +31,9 @@ LIB_DEPENDS = libKtCore.so:katana/katie libdbusmenu-katie.so:katana/libdbusmenu-
 	libspectre.so:print/libspectre libmicrohttpd.so:www/libmicrohttpd
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
+
+do-extract:
+	@rm -vrf ${WRKSRC}
+	@git clone --depth=1 git://git.osdn.net/gitroot/kde/kdelibs.git ${WRKSRC}
 
 .include <bsd.port.mk>

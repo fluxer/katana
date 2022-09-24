@@ -1,3 +1,3 @@
-TIMESTAMP = 1653637167
-SHA256 (katana-extraapps/master.tar.gz) = 991b11429489de5ff4548962402d9327c82e35a9edb92099e7e45abe983d70ab
-SIZE (katana-extraapps/master.tar.gz) = 5594164
+TIMESTAMP = 1664002017
+SHA256 (katana-extraapps/rss) = a97fef445795f7da690b03754a2bb4f5516b9dccdba36006e1bd77639827ac38
+SIZE (katana-extraapps/rss) = 560
