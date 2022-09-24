@@ -3,7 +3,7 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=katana-workspace
-pkgver=4.22.0.r1677.a95a4968
+pkgver=4.22.0.r1680.27b1b535
 pkgrel=1
 pkgdesc="Katana workspace interface, base applications and tools"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
