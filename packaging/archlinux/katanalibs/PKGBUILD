@@ -1,0 +1,51 @@
+# Maintainer: Ivailo Monev <xakepa10@gmail.com>
+
+# https://wiki.archlinux.org/index.php/Arch_package_guidelines
+
+pkgname=katanalibs
+pkgver=4.22.0.r2732.fbd4a17a
+pkgrel=1
+pkgdesc="Katana core libraries"
+arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
+url='https://osdn.net/projects/kde/'
+license=('GPL' 'LGPL' 'FDL')
+groups=('katana')
+depends=('katie-git' 'libdbusmenu-katie' 'enchant' 'libwebp' 'imagemagick'
+         'exiv2' 'mpv' 'avahi' 'curl' 'taglib' 'ebook-tools' 'poppler' 'libspectre'
+         'libmicrohttpd' 'shared-mime-info' 'media-player-info' 'libxtst')
+makedepends=('cmake' 'git')
+source=("git+https://scm.osdn.net/gitroot/kde/kdelibs.git"
+        'kde-applications-menu.patch' 'archlinux-menu.patch')
+sha1sums=('SKIP'
+          'eca00007b168228b05d8683e1de8c78e3feca73d'
+          '4de0a8db4155a83667bc4dac1c3df8659ee4a030')
+
+pkgver() {
+    cd kdelibs
+    printf "4.22.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+    mkdir -p build
+    cd kdelibs
+    # avoid file conflict with gnome-menus and kservice
+    patch -p1 -i "${srcdir}/kde-applications-menu.patch"
+    # add Archlinux menu entry
+    patch -p1 -i "${srcdir}/archlinux-menu.patch"
+}
+
+build() {
+    cd build
+    cmake ../kdelibs \
+        -Wno-dev \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DSYSCONF_INSTALL_DIR=/etc \
+        -DLOCALE_INSTALL_DIR=/usr/share/locale/kde4
+    make
+}
+
+package() {
+    cd build
+    make DESTDIR="${pkgdir}" install
+}

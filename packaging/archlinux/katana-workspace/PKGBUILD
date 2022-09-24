@@ -1,0 +1,57 @@
+# Maintainer: Ivailo Monev <xakepa10@gmail.com>
+
+# https://wiki.archlinux.org/index.php/Arch_package_guidelines
+
+pkgname=katana-workspace
+pkgver=4.22.0.r1677.a95a4968
+pkgrel=1
+pkgdesc="Katana workspace interface, base applications and tools"
+arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
+url='https://osdn.net/projects/kde/'
+license=('GPL' 'LGPL' 'FDL')
+groups=('katana')
+depends=("katie-git" "libdbusmenu-katie>=4.22.0" "katanalibs>=4.22.0"
+        'libxdamage' 'libqalculate' 'libdrm' 'openexr' 'libgphoto2' 'lightdm'
+        'libxklavier' 'libxres' 'libxcomposite' 'libxft' 'libxinerama'
+        'xorg-xrdb' 'xorg-xsetroot' 'xorg-xrandr' 'xorg-xmessage' 'libusb'
+        'xcb-util-renderutil' 'xcb-util-keysyms' 'ttf-dejavu' 'libssh'
+        'pciutils' 'glu' 'mesa' 'libmtp'
+        'xorg-server' 'lm_sensors')
+makedepends=('cmake' 'git' 'xorg-server-devel')
+optdepends=(
+    'gdb: Backtraces support'
+    'mtools: KIO floppy support'
+    'unrar: Comic Books thumbnails support in KIO slave'
+    'qrencode: QR Code support in Klipper'
+    'ctags: Code indexing support in Kate'
+    'cppcheck: Code analysis support in Kate'
+    'lrzsz: ZModem support in Konsole'
+    'locate: Search indexing support in KFind'
+    'icoutils: ICO thumbnails support in KIO slave'
+)
+backup=('etc/lightdm/lightdm-kgreeter-greeter.conf')
+source=("git+https://scm.osdn.net/gitroot/kde/kde-workspace.git")
+sha1sums=('SKIP')
+
+pkgver() {
+    cd kde-workspace
+    printf "4.22.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+    mkdir -p build
+}
+
+build() {
+    cd build
+    cmake ../kde-workspace \
+        -Wno-dev \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=/usr
+    make
+}
+
+package() {
+    cd build
+    make DESTDIR="${pkgdir}" install
+}

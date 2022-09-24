@@ -1,0 +1,39 @@
+# Maintainer: Ivailo Monev <xakepa10@gmail.com>
+
+# https://wiki.archlinux.org/index.php/Arch_package_guidelines
+
+pkgname=ariya-icons
+pkgver=4.22.0.r25.3cf15d24
+pkgrel=1
+pkgdesc="Ariya icon theme for use with Katana"
+arch=('any')
+url='https://osdn.net/projects/kde/'
+license=('LGPL')
+groups=('katana')
+makedepends=('cmake' 'git')
+source=("git+https://scm.osdn.net/gitroot/kde/ariya-icons.git")
+sha1sums=('SKIP')
+options=('!strip' '!zipman')
+
+pkgver() {
+    cd ariya-icons
+    printf "4.22.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+    mkdir -p build
+}
+
+build() {
+    cd build
+    cmake ../ariya-icons \
+        -Wno-dev \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=/usr
+    make
+}
+
+package() {
+    cd build
+    make DESTDIR="${pkgdir}" install
+}
