@@ -8,8 +8,8 @@ COMMENT = Ariya icon theme for use with Katana
 LICENSE = LGPL3+
 LICENSE_COMB = single
 
-MASTER_SITES = https://github.com/fluxer/ariya-icons/archive/
-DISTFILES = master.tar.gz
+MASTER_SITES = https://TODO.com
+DISTFILES = TODO.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/ariya-icons-master
 

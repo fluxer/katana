@@ -2,9 +2,9 @@ Source: ariya-icons
 Section: misc
 Priority: optional
 Maintainer: Ivailo Monev <xakepa10@gmail.com>
-Homepage: https://github.com/fluxer/ariya-icons
-Vcs-Git: git://github.com/fluxer/ariya-icons.git
-Vcs-browser: https://github.com/fluxer/ariya-icons
+Homepage: https://osdn.net/projects/kde/
+Vcs-Git: git://git.osdn.net/gitroot/kde/ariya-icons.git
+Vcs-browser: https://osdn.net/projects/kde/scm/git/ariya-icons/tree
 Standards-Version: 4.22.0
 Build-Depends: debhelper (>= 9~), cmake
 

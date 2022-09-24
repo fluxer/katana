@@ -16,9 +16,3 @@ expected or could be done better. You do not have to be a software developer
 to be a member of the Katana team. You can join the national teams that
 translate program interfaces. You can provide graphics, themes, sounds, and
 improved documentation. You decide!
-
-### Support and Contact
-Check out the [wiki](https://github.com/fluxer/katana/wiki) for frequently asked
-questions (FAQ) and other information. Feel free to report issues at
-[this](https://github.com/fluxer/katana/issues) page.
-

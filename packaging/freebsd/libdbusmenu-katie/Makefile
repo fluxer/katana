@@ -8,8 +8,8 @@ COMMENT = Katie implementation of the DBusMenu protocol
 LICENSE = LGPL20+
 LICENSE_COMB = single
 
-MASTER_SITES = https://github.com/fluxer/libdbusmenu-qt/archive/
-DISTFILES = master.tar.gz
+MASTER_SITES = https://TODO.com
+DISTFILES = TODO.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/libdbusmenu-qt-master
 

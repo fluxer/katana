@@ -8,8 +8,8 @@ COMMENT = Katana core libraries
 LICENSE = LGPL20 LGPL21
 LICENSE_COMB = multi
 
-MASTER_SITES = https://github.com/fluxer/kdelibs/archive/
-DISTFILES = master.tar.gz
+MASTER_SITES = https://TODO.com
+DISTFILES = TODO.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kdelibs-master
 

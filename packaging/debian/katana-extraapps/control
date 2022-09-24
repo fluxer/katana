@@ -2,9 +2,9 @@ Source: katana-extraapps
 Section: x11
 Priority: optional
 Maintainer: Ivailo Monev <xakepa10@gmail.com>
-Homepage: https://github.com/fluxer/kde-extraapps
-Vcs-Git: git://github.com/fluxer/kde-extraapps.git
-Vcs-browser: https://github.com/fluxer/kde-extraapps
+Homepage: https://osdn.net/projects/kde/
+Vcs-Git: git://git.osdn.net/gitroot/kde/kde-extraapps.git
+Vcs-browser: https://osdn.net/projects/kde/scm/git/kde-extraapps/tree
 Standards-Version: 4.22.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev,
  katana-workspace, xorg-dev, zlib1g-dev, libacl1-dev, libavcodec-dev,

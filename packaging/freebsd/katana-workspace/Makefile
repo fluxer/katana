@@ -8,8 +8,8 @@ COMMENT = Katana workspace interface, base applications and tools
 LICENSE = LGPL20 LGPL21
 LICENSE_COMB = multi
 
-MASTER_SITES = https://github.com/fluxer/kde-workspace/archive/
-DISTFILES = master.tar.gz
+MASTER_SITES = https://TODO.com
+DISTFILES = TODO.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-workspace-master
 

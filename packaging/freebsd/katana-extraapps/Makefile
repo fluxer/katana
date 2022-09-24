@@ -8,8 +8,8 @@ COMMENT = Katana extra applications
 LICENSE = GPLv2 LGPL21
 LICENSE_COMB = multi
 
-MASTER_SITES = https://github.com/fluxer/kde-extraapps/archive/
-DISTFILES = master.tar.gz
+MASTER_SITES = https://TODO.com
+DISTFILES = TODO.tar.gz
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-extraapps-master
 

@@ -2,9 +2,9 @@ Source: katanalibs
 Section: x11
 Priority: optional
 Maintainer: Ivailo Monev <xakepa10@gmail.com>
-Homepage: https://github.com/fluxer/kdelibs
-Vcs-Git: git://github.com/fluxer/kdelibs.git
-Vcs-browser: https://github.com/fluxer/kdelibs
+Homepage: https://osdn.net/projects/kde/
+Vcs-Git: git://git.osdn.net/gitroot/kde/kdelibs.git
+Vcs-browser: https://osdn.net/projects/kde/scm/git/kdelibs/tree
 Standards-Version: 4.22.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev, libenchant-2-dev,
  libmagick++-dev, libmpv-dev [linux-any], xorg-dev, libavahi-client-dev,
