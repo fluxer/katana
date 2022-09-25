@@ -8,7 +8,7 @@ pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='https://osdn.net/projects/kde/'
-license=('GPL' 'LGPL' 'FDL')
+license=('GPL' 'LGPL')
 groups=('katana')
 depends=('katie-git' 'libdbusmenu-katie' 'enchant' 'libwebp' 'imagemagick'
          'exiv2' 'mpv' 'avahi' 'curl' 'taglib' 'ebook-tools' 'poppler' 'libspectre'
