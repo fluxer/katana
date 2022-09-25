@@ -3,7 +3,7 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=katanalibs
-pkgver=4.22.0.r2735.9ea95e5e
+pkgver=4.22.0.r2739.f061b1a7
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
@@ -30,7 +30,7 @@ prepare() {
     cd kdelibs
     # avoid file conflict with gnome-menus and kservice
     patch -p1 -i "${srcdir}/kde-applications-menu.patch"
-    # add Archlinux menu entry
+    # add Arch Linux menu entry
     patch -p1 -i "${srcdir}/archlinux-menu.patch"
 }
 
