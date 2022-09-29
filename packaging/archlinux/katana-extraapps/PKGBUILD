@@ -12,10 +12,9 @@ license=('GPL' 'LGPL')
 groups=('katana')
 depends=("katie-git" "katanalibs>=4.22.0" "katana-workspace>=4.22.0"
         'ffmpegthumbnailer' 'libtorrent-rasterbar' 'djvulibre' 'parted'
-        'libmms' 'libatasmart' 'libspeechd' 'libvncserver')
+        'libmms' 'libatasmart' 'libvncserver')
 makedepends=('cmake' 'git' 'xorg-server-devel' 'boost')
 optdepends=(
-    'libxslt: SSML support in Jovie'
     'qemu: Virtual machine management'
     'freerdp: A free Remote Desktop Protocol (RDP) Implementation'
     'ghostscript: PostScript, PDF and DvI support in KIO thumbnailer and Okular'

@@ -20,7 +20,7 @@ USE_LDCONFIG = yes
 SHEBANG_FILES = kdeui/preparetips
 RUN_DEPENDS = xdg-open:devel/xdg-utils \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme \
-	ck-list-sessions:sysutils/consolekit2
+	ck-list-sessions:sysutils/consolekit2 speech-dispatcher:accessibility/speech-dispatcher
 # zlib and xz are not part of any package
 LIB_DEPENDS = libKtCore.so:katana/katie libdbusmenu-katie.so:katana/libdbusmenu-katie \
 	libenchant-2.so:textproc/enchant2 libwebp.so:graphics/webp \
