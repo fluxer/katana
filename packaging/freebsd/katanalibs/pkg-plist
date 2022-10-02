@@ -7,7 +7,6 @@ bin/kmailservice
 bin/ktelnetservice
 bin/makekdewidgets
 bin/preparetips
-etc/dbus-1/system.d/org.kde.auth.conf
 etc/dbus-1/system.d/org.kde.kpowermanager.helper.conf
 etc/xdg/menus/applications.menu
 include/KDE/KACL
@@ -22,7 +21,6 @@ include/KDE/KActionCategory
 include/KDE/KActionCollection
 include/KDE/KActionMenu
 include/KDE/KActionSelector
-include/KDE/KAnimatedButton
 include/KDE/KApplication
 include/KDE/KAr
 include/KDE/KArchive
@@ -31,13 +29,8 @@ include/KDE/KArchiveEntry
 include/KDE/KArchiveFile
 include/KDE/KAssistantDialog
 include/KDE/KAudioPlayer
-include/KDE/KAuth/Action
-include/KDE/KAuth/ActionReply
-include/KDE/KAuth/ActionWatcher
-include/KDE/KAuth/HelperSupport
-include/KDE/KAuthorized
+include/KDE/KAuthorization
 include/KDE/KAutoMount
-include/KDE/KAutoSaveFile
 include/KDE/KAutoUnmount
 include/KDE/KAutostart
 include/KDE/KBookmark
@@ -101,7 +94,6 @@ include/KDE/KConfigSkeleton
 include/KDE/KConfigSkeletonGenericItem
 include/KDE/KConfigSkeletonItem
 include/KDE/KCrash
-include/KDE/KCurrencyCode
 include/KDE/KCursor
 include/KDE/KDEDModule
 include/KDE/KDEPrintDialog
@@ -251,7 +243,6 @@ include/KDE/KMimeTypeChooser
 include/KDE/KMimeTypeChooserDialog
 include/KDE/KMimeTypeTrader
 include/KDE/KModelIndexProxyMapper
-include/KDE/KModifierKeyInfo
 include/KDE/KMountPoint
 include/KDE/KMultiTabBar
 include/KDE/KMultiTabBarButton
@@ -294,10 +285,6 @@ include/KDE/KPixmapRegionSelectorWidget
 include/KDE/KPixmapSequence
 include/KDE/KPixmapSequenceOverlayPainter
 include/KDE/KPixmapSequenceWidget
-include/KDE/KPlotAxis
-include/KDE/KPlotObject
-include/KDE/KPlotPoint
-include/KDE/KPlotWidget
 include/KDE/KPluginFactory
 include/KDE/KPluginInfo
 include/KDE/KPluginLoader
@@ -314,7 +301,6 @@ include/KDE/KPtyDevice
 include/KDE/KPtyProcess
 include/KDE/KPushButton
 include/KDE/KRandom
-include/KDE/KRandomSequence
 include/KDE/KRatingPainter
 include/KDE/KRatingWidget
 include/KDE/KRecentDocument
@@ -348,7 +334,6 @@ include/KDE/KSharedConfig
 include/KDE/KSharedConfigPtr
 include/KDE/KSharedPtr
 include/KDE/KShell
-include/KDE/KShellCompletion
 include/KDE/KShortcut
 include/KDE/KShortcutWidget
 include/KDE/KShortcutsDialog
@@ -373,8 +358,6 @@ include/KDE/KStyle
 include/KDE/KSycoca
 include/KDE/KSycocaEntry
 include/KDE/KSystemEventFilter
-include/KDE/KSystemTimeZone
-include/KDE/KSystemTimeZoneSource
 include/KDE/KSystemTimeZones
 include/KDE/KSystemTrayIcon
 include/KDE/KTabBar
@@ -417,7 +400,6 @@ include/KDE/KTextEditor/SmartRange
 include/KDE/KTextEditor/SmartRangeNotifier
 include/KDE/KTextEditor/SmartRangeWatcher
 include/KDE/KTextEditor/TemplateInterface
-include/KDE/KTextEditor/TemplateInterface2
 include/KDE/KTextEditor/TextHintInterface
 include/KDE/KTextEditor/VariableInterface
 include/KDE/KTextEditor/View
@@ -440,8 +422,6 @@ include/KDE/KToolBarSpacerAction
 include/KDE/KToolInvocation
 include/KDE/KTreeWidgetSearchLine
 include/KDE/KTreeWidgetSearchLineWidget
-include/KDE/KTzfileTimeZone
-include/KDE/KTzfileTimeZoneSource
 include/KDE/KUndoStack
 include/KDE/KUniqueApplication
 include/KDE/KUnitConversion
@@ -464,7 +444,6 @@ include/KDE/KWidgetJobTracker
 include/KDE/KWindowInfo
 include/KDE/KWindowSystem
 include/KDE/KWordMacroExpander
-include/KDE/KWordWrap
 include/KDE/KXBELBookmarkImporterImpl
 include/KDE/KXErrorHandler
 include/KDE/KXMLGUIBuilder
@@ -593,18 +572,12 @@ include/kactioncategory.h
 include/kactioncollection.h
 include/kactionmenu.h
 include/kactionselector.h
-include/kanimatedbutton.h
 include/kapplication.h
 include/kar.h
 include/karchive.h
 include/kassistantdialog.h
-include/kauthaction.h
-include/kauthactionreply.h
-include/kauthactionwatcher.h
-include/kauthhelpersupport.h
-include/kauthorized.h
+include/kauthorization.h
 include/kautomount.h
-include/kautosavefile.h
 include/kautostart.h
 include/kbookmark.h
 include/kbookmarkdialog.h
@@ -654,7 +627,6 @@ include/kconfiggroup.h
 include/kconfigskeleton.h
 include/kcoreconfigskeleton.h
 include/kcrash.h
-include/kcurrencycode.h
 include/kcursor.h
 include/kdatecombobox.h
 include/kdatepicker.h
@@ -695,7 +667,6 @@ include/kdualaction.h
 include/keditlistwidget.h
 include/kedittoolbar.h
 include/kemailsettings.h
-include/kencodingdetector.h
 include/kencodingfiledialog.h
 include/kexiv2.h
 include/kexiv2_export.h
@@ -814,7 +785,6 @@ include/kmimetype.h
 include/kmimetypechooser.h
 include/kmimetypetrader.h
 include/kmodelindexproxymapper.h
-include/kmodifierkeyinfo.h
 include/kmountpoint.h
 include/kmultitabbar.h
 include/knameandurlinputdialog.h
@@ -852,10 +822,6 @@ include/kpixmapregionselectorwidget.h
 include/kpixmapsequence.h
 include/kpixmapsequenceoverlaypainter.h
 include/kpixmapsequencewidget.h
-include/kplotaxis.h
-include/kplotobject.h
-include/kplotpoint.h
-include/kplotwidget.h
 include/kpluginfactory.h
 include/kplugininfo.h
 include/kpluginloader.h
@@ -874,7 +840,6 @@ include/kptydevice.h
 include/kptyprocess.h
 include/kpushbutton.h
 include/krandom.h
-include/krandomsequence.h
 include/kratingpainter.h
 include/kratingwidget.h
 include/krecentdirs.h
@@ -907,7 +872,6 @@ include/ksettings/pluginpage.h
 include/ksharedconfig.h
 include/ksharedptr.h
 include/kshell.h
-include/kshellcompletion.h
 include/kshortcut.h
 include/kshortcutsdialog.h
 include/kshortcutseditor.h
@@ -979,7 +943,6 @@ include/ktexteditor/smartrange.h
 include/ktexteditor/smartrangenotifier.h
 include/ktexteditor/smartrangewatcher.h
 include/ktexteditor/templateinterface.h
-include/ktexteditor/templateinterface2.h
 include/ktexteditor/texthintinterface.h
 include/ktexteditor/variableinterface.h
 include/ktexteditor/view.h
@@ -997,7 +960,6 @@ include/ktoolbarpopupaction.h
 include/ktoolbarspaceraction.h
 include/ktoolinvocation.h
 include/ktreewidgetsearchline.h
-include/ktzfiletimezone.h
 include/kuiserverjobtracker.h
 include/kundostack.h
 include/kuniqueapplication.h
@@ -1016,7 +978,6 @@ include/kwidgetitemdelegate.h
 include/kwidgetjobtracker.h
 include/kwindowinfo.h
 include/kwindowsystem.h
-include/kwordwrap.h
 include/kxerrorhandler.h
 include/kxmessages.h
 include/kxmlguibuilder.h
@@ -1136,8 +1097,6 @@ include/sonnet/speller.h
 lib/kde4/plugins/designer/kdewidgets.so
 lib/kde4/plugins/imageformats/magick.so
 lib/kde4/plugins/imageformats/webp.so
-lib/kde4/plugins/kauth/backend/kauth_backend_plugin.so
-lib/kde4/plugins/kauth/helper/kauth_helper_plugin.so
 lib/kded_kaudioplayer.so
 lib/kded_kpasswdstore.so
 lib/kded_kpowermanager.so
@@ -1199,6 +1158,9 @@ lib/libkpowermanager.so.4.22
 lib/libkpty.so
 lib/libkpty.so.4
 lib/libkpty.so.4.22
+lib/libkspeech.so
+lib/libkspeech.so.4
+lib/libkspeech.so.4.22
 lib/libktexteditor.so
 lib/libktexteditor.so.4
 lib/libktexteditor.so.4.22
@@ -1270,11 +1232,6 @@ share/apps/cmake/modules/KDELibs4LibraryTargets-%%CMAKE_BUILD_TYPE%%.cmake
 share/apps/cmake/modules/KDELibs4LibraryTargets.cmake
 share/apps/cmake/modules/KDELibs4ToolsTargets-%%CMAKE_BUILD_TYPE%%.cmake
 share/apps/cmake/modules/KDELibs4ToolsTargets.cmake
-share/apps/cmake/modules/MacroBoolTo01.cmake
-share/apps/cmake/modules/MacroDBusAddActivationService.cmake
-share/apps/cmake/modules/MacroLibrary.cmake
-share/apps/cmake/modules/MacroOptionalAddSubdirectory.cmake
-share/apps/cmake/modules/MacroOptionalFindPackage.cmake
 share/apps/cmake/modules/cmake-modules-styleguide.txt
 share/apps/cmake/modules/kde4_cmake_uninstall.cmake.in
 share/apps/cmake/modules/kde4_exec.sh.in
@@ -1354,7 +1311,6 @@ share/dbus-1/interfaces/org.kde.JobViewServer.xml
 share/dbus-1/interfaces/org.kde.KDirNotify.xml
 share/dbus-1/interfaces/org.kde.KGlobalAccel.xml
 share/dbus-1/interfaces/org.kde.KLauncher.xml
-share/dbus-1/interfaces/org.kde.KSpeech.xml
 share/dbus-1/interfaces/org.kde.Solid.Networking.Client.xml
 share/dbus-1/interfaces/org.kde.StatusNotifierItem.xml
 share/dbus-1/interfaces/org.kde.StatusNotifierWatcher.xml
@@ -1382,7 +1338,6 @@ share/kde4/services/kfilemetadata_taglib.desktop
 share/kde4/services/kfilemodule.desktop
 share/kde4/services/plasma-applet-extenderapplet.desktop
 share/kde4/servicetypes/application.desktop
-share/kde4/servicetypes/dbustexttospeech.desktop
 share/kde4/servicetypes/kcmodule.desktop
 share/kde4/servicetypes/kcmoduleinit.desktop
 share/kde4/servicetypes/kdedmodule.desktop
