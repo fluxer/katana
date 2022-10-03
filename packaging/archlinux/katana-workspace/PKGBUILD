@@ -15,8 +15,8 @@ depends=("katie-git" "libdbusmenu-katie>=4.22.0" "katanalibs>=4.22.0"
         'libxklavier' 'libxres' 'libxcomposite' 'libxft' 'libxinerama'
         'xorg-xrdb' 'xorg-xsetroot' 'xorg-xrandr' 'xorg-xmessage' 'libusb'
         'xcb-util-renderutil' 'xcb-util-keysyms' 'ttf-dejavu' 'libssh'
-        'pciutils' 'glu' 'mesa' 'libmtp'
-        'xorg-server' 'lm_sensors')
+        'pciutils' 'glu' 'mesa' 'libmtp' 'ebook-tools' 'xorg-server'
+        'lm_sensors')
 makedepends=('cmake' 'git' 'xorg-server-devel')
 optdepends=(
     'gdb: Backtraces support'
