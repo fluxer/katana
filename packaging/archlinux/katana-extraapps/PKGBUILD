@@ -3,7 +3,7 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=katana-extraapps
-pkgver=4.22.0.r1181.4815a57d
+pkgver=4.22.0.r1218.b3b4d52c
 pkgrel=1
 pkgdesc="Katana extra applications"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
@@ -12,13 +12,14 @@ license=('GPL' 'LGPL')
 groups=('katana')
 depends=("katie-git" "katanalibs>=4.22.0" "katana-workspace>=4.22.0"
         'ffmpegthumbnailer' 'libtorrent-rasterbar' 'djvulibre' 'parted'
-        'libmms' 'libatasmart' 'libvncserver')
+        'libmms' 'libatasmart' 'libvncserver' 'libarchive')
 makedepends=('cmake' 'git' 'xorg-server-devel' 'boost')
 optdepends=(
     'qemu: Virtual machine management'
     'freerdp: A free Remote Desktop Protocol (RDP) Implementation'
     'ghostscript: PostScript, PDF and DvI support in KIO thumbnailer and Okular'
     'texlive-bin: DVI support in Okular'
+    'unrar: RAR write support in Ark'
 )
 source=("git+https://scm.osdn.net/gitroot/kde/kde-extraapps.git")
 sha1sums=('SKIP')
