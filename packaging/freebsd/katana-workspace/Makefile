@@ -19,7 +19,7 @@ USE_XORG = x11 xinerama xcursor xfixes xrender xtst xdamage xcomposite xres xft 
 	xrandr xext ice sm xcb xxf86vm
 USE_GL = gl glu egl
 USE_LDCONFIG = yes
-SHEBANG_FILES = kcontrol/kfontinst/dbus/fontinst_x11 kate/part/syntax/data/generate-php.pl
+SHEBANG_FILES = kate/part/syntax/data/generate-php.pl
 # lldb and libusb are not part of any package
 RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme \

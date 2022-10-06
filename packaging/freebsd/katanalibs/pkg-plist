@@ -22,11 +22,8 @@ include/KDE/KActionCollection
 include/KDE/KActionMenu
 include/KDE/KActionSelector
 include/KDE/KApplication
-include/KDE/KAr
 include/KDE/KArchive
-include/KDE/KArchiveDirectory
 include/KDE/KArchiveEntry
-include/KDE/KArchiveFile
 include/KDE/KAssistantDialog
 include/KDE/KAudioPlayer
 include/KDE/KAuthorization
@@ -362,7 +359,6 @@ include/KDE/KSystemTimeZones
 include/KDE/KSystemTrayIcon
 include/KDE/KTabBar
 include/KDE/KTabWidget
-include/KDE/KTar
 include/KDE/KTempDir
 include/KDE/KTemporaryFile
 include/KDE/KTextEdit
@@ -452,8 +448,6 @@ include/KDE/KXMLGUIFactory
 include/KDE/KXMessages
 include/KDE/KXYSelector
 include/KDE/KXmlGuiWindow
-include/KDE/KZip
-include/KDE/KZipFileEntry
 include/KDE/NET
 include/KDE/NETRootInfo
 include/KDE/NETWinInfo
@@ -573,8 +567,8 @@ include/kactioncollection.h
 include/kactionmenu.h
 include/kactionselector.h
 include/kapplication.h
-include/kar.h
 include/karchive.h
+include/karchive_export.h
 include/kassistantdialog.h
 include/kauthorization.h
 include/kautomount.h
@@ -899,7 +893,6 @@ include/ksystemtimezone.h
 include/ksystemtrayicon.h
 include/ktabbar.h
 include/ktabwidget.h
-include/ktar.h
 include/ktempdir.h
 include/ktemporaryfile.h
 include/ktextedit.h
@@ -985,7 +978,6 @@ include/kxmlguiclient.h
 include/kxmlguifactory.h
 include/kxmlguiwindow.h
 include/kxyselector.h
-include/kzip.h
 include/nepomuk/kratingpainter.h
 include/nepomuk/kratingwidget.h
 include/netwm.h
@@ -1103,6 +1095,7 @@ lib/kded_kpowermanager.so
 lib/kfilemetadata_epub.so
 lib/kfilemetadata_exiv2.so
 lib/kfilemetadata_ffmpeg.so
+lib/kfilemetadata_freetype.so
 lib/kfilemetadata_poppler.so
 lib/kfilemetadata_spectre.so
 lib/kfilemetadata_taglib.so
@@ -1110,6 +1103,9 @@ lib/kfilemodule.so
 lib/kio_file.so
 lib/kio_ftp.so
 lib/kio_http.so
+lib/libkarchive.so
+lib/libkarchive.so.4
+lib/libkarchive.so.4.22
 lib/libkcmutils.so
 lib/libkcmutils.so.4
 lib/libkcmutils.so.4.22
@@ -1330,6 +1326,7 @@ share/kde4/services/kded/kpowermanager.desktop
 share/kde4/services/kfilemetadata_epub.desktop
 share/kde4/services/kfilemetadata_exiv2.desktop
 share/kde4/services/kfilemetadata_ffmpeg.desktop
+share/kde4/services/kfilemetadata_freetype.desktop
 share/kde4/services/kfilemetadata_poppler.desktop
 share/kde4/services/kfilemetadata_spectre.desktop
 share/kde4/services/kfilemetadata_taglib.desktop
