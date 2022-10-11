@@ -1102,6 +1102,7 @@ lib/kde4/kio_ftp.so
 lib/kde4/kio_http.so
 lib/kde4/plugins/designer/kdewidgets.so
 lib/kde4/plugins/imageformats/magick.so
+lib/kde4/plugins/imageformats/raw.so
 lib/kde4/plugins/imageformats/webp.so
 lib/libkarchive.so
 lib/libkarchive.so.4
