@@ -29,8 +29,9 @@ LIB_DEPENDS = libKtCore.so:katana/katie libdbusmenu-katie.so:katana/libdbusmenu-
 	libexiv2.so:graphics/exiv2 libmpv.so:multimedia/mpv libavahi-client.so:net/avahi-app \
 	libbz2.so:archivers/bzip2 libcurl.so:ftp/curl libavcodec.so:multimedia/ffmpeg \
 	libtag.so:audio/taglib libepub.so:textproc/ebook-tools libpoppler-cpp.so:graphics/poppler \
-	libspectre.so:print/libspectre libmicrohttpd.so:www/libmicrohttpd libraw_r.so:graphics/libraw\
-	libfreetype.so:print/freetype2
+	libspectre.so:print/libspectre libmicrohttpd.so:www/libmicrohttpd \
+	libraw_r.so:graphics/libraw libfreetype.so:print/freetype2 \
+	libturbojpeg.so:graphics/libjpeg-turbo libopenjp2.so:graphics/openjpeg
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
 
