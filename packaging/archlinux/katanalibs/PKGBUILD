@@ -10,10 +10,10 @@ arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='https://osdn.net/projects/kde/'
 license=('GPL' 'LGPL')
 groups=('katana')
-depends=('katie-git' 'libdbusmenu-katie' 'enchant' 'libwebp' 'imagemagick'
+depends=('katie-git' 'libdbusmenu-katie' 'enchant' 'libwebp' 'freetype2'
          'exiv2' 'mpv' 'avahi' 'curl' 'taglib' 'ebook-tools' 'poppler' 'libspectre'
          'libmicrohttpd' 'shared-mime-info' 'media-player-info' 'libxtst' 'libspeechd'
-         'libarchive' 'freetype2' 'libraw' 'libjpeg-turbo' 'openjpeg2')
+         'libarchive' 'libraw' 'libjpeg-turbo' 'openjpeg2')
 makedepends=('cmake' 'git')
 source=("git+https://scm.osdn.net/gitroot/kde/kdelibs.git"
         'kde-applications-menu.patch' 'archlinux-menu.patch')

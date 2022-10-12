@@ -25,13 +25,13 @@ RUN_DEPENDS = xdg-open:devel/xdg-utils \
 # zlib and xz are not part of any package
 LIB_DEPENDS = libKtCore.so:katana/katie libdbusmenu-katie.so:katana/libdbusmenu-katie \
 	libspeechd.so:accessibility/speech-dispatcher libenchant-2.so:textproc/enchant2 \
-	libwebp.so:graphics/webp libMagick++-6.so:graphics/ImageMagick6 \
-	libexiv2.so:graphics/exiv2 libmpv.so:multimedia/mpv libavahi-client.so:net/avahi-app \
-	libbz2.so:archivers/bzip2 libcurl.so:ftp/curl libavcodec.so:multimedia/ffmpeg \
-	libtag.so:audio/taglib libepub.so:textproc/ebook-tools libpoppler-cpp.so:graphics/poppler \
-	libspectre.so:print/libspectre libmicrohttpd.so:www/libmicrohttpd \
-	libraw_r.so:graphics/libraw libfreetype.so:print/freetype2 \
-	libturbojpeg.so:graphics/libjpeg-turbo libopenjp2.so:graphics/openjpeg
+	libwebp.so:graphics/webp libexiv2.so:graphics/exiv2 libmpv.so:multimedia/mpv \
+	libavahi-client.so:net/avahi-app libbz2.so:archivers/bzip2 libcurl.so:ftp/curl \
+	libavcodec.so:multimedia/ffmpeg libtag.so:audio/taglib libepub.so:textproc/ebook-tools \
+	libpoppler-cpp.so:graphics/poppler libspectre.so:print/libspectre \
+	libmicrohttpd.so:www/libmicrohttpd libraw_r.so:graphics/libraw \
+	libfreetype.so:print/freetype2 libturbojpeg.so:graphics/libjpeg-turbo \
+	libopenjp2.so:graphics/openjpeg
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
 

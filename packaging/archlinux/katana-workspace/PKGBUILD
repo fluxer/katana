@@ -11,7 +11,7 @@ url='https://osdn.net/projects/kde/'
 license=('GPL' 'LGPL' 'FDL')
 groups=('katana')
 depends=("katie-git" "libdbusmenu-katie>=4.22.0" "katanalibs>=4.22.0"
-        'libxdamage' 'libqalculate' 'libdrm' 'openexr' 'libgphoto2' 'lightdm'
+        'libxdamage' 'libqalculate' 'libdrm' 'libgphoto2' 'lightdm'
         'libxklavier' 'libxres' 'libxcomposite' 'libxft' 'libxinerama'
         'xorg-xrdb' 'xorg-xsetroot' 'xorg-xrandr' 'xorg-xmessage' 'libusb'
         'xcb-util-renderutil' 'xcb-util-keysyms' 'ttf-dejavu' 'libssh'

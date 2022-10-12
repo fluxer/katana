@@ -7,14 +7,13 @@ Vcs-Git: git://git.osdn.net/gitroot/kde/kdelibs.git
 Vcs-browser: https://osdn.net/projects/kde/scm/git/kdelibs/tree
 Standards-Version: 4.22.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev, libenchant-2-dev,
- libmagick++-dev, libmpv-dev [linux-any], xorg-dev, libavahi-client-dev,
+ libmpv-dev [linux-any], xorg-dev, libavahi-client-dev, libfreetype6-dev,
  libwebp-dev, libudev-dev [linux-any], liblzma-dev, libexiv2-dev, libbz2-dev,
  libattr1-dev, libacl1-dev, zlib1g-dev, libcdio-dev [linux-any], libssl-dev,
  libcurl4-nss-dev, media-player-info [linux-any], libavcodec-dev,
  libavutil-dev, libavformat-dev, libtag1-dev, libepub-dev, libpoppler-cpp-dev,
  libspectre-dev, libmicrohttpd-dev, libspeechd-dev, libarchive-dev,
- libfreetype6-dev, libraw-dev, libturbojpeg0-dev, libopenjp2-7-dev,
- libdbusmenu-katie
+ libraw-dev, libturbojpeg0-dev, libopenjp2-7-dev, libdbusmenu-katie
 
 Package: katanalibs
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
