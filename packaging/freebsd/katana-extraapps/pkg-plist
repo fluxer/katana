@@ -105,6 +105,7 @@ lib/kde4/okularGenerator_poppler.so
 lib/kde4/okularGenerator_txt.so
 lib/kde4/okularGenerator_xps.so
 lib/kde4/okularpart.so
+lib/kde4/pdfthumbnail.so
 lib/kde4/plasma-applet_systemloadviewer.so
 lib/kde4/plasma_applet_bball.so
 lib/kde4/plasma_applet_binaryclock.so
@@ -601,6 +602,7 @@ share/kde4/services/okularPoppler.desktop
 share/kde4/services/okularTxt.desktop
 share/kde4/services/okularXps.desktop
 share/kde4/services/okular_part.desktop
+share/kde4/services/pdfthumbnail.desktop
 share/kde4/services/plasma-applet-bball.desktop
 share/kde4/services/plasma-applet-binaryclock.desktop
 share/kde4/services/plasma-applet-blackboard.desktop

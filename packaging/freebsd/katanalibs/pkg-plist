@@ -1101,9 +1101,9 @@ lib/kde4/kio_file.so
 lib/kde4/kio_ftp.so
 lib/kde4/kio_http.so
 lib/kde4/plugins/designer/kdewidgets.so
+lib/kde4/plugins/imageformats/ico.so
 lib/kde4/plugins/imageformats/jp2.so
 lib/kde4/plugins/imageformats/jpeg.so
-lib/kde4/plugins/imageformats/magick.so
 lib/kde4/plugins/imageformats/raw.so
 lib/kde4/plugins/imageformats/webp.so
 lib/libkarchive.so
@@ -1209,7 +1209,6 @@ share/apps/cmake/modules/FindLibintl.cmake
 share/apps/cmake/modules/FindLightDM.cmake
 share/apps/cmake/modules/FindMPFR.cmake
 share/apps/cmake/modules/FindMtp.cmake
-share/apps/cmake/modules/FindOpenEXR.cmake
 share/apps/cmake/modules/FindPCIUTILS.cmake
 share/apps/cmake/modules/FindPoppler.cmake
 share/apps/cmake/modules/FindQalculate.cmake

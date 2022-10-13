@@ -140,7 +140,6 @@ lib/kde4/devinfo.so
 lib/kde4/djvuthumbnail.so
 lib/kde4/dolphinpart.so
 lib/kde4/epubthumbnail.so
-lib/kde4/exrthumbnail.so
 lib/kde4/fileviewbazaarplugin.so
 lib/kde4/fileviewdropboxplugin.so
 lib/kde4/fileviewgitplugin.so
@@ -1734,7 +1733,6 @@ share/kde4/services/dma.desktop
 share/kde4/services/dolphinpart.desktop
 share/kde4/services/ebrowsing.desktop
 share/kde4/services/epubthumbnail.desktop
-share/kde4/services/exrthumbnail.desktop
 share/kde4/services/filenamesearch.protocol
 share/kde4/services/filetypes.desktop
 share/kde4/services/fileviewbazaarplugin.desktop
