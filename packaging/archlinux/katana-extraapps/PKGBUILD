@@ -3,7 +3,7 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=katana-extraapps
-pkgver=4.22.0.r1244.14098a3e
+pkgver=4.22.0.r1250.fab383df
 pkgrel=1
 pkgdesc="Katana extra applications"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')

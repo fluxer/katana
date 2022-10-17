@@ -7,7 +7,7 @@ Vcs-Git: git://git.osdn.net/gitroot/kde/kde-extraapps.git
 Vcs-browser: https://osdn.net/projects/kde/scm/git/kde-extraapps/tree
 Standards-Version: 4.22.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev,
- katana-workspace, xorg-dev, zlib1g-dev, libacl1-dev, libavcodec-dev,
+ katana-workspace, xorg-dev, libdeflate-dev, libacl1-dev, libavcodec-dev,
  libattr1-dev, libarchive-dev, libasound2-dev, libatasmart-dev,
  libavformat-dev, libavutil-dev, libblkid-dev, libdjvulibre-dev,
  libepub-dev, libfreetype6-dev, libssl-dev, libgettextpo-dev,

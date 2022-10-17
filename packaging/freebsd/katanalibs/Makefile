@@ -22,7 +22,7 @@ SHEBANG_FILES = kdeui/preparetips
 RUN_DEPENDS = xdg-open:devel/xdg-utils \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme \
 	ck-list-sessions:sysutils/consolekit2 speech-dispatcher:accessibility/speech-dispatcher
-# zlib and xz are not part of any package
+# xz is not part of any package
 LIB_DEPENDS = libKtCore.so:katana/katie libdbusmenu-katie.so:katana/libdbusmenu-katie \
 	libspeechd.so:accessibility/speech-dispatcher libenchant-2.so:textproc/enchant2 \
 	libwebp.so:graphics/webp libexiv2.so:graphics/exiv2 libmpv.so:multimedia/mpv \
@@ -31,7 +31,7 @@ LIB_DEPENDS = libKtCore.so:katana/katie libdbusmenu-katie.so:katana/libdbusmenu-
 	libpoppler-cpp.so:graphics/poppler libspectre.so:print/libspectre \
 	libmicrohttpd.so:www/libmicrohttpd libraw_r.so:graphics/libraw \
 	libfreetype.so:print/freetype2 libturbojpeg.so:graphics/libjpeg-turbo \
-	libopenjp2.so:graphics/openjpeg
+	libopenjp2.so:graphics/openjpeg libdeflate.so:archivers/libdeflate
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
 

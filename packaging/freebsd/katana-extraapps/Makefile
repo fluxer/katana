@@ -25,9 +25,9 @@ USE_LDCONFIG = yes
 # only the binaries are needed, qemu is runtime only
 RUN_DEPENDS = xfreerdp:net/freerdp qemu-system-i386:emulators/qemu \
 	kpsewhich:devel/tex-kpathsea rar:archivers/rar unrar:archivers/unrar
-# zlib and oss are not part of any package
+# oss is not part of any package
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
-	libplasmagenericshell.so:katana/katana-workspace \
+	libplasmagenericshell.so:katana/katana-workspace libdeflate.so:archivers/libdeflate \
 	libdbusmenu-katie.so:katana/libdbusmenu-katie libgmp.so:math/gmp \
 	libasound.so:audio/alsa-lib libtag.so:audio/taglib \
 	libffmpegthumbnailer.so:multimedia/ffmpegthumbnailer libqalculate.so:math/libqalculate \

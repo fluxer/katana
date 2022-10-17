@@ -9,8 +9,8 @@ Standards-Version: 4.22.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev, libenchant-2-dev,
  libmpv-dev [linux-any], xorg-dev, libavahi-client-dev, libfreetype6-dev,
  libwebp-dev, libudev-dev [linux-any], liblzma-dev, libexiv2-dev, libbz2-dev,
- libattr1-dev, libacl1-dev, zlib1g-dev, libcdio-dev [linux-any], libssl-dev,
- libcurl4-nss-dev, media-player-info [linux-any], libavcodec-dev,
+ libattr1-dev, libacl1-dev, libdeflate-dev, libcdio-dev [linux-any],
+ libcurl4-nss-dev, media-player-info [linux-any], libavcodec-dev, libssl-dev,
  libavutil-dev, libavformat-dev, libtag1-dev, libepub-dev, libpoppler-cpp-dev,
  libspectre-dev, libmicrohttpd-dev, libspeechd-dev, libarchive-dev,
  libraw-dev, libturbojpeg0-dev, libopenjp2-7-dev, libdbusmenu-katie
