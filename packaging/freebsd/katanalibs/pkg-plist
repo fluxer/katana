@@ -82,6 +82,7 @@ include/KDE/KCompletionBox
 include/KDE/KCompletionMatches
 include/KDE/KComponentData
 include/KDE/KCompositeJob
+include/KDE/KCompressor
 include/KDE/KConfig
 include/KDE/KConfigBase
 include/KDE/KConfigDialog
@@ -104,6 +105,7 @@ include/KDE/KDateTimeWidget
 include/KDE/KDateValidator
 include/KDE/KDateWidget
 include/KDE/KDebug
+include/KDE/KDecompressor
 include/KDE/KDesktopFile
 include/KDE/KDialog
 include/KDE/KDialogButtonBox
@@ -119,6 +121,8 @@ include/KDE/KDiskFreeSpaceInfo
 include/KDE/KDoubleNumInput
 include/KDE/KDoubleValidator
 include/KDE/KDualAction
+include/KDE/KEMail
+include/KDE/KEMailDialog
 include/KDE/KEMailSettings
 include/KDE/KEditListWidget
 include/KDE/KEditToolBar
@@ -142,8 +146,6 @@ include/KDE/KFilePlacesView
 include/KDE/KFilePreviewGenerator
 include/KDE/KFileTreeView
 include/KDE/KFileWidget
-include/KDE/KFilterBase
-include/KDE/KFilterDev
 include/KDE/KFilterProxySearchLine
 include/KDE/KFind
 include/KDE/KFindDialog
@@ -613,6 +615,7 @@ include/kcompletion.h
 include/kcompletionbox.h
 include/kcomponentdata.h
 include/kcompositejob.h
+include/kcompressor.h
 include/kconfig.h
 include/kconfigbase.h
 include/kconfigdialog.h
@@ -635,6 +638,7 @@ include/kde_terminal_interface.h
 include/kdebug.h
 include/kdeclarative.h
 include/kdeclarative_export.h
+include/kdecompressor.h
 include/kdecore_export.h
 include/kdedmodule.h
 include/kdemacros.h
@@ -660,6 +664,9 @@ include/kdnssd_export.h
 include/kdualaction.h
 include/keditlistwidget.h
 include/kedittoolbar.h
+include/kemail.h
+include/kemail_export.h
+include/kemaildialog.h
 include/kemailsettings.h
 include/kencodingfiledialog.h
 include/kexiv2.h
@@ -684,8 +691,6 @@ include/kfileplacesview.h
 include/kfilepreviewgenerator.h
 include/kfiletreeview.h
 include/kfilewidget.h
-include/kfilterbase.h
-include/kfilterdev.h
 include/kfilterproxysearchline.h
 include/kfind.h
 include/kfinddialog.h
@@ -1103,7 +1108,7 @@ lib/kde4/kio_http.so
 lib/kde4/plugins/designer/kdewidgets.so
 lib/kde4/plugins/imageformats/ico.so
 lib/kde4/plugins/imageformats/jp2.so
-lib/kde4/plugins/imageformats/jpeg.so
+lib/kde4/plugins/imageformats/jpg.so
 lib/kde4/plugins/imageformats/raw.so
 lib/kde4/plugins/imageformats/webp.so
 lib/libkarchive.so
@@ -1124,6 +1129,9 @@ lib/libkdeui.so.4.22
 lib/libkdnssd.so
 lib/libkdnssd.so.4
 lib/libkdnssd.so.4.22
+lib/libkemail.so
+lib/libkemail.so.4
+lib/libkemail.so.4.22
 lib/libkexiv2.so
 lib/libkexiv2.so.4
 lib/libkexiv2.so.4.22
@@ -1197,6 +1205,7 @@ share/apps/cmake/modules/FindKmod.cmake
 share/apps/cmake/modules/FindLIBPARTED.cmake
 share/apps/cmake/modules/FindLibATASmart.cmake
 share/apps/cmake/modules/FindLibDRM.cmake
+share/apps/cmake/modules/FindLibDeflate.cmake
 share/apps/cmake/modules/FindLibKonq.cmake
 share/apps/cmake/modules/FindLibLZMA.cmake
 share/apps/cmake/modules/FindLibMms.cmake
