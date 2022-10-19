@@ -23,6 +23,7 @@ bin/kiconfinder
 bin/kinfocenter
 bin/kioclient
 bin/klipper
+bin/kmail
 bin/kmediaplayer
 bin/kmenuedit
 bin/kmimetypefinder
@@ -525,6 +526,7 @@ share/applications/kde4/keditbookmarks.desktop
 share/applications/kde4/kfind.desktop
 share/applications/kde4/kinfocenter.desktop
 share/applications/kde4/klipper.desktop
+share/applications/kde4/kmail.desktop
 share/applications/kde4/kmediaplayer.desktop
 share/applications/kde4/kmenuedit.desktop
 share/applications/kde4/knetattach.desktop
@@ -1152,7 +1154,7 @@ share/apps/kwin/kcm_kwindecoration/DecorationPreview.qml
 share/apps/kwin/kcm_kwindecoration/main.qml
 share/apps/kwin/kcm_kwintabbox/dolphin.png
 share/apps/kwin/kcm_kwintabbox/kmail.png
-share/apps/kwin/kcm_kwintabbox/konqueror.png
+share/apps/kwin/kcm_kwintabbox/konsole.png
 share/apps/kwin/kcm_kwintabbox/main.qml
 share/apps/kwin/kcm_kwintabbox/systemsettings.png
 share/apps/kwin/kwin.notifyrc
