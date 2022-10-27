@@ -13,7 +13,7 @@ groups=('katana')
 depends=('katie-git' 'libdbusmenu-katie' 'enchant' 'libwebp' 'freetype2'
          'exiv2' 'mpv' 'avahi' 'curl' 'taglib' 'ebook-tools' 'poppler' 'libspectre'
          'libmicrohttpd' 'shared-mime-info' 'media-player-info' 'libxtst' 'libspeechd'
-         'libarchive' 'libraw' 'libjpeg-turbo' 'openjpeg2' 'libdeflate')
+         'libarchive' 'libtiff' 'libraw' 'libjpeg-turbo' 'openjpeg2' 'libdeflate')
 makedepends=('cmake' 'git')
 source=("git+https://scm.osdn.net/gitroot/kde/kdelibs.git"
         'kde-applications-menu.patch' 'archlinux-menu.patch')
