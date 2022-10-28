@@ -27,6 +27,7 @@ optdepends=(
     'lrzsz: ZModem support in Konsole'
     'locate: Search indexing support in KFind'
     'icoutils: ICO thumbnails support in KIO slave'
+    'lsof: Open files widget (KLsofWidget)'
 )
 backup=('etc/lightdm/lightdm-kgreeter-greeter.conf')
 source=("git+https://scm.osdn.net/gitroot/kde/kde-workspace.git")
