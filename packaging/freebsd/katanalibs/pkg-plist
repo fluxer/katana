@@ -1110,6 +1110,7 @@ lib/kde4/plugins/imageformats/ico.so
 lib/kde4/plugins/imageformats/jp2.so
 lib/kde4/plugins/imageformats/jpg.so
 lib/kde4/plugins/imageformats/raw.so
+lib/kde4/plugins/imageformats/tiff.so
 lib/kde4/plugins/imageformats/webp.so
 lib/libkarchive.so
 lib/libkarchive.so.4

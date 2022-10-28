@@ -1319,7 +1319,6 @@ share/config.kcfg/imagecreatorsettings.kcfg
 share/config.kcfg/kcm_useraccount.kcfg
 share/config.kcfg/kcm_useraccount_pass.kcfg
 share/config.kcfg/keditbookmarks.kcfg
-share/config.kcfg/klaunch.kcfg
 share/config.kcfg/kwin.kcfg
 share/config.kcfg/plasma-shell-desktop.kcfg
 share/config/katemoderc
