@@ -91,7 +91,6 @@ include/ksgrd/SensorClient.h
 include/ksgrd/SensorManager.h
 include/ksgrd/SensorShellAgent.h
 include/ksgrd/SensorSocketAgent.h
-include/ksysguard/KTextEditVT.h
 include/ksysguard/ProcessFilter.h
 include/ksysguard/ProcessModel.h
 include/ksysguard/ksignalplotter.h
