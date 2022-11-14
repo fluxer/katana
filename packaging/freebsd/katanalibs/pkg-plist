@@ -279,6 +279,7 @@ include/KDE/KPassivePopupMessageHandler
 include/KDE/KPasswdStore
 include/KDE/KPasswordDialog
 include/KDE/KPasteTextAction
+include/KDE/KPixmap
 include/KDE/KPixmapRegionSelectorDialog
 include/KDE/KPixmapRegionSelectorWidget
 include/KDE/KPixmapSequence
@@ -317,7 +318,6 @@ include/KDE/KRun
 include/KDE/KSaveFile
 include/KDE/KSelectAction
 include/KDE/KSelectionOwner
-include/KDE/KSelectionWatcher
 include/KDE/KSelector
 include/KDE/KSeparator
 include/KDE/KService
@@ -475,6 +475,7 @@ include/KDE/Plasma/DataEngineManager
 include/KDE/Plasma/DeclarativeWidget
 include/KDE/Plasma/Delegate
 include/KDE/Plasma/Dialog
+include/KDE/Plasma/DialogShadows
 include/KDE/Plasma/Extender
 include/KDE/Plasma/ExtenderGroup
 include/KDE/Plasma/ExtenderItem
@@ -771,7 +772,6 @@ include/klocalizedstring.h
 include/klockfile.h
 include/kmacroexpander.h
 include/kmainwindow.h
-include/kmanagerselection.h
 include/kmediaplayer.h
 include/kmediaplayer_export.h
 include/kmediawidget.h
@@ -816,6 +816,7 @@ include/kpasswdstore.h
 include/kpasswdstore_export.h
 include/kpassworddialog.h
 include/kpastetextaction.h
+include/kpixmap.h
 include/kpixmapregionselectordialog.h
 include/kpixmapregionselectorwidget.h
 include/kpixmapsequence.h
@@ -856,6 +857,7 @@ include/kruler.h
 include/krun.h
 include/ksavefile.h
 include/kselectaction.h
+include/kselectionowner.h
 include/kselector.h
 include/kseparator.h
 include/kservice.h
@@ -1004,6 +1006,7 @@ include/plasma/dataengine.h
 include/plasma/dataenginemanager.h
 include/plasma/delegate.h
 include/plasma/dialog.h
+include/plasma/dialogshadows.h
 include/plasma/extender.h
 include/plasma/extendergroup.h
 include/plasma/extenderitem.h
@@ -1215,7 +1218,6 @@ share/apps/cmake/modules/FindLibSpectre.cmake
 share/apps/cmake/modules/FindLibTorrent.cmake
 share/apps/cmake/modules/FindLibUSB.cmake
 share/apps/cmake/modules/FindLibVNCServer.cmake
-share/apps/cmake/modules/FindLibintl.cmake
 share/apps/cmake/modules/FindLightDM.cmake
 share/apps/cmake/modules/FindMPFR.cmake
 share/apps/cmake/modules/FindMtp.cmake
@@ -1373,6 +1375,6 @@ share/kde4/servicetypes/plasma-scriptengine.desktop
 share/kde4/servicetypes/plasma-service.desktop
 share/kde4/servicetypes/plasma-toolbox.desktop
 share/kde4/servicetypes/plasma-wallpaper.desktop
-share/locale/all_languages
-share/locale/entry.desktop
 share/mime/packages/kde.xml
+share/translations/kde4/all_languages
+share/translations/kde4/entry.desktop
