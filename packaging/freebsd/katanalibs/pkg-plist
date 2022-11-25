@@ -129,7 +129,6 @@ include/KDE/KEditToolBar
 include/KDE/KEncodingFileDialog
 include/KDE/KExiv2
 include/KDE/KExtendableItemDelegate
-include/KDE/KFadeWidgetEffect
 include/KDE/KFile
 include/KDE/KFileDialog
 include/KDE/KFileFilterCombo
@@ -673,7 +672,6 @@ include/kencodingfiledialog.h
 include/kexiv2.h
 include/kexiv2_export.h
 include/kextendableitemdelegate.h
-include/kfadewidgeteffect.h
 include/kfile.h
 include/kfile_export.h
 include/kfiledialog.h
