@@ -1943,7 +1943,6 @@ share/kde4/services/searchproviders/de2en.desktop
 share/kde4/services/searchproviders/de2fr.desktop
 share/kde4/services/searchproviders/deb.desktop
 share/kde4/services/searchproviders/dictfr.desktop
-share/kde4/services/searchproviders/docbook.desktop
 share/kde4/services/searchproviders/doi.desktop
 share/kde4/services/searchproviders/duckduckgo.desktop
 share/kde4/services/searchproviders/ecosia.desktop
@@ -1952,11 +1951,9 @@ share/kde4/services/searchproviders/en2es.desktop
 share/kde4/services/searchproviders/en2fr.desktop
 share/kde4/services/searchproviders/en2it.desktop
 share/kde4/services/searchproviders/es2en.desktop
-share/kde4/services/searchproviders/ethicle.desktop
 share/kde4/services/searchproviders/facebook.desktop
 share/kde4/services/searchproviders/feedster.desktop
 share/kde4/services/searchproviders/flickr.desktop
-share/kde4/services/searchproviders/flickrcc.desktop
 share/kde4/services/searchproviders/foldoc.desktop
 share/kde4/services/searchproviders/fr2de.desktop
 share/kde4/services/searchproviders/fr2en.desktop
@@ -1996,16 +1993,13 @@ share/kde4/services/searchproviders/python.desktop
 share/kde4/services/searchproviders/qt.desktop
 share/kde4/services/searchproviders/qwant.desktop
 share/kde4/services/searchproviders/qwant_images.desktop
-share/kde4/services/searchproviders/qwant_news.desktop
 share/kde4/services/searchproviders/qwant_videos.desktop
 share/kde4/services/searchproviders/rae.desktop
-share/kde4/services/searchproviders/rag.desktop
 share/kde4/services/searchproviders/rfc.desktop
 share/kde4/services/searchproviders/rpmfind.desktop
 share/kde4/services/searchproviders/sourceforge.desktop
 share/kde4/services/searchproviders/technorati.desktop
 share/kde4/services/searchproviders/technoratitags.desktop
-share/kde4/services/searchproviders/thesaurus.desktop
 share/kde4/services/searchproviders/tvtome.desktop
 share/kde4/services/searchproviders/urbandictionary.desktop
 share/kde4/services/searchproviders/uspto.desktop
