@@ -25,7 +25,6 @@ include/okular/core/action.h
 include/okular/core/annotations.h
 include/okular/core/area.h
 include/okular/core/document.h
-include/okular/core/fileprinter.h
 include/okular/core/fontinfo.h
 include/okular/core/form.h
 include/okular/core/generator.h
