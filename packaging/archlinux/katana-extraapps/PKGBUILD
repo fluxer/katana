@@ -3,14 +3,14 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=katana-extraapps
-pkgver=4.22.0.r1250.fab383df
+pkgver=4.23.0.r1250.fab383df
 pkgrel=1
 pkgdesc="Katana extra applications"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='https://osdn.net/projects/kde/'
 license=('GPL' 'LGPL')
 groups=('katana')
-depends=("katie-git" "katanalibs>=4.22.0" "katana-workspace>=4.22.0"
+depends=("katie-git" "katanalibs>=4.23.0" "katana-workspace>=4.23.0"
         'ffmpegthumbnailer' 'libtorrent-rasterbar' 'djvulibre' 'parted'
         'libmms' 'libatasmart' 'libvncserver' 'libarchive')
 makedepends=('cmake' 'git' 'xorg-server-devel' 'boost')
@@ -26,7 +26,7 @@ sha1sums=('SKIP')
 
 pkgver() {
     cd kde-extraapps
-    printf "4.22.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+    printf "4.23.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {

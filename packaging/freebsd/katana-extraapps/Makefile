@@ -1,7 +1,7 @@
 # https://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/
 
 PORTNAME = katana-extraapps
-DISTVERSION = 4.22.0.d20220512
+DISTVERSION = 4.23.0.d20220512
 CATEGORIES = devel x11
 MAINTAINER = xakepa10@gmail.com
 COMMENT = Katana extra applications

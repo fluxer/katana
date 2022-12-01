@@ -5,7 +5,7 @@ Maintainer: Ivailo Monev <xakepa10@gmail.com>
 Homepage: https://osdn.net/projects/kde/
 Vcs-Git: git://git.osdn.net/gitroot/kde/kde-workspace.git
 Vcs-browser: https://osdn.net/projects/kde/scm/git/kde-workspace/tree
-Standards-Version: 4.22.0
+Standards-Version: 4.23.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
  xorg-dev, libqalculate-dev, libgphoto2-dev, libxxf86vm-dev, libx11-xcb-dev,
  libxcb-composite0-dev, libxcb-damage0-dev, libxcb-xfixes0-dev, libxext-dev,

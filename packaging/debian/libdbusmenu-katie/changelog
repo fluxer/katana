@@ -1,4 +1,10 @@
-libdbusmenu-katie (4.22.0) unstable; urgency=medium
+libdbusmenu-katie (4.23.0) unstable; urgency=medium
+
+  * Package update
+
+ -- Ivailo Monev <xakepa10@gmail.com>  Thu, 1 Dec 2022 04:17:36 +0200
+
+libdbusmenu-katie (4.22.0) stable; urgency=medium
 
   * Package update
 

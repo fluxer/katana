@@ -3,7 +3,7 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=libdbusmenu-katie
-pkgver=4.22.0.r22.a1addb7
+pkgver=4.23.0.r22.a1addb7
 pkgrel=1
 pkgdesc="Katie implementation of the DBusMenu protocol"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
@@ -17,7 +17,7 @@ sha1sums=('SKIP')
 
 pkgver() {
     cd libdbusmenu-qt
-    printf "4.22.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+    printf "4.23.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {

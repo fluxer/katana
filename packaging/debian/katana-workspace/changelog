@@ -1,4 +1,10 @@
-katana-workspace (4.22.0) unstable; urgency=medium
+katana-workspace (4.23.0) unstable; urgency=medium
+
+  * Package update
+
+ -- Ivailo Monev <xakepa10@gmail.com>  Thu, 1 Dec 2022 04:17:36 +0200
+
+katana-workspace (4.22.0) stable; urgency=medium
 
   * Package update
 
