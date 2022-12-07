@@ -17,6 +17,7 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
  liblightdm-gobject-dev | liblightdm-gobject-1-dev, sudo, libdbusmenu-katie
 
 Package: katana-workspace
+Provides: lightdm-greeter
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
 Depends: ${shlibs:Depends}, ${misc:Depends}, ariya-icons, gdb | lldb,
  xserver-xorg, x11-xserver-utils, x11-xkb-utils, x11-utils, fonts-dejavu,
