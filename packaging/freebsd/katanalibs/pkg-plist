@@ -2,7 +2,7 @@ bin/kbuildsycoca4
 bin/kconfig_compiler
 bin/kde4-config
 bin/kded4
-bin/kdeinit4
+bin/klauncher4
 bin/kmailservice
 bin/ktelnetservice
 bin/makekdewidgets
@@ -1180,7 +1180,6 @@ lib/libsolid.so
 lib/libsolid.so.4
 lib/libsolid.so.4.23
 libexec/kde4/kioslave
-libexec/kde4/klauncher
 libexec/kde4/kpowermanager_helper
 share/applications/kde4/kmailservice.desktop
 share/applications/kde4/ktelnetservice.desktop
@@ -1327,6 +1326,7 @@ share/dbus-1/interfaces/org.kde.kio.FileUndoManager.xml
 share/dbus-1/interfaces/org.kde.kpasswdstore.xml
 share/dbus-1/interfaces/org.kde.kpowermanager.xml
 share/dbus-1/services/org.kde.kded.service
+share/dbus-1/services/org.kde.klauncher.service
 share/dbus-1/system-services/org.kde.kpowermanager.helper.service
 share/kde4/services/file.protocol
 share/kde4/services/ftp.protocol
