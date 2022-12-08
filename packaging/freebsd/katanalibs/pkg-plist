@@ -1103,9 +1103,6 @@ lib/kde4/kfilemetadata_poppler.so
 lib/kde4/kfilemetadata_spectre.so
 lib/kde4/kfilemetadata_taglib.so
 lib/kde4/kfilemodule.so
-lib/kde4/kio_file.so
-lib/kde4/kio_ftp.so
-lib/kde4/kio_http.so
 lib/kde4/plugins/designer/kdewidgets.so
 lib/kde4/plugins/imageformats/ico.so
 lib/kde4/plugins/imageformats/jp2.so
@@ -1179,6 +1176,9 @@ lib/libplasma.so.4.23
 lib/libsolid.so
 lib/libsolid.so.4
 lib/libsolid.so.4.23
+libexec/kde4/kio_file
+libexec/kde4/kio_ftp
+libexec/kde4/kio_http
 libexec/kde4/kioslave
 libexec/kde4/kpowermanager_helper
 share/applications/kde4/kmailservice.desktop
