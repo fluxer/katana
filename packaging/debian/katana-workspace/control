@@ -24,5 +24,5 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ariya-icons, gdb | lldb,
  lm-sensors, pciutils, icoutils, dbus-x11, iso-codes, djvulibre-bin, mtools,
  katie-tools, lightdm, qrencode, xauth, sudo, lrzsz, locate, lsof,
  cppcheck [linux-any], universal-ctags [linux-any], cryptsetup-bin [linux-any],
- subversion, mercurial, bzr, git
+ subversion, mercurial, bzr, git, accountsservice
 Description: Katana workspace interface, base applications and tools
