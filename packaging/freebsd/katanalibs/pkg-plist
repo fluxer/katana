@@ -454,7 +454,6 @@ include/KDE/NETRootInfo
 include/KDE/NETWinInfo
 include/KDE/OrgKdeKDirNotifyInterface
 include/KDE/OrgKdeKLauncherInterface
-include/KDE/Plasma/AbstractDialogManager
 include/KDE/Plasma/AbstractRunner
 include/KDE/Plasma/AbstractToolBox
 include/KDE/Plasma/Animation
@@ -987,7 +986,6 @@ include/nepomuk/kratingpainter.h
 include/nepomuk/kratingwidget.h
 include/netwm.h
 include/netwm_def.h
-include/plasma/abstractdialogmanager.h
 include/plasma/abstractrunner.h
 include/plasma/abstracttoolbox.h
 include/plasma/animation.h
