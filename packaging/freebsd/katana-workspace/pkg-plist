@@ -1056,7 +1056,6 @@ share/apps/ksmserver/themes/default/helper.js
 share/apps/ksmserver/themes/default/main.qml
 share/apps/ksmserver/themes/default/metadata.desktop
 share/apps/ksmserver/themes/default/screenshot.png
-share/apps/ksmserver/windowmanagers/compiz-custom.desktop
 share/apps/ksmserver/windowmanagers/compiz.desktop
 share/apps/ksmserver/windowmanagers/marco.desktop
 share/apps/ksmserver/windowmanagers/metacity.desktop
