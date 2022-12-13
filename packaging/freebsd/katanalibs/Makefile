@@ -31,7 +31,8 @@ LIB_DEPENDS = libKtCore.so:katana/katie libdbusmenu-katie.so:katana/libdbusmenu-
 	libpoppler-cpp.so:graphics/poppler libspectre.so:print/libspectre \
 	libmicrohttpd.so:www/libmicrohttpd libraw_r.so:graphics/libraw libtiff.so:graphics/tiff \
 	libfreetype.so:print/freetype2 libturbojpeg.so:graphics/libjpeg-turbo \
-	libopenjp2.so:graphics/openjpeg libdeflate.so:archivers/libdeflate
+	libopenjp2.so:graphics/openjpeg libdeflate.so:archivers/libdeflate \
+	libdjvulibre.so:graphics/djvulibre
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
 
