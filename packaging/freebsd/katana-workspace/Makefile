@@ -24,8 +24,8 @@ SHEBANG_FILES = kate/part/syntax/data/generate-php.pl
 RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme \
 	${LOCALBASE}/share/fonts/dejavu/DejaVuSansMono.ttf:x11-fonts/dejavu \
-	Xorg:x11-servers/xorg-server wrestool:graphics/icoutils ddjvu:graphics/djvulibre \
-	xrdb:x11/xrdb xmessage:x11/xmessage xauth:x11/xauth xprop:x11/xprop xrandr:x11/xrandr \
+	Xorg:x11-servers/xorg-server wrestool:graphics/icoutils xrdb:x11/xrdb \
+	xmessage:x11/xmessage xauth:x11/xauth xprop:x11/xprop xrandr:x11/xrandr \
 	setxkbmap:x11/setxkbmap xmodmap:x11/xmodmap xsetroot:x11/xsetroot iceauth:x11/iceauth \
 	iso-codes>=0:misc/iso-codes mtools:emulators/mtools lspci:sysutils/pciutils \
 	lightdm:x11/lightdm qrencode:graphics/libqrencode sudo:security/sudo ctags:devel/ctags \
