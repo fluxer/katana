@@ -1147,7 +1147,6 @@ share/apps/kwin/tabbox/window_strip/metadata.desktop
 share/apps/kwin/tm_inner.png
 share/apps/kwin/tm_outer.png
 share/apps/networkstatus/networkstatus.notifyrc
-share/apps/plasma-desktop/plasma-desktop.notifyrc
 share/apps/plasma/packages/org.kde.desktop.widgetexplorer/contents/ui/AppletDelegate.qml
 share/apps/plasma/packages/org.kde.desktop.widgetexplorer/contents/ui/Tooltip.qml
 share/apps/plasma/packages/org.kde.desktop.widgetexplorer/contents/ui/main.qml

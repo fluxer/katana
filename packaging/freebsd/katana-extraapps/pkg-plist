@@ -13,9 +13,7 @@ bin/kmixremote
 bin/krdc
 bin/krfb
 bin/ksnapshot
-bin/ksystemlog
 bin/ktimer
-bin/kuser
 bin/kvkbd
 bin/okular
 include/krdc/hostpreferences.h
@@ -56,7 +54,6 @@ lib/kde4/filelightpart.so
 lib/kde4/gsthumbnail.so
 lib/kde4/gvpart.so
 lib/kde4/kcm_about_distro.so
-lib/kde4/kcm_cron.so
 lib/kde4/kcm_kget_checksumsearchfactory.so
 lib/kde4/kcm_kget_mmsfactory.so
 lib/kde4/kcm_kget_torrentfactory.so
@@ -185,9 +182,7 @@ share/applications/kde4/kmix.desktop
 share/applications/kde4/krdc.desktop
 share/applications/kde4/krfb.desktop
 share/applications/kde4/ksnapshot.desktop
-share/applications/kde4/ksystemlog.desktop
 share/applications/kde4/ktimer.desktop
-share/applications/kde4/kuser.desktop
 share/applications/kde4/kvkbd.desktop
 share/applications/kde4/okular.desktop
 share/applications/kde4/okularApplication_comicbook.desktop
@@ -279,12 +274,6 @@ share/apps/krdc/krdcui.rc
 share/apps/krdc/pics/pointcursor.png
 share/apps/krdc/pics/pointcursormask.png
 share/apps/krfb/krfb.notifyrc
-share/apps/ksystemlog/ksystemlogui.rc
-share/apps/kuser/icons/hicolor/22x22/actions/user-group-delete.png
-share/apps/kuser/icons/hicolor/22x22/actions/user-group-properties.png
-share/apps/kuser/kuserui.rc
-share/apps/kuser/pics/group.png
-share/apps/kuser/pics/user.png
 share/apps/kvkbd/colors/dark.css
 share/apps/kvkbd/colors/legacy.css
 share/apps/kvkbd/colors/light.css
@@ -425,7 +414,6 @@ share/config.kcfg/kget.kcfg
 share/config.kcfg/kget_checksumsearchfactory.kcfg
 share/config.kcfg/kget_mmsfactory.kcfg
 share/config.kcfg/krdc.kcfg
-share/config.kcfg/kuser.kcfg
 share/config.kcfg/okular.kcfg
 share/config.kcfg/okular_core.kcfg
 share/config.kcfg/pocreatorsettings.kcfg
@@ -441,7 +429,6 @@ share/icons/hicolor/128x128/actions/document-share.png
 share/icons/hicolor/128x128/actions/eyes.png
 share/icons/hicolor/128x128/actions/kmix.png
 share/icons/hicolor/128x128/actions/ktimer.png
-share/icons/hicolor/128x128/actions/kuser.png
 share/icons/hicolor/128x128/actions/lifegame.png
 share/icons/hicolor/128x128/actions/luna.png
 share/icons/hicolor/128x128/actions/qalculate-applet.png
@@ -457,7 +444,6 @@ share/icons/hicolor/16x16/actions/kcolorchooser.png
 share/icons/hicolor/16x16/actions/kmix.png
 share/icons/hicolor/16x16/actions/ksnapshot.png
 share/icons/hicolor/16x16/actions/ktimer.png
-share/icons/hicolor/16x16/actions/kuser.png
 share/icons/hicolor/16x16/actions/lifegame.png
 share/icons/hicolor/16x16/actions/luna.png
 share/icons/hicolor/16x16/apps/ark.png
@@ -469,7 +455,6 @@ share/icons/hicolor/22x22/actions/eyes.png
 share/icons/hicolor/22x22/actions/filelight.png
 share/icons/hicolor/22x22/actions/kcolorchooser.png
 share/icons/hicolor/22x22/actions/ksnapshot.png
-share/icons/hicolor/22x22/actions/kuser.png
 share/icons/hicolor/22x22/actions/lifegame.png
 share/icons/hicolor/22x22/actions/luna.png
 share/icons/hicolor/22x22/apps/ark.png
@@ -484,7 +469,6 @@ share/icons/hicolor/32x32/actions/filelight.png
 share/icons/hicolor/32x32/actions/kmix.png
 share/icons/hicolor/32x32/actions/ksnapshot.png
 share/icons/hicolor/32x32/actions/ktimer.png
-share/icons/hicolor/32x32/actions/kuser.png
 share/icons/hicolor/32x32/actions/lifegame.png
 share/icons/hicolor/32x32/actions/luna.png
 share/icons/hicolor/32x32/actions/view_filelight.png
@@ -498,7 +482,6 @@ share/icons/hicolor/48x48/actions/filelight.png
 share/icons/hicolor/48x48/actions/kmix.png
 share/icons/hicolor/48x48/actions/ksnapshot.png
 share/icons/hicolor/48x48/actions/ktimer.png
-share/icons/hicolor/48x48/actions/kuser.png
 share/icons/hicolor/48x48/actions/lifegame.png
 share/icons/hicolor/48x48/actions/luna.png
 share/icons/hicolor/48x48/actions/qalculate-applet.png
@@ -511,7 +494,6 @@ share/icons/hicolor/64x64/actions/document-share.png
 share/icons/hicolor/64x64/actions/eyes.png
 share/icons/hicolor/64x64/actions/filelight.png
 share/icons/hicolor/64x64/actions/kmix.png
-share/icons/hicolor/64x64/actions/kuser.png
 share/icons/hicolor/64x64/actions/lifegame.png
 share/icons/hicolor/64x64/actions/luna.png
 share/icons/hicolor/64x64/apps/ark.png
@@ -549,7 +531,6 @@ share/kde4/services/flickrprovider.desktop
 share/kde4/services/gsthumbnail.desktop
 share/kde4/services/gvpart.desktop
 share/kde4/services/katesessions.desktop
-share/kde4/services/kcm_cron.desktop
 share/kde4/services/kded/kemu.desktop
 share/kde4/services/kded/kmixd.desktop
 share/kde4/services/kerfuffle_clirar.desktop
