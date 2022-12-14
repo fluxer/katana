@@ -1093,6 +1093,7 @@ include/sonnet/speller.h
 lib/kde4/kded_kaudioplayer.so
 lib/kde4/kded_kpasswdstore.so
 lib/kde4/kded_kpowermanager.so
+lib/kde4/kfilemetadata_djvulibre.so
 lib/kde4/kfilemetadata_epub.so
 lib/kde4/kfilemetadata_exiv2.so
 lib/kde4/kfilemetadata_ffmpeg.so
@@ -1333,6 +1334,7 @@ share/kde4/services/https.protocol
 share/kde4/services/kded/kaudioplayer.desktop
 share/kde4/services/kded/kpasswdstore.desktop
 share/kde4/services/kded/kpowermanager.desktop
+share/kde4/services/kfilemetadata_djvulibre.desktop
 share/kde4/services/kfilemetadata_epub.desktop
 share/kde4/services/kfilemetadata_exiv2.desktop
 share/kde4/services/kfilemetadata_ffmpeg.desktop
