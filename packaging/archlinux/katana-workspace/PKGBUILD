@@ -3,7 +3,7 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=katana-workspace
-pkgver=4.23.0.r2127.5e162c27
+pkgver=4.23.0.r2130.4dc0be1d
 pkgrel=1
 pkgdesc="Katana workspace interface, base applications and tools"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
@@ -16,7 +16,7 @@ depends=("katie-git" "libdbusmenu-katie>=4.23.0" "katanalibs>=4.23.0"
         'xorg-xrdb' 'xorg-xsetroot' 'xorg-xrandr' 'xorg-xmessage' 'libusb'
         'xcb-util-renderutil' 'xcb-util-keysyms' 'ttf-dejavu' 'libssh'
         'pciutils' 'glu' 'mesa' 'libmtp' 'ebook-tools' 'xorg-server'
-        'lm_sensors' 'accountsservice' 'djvulibre')
+        'lm_sensors' 'accountsservice' 'djvulibre' 'ntp')
 makedepends=('cmake' 'git' 'xorg-server-devel')
 optdepends=(
     'gdb: Backtraces support'
