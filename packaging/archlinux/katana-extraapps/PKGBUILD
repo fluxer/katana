@@ -17,7 +17,7 @@ makedepends=('cmake' 'git' 'xorg-server-devel' 'boost')
 optdepends=(
     'qemu: Virtual machine management'
     'freerdp: A free Remote Desktop Protocol (RDP) Implementation'
-    'ghostscript: PostScript, PDF and DvI support in KIO thumbnailer and Okular'
+    'ghostscript: PostScript, PDF and DVI support in KIO thumbnailer and Okular'
     'texlive-bin: DVI support in Okular'
     'unrar: RAR write support in Ark'
 )
