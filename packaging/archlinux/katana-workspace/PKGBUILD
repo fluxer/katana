@@ -25,7 +25,6 @@ optdepends=(
     'ctags: Code indexing support in Kate'
     'cppcheck: Code analysis support in Kate'
     'lrzsz: ZModem support in Konsole'
-    'locate: Search indexing support in KFind'
     'icoutils: ICO thumbnails support in KIO slave'
     'lsof: Open files widget (KLsofWidget)'
     'breezy: Bazaar support in Dolphin'
