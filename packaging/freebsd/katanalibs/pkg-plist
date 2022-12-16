@@ -549,8 +549,6 @@ include/KDE/Sonnet/Dialog
 include/KDE/Sonnet/DictionaryComboBox
 include/KDE/Sonnet/Highlighter
 include/KDE/ThumbCreator
-include/KDE/kdbgstream
-include/KDE/kndbgstream
 include/fixx11h.h
 include/k3icon_p.h
 include/kaboutapplicationdialog.h
@@ -1188,7 +1186,6 @@ share/apps/LICENSES/GPL_V2
 share/apps/LICENSES/GPL_V3
 share/apps/LICENSES/LGPL_V2
 share/apps/LICENSES/LGPL_V3
-share/apps/LICENSES/QPL_V1.0
 share/apps/cmake/modules/FindDBusMenuQt.cmake
 share/apps/cmake/modules/FindDjVuLibre.cmake
 share/apps/cmake/modules/FindEPub.cmake

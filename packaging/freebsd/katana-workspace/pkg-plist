@@ -72,9 +72,6 @@ include/kate_export.h
 include/kcommondecoration.h
 include/kdecoration.h
 include/kdecorationfactory.h
-include/knotify_export.h
-include/knotifyconfig.h
-include/knotifyplugin.h
 include/konq_dndpopupmenuplugin.h
 include/konq_export.h
 include/konq_operations.h
@@ -417,7 +414,6 @@ lib/kde4/plugins/gui_platform/kde.so
 lib/kde4/plugins/styles/oxygen.so
 lib/kde4/textthumbnail.so
 lib/kde4/windowsexethumbnail.so
-lib/kde4/windowsimagethumbnail.so
 lib/libdolphinprivate.so
 lib/libdolphinprivate.so.4
 lib/libdolphinprivate.so.4.23
@@ -436,7 +432,6 @@ lib/libkdecorations.so.4.23
 lib/libkhotkeysprivate.so.4
 lib/libkhotkeysprivate.so.4.23
 lib/libkickoff.so
-lib/libknotifyplugin.so
 lib/libkonq.so
 lib/libkonq.so.4
 lib/libkonq.so.4.23
@@ -1659,6 +1654,7 @@ share/icons/hicolor/64x64/actions/knetattach.png
 share/icons/hicolor/scalable/actions/kate.svgz
 share/icons/hicolor/scalable/actions/knetattach.svgz
 share/icons/hicolor/scalable/actions/ktexteditorautobrace.svgz
+share/kde4/services/ServiceMenus/findhere.desktop
 share/kde4/services/ServiceMenus/konsolehere.desktop
 share/kde4/services/ServiceMenus/konsolerun.desktop
 share/kde4/services/autostart.desktop
@@ -2050,13 +2046,11 @@ share/kde4/services/textthumbnail.desktop
 share/kde4/services/thumbnail.protocol
 share/kde4/services/trash.protocol
 share/kde4/services/windowsexethumbnail.desktop
-share/kde4/services/windowsimagethumbnail.desktop
 share/kde4/services/workspaceoptions.desktop
 share/kde4/services/xserver.desktop
 share/kde4/servicetypes/fileviewversioncontrolplugin.desktop
 share/kde4/servicetypes/kateplugin.desktop
 share/kde4/servicetypes/kinfocentercategory.desktop
-share/kde4/servicetypes/knotifynotifymethod.desktop
 share/kde4/servicetypes/konqdndpopupmenuplugin.desktop
 share/kde4/servicetypes/konqpopupmenuplugin.desktop
 share/kde4/servicetypes/kwindecoration.desktop
