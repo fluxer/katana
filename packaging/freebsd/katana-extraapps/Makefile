@@ -14,17 +14,16 @@ DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-extraapps.git
 
 USES = compiler:c++11-lang pkgconfig cmake xorg ssl gettext-tools libarchive \
-	ghostscript desktop-file-utils
+	desktop-file-utils
 USE_XORG = x11 xrender xtst xdamage xext xfixes
 USE_PERL5 = build
 USE_GETTEXT_TOOLS = build run
 USE_LIBARCHIVE = build
-USE_GHOSTSCRIPT = run
 USE_LDCONFIG = yes
 # build and run depending on freerdp2 since the build system checks for its presence but in fact
-# only the binaries are needed, qemu is runtime only
+# only the binaries are needed. qemu, rar and unrar are runtime only
 RUN_DEPENDS = xfreerdp:net/freerdp qemu-system-i386:emulators/qemu \
-	kpsewhich:devel/tex-kpathsea rar:archivers/rar unrar:archivers/unrar
+	rar:archivers/rar unrar:archivers/unrar
 # oss is not part of any package
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libplasmagenericshell.so:katana/katana-workspace libdeflate.so:archivers/libdeflate \
