@@ -3,7 +3,7 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=katanalibs
-pkgver=4.23.0.r3575.ca434f34
+pkgver=4.23.0.r3588.4dbb501d
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
@@ -12,9 +12,8 @@ license=('GPL' 'LGPL')
 groups=('katana')
 depends=('katie-git' 'libdbusmenu-katie' 'enchant' 'libwebp' 'freetype2'
          'exiv2' 'mpv' 'avahi' 'curl' 'taglib' 'ebook-tools' 'poppler' 'libspectre'
-         'libmicrohttpd' 'shared-mime-info' 'media-player-info' 'libxtst' 'libspeechd'
-         'libarchive' 'libtiff' 'libraw' 'libjpeg-turbo' 'openjpeg2' 'libdeflate'
-         'djvulibre')
+         'libmicrohttpd' 'shared-mime-info' 'media-player-info' 'libxtst' 'libarchive'
+         'libtiff' 'libraw' 'libjpeg-turbo' 'openjpeg2' 'libdeflate' 'djvulibre')
 makedepends=('cmake' 'git')
 source=("git+https://scm.osdn.net/gitroot/kde/kdelibs.git"
         'kde-applications-menu.patch' 'archlinux-menu.patch')
