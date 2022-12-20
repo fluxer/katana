@@ -225,7 +225,6 @@ lib/kde4/imports/org/kde/qtextracomponents/libqtextracomponentsplugin.so
 lib/kde4/imports/org/kde/qtextracomponents/qmldir
 lib/kde4/ion_noaa.so
 lib/kde4/ion_wettercom.so
-lib/kde4/kate_kttsd.so
 lib/kde4/katebuildplugin.so
 lib/kde4/katecloseexceptplugin.so
 lib/kde4/katectagsplugin.so
@@ -688,7 +687,6 @@ share/apps/hardwarenotifications/hardwarenotifications.notifyrc
 share/apps/kaccess/kaccess.notifyrc
 share/apps/kate/kateui.rc
 share/apps/kate/plugins/filetree/ui.rc
-share/apps/kate/plugins/kate_kttsd/ui.rc
 share/apps/kate/plugins/katebuild/ui.rc
 share/apps/kate/plugins/katecloseexceptplugin/ui.rc
 share/apps/kate/plugins/katectags/ui.rc
@@ -1238,7 +1236,6 @@ share/apps/systemsettings/systemsettingsui.rc
 share/autostart/klipper.desktop
 share/autostart/krunner.desktop
 share/autostart/plasma-desktop.desktop
-share/autostart/plasma.desktop
 share/config.kcfg/dolphin_compactmodesettings.kcfg
 share/config.kcfg/dolphin_detailsmodesettings.kcfg
 share/config.kcfg/dolphin_directoryviewpropertysettings.kcfg
@@ -1699,7 +1696,6 @@ share/kde4/services/ion-noaa.desktop
 share/kde4/services/ion-wettercom.desktop
 share/kde4/services/ioports.desktop
 share/kde4/services/kaccess.desktop
-share/kde4/services/kate_kttsd.desktop
 share/kde4/services/katebuildplugin.desktop
 share/kde4/services/katecloseexceptplugin.desktop
 share/kde4/services/katectagsplugin.desktop

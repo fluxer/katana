@@ -338,7 +338,6 @@ include/KDE/KShortcutsDialog
 include/KDE/KShortcutsEditor
 include/KDE/KSortableItem
 include/KDE/KSortableList
-include/KDE/KSpeech
 include/KDE/KSplashScreen
 include/KDE/KSqueezedTextLabel
 include/KDE/KStandardAction
@@ -453,7 +452,6 @@ include/KDE/NET
 include/KDE/NETRootInfo
 include/KDE/NETWinInfo
 include/KDE/OrgKdeKDirNotifyInterface
-include/KDE/OrgKdeKLauncherInterface
 include/KDE/Plasma/AbstractRunner
 include/KDE/Plasma/AbstractToolBox
 include/KDE/Plasma/Animation
@@ -755,7 +753,6 @@ include/kkeysequencewidget.h
 include/kkeyserver.h
 include/kkeyserver_x11.h
 include/klanguagebutton.h
-include/klauncher_iface.h
 include/kled.h
 include/klineedit.h
 include/klinkitemselectionmodel.h
@@ -873,8 +870,6 @@ include/kshortcutsdialog.h
 include/kshortcutseditor.h
 include/kshortcutwidget.h
 include/ksortablelist.h
-include/kspeech.h
-include/kspeech_export.h
 include/ksplashscreen.h
 include/ksqueezedtextlabel.h
 include/kstandardaction.h
@@ -1161,9 +1156,6 @@ lib/libkpowermanager.so.4.23
 lib/libkpty.so
 lib/libkpty.so.4
 lib/libkpty.so.4.23
-lib/libkspeech.so
-lib/libkspeech.so.4
-lib/libkspeech.so.4.23
 lib/libktexteditor.so
 lib/libktexteditor.so.4
 lib/libktexteditor.so.4.23
