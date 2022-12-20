@@ -31,7 +31,7 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libasound.so:audio/alsa-lib libtag.so:audio/taglib \
 	libffmpegthumbnailer.so:multimedia/ffmpegthumbnailer libqalculate.so:math/libqalculate \
 	libspectre.so:print/libspectre libfreetype.so:print/freetype2 \
-	libdjvulibre.so:graphics/djvulibre libepub.so:textproc/ebook-tools libmms.so:net/libmms \
+	libdjvulibre.so:graphics/djvulibre libepub.so:textproc/ebook-tools \
 	libvncserver.so:net/libvncserver libfreerdp2.so:net/freerdp \
 	libtorrent-rasterbar.so:net-p2p/libtorrent-rasterbar libpoppler-cpp.so:graphics/poppler
 CMAKE_ARGS = -Wno-dev -DBUILD_partitionmanager=FALSE
