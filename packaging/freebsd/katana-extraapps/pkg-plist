@@ -38,7 +38,6 @@ include/okular/core/sourcereference.h
 include/okular/core/textdocumentgenerator.h
 include/okular/core/textdocumentsettings.h
 include/okular/core/textpage.h
-include/okular/core/tile.h
 include/okular/core/utils.h
 include/okular/core/version.h
 include/okular/interfaces/configinterface.h
