@@ -15,11 +15,8 @@ depends=('katie-git' 'libdbusmenu-katie' 'enchant' 'libwebp' 'freetype2'
          'libmicrohttpd' 'shared-mime-info' 'media-player-info' 'libxtst' 'libarchive'
          'libtiff' 'libraw' 'libjpeg-turbo' 'openjpeg2' 'libdeflate' 'djvulibre')
 makedepends=('cmake' 'git')
-source=("git+https://scm.osdn.net/gitroot/kde/kdelibs.git"
-        'kde-applications-menu.patch' 'archlinux-menu.patch')
-sha1sums=('SKIP'
-          'eca00007b168228b05d8683e1de8c78e3feca73d'
-          '4de0a8db4155a83667bc4dac1c3df8659ee4a030')
+source=("git+https://scm.osdn.net/gitroot/kde/kdelibs.git")
+sha1sums=('SKIP')
 
 pkgver() {
     cd kdelibs
@@ -29,10 +26,6 @@ pkgver() {
 prepare() {
     mkdir -p build
     cd kdelibs
-    # avoid file conflict with gnome-menus and kservice
-    patch -p1 -i "${srcdir}/kde-applications-menu.patch"
-    # add Arch Linux menu entry
-    patch -p1 -i "${srcdir}/archlinux-menu.patch"
 }
 
 build() {
