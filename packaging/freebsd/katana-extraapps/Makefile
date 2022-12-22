@@ -13,8 +13,7 @@ DISTFILES = rss
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-extraapps.git
 
-USES = compiler:c++11-lang pkgconfig cmake xorg ssl gettext-tools libarchive \
-	desktop-file-utils
+USES = compiler:c++11-lang pkgconfig cmake xorg gettext-tools libarchive desktop-file-utils
 USE_XORG = x11 xrender xtst xdamage xext xfixes
 USE_GETTEXT_TOOLS = build run
 USE_LIBARCHIVE = build
