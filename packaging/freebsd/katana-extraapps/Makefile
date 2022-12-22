@@ -16,7 +16,6 @@ WRKSRC = ${WRKDIR}/kde-extraapps.git
 USES = compiler:c++11-lang pkgconfig cmake xorg ssl gettext-tools libarchive \
 	desktop-file-utils
 USE_XORG = x11 xrender xtst xdamage xext xfixes
-USE_PERL5 = build
 USE_GETTEXT_TOOLS = build run
 USE_LIBARCHIVE = build
 USE_LDCONFIG = yes
