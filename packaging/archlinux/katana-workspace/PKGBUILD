@@ -12,20 +12,18 @@ license=('GPL' 'LGPL' 'FDL')
 groups=('katana')
 depends=("katie-git" "libdbusmenu-katie>=4.23.0" "katanalibs>=4.23.0"
         'libxdamage' 'libqalculate' 'libdrm' 'libgphoto2' 'lightdm'
-        'libxklavier' 'libxres' 'libxcomposite' 'libxft'
+        'libxklavier' 'libxres' 'libxcomposite' 'libxft' 'accountsservice'
         'xorg-xrdb' 'xorg-xsetroot' 'xorg-xrandr' 'xorg-xmessage' 'libusb'
         'xcb-util-renderutil' 'xcb-util-keysyms' 'ttf-dejavu' 'libssh'
         'pciutils' 'glu' 'mesa' 'libmtp' 'ebook-tools' 'xorg-server'
-        'lm_sensors' 'accountsservice' 'djvulibre' 'ntp')
+        'lm_sensors' 'djvulibre' 'ntp' 'qrencode' 'icoutils')
 makedepends=('cmake' 'git' 'xorg-server-devel')
 optdepends=(
     'gdb: Backtraces support'
     'mtools: KIO floppy support'
-    'qrencode: QR Code support in Klipper'
     'ctags: Code indexing support in Kate'
     'cppcheck: Code analysis support in Kate'
     'lrzsz: ZModem support in Konsole'
-    'icoutils: ICO thumbnails support in KIO slave'
     'lsof: Open files widget (KLsofWidget)'
     'breezy: Bazaar support in Dolphin'
     'git: Git support in Dolphin'

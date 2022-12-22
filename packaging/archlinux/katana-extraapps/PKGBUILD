@@ -12,13 +12,12 @@ license=('GPL' 'LGPL')
 groups=('katana')
 depends=("katie-git" "katanalibs>=4.23.0" "katana-workspace>=4.23.0"
         'ffmpegthumbnailer' 'libtorrent-rasterbar' 'djvulibre' 'parted'
-        'libmms' 'libatasmart' 'libvncserver' 'libarchive' 'libspectre')
+        'libmms' 'libatasmart' 'libvncserver' 'libarchive' 'libspectre'
+        'lrzip' 'unrar' 'freerdp')
 makedepends=('cmake' 'git' 'xorg-server-devel' 'boost')
 optdepends=(
     'qemu: Virtual machine management'
-    'freerdp: A free Remote Desktop Protocol (RDP) Implementation'
     'texlive-bin: LaTeX support in Okular'
-    'unrar: RAR write support in Ark'
 )
 source=("git+https://scm.osdn.net/gitroot/kde/kde-extraapps.git")
 sha1sums=('SKIP')
