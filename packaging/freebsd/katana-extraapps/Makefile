@@ -19,9 +19,10 @@ USE_GETTEXT_TOOLS = build run
 USE_LIBARCHIVE = build
 USE_LDCONFIG = yes
 # build and run depending on freerdp2 since the build system checks for its presence but in fact
-# only the binaries are needed. qemu, rar, unrar and lrzip are runtime only
+# only the binaries are needed. qemu, rar and unrar are runtime only
+# NOTE: lrzsz (which katana-workspace depends on) conflicts with lrzip
 RUN_DEPENDS = xfreerdp:net/freerdp qemu-system-i386:emulators/qemu \
-	rar:archivers/rar unrar:archivers/unrar lrzip:archivers/lrzip
+	rar:archivers/rar unrar:archivers/unrar
 # oss is not part of any package
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libplasmagenericshell.so:katana/katana-workspace libdeflate.so:archivers/libdeflate \
