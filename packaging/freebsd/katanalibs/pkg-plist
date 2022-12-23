@@ -8,7 +8,7 @@ bin/ktelnetservice
 bin/makekdewidgets
 bin/preparetips
 etc/dbus-1/system.d/org.kde.kpowermanager.helper.conf
-etc/xdg/menus/applications.menu
+etc/xdg/menus/kde-applications.menu
 include/KDE/KACL
 include/KDE/KAboutApplicationDialog
 include/KDE/KAboutData
@@ -1214,7 +1214,6 @@ share/apps/cmake/modules/FindSensors.cmake
 share/apps/cmake/modules/FindSharedMimeInfo.cmake
 share/apps/cmake/modules/FindSudo.cmake
 share/apps/cmake/modules/FindTaglib.cmake
-share/apps/cmake/modules/FindWebP.cmake
 share/apps/cmake/modules/FindX11_XCB.cmake
 share/apps/cmake/modules/FindXCB.cmake
 share/apps/cmake/modules/KDE4Config.cmake
