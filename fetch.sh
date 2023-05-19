@@ -17,6 +17,6 @@ for p in "${packs[@]}";do
         cd "$cwd"
     else
         echo "Fetching sources of $p..."
-        git clone --depth=1 "git://git.osdn.net/gitroot/kde/$p.git"
+        git clone --depth=1 "https://scm.osdn.net/gitroot/kde/Katie/$p.git"
     fi
 done

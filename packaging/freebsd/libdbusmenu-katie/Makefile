@@ -20,6 +20,6 @@ CMAKE_ARGS = -Wno-dev
 
 do-extract:
 	@rm -vrf ${WRKSRC}
-	@git clone --depth=1 git://git.osdn.net/gitroot/kde/libdbusmenu-qt.git ${WRKSRC}
+	@git clone --depth=1 https://scm.osdn.net/gitroot/kde/libdbusmenu-qt.git ${WRKSRC}
 
 .include <bsd.port.mk>

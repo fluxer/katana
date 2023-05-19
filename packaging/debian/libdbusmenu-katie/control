@@ -3,7 +3,7 @@ Section: libdevel
 Priority: optional
 Maintainer: Ivailo Monev <xakepa10@gmail.com>
 Homepage: https://osdn.net/projects/kde/
-Vcs-Git: git://git.osdn.net/gitroot/kde/libdbusmenu-qt.git
+Vcs-Git: https://scm.osdn.net/gitroot/kde/libdbusmenu-qt.git
 Vcs-browser: https://osdn.net/projects/kde/scm/git/libdbusmenu-qt/tree
 Standards-Version: 4.23.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev
