@@ -705,7 +705,6 @@ include/khbox.h
 include/khelpmenu.h
 include/khistorycombobox.h
 include/khttp.h
-include/khttp_export.h
 include/khuesaturationselect.h
 include/kicon.h
 include/kicondialog.h
@@ -1129,9 +1128,6 @@ lib/libkexiv2.so.4.23
 lib/libkfile.so
 lib/libkfile.so.4
 lib/libkfile.so.4.23
-lib/libkhttp.so
-lib/libkhttp.so.4
-lib/libkhttp.so.4.23
 lib/libkidletime.so
 lib/libkidletime.so.4
 lib/libkidletime.so.4.23

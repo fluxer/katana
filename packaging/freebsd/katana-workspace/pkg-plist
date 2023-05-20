@@ -955,10 +955,10 @@ share/apps/kcm_componentchooser/kcm_filemanager.desktop
 share/apps/kcm_componentchooser/kcm_kemail.desktop
 share/apps/kcm_componentchooser/kcm_terminal.desktop
 share/apps/kcm_componentchooser/kcm_wm.desktop
-share/apps/kcminput/pics/aa_bgr.png
-share/apps/kcminput/pics/aa_rgb.png
-share/apps/kcminput/pics/aa_vbgr.png
-share/apps/kcminput/pics/aa_vrgb.png
+share/apps/kcmfonts/pics/aa_bgr.png
+share/apps/kcmfonts/pics/aa_rgb.png
+share/apps/kcmfonts/pics/aa_vbgr.png
+share/apps/kcmfonts/pics/aa_vrgb.png
 share/apps/kcminput/pics/mouse_lh.png
 share/apps/kcminput/pics/mouse_rh.png
 share/apps/kcmkeyboard/pics/epo.png
