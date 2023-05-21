@@ -35,8 +35,7 @@ build() {
     cd build
     cmake ../kde-extraapps \
         -Wno-dev \
-        -DCMAKE_BUILD_TYPE=Release \
-        -DCMAKE_SKIP_RPATH=TRUE
+        -DCMAKE_BUILD_TYPE=Release
     make
 }
 

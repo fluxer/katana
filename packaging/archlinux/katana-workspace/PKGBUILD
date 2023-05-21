@@ -3,7 +3,7 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=katana-workspace
-pkgver=4.23.0.r2156.f0afb63c
+pkgver=4.23.0.r2178.2f78f4d8
 pkgrel=1
 pkgdesc="Katana workspace interface, base applications and tools"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
@@ -47,8 +47,7 @@ build() {
     cd build
     cmake ../kde-workspace \
         -Wno-dev \
-        -DCMAKE_BUILD_TYPE=Release \
-        -DCMAKE_SKIP_RPATH=TRUE
+        -DCMAKE_BUILD_TYPE=Release
     make
 }
 

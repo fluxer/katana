@@ -3,7 +3,7 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=katanalibs
-pkgver=4.23.0.r3634.5e3ceb0d
+pkgver=4.23.0.r3738.f8521999
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
@@ -33,7 +33,6 @@ build() {
     cmake ../kdelibs \
         -Wno-dev \
         -DCMAKE_BUILD_TYPE=Release \
-        -DCMAKE_SKIP_RPATH=TRUE \
         -DCMAKE_INSTALL_PREFIX=/usr \
         -DKDE4_SYSCONF_INSTALL_DIR=/etc \
         -DKDE4_LIBEXEC_INSTALL_DIR=/usr/lib/kde4

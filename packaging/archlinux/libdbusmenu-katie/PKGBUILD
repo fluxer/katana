@@ -3,7 +3,7 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=libdbusmenu-katie
-pkgver=4.23.0.r22.a1addb7
+pkgver=4.23.0.r36.b630e21
 pkgrel=1
 pkgdesc="Katie implementation of the DBusMenu protocol"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
@@ -29,7 +29,6 @@ build() {
     cmake ../libdbusmenu-qt \
         -Wno-dev \
         -DCMAKE_BUILD_TYPE=Release \
-        -DCMAKE_SKIP_RPATH=TRUE \
         -DCMAKE_INSTALL_PREFIX=/usr
     make
 }
