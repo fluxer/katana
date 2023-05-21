@@ -209,12 +209,6 @@ lib/kde4/imports/org/kde/plasma/extras/PageRow.qml
 lib/kde4/imports/org/kde/plasma/extras/Paragraph.qml
 lib/kde4/imports/org/kde/plasma/extras/ScrollArea.qml
 lib/kde4/imports/org/kde/plasma/extras/Title.qml
-lib/kde4/imports/org/kde/plasma/extras/animations/ActivateAnimation.qml
-lib/kde4/imports/org/kde/plasma/extras/animations/Animations.js
-lib/kde4/imports/org/kde/plasma/extras/animations/AppearAnimation.qml
-lib/kde4/imports/org/kde/plasma/extras/animations/DisappearAnimation.qml
-lib/kde4/imports/org/kde/plasma/extras/animations/PressedAnimation.qml
-lib/kde4/imports/org/kde/plasma/extras/animations/ReleasedAnimation.qml
 lib/kde4/imports/org/kde/plasma/extras/libplasmaextracomponentsplugin.so
 lib/kde4/imports/org/kde/plasma/extras/qmldir
 lib/kde4/imports/org/kde/plasma/graphicslayouts/libgraphicslayoutsbindingsplugin.so
