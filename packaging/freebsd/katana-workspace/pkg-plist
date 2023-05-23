@@ -332,7 +332,6 @@ lib/kde4/ktexteditor_exporter.so
 lib/kde4/ktexteditor_hlselection.so
 lib/kde4/ktexteditor_iconinserter.so
 lib/kde4/ktexteditor_insertfile.so
-lib/kde4/ktexteditor_lumen.so
 lib/kde4/kuriikwsfilter.so
 lib/kde4/kurisearchfilter.so
 lib/kde4/kwin3_aurorae.so
@@ -1753,7 +1752,6 @@ share/kde4/services/ktexteditor_exporter.desktop
 share/kde4/services/ktexteditor_hlselection.desktop
 share/kde4/services/ktexteditor_iconinserter.desktop
 share/kde4/services/ktexteditor_insertfile.desktop
-share/kde4/services/ktexteditor_lumen.desktop
 share/kde4/services/kuiserver.desktop
 share/kde4/services/kuriikwsfilter.desktop
 share/kde4/services/kurisearchfilter.desktop
