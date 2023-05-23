@@ -684,13 +684,10 @@ share/apps/kate/plugins/filetree/ui.rc
 share/apps/kate/plugins/katebuild/ui.rc
 share/apps/kate/plugins/katecloseexceptplugin/ui.rc
 share/apps/kate/plugins/katectags/ui.rc
-share/apps/kate/plugins/katefiletemplates/templates/FindXXX.cmake.katetemplate
 share/apps/kate/plugins/katefiletemplates/templates/cppgpl.cpp.katetemplate
-share/apps/kate/plugins/katefiletemplates/templates/cppgpl.hh.katetemplate
+share/apps/kate/plugins/katefiletemplates/templates/cppgpl.h.katetemplate
 share/apps/kate/plugins/katefiletemplates/templates/cpplgpl.cpp.katetemplate
-share/apps/kate/plugins/katefiletemplates/templates/cpplgpl.hh.katetemplate
-share/apps/kate/plugins/katefiletemplates/templates/html.katetemplate
-share/apps/kate/plugins/katefiletemplates/templates/language.xml.katetemplate
+share/apps/kate/plugins/katefiletemplates/templates/cpplgpl.h.katetemplate
 share/apps/kate/plugins/katefiletemplates/ui.rc
 share/apps/kate/plugins/katekonsole/ui.rc
 share/apps/kate/plugins/katemailfiles/ui.rc
