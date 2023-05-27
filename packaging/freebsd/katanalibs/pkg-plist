@@ -548,7 +548,6 @@ include/KDE/Sonnet/DictionaryComboBox
 include/KDE/Sonnet/Highlighter
 include/KDE/ThumbCreator
 include/fixx11h.h
-include/k3icon_p.h
 include/kaboutapplicationdialog.h
 include/kaboutdata.h
 include/kabstractfileitemactionplugin.h
