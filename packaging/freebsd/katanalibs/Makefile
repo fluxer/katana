@@ -22,7 +22,7 @@ RUN_DEPENDS = xdg-open:devel/xdg-utils \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme \
 	ck-list-sessions:sysutils/consolekit2
 # xz is not part of any package
-LIB_DEPENDS = libKtCore.so:katana/katie libdbusmenu-katie.so:katana/libdbusmenu-katie \
+LIB_DEPENDS = libKtCore.so:katana/katie \
 	libenchant-2.so:textproc/enchant2 libwebp.so:graphics/webp libexiv2.so:graphics/exiv2 \
 	libmpv.so:multimedia/mpv libavahi-client.so:net/avahi-app libbz2.so:archivers/bzip2 \
 	libcurl.so:ftp/curl libavcodec.so:multimedia/ffmpeg libtag.so:audio/taglib \

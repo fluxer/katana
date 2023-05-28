@@ -10,7 +10,7 @@ arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='https://osdn.net/projects/kde/'
 license=('GPL' 'LGPL' 'FDL')
 groups=('katana')
-depends=("katie-git" "libdbusmenu-katie>=4.23.0" "katanalibs>=4.23.0"
+depends=("katie-git" "katanalibs>=4.23.0"
         'libxdamage' 'libqalculate' 'libdrm' 'libgphoto2' 'lightdm'
         'libxklavier' 'libxres' 'libxcomposite' 'libxft' 'accountsservice'
         'xorg-xrdb' 'xorg-xsetroot' 'xorg-xrandr' 'xorg-xmessage' 'libusb'

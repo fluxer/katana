@@ -10,10 +10,10 @@ arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='https://osdn.net/projects/kde/'
 license=('GPL' 'LGPL')
 groups=('katana')
-depends=('katie-git' 'libdbusmenu-katie' 'enchant' 'libwebp' 'freetype2'
-         'exiv2' 'mpv' 'avahi' 'curl' 'taglib' 'ebook-tools' 'poppler' 'libspectre'
+depends=('katie-git' 'enchant' 'libwebp' 'freetype2' 'libdeflate' 'djvulibre'
+         'exiv2' 'mpv' 'avahi' 'curl' 'taglib' 'ebook-tools' 'poppler'
          'shared-mime-info' 'media-player-info' 'libxtst' 'libarchive'
-         'libtiff' 'libraw' 'libjpeg-turbo' 'openjpeg2' 'libdeflate' 'djvulibre')
+         'libtiff' 'libraw' 'libjpeg-turbo' 'openjpeg2' 'libspectre')
 makedepends=('cmake' 'git')
 source=("git+https://scm.osdn.net/gitroot/kde/kdelibs.git")
 sha1sums=('SKIP')

@@ -1,8 +1,0 @@
-include/dbusmenu-katie/dbusmenu_export.h
-include/dbusmenu-katie/dbusmenu_version.h
-include/dbusmenu-katie/dbusmenuexporter.h
-include/dbusmenu-katie/dbusmenuimporter.h
-lib/libdbusmenu-katie.so
-lib/libdbusmenu-katie.so.0
-lib/libdbusmenu-katie.so.0.9
-libdata/pkgconfig/dbusmenu-katie.pc
