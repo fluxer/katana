@@ -93,6 +93,8 @@ include/KDE/KConfigSkeletonGenericItem
 include/KDE/KConfigSkeletonItem
 include/KDE/KCrash
 include/KDE/KCursor
+include/KDE/KDBusMenuExporter
+include/KDE/KDBusMenuImporter
 include/KDE/KDEDModule
 include/KDE/KDEPrintDialog
 include/KDE/KDNSSD
@@ -627,6 +629,8 @@ include/kdatetimeedit.h
 include/kdatetimewidget.h
 include/kdatewidget.h
 include/kdbusconnectionpool.h
+include/kdbusmenuexporter.h
+include/kdbusmenuimporter.h
 include/kde_file.h
 include/kde_terminal_interface.h
 include/kdebug.h
@@ -1173,7 +1177,6 @@ share/apps/LICENSES/GPL_V2
 share/apps/LICENSES/GPL_V3
 share/apps/LICENSES/LGPL_V2
 share/apps/LICENSES/LGPL_V3
-share/apps/cmake/modules/FindDBusMenuQt.cmake
 share/apps/cmake/modules/FindDjVuLibre.cmake
 share/apps/cmake/modules/FindEPub.cmake
 share/apps/cmake/modules/FindExiv2.cmake
