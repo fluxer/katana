@@ -20,5 +20,4 @@ Package: katana-extraapps
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
 Depends: ${shlibs:Depends}, ${misc:Depends}, freerdp2-x11, texlive-binaries,
  qemu-system-x86, lrzip
-Recommends: rar, unrar
 Description: Katana extra applications

@@ -13,7 +13,7 @@ groups=('katana')
 depends=("katie-git" "katanalibs>=4.23.0" "katana-workspace>=4.23.0"
         'ffmpegthumbnailer' 'libtorrent-rasterbar' 'djvulibre' 'parted'
         'libmms' 'libatasmart' 'libvncserver' 'libarchive' 'libspectre'
-        'lrzip' 'unrar' 'freerdp')
+        'lrzip' 'freerdp')
 makedepends=('cmake' 'git' 'xorg-server-devel' 'boost')
 optdepends=(
     'qemu: Virtual machine management'
