@@ -1189,16 +1189,6 @@ share/apps/plasma/plasmoids/org.kde.notifications/contents/ui/config.ui
 share/apps/plasma/plasmoids/org.kde.notifications/contents/ui/main.qml
 share/apps/plasma/plasmoids/org.kde.notifications/contents/ui/uiproperties.js
 share/apps/plasma/plasmoids/org.kde.notifications/metadata.desktop
-share/apps/plasma/services/applicationjobs.operations
-share/apps/plasma/services/apps.operations
-share/apps/plasma/services/hotplug.operations
-share/apps/plasma/services/mpris2.operations
-share/apps/plasma/services/notifications.operations
-share/apps/plasma/services/org.kde.places.operations
-share/apps/plasma/services/powermanagementservice.operations
-share/apps/plasma/services/soliddevice.operations
-share/apps/plasma/services/statusnotifieritem.operations
-share/apps/plasma/services/tasks.operations
 share/apps/remoteview/camera-network.desktop
 share/apps/remoteview/mtp-network.desktop
 share/apps/remoteview/network.desktop

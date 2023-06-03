@@ -63,7 +63,6 @@ lib/kde4/kcm_krunner_dictionary.so
 lib/kde4/kcm_krunner_spellcheck.so
 lib/kde4/kded_kemu.so
 lib/kde4/kded_kmixd.so
-lib/kde4/kerfuffle_clirar.so
 lib/kde4/kerfuffle_libarchive.so
 lib/kde4/kerfuffle_libbz2.so
 lib/kde4/kerfuffle_libgz.so
@@ -355,8 +354,6 @@ share/apps/plasma/plasmoids/nowplaying/contents/ui/config.ui
 share/apps/plasma/plasmoids/nowplaying/contents/ui/images/nocover.png
 share/apps/plasma/plasmoids/nowplaying/contents/ui/nowplaying.qml
 share/apps/plasma/plasmoids/nowplaying/metadata.desktop
-share/apps/plasma/services/mixer.operations
-share/apps/plasma/services/org.kde.plasma.dataengine.konsoleprofiles.operations
 share/apps/plasma/wallpapers/org.kde.hunyango/contents/ui/main.qml
 share/apps/plasma/wallpapers/org.kde.hunyango/contents/ui/wallpaper.svgz
 share/apps/plasma/wallpapers/org.kde.hunyango/metadata.desktop
@@ -521,7 +518,6 @@ share/kde4/services/gvpart.desktop
 share/kde4/services/katesessions.desktop
 share/kde4/services/kded/kemu.desktop
 share/kde4/services/kded/kmixd.desktop
-share/kde4/services/kerfuffle_clirar.desktop
 share/kde4/services/kerfuffle_libarchive.desktop
 share/kde4/services/kerfuffle_libarchive_readonly.desktop
 share/kde4/services/kerfuffle_libbz2.desktop

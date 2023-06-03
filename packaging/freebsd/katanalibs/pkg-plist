@@ -1283,8 +1283,6 @@ share/apps/kio/pics/user-grey.png
 share/apps/kio/pics/user.png
 share/apps/kio/pics/yes.png
 share/apps/kio/pics/yespartial.png
-share/apps/plasma/services/dataengineservice.operations
-share/apps/plasma/services/plasmoidservice.operations
 share/config/accept-languages.codes
 share/config/colors/40.colors
 share/config/colors/Oxygen.colors
@@ -1347,16 +1345,13 @@ share/kde4/servicetypes/ktexteditor.desktop
 share/kde4/servicetypes/ktexteditor_loadsavefiltercheckplugin.desktop
 share/kde4/servicetypes/ktexteditorplugin.desktop
 share/kde4/servicetypes/kurifilterplugin.desktop
-share/kde4/servicetypes/plasma-animator.desktop
 share/kde4/servicetypes/plasma-applet-popupapplet.desktop
 share/kde4/servicetypes/plasma-applet.desktop
 share/kde4/servicetypes/plasma-containment.desktop
 share/kde4/servicetypes/plasma-containmentactions.desktop
 share/kde4/servicetypes/plasma-dataengine.desktop
-share/kde4/servicetypes/plasma-packagestructure.desktop
 share/kde4/servicetypes/plasma-runner.desktop
 share/kde4/servicetypes/plasma-scriptengine.desktop
-share/kde4/servicetypes/plasma-service.desktop
 share/kde4/servicetypes/plasma-toolbox.desktop
 share/kde4/servicetypes/plasma-wallpaper.desktop
 share/mime/packages/kde.xml
