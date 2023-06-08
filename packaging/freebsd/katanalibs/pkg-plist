@@ -35,11 +35,8 @@ include/KDE/KBookmarkAction
 include/KDE/KBookmarkActionInterface
 include/KDE/KBookmarkActionMenu
 include/KDE/KBookmarkDialog
-include/KDE/KBookmarkDomBuilder
-include/KDE/KBookmarkExporterBase
 include/KDE/KBookmarkGroup
 include/KDE/KBookmarkGroupTraverser
-include/KDE/KBookmarkImporterBase
 include/KDE/KBookmarkManager
 include/KDE/KBookmarkMenu
 include/KDE/KBookmarkOwner
@@ -123,6 +120,7 @@ include/KDE/KDiskFreeSpaceInfo
 include/KDE/KDoubleNumInput
 include/KDE/KDoubleValidator
 include/KDE/KDualAction
+include/KDE/KDynamicJobTracker
 include/KDE/KEMail
 include/KDE/KEMailDialog
 include/KDE/KEMailSettings
@@ -176,7 +174,6 @@ include/KDE/KIO/CopyInfo
 include/KDE/KIO/CopyJob
 include/KDE/KIO/DeleteJob
 include/KDE/KIO/FileCopyJob
-include/KDE/KIO/FileJob
 include/KDE/KIO/ForwardingSlaveBase
 include/KDE/KIO/Job
 include/KDE/KIO/JobClasses
@@ -191,7 +188,6 @@ include/KDE/KIO/RenameDialog
 include/KDE/KIO/Scheduler
 include/KDE/KIO/SimpleJob
 include/KDE/KIO/SkipDialog
-include/KDE/KIO/Slave
 include/KDE/KIO/SlaveBase
 include/KDE/KIO/SlaveConfig
 include/KDE/KIO/SlaveInterface
@@ -420,6 +416,7 @@ include/KDE/KToolBarSpacerAction
 include/KDE/KToolInvocation
 include/KDE/KTreeWidgetSearchLine
 include/KDE/KTreeWidgetSearchLineWidget
+include/KDE/KUiServerJobTracker
 include/KDE/KUndoStack
 include/KDE/KUniqueApplication
 include/KDE/KUnitConversion
@@ -442,7 +439,6 @@ include/KDE/KWidgetJobTracker
 include/KDE/KWindowInfo
 include/KDE/KWindowSystem
 include/KDE/KWordMacroExpander
-include/KDE/KXBELBookmarkImporterImpl
 include/KDE/KXErrorHandler
 include/KDE/KXMLGUIBuilder
 include/KDE/KXMLGUIClient
@@ -573,9 +569,6 @@ include/kautomount.h
 include/kautostart.h
 include/kbookmark.h
 include/kbookmarkdialog.h
-include/kbookmarkdombuilder.h
-include/kbookmarkexporter.h
-include/kbookmarkimporter.h
 include/kbookmarkmanager.h
 include/kbookmarkmenu.h
 include/kbreadcrumbselectionmodel.h
@@ -660,6 +653,7 @@ include/kdiskfreespaceinfo.h
 include/kdnssd.h
 include/kdnssd_export.h
 include/kdualaction.h
+include/kdynamicjobtracker.h
 include/keditlistwidget.h
 include/kedittoolbar.h
 include/kemail.h
@@ -726,7 +720,6 @@ include/kio/connection.h
 include/kio/copyjob.h
 include/kio/deletejob.h
 include/kio/directorysizejob.h
-include/kio/filejob.h
 include/kio/fileundomanager.h
 include/kio/forwardingslavebase.h
 include/kio/global.h
@@ -741,7 +734,6 @@ include/kio/previewjob.h
 include/kio/renamedialog.h
 include/kio/scheduler.h
 include/kio/skipdialog.h
-include/kio/slave.h
 include/kio/slavebase.h
 include/kio/slaveconfig.h
 include/kio/slaveinterface.h

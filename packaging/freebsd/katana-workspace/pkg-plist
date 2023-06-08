@@ -107,7 +107,6 @@ include/plasmaclock/calendar.h
 include/plasmaclock/calendartable.h
 include/plasmaclock/clockapplet.h
 include/plasmaclock/plasmaclock_export.h
-include/systemsettingsview/BaseData.h
 include/systemsettingsview/BaseMode.h
 include/systemsettingsview/MenuItem.h
 include/systemsettingsview/MenuModel.h
