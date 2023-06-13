@@ -72,7 +72,6 @@ lib/kde4/kget_kiofactory.so
 lib/kde4/kget_mmsfactory.so
 lib/kde4/kget_torrentfactory.so
 lib/kde4/krdc_rdpplugin.so
-lib/kde4/krdc_testplugin.so
 lib/kde4/krdc_vncplugin.so
 lib/kde4/krfb_framebuffer_qt.so
 lib/kde4/krfb_framebuffer_x11.so
@@ -536,7 +535,6 @@ share/kde4/services/kmixctrl_restore.desktop
 share/kde4/services/konsolesessions.desktop
 share/kde4/services/krdc_rdp.desktop
 share/kde4/services/krdc_rdp_config.desktop
-share/kde4/services/krdc_test.desktop
 share/kde4/services/krdc_vnc.desktop
 share/kde4/services/krdc_vnc_config.desktop
 share/kde4/services/krfb_framebuffer_qt.desktop

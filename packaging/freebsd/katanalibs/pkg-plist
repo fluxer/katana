@@ -336,6 +336,10 @@ include/KDE/KShortcutsDialog
 include/KDE/KShortcutsEditor
 include/KDE/KSortableItem
 include/KDE/KSortableList
+include/KDE/KSpellConfigWidget
+include/KDE/KSpellDictionaryComboBox
+include/KDE/KSpellHighlighter
+include/KDE/KSpeller
 include/KDE/KSplashScreen
 include/KDE/KSqueezedTextLabel
 include/KDE/KStandardAction
@@ -539,11 +543,6 @@ include/KDE/Solid/Processor
 include/KDE/Solid/StorageAccess
 include/KDE/Solid/StorageDrive
 include/KDE/Solid/StorageVolume
-include/KDE/Sonnet/ConfigDialog
-include/KDE/Sonnet/ConfigWidget
-include/KDE/Sonnet/Dialog
-include/KDE/Sonnet/DictionaryComboBox
-include/KDE/Sonnet/Highlighter
 include/KDE/ThumbCreator
 include/fixx11h.h
 include/kaboutapplicationdialog.h
@@ -551,6 +550,7 @@ include/kaboutdata.h
 include/kabstractfileitemactionplugin.h
 include/kabstractfilemodule.h
 include/kabstractfilewidget.h
+include/kabstractviewadapter.h
 include/kabstractwidgetjobtracker.h
 include/kacceleratormanager.h
 include/kaccelgen.h
@@ -864,6 +864,10 @@ include/kshortcutsdialog.h
 include/kshortcutseditor.h
 include/kshortcutwidget.h
 include/ksortablelist.h
+include/kspellconfigwidget.h
+include/kspelldictionarycombobox.h
+include/kspeller.h
+include/kspellhighlighter.h
 include/ksplashscreen.h
 include/ksqueezedtextlabel.h
 include/kstandardaction.h
@@ -1069,14 +1073,6 @@ include/solid/storageaccess.h
 include/solid/storagedrive.h
 include/solid/storagevolume.h
 include/solid/video.h
-include/sonnet/backgroundchecker.h
-include/sonnet/configdialog.h
-include/sonnet/configwidget.h
-include/sonnet/dialog.h
-include/sonnet/dictionarycombobox.h
-include/sonnet/globals.h
-include/sonnet/highlighter.h
-include/sonnet/speller.h
 lib/kde4/kded_kaudioplayer.so
 lib/kde4/kded_kpasswdstore.so
 lib/kde4/kded_kpowermanager.so
@@ -1185,7 +1181,6 @@ share/apps/cmake/modules/FindLIBPARTED.cmake
 share/apps/cmake/modules/FindLibATASmart.cmake
 share/apps/cmake/modules/FindLibDRM.cmake
 share/apps/cmake/modules/FindLibDeflate.cmake
-share/apps/cmake/modules/FindLibKonq.cmake
 share/apps/cmake/modules/FindLibLZMA.cmake
 share/apps/cmake/modules/FindLibMms.cmake
 share/apps/cmake/modules/FindLibSSH.cmake
