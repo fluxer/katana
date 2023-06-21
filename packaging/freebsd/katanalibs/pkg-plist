@@ -1203,7 +1203,6 @@ share/cmake/modules/FindX11_XCB.cmake
 share/cmake/modules/FindXCB.cmake
 share/cmake/modules/cmake-modules-styleguide.txt
 share/cmake/modules/kde4_exec.sh.in
-share/config/accept-languages.codes
 share/config/colors/40.colors
 share/config/colors/Oxygen.colors
 share/config/colors/Rainbow.colors
