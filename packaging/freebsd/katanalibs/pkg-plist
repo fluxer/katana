@@ -174,7 +174,6 @@ include/KDE/KIO/CopyInfo
 include/KDE/KIO/CopyJob
 include/KDE/KIO/DeleteJob
 include/KDE/KIO/FileCopyJob
-include/KDE/KIO/ForwardingSlaveBase
 include/KDE/KIO/Job
 include/KDE/KIO/JobClasses
 include/KDE/KIO/JobUiDelegate
@@ -720,7 +719,6 @@ include/kio/copyjob.h
 include/kio/deletejob.h
 include/kio/directorysizejob.h
 include/kio/fileundomanager.h
-include/kio/forwardingslavebase.h
 include/kio/global.h
 include/kio/ioslave_defaults.h
 include/kio/job.h

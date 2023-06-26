@@ -291,7 +291,6 @@ lib/kde4/kcm_trash.so
 lib/kde4/kcm_usb.so
 lib/kde4/kcm_useraccount.so
 lib/kde4/kcm_workspaceoptions.so
-lib/kde4/kded_desktopnotifier.so
 lib/kde4/kded_device_automounter.so
 lib/kde4/kded_favicons.so
 lib/kde4/kded_kdirshare.so
@@ -480,7 +479,6 @@ libexec/kde4/kcmkgreeterhelper
 libexec/kde4/kdeeject
 libexec/kde4/kdontchangethehostname
 libexec/kde4/kio_camera
-libexec/kde4/kio_desktop
 libexec/kde4/kio_filenamesearch
 libexec/kde4/kio_floppy
 libexec/kde4/kio_mtp
@@ -1362,6 +1360,9 @@ share/kcm_componentchooser/kcm_filemanager.desktop
 share/kcm_componentchooser/kcm_kemail.desktop
 share/kcm_componentchooser/kcm_terminal.desktop
 share/kcm_componentchooser/kcm_wm.desktop
+share/kcm_desktoppaths/Home.desktop
+share/kcm_desktoppaths/Trash.desktop
+share/kcm_desktoppaths/directory.desktop
 share/kcmfonts/pics/aa_bgr.png
 share/kcmfonts/pics/aa_rgb.png
 share/kcmfonts/pics/aa_vbgr.png
@@ -1393,7 +1394,6 @@ share/kde4/services/componentchooser.desktop
 share/kde4/services/cursortheme.desktop
 share/kde4/services/cursorthumbnail.desktop
 share/kde4/services/desktop.desktop
-share/kde4/services/desktop.protocol
 share/kde4/services/desktoppath.desktop
 share/kde4/services/desktoptheme.desktop
 share/kde4/services/desktopthumbnail.desktop
@@ -1463,7 +1463,6 @@ share/kde4/services/kcmplayer.desktop
 share/kde4/services/kcmsmserver.desktop
 share/kde4/services/kcmtrash.desktop
 share/kde4/services/kcmusb.desktop
-share/kde4/services/kded/desktopnotifier.desktop
 share/kde4/services/kded/device_automounter.desktop
 share/kde4/services/kded/favicons.desktop
 share/kde4/services/kded/kdirshare.desktop
@@ -1827,9 +1826,6 @@ share/kgreeter/rectangle.png
 share/khotkeys/defaults.khotkeys
 share/khotkeys/printscreen.khotkeys
 share/kinfocenter/kinfocenterui.rc
-share/kio_desktop/DesktopLinks/Home.desktop
-share/kio_desktop/directory.desktop
-share/kio_desktop/directory.trash
 share/kmediaplayer/kmediaplayerui.rc
 share/kmenuedit/icons/hicolor/22x22/actions/menu_new.png
 share/kmenuedit/icons/hicolor/22x22/actions/menu_new_sep.png
