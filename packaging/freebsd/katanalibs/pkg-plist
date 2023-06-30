@@ -301,7 +301,6 @@ include/KDE/KRatingWidget
 include/KDE/KRecentDocument
 include/KDE/KRecentFilesAction
 include/KDE/KRecursiveFilterProxyModel
-include/KDE/KRegExpEditorInterface
 include/KDE/KRemoteEncoding
 include/KDE/KReplace
 include/KDE/KReplaceDialog
@@ -388,13 +387,6 @@ include/KDE/KTextEditor/Plugin
 include/KDE/KTextEditor/Range
 include/KDE/KTextEditor/SearchInterface
 include/KDE/KTextEditor/SessionConfigInterface
-include/KDE/KTextEditor/SmartCursor
-include/KDE/KTextEditor/SmartCursorNotifier
-include/KDE/KTextEditor/SmartCursorWatcher
-include/KDE/KTextEditor/SmartInterface
-include/KDE/KTextEditor/SmartRange
-include/KDE/KTextEditor/SmartRangeNotifier
-include/KDE/KTextEditor/SmartRangeWatcher
 include/KDE/KTextEditor/TemplateInterface
 include/KDE/KTextEditor/TextHintInterface
 include/KDE/KTextEditor/VariableInterface
@@ -828,7 +820,6 @@ include/krecentdirs.h
 include/krecentdocument.h
 include/krecentfilesaction.h
 include/krecursivefilterproxymodel.h
-include/kregexpeditorinterface.h
 include/kremoteencoding.h
 include/kreplace.h
 include/kreplacedialog.h
@@ -897,7 +888,6 @@ include/ktexteditor/configinterface.h
 include/ktexteditor/configpage.h
 include/ktexteditor/containerinterface.h
 include/ktexteditor/cursor.h
-include/ktexteditor/cursorfeedback.h
 include/ktexteditor/document.h
 include/ktexteditor/editor.h
 include/ktexteditor/editorchooser.h
@@ -915,17 +905,9 @@ include/ktexteditor/movingrange.h
 include/ktexteditor/movingrangefeedback.h
 include/ktexteditor/plugin.h
 include/ktexteditor/range.h
-include/ktexteditor/rangefeedback.h
 include/ktexteditor/recoveryinterface.h
 include/ktexteditor/searchinterface.h
 include/ktexteditor/sessionconfiginterface.h
-include/ktexteditor/smartcursor.h
-include/ktexteditor/smartcursornotifier.h
-include/ktexteditor/smartcursorwatcher.h
-include/ktexteditor/smartinterface.h
-include/ktexteditor/smartrange.h
-include/ktexteditor/smartrangenotifier.h
-include/ktexteditor/smartrangewatcher.h
 include/ktexteditor/templateinterface.h
 include/ktexteditor/texthintinterface.h
 include/ktexteditor/variableinterface.h
@@ -1258,7 +1240,6 @@ share/kde4/servicetypes/kiofilemodule.desktop
 share/kde4/servicetypes/kpart.desktop
 share/kde4/servicetypes/kplugininfo.desktop
 share/kde4/servicetypes/kpropertiesdialogplugin.desktop
-share/kde4/servicetypes/kregexpeditor.desktop
 share/kde4/servicetypes/krop.desktop
 share/kde4/servicetypes/krwp.desktop
 share/kde4/servicetypes/ktexteditor.desktop

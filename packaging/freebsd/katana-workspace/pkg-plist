@@ -1655,7 +1655,6 @@ share/kde4/services/searchproviders/cia.desktop
 share/kde4/services/searchproviders/citeseer.desktop
 share/kde4/services/searchproviders/cpan.desktop
 share/kde4/services/searchproviders/ctan.desktop
-share/kde4/services/searchproviders/ctan_cat.desktop
 share/kde4/services/searchproviders/dbug.desktop
 share/kde4/services/searchproviders/de2en.desktop
 share/kde4/services/searchproviders/de2fr.desktop
@@ -1670,7 +1669,6 @@ share/kde4/services/searchproviders/en2fr.desktop
 share/kde4/services/searchproviders/en2it.desktop
 share/kde4/services/searchproviders/es2en.desktop
 share/kde4/services/searchproviders/facebook.desktop
-share/kde4/services/searchproviders/feedster.desktop
 share/kde4/services/searchproviders/flickr.desktop
 share/kde4/services/searchproviders/foldoc.desktop
 share/kde4/services/searchproviders/fr2de.desktop
@@ -1705,7 +1703,6 @@ share/kde4/services/searchproviders/netcraft.desktop
 share/kde4/services/searchproviders/nl-telephone.desktop
 share/kde4/services/searchproviders/nl-teletekst.desktop
 share/kde4/services/searchproviders/opendesktop.desktop
-share/kde4/services/searchproviders/pgpkeys.desktop
 share/kde4/services/searchproviders/php.desktop
 share/kde4/services/searchproviders/python.desktop
 share/kde4/services/searchproviders/qt.desktop
@@ -1716,9 +1713,6 @@ share/kde4/services/searchproviders/rae.desktop
 share/kde4/services/searchproviders/rfc.desktop
 share/kde4/services/searchproviders/rpmfind.desktop
 share/kde4/services/searchproviders/sourceforge.desktop
-share/kde4/services/searchproviders/technorati.desktop
-share/kde4/services/searchproviders/technoratitags.desktop
-share/kde4/services/searchproviders/tvtome.desktop
 share/kde4/services/searchproviders/urbandictionary.desktop
 share/kde4/services/searchproviders/uspto.desktop
 share/kde4/services/searchproviders/vimeo.desktop
