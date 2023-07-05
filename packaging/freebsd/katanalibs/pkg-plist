@@ -113,7 +113,6 @@ include/KDE/KDirLister
 include/KDE/KDirModel
 include/KDE/KDirNotify
 include/KDE/KDirOperator
-include/KDE/KDirSelectDialog
 include/KDE/KDirSortFilterProxyModel
 include/KDE/KDirWatch
 include/KDE/KDiskFreeSpaceInfo
@@ -143,7 +142,6 @@ include/KDE/KFileMetaInfoItem
 include/KDE/KFilePlacesModel
 include/KDE/KFilePlacesView
 include/KDE/KFilePreviewGenerator
-include/KDE/KFileTreeView
 include/KDE/KFileWidget
 include/KDE/KFilterProxySearchLine
 include/KDE/KFind
@@ -262,10 +260,7 @@ include/KDE/KParts/GUIActivateEvent
 include/KDE/KParts/MainWindow
 include/KDE/KParts/OpenUrlEvent
 include/KDE/KParts/Part
-include/KDE/KParts/PartActivateEvent
 include/KDE/KParts/PartBase
-include/KDE/KParts/PartManager
-include/KDE/KParts/PartSelectEvent
 include/KDE/KParts/ReadOnlyPart
 include/KDE/KParts/ReadWritePart
 include/KDE/KParts/StatusBarExtension
@@ -275,8 +270,6 @@ include/KDE/KPasswdStore
 include/KDE/KPasswordDialog
 include/KDE/KPasteTextAction
 include/KDE/KPixmap
-include/KDE/KPixmapRegionSelectorDialog
-include/KDE/KPixmapRegionSelectorWidget
 include/KDE/KPixmapSequence
 include/KDE/KPixmapSequenceOverlayPainter
 include/KDE/KPixmapSequenceWidget
@@ -636,7 +629,6 @@ include/kdirlister.h
 include/kdirmodel.h
 include/kdirnotify.h
 include/kdiroperator.h
-include/kdirselectdialog.h
 include/kdirsortfilterproxymodel.h
 include/kdirwatch.h
 include/kdiskfreespaceinfo.h
@@ -670,7 +662,6 @@ include/kfilemetainfoitem.h
 include/kfileplacesmodel.h
 include/kfileplacesview.h
 include/kfilepreviewgenerator.h
-include/kfiletreeview.h
 include/kfilewidget.h
 include/kfilterproxysearchline.h
 include/kfind.h
@@ -781,7 +772,6 @@ include/kparts/factory.h
 include/kparts/kparts_export.h
 include/kparts/mainwindow.h
 include/kparts/part.h
-include/kparts/partmanager.h
 include/kparts/statusbarextension.h
 include/kpassivepopup.h
 include/kpassivepopupmessagehandler.h
@@ -791,8 +781,6 @@ include/kpasswdstore_export.h
 include/kpassworddialog.h
 include/kpastetextaction.h
 include/kpixmap.h
-include/kpixmapregionselectordialog.h
-include/kpixmapregionselectorwidget.h
 include/kpixmapsequence.h
 include/kpixmapsequenceoverlaypainter.h
 include/kpixmapsequencewidget.h
