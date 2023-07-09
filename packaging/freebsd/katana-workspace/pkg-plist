@@ -296,7 +296,6 @@ lib/kde4/kded_kfreespace.so
 lib/kde4/kded_khotkeys.so
 lib/kde4/kded_kscreensaver.so
 lib/kde4/kded_ktouchpadenabler.so
-lib/kde4/kded_networkstatus.so
 lib/kde4/kded_randrmonitor.so
 lib/kde4/kded_remotedirnotify.so
 lib/kde4/kded_solidautoeject.so
@@ -1462,7 +1461,6 @@ share/kde4/services/kded/kfreespace.desktop
 share/kde4/services/kded/khotkeys.desktop
 share/kde4/services/kded/kscreensaver.desktop
 share/kde4/services/kded/ktouchpadenabler.desktop
-share/kde4/services/kded/networkstatus.desktop
 share/kde4/services/kded/randrmonitor.desktop
 share/kde4/services/kded/remotedirnotify.desktop
 share/kde4/services/kded/solidautoeject.desktop
@@ -1941,7 +1939,6 @@ share/kwin/tm_inner.png
 share/kwin/tm_outer.png
 share/lightdm/lightdm.conf.d/50-lightdm-kgreeter-greeter.conf
 share/mime/packages/network.xml
-share/networkstatus/networkstatus.notifyrc
 share/pixmaps/plasma.png
 share/plasma/packages/org.kde.desktop.widgetexplorer/contents/ui/AppletDelegate.qml
 share/plasma/packages/org.kde.desktop.widgetexplorer/contents/ui/Tooltip.qml

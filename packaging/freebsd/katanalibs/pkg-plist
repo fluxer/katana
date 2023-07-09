@@ -241,6 +241,7 @@ include/KDE/KMultiTabBar
 include/KDE/KMultiTabBarButton
 include/KDE/KMultiTabBarTab
 include/KDE/KNameAndUrlInputDialog
+include/KDE/KNetworkManager
 include/KDE/KNewFileMenu
 include/KDE/KNewPasswordDialog
 include/KDE/KNotification
@@ -278,6 +279,7 @@ include/KDE/KPluginInfo
 include/KDE/KPluginLoader
 include/KDE/KPluginSelector
 include/KDE/KPopupFrame
+include/KDE/KPowerManager
 include/KDE/KPreviewWidgetBase
 include/KDE/KProcess
 include/KDE/KProgressDialog
@@ -516,7 +518,6 @@ include/KDE/Solid/DeviceNotifier
 include/KDE/Solid/GenericInterface
 include/KDE/Solid/Graphic
 include/KDE/Solid/NetworkInterface
-include/KDE/Solid/Networking
 include/KDE/Solid/OpticalDisc
 include/KDE/Solid/OpticalDrive
 include/KDE/Solid/PortableMediaPlayer
@@ -753,6 +754,8 @@ include/kmodelindexproxymapper.h
 include/kmountpoint.h
 include/kmultitabbar.h
 include/knameandurlinputdialog.h
+include/knetworkmanager.h
+include/knetworkmanager_export.h
 include/knewfilemenu.h
 include/knewpassworddialog.h
 include/knotification.h
@@ -1024,7 +1027,6 @@ include/solid/device.h
 include/solid/deviceinterface.h
 include/solid/devicenotifier.h
 include/solid/graphic.h
-include/solid/networking.h
 include/solid/networkinterface.h
 include/solid/opticaldisc.h
 include/solid/opticaldrive.h
@@ -1039,6 +1041,7 @@ include/solid/storagedrive.h
 include/solid/storagevolume.h
 include/solid/video.h
 lib/kde4/kded_kaudioplayer.so
+lib/kde4/kded_knetworkmanager.so
 lib/kde4/kded_kpasswdstore.so
 lib/kde4/kded_kpowermanager.so
 lib/kde4/kfilemetadata_djvulibre.so
@@ -1093,6 +1096,9 @@ lib/libkio.so.4.23
 lib/libkmediaplayer.so
 lib/libkmediaplayer.so.4
 lib/libkmediaplayer.so.4.23
+lib/libknetworkmanager.so
+lib/libknetworkmanager.so.4
+lib/libknetworkmanager.so.4.23
 lib/libknotifyconfig.so
 lib/libknotifyconfig.so.4
 lib/libknotifyconfig.so.4.23
@@ -1186,13 +1192,13 @@ share/dbus-1/interfaces/org.kde.JobViewServer.xml
 share/dbus-1/interfaces/org.kde.KDirNotify.xml
 share/dbus-1/interfaces/org.kde.KGlobalAccel.xml
 share/dbus-1/interfaces/org.kde.KLauncher.xml
-share/dbus-1/interfaces/org.kde.Solid.Networking.Client.xml
 share/dbus-1/interfaces/org.kde.StatusNotifierItem.xml
 share/dbus-1/interfaces/org.kde.StatusNotifierWatcher.xml
 share/dbus-1/interfaces/org.kde.kaudioplayer.xml
 share/dbus-1/interfaces/org.kde.kded.xml
 share/dbus-1/interfaces/org.kde.kglobalaccel.Component.xml
 share/dbus-1/interfaces/org.kde.kio.FileUndoManager.xml
+share/dbus-1/interfaces/org.kde.knetworkmanager.xml
 share/dbus-1/interfaces/org.kde.kpasswdstore.xml
 share/dbus-1/interfaces/org.kde.kpowermanager.xml
 share/dbus-1/services/org.kde.kded.service
@@ -1206,6 +1212,7 @@ share/kde4/services/ftp.protocol
 share/kde4/services/http.protocol
 share/kde4/services/https.protocol
 share/kde4/services/kded/kaudioplayer.desktop
+share/kde4/services/kded/knetworkmanager.desktop
 share/kde4/services/kded/kpasswdstore.desktop
 share/kde4/services/kded/kpowermanager.desktop
 share/kde4/services/kfilemetadata_djvulibre.desktop
@@ -1298,6 +1305,7 @@ share/kio/pics/user-grey.png
 share/kio/pics/user.png
 share/kio/pics/yes.png
 share/kio/pics/yespartial.png
+share/knetworkmanager/knetworkmanager.notifyrc
 share/mime/packages/kde.xml
 share/translations/kde4/all_languages
 share/translations/kde4/entry.desktop
