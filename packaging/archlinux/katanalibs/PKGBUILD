@@ -3,7 +3,7 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=katanalibs
-pkgver=4.23.0.r3738.f8521999
+pkgver=4.23.0.r4289.f3b9c12f
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')

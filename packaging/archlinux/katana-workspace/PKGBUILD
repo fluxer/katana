@@ -3,7 +3,7 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=katana-workspace
-pkgver=4.23.0.r2178.2f78f4d8
+pkgver=4.23.0.r2460.d64cfc28
 pkgrel=1
 pkgdesc="Katana workspace interface, base applications and tools"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
@@ -11,7 +11,7 @@ url='https://osdn.net/projects/kde/'
 license=('GPL' 'LGPL' 'FDL')
 groups=('katana')
 depends=("katie-git" "katanalibs>=4.23.0"
-        'libxdamage' 'libqalculate' 'libdrm' 'libgphoto2' 'lightdm'
+        'libxdamage' 'libqalculate' 'libdrm' 'libgphoto2' 'lightdm' 'libgit2'
         'libxklavier' 'libxres' 'libxcomposite' 'libxft' 'accountsservice'
         'xorg-xrdb' 'xorg-xsetroot' 'xorg-xrandr' 'xorg-xmessage' 'libusb'
         'xcb-util-renderutil' 'xcb-util-keysyms' 'ttf-dejavu' 'libssh'
@@ -25,10 +25,6 @@ optdepends=(
     'cppcheck: Code analysis support in Kate'
     'lrzsz: ZModem support in Konsole'
     'lsof: Open files widget (KLsofWidget)'
-    'breezy: Bazaar support in Dolphin'
-    'git: Git support in Dolphin'
-    'mercurial: Mercurial support in Dolphin'
-    'subversion: Subversion support in Dolphin'
 )
 backup=('etc/lightdm/lightdm-kgreeter-greeter.conf')
 source=("git+https://scm.osdn.net/gitroot/kde/kde-workspace.git")
