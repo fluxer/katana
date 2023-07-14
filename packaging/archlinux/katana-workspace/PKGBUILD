@@ -20,7 +20,6 @@ depends=("katie-git" "katanalibs>=4.23.0"
 makedepends=('cmake' 'git' 'xorg-server-devel')
 optdepends=(
     'gdb: Backtraces support'
-    'mtools: KIO floppy support'
     'ctags: Code indexing support in Kate'
     'cppcheck: Code analysis support in Kate'
     'lrzsz: ZModem support in Konsole'

@@ -27,8 +27,8 @@ RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	Xorg:x11-servers/xorg-server wrestool:graphics/icoutils xrdb:x11/xrdb \
 	xmessage:x11/xmessage xauth:x11/xauth xprop:x11/xprop xrandr:x11/xrandr \
 	setxkbmap:x11/setxkbmap xmodmap:x11/xmodmap xsetroot:x11/xsetroot iceauth:x11/iceauth \
-	iso-codes>=0:misc/iso-codes mtools:emulators/mtools lspci:sysutils/pciutils \
-	lightdm:x11/lightdm qrencode:graphics/libqrencode sudo:security/sudo ctags:devel/ctags \
+	iso-codes>=0:misc/iso-codes lspci:sysutils/pciutils lightdm:x11/lightdm \
+	qrencode:graphics/libqrencode sudo:security/sudo ctags:devel/ctags \
 	cppcheck:devel/cppcheck lrz:comms/lrzsz lsof:sysutils/lsof \
 	accountsservice>=0:sysutils/accountsservice
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
