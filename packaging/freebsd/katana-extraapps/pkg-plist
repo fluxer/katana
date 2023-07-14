@@ -59,7 +59,6 @@ lib/kde4/kcm_krdc_rdpplugin.so
 lib/kde4/kcm_krdc_vncplugin.so
 lib/kde4/kcm_krunner_audioplayercontrol.so
 lib/kde4/kcm_krunner_charrunner.so
-lib/kde4/kcm_krunner_dictionary.so
 lib/kde4/kcm_krunner_spellcheck.so
 lib/kde4/kded_kemu.so
 lib/kde4/kded_kmixd.so
@@ -78,7 +77,6 @@ lib/kde4/krfb_framebuffer_x11.so
 lib/kde4/krunner_audioplayercontrol.so
 lib/kde4/krunner_charrunner.so
 lib/kde4/krunner_converter.so
-lib/kde4/krunner_dictionary.so
 lib/kde4/krunner_katesessions.so
 lib/kde4/krunner_kemu.so
 lib/kde4/krunner_kget.so
@@ -193,16 +191,6 @@ share/autostart/restore_kmix_volumes.desktop
 share/bball/bball.png
 share/bball/bounce.ogg
 share/bball/football.png
-share/config.kcfg/ark.kcfg
-share/config.kcfg/gssettings.kcfg
-share/config.kcfg/kcalc.kcfg
-share/config.kcfg/kget.kcfg
-share/config.kcfg/kget_checksumsearchfactory.kcfg
-share/config.kcfg/kget_mmsfactory.kcfg
-share/config.kcfg/krdc.kcfg
-share/config.kcfg/okular.kcfg
-share/config.kcfg/okular_core.kcfg
-share/config.kcfg/pocreatorsettings.kcfg
 share/config/filelightrc
 share/dbus-1/interfaces/org.kde.kemu.xml
 share/dbus-1/interfaces/org.kde.kmix.control.xml
@@ -424,8 +412,6 @@ share/kde4/services/plasma-runner-audioplayercontrol.desktop
 share/kde4/services/plasma-runner-audioplayercontrol_config.desktop
 share/kde4/services/plasma-runner-converter.desktop
 share/kde4/services/plasma-runner-datetime.desktop
-share/kde4/services/plasma-runner-dictionary.desktop
-share/kde4/services/plasma-runner-dictionary_config.desktop
 share/kde4/services/plasma-runner-kemu.desktop
 share/kde4/services/plasma-runner-kget.desktop
 share/kde4/services/plasma-runner-spellchecker.desktop

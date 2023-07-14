@@ -40,7 +40,6 @@ include/KDE/KBookmarkGroupTraverser
 include/KDE/KBookmarkManager
 include/KDE/KBookmarkMenu
 include/KDE/KBookmarkOwner
-include/KDE/KBreadcrumbSelectionModel
 include/KDE/KBuildSycocaProgressDialog
 include/KDE/KButtonGroup
 include/KDE/KCModule
@@ -56,7 +55,6 @@ include/KDE/KCategorizedView
 include/KDE/KCategoryDrawer
 include/KDE/KCharMacroExpander
 include/KDE/KCharsets
-include/KDE/KCheckableProxyModel
 include/KDE/KCmdLineArgs
 include/KDE/KCmdLineOptions
 include/KDE/KCodecAction
@@ -199,7 +197,6 @@ include/KDE/KIconDialog
 include/KDE/KIconEffect
 include/KDE/KIconLoader
 include/KDE/KIconTheme
-include/KDE/KIdentityProxyModel
 include/KDE/KIdleTime
 include/KDE/KImageFilePreview
 include/KDE/KImageIO
@@ -555,7 +552,6 @@ include/kbookmark.h
 include/kbookmarkdialog.h
 include/kbookmarkmanager.h
 include/kbookmarkmenu.h
-include/kbreadcrumbselectionmodel.h
 include/kbuildsycocaprogressdialog.h
 include/kbuttongroup.h
 include/kcalendarsystem.h
@@ -564,7 +560,6 @@ include/kcategorizedsortfilterproxymodel.h
 include/kcategorizedview.h
 include/kcategorydrawer.h
 include/kcharsets.h
-include/kcheckableproxymodel.h
 include/kcmdlineargs.h
 include/kcmodule.h
 include/kcmodulecontainer.h
@@ -690,7 +685,6 @@ include/kicondialog.h
 include/kiconeffect.h
 include/kiconloader.h
 include/kicontheme.h
-include/kidentityproxymodel.h
 include/kidletime.h
 include/kidletime_export.h
 include/kimagefilepreview.h
@@ -1155,6 +1149,7 @@ share/cmake/modules/FindLIBPARTED.cmake
 share/cmake/modules/FindLibATASmart.cmake
 share/cmake/modules/FindLibDRM.cmake
 share/cmake/modules/FindLibDeflate.cmake
+share/cmake/modules/FindLibGit2.cmake
 share/cmake/modules/FindLibLZMA.cmake
 share/cmake/modules/FindLibMms.cmake
 share/cmake/modules/FindLibSSH.cmake
