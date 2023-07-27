@@ -48,7 +48,7 @@ include/KDE/KCModuleInfo
 include/KDE/KCModuleLoader
 include/KDE/KCModuleProxy
 include/KDE/KCMultiDialog
-include/KDE/KCalendarSystem
+include/KDE/KCalendarWidget
 include/KDE/KCapacityBar
 include/KDE/KCategorizedSortFilterProxyModel
 include/KDE/KCategorizedView
@@ -93,14 +93,7 @@ include/KDE/KDBusMenuImporter
 include/KDE/KDEDModule
 include/KDE/KDEPrintDialog
 include/KDE/KDNSSD
-include/KDE/KDateComboBox
-include/KDE/KDatePicker
-include/KDE/KDateTable
 include/KDE/KDateTime
-include/KDE/KDateTimeEdit
-include/KDE/KDateTimeWidget
-include/KDE/KDateValidator
-include/KDE/KDateWidget
 include/KDE/KDebug
 include/KDE/KDecompressor
 include/KDE/KDesktopFile
@@ -215,7 +208,6 @@ include/KDE/KLinkItemSelectionModel
 include/KDE/KListWidget
 include/KDE/KListWidgetSearchLine
 include/KDE/KLocale
-include/KDE/KLocalizedDate
 include/KDE/KLocalizedString
 include/KDE/KLockFile
 include/KDE/KMacroExpanderBase
@@ -275,7 +267,6 @@ include/KDE/KPluginFactory
 include/KDE/KPluginInfo
 include/KDE/KPluginLoader
 include/KDE/KPluginSelector
-include/KDE/KPopupFrame
 include/KDE/KPowerManager
 include/KDE/KPreviewWidgetBase
 include/KDE/KProcess
@@ -383,12 +374,8 @@ include/KDE/KTextEditor/TemplateInterface
 include/KDE/KTextEditor/TextHintInterface
 include/KDE/KTextEditor/VariableInterface
 include/KDE/KTextEditor/View
-include/KDE/KTimeComboBox
 include/KDE/KTimeZone
-include/KDE/KTimeZoneData
-include/KDE/KTimeZoneSource
 include/KDE/KTimeZoneWidget
-include/KDE/KTimeZones
 include/KDE/KTipDatabase
 include/KDE/KTipDialog
 include/KDE/KTitleWidget
@@ -443,6 +430,7 @@ include/KDE/Plasma/Animator
 include/KDE/Plasma/Applet
 include/KDE/Plasma/AppletScript
 include/KDE/Plasma/BusyWidget
+include/KDE/Plasma/CalendarWidget
 include/KDE/Plasma/CheckBox
 include/KDE/Plasma/ComboBox
 include/KDE/Plasma/ConfigLoader
@@ -512,7 +500,6 @@ include/KDE/Solid/Camera
 include/KDE/Solid/Device
 include/KDE/Solid/DeviceInterface
 include/KDE/Solid/DeviceNotifier
-include/KDE/Solid/GenericInterface
 include/KDE/Solid/Graphic
 include/KDE/Solid/NetworkInterface
 include/KDE/Solid/OpticalDisc
@@ -554,7 +541,7 @@ include/kbookmarkmanager.h
 include/kbookmarkmenu.h
 include/kbuildsycocaprogressdialog.h
 include/kbuttongroup.h
-include/kcalendarsystem.h
+include/kcalendarwidget.h
 include/kcapacitybar.h
 include/kcategorizedsortfilterproxymodel.h
 include/kcategorizedview.h
@@ -593,13 +580,7 @@ include/kconfigskeleton.h
 include/kcoreconfigskeleton.h
 include/kcrash.h
 include/kcursor.h
-include/kdatecombobox.h
-include/kdatepicker.h
-include/kdatetable.h
 include/kdatetime.h
-include/kdatetimeedit.h
-include/kdatetimewidget.h
-include/kdatewidget.h
 include/kdbusconnectionpool.h
 include/kdbusmenuexporter.h
 include/kdbusmenuimporter.h
@@ -713,7 +694,6 @@ include/kio/slavebase.h
 include/kio/slaveconfig.h
 include/kio/slaveinterface.h
 include/kio/thumbcreator.h
-include/kio/thumbsequencecreator.h
 include/kio/udsentry.h
 include/kjob.h
 include/kjobtrackerinterface.h
@@ -728,7 +708,6 @@ include/klinkitemselectionmodel.h
 include/klistwidget.h
 include/klistwidgetsearchline.h
 include/klocale.h
-include/klocalizeddate.h
 include/klocalizedstring.h
 include/klockfile.h
 include/kmacroexpander.h
@@ -897,7 +876,6 @@ include/ktexteditor/templateinterface.h
 include/ktexteditor/texthintinterface.h
 include/ktexteditor/variableinterface.h
 include/ktexteditor/view.h
-include/ktimecombobox.h
 include/ktimezone.h
 include/ktimezonewidget.h
 include/ktip.h
@@ -984,6 +962,7 @@ include/plasma/tooltipmanager.h
 include/plasma/view.h
 include/plasma/wallpaper.h
 include/plasma/widgets/busywidget.h
+include/plasma/widgets/calendarwidget.h
 include/plasma/widgets/checkbox.h
 include/plasma/widgets/combobox.h
 include/plasma/widgets/declarativewidget.h
@@ -1151,7 +1130,6 @@ share/cmake/modules/FindLibDRM.cmake
 share/cmake/modules/FindLibDeflate.cmake
 share/cmake/modules/FindLibGit2.cmake
 share/cmake/modules/FindLibLZMA.cmake
-share/cmake/modules/FindLibMms.cmake
 share/cmake/modules/FindLibSSH.cmake
 share/cmake/modules/FindLibSpectre.cmake
 share/cmake/modules/FindLibTorrent.cmake
@@ -1257,14 +1235,11 @@ share/kdevicedatabase/pci.ids
 share/kdevicedatabase/usb.ids
 share/kdewidgets/pics/kactionselector.png
 share/kdewidgets/pics/kactivelabel.png
+share/kdewidgets/pics/kcalendarwidget.png
 share/kdewidgets/pics/kcmodule.png
 share/kdewidgets/pics/kcolorbutton.png
 share/kdewidgets/pics/kcolorcombo.png
 share/kdewidgets/pics/kcombobox.png
-share/kdewidgets/pics/kdatepicker.png
-share/kdewidgets/pics/kdatetable.png
-share/kdewidgets/pics/kdatetimewidget.png
-share/kdewidgets/pics/kdatewidget.png
 share/kdewidgets/pics/kdialog.png
 share/kdewidgets/pics/kdoublenuminput.png
 share/kdewidgets/pics/kdualcolorbutton.png

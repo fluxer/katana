@@ -53,7 +53,6 @@ lib/kde4/filelightpart.so
 lib/kde4/gvpart.so
 lib/kde4/kcm_about_distro.so
 lib/kde4/kcm_kget_checksumsearchfactory.so
-lib/kde4/kcm_kget_mmsfactory.so
 lib/kde4/kcm_kget_torrentfactory.so
 lib/kde4/kcm_krdc_rdpplugin.so
 lib/kde4/kcm_krdc_vncplugin.so
@@ -68,7 +67,6 @@ lib/kde4/kerfuffle_libgz.so
 lib/kde4/kerfuffle_libxz.so
 lib/kde4/kget_checksumsearchfactory.so
 lib/kde4/kget_kiofactory.so
-lib/kde4/kget_mmsfactory.so
 lib/kde4/kget_torrentfactory.so
 lib/kde4/krdc_rdpplugin.so
 lib/kde4/krdc_vncplugin.so
@@ -339,8 +337,6 @@ share/kde4/services/kerfuffle_libxz.desktop
 share/kde4/services/kget_checksumsearchfactory.desktop
 share/kde4/services/kget_checksumsearchfactory_config.desktop
 share/kde4/services/kget_kiofactory.desktop
-share/kde4/services/kget_mmsfactory.desktop
-share/kde4/services/kget_mmsfactory_config.desktop
 share/kde4/services/kget_torrentfactory.desktop
 share/kde4/services/kget_torrentfactory_config.desktop
 share/kde4/services/kgetbarapplet-default.desktop

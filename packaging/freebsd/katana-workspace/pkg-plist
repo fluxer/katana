@@ -104,7 +104,6 @@ include/plasma/geolocation/geolocationprovider.h
 include/plasma/weather/ion.h
 include/plasma/weather/ion_export.h
 include/plasmaclock/calendar.h
-include/plasmaclock/calendartable.h
 include/plasmaclock/clockapplet.h
 include/plasmaclock/plasmaclock_export.h
 include/systemsettingsview/BaseMode.h
@@ -333,6 +332,7 @@ lib/kde4/plasma-geolocation-geoplugin.so
 lib/kde4/plasma-geolocation-hostip.so
 lib/kde4/plasma-geolocation-ipinfo.so
 lib/kde4/plasma-geolocation-mozilla.so
+lib/kde4/plasma-geolocation-timezone.so
 lib/kde4/plasma-kpart.so
 lib/kde4/plasma_applet_calendar.so
 lib/kde4/plasma_applet_clock.so
@@ -1575,6 +1575,7 @@ share/kde4/services/plasma-geolocation-geoplugin.desktop
 share/kde4/services/plasma-geolocation-hostip.desktop
 share/kde4/services/plasma-geolocation-ipinfo.desktop
 share/kde4/services/plasma-geolocation-mozilla.desktop
+share/kde4/services/plasma-geolocation-timezone.desktop
 share/kde4/services/plasma-kpart.desktop
 share/kde4/services/plasma-pager-default.desktop
 share/kde4/services/plasma-runner-bookmarks.desktop
