@@ -234,7 +234,6 @@ lib/kde4/kcm_cursortheme.so
 lib/kde4/kcm_desktoppaths.so
 lib/kde4/kcm_desktoptheme.so
 lib/kde4/kcm_device_automounter.so
-lib/kde4/kcm_display.so
 lib/kde4/kcm_dolphingeneral.so
 lib/kde4/kcm_dolphinnavigation.so
 lib/kde4/kcm_dolphinservices.so
@@ -1374,7 +1373,6 @@ share/kde4/services/device_automounter_kcm.desktop
 share/kde4/services/deviceinfocategory.desktop
 share/kde4/services/devinfo.desktop
 share/kde4/services/directorythumbnail.desktop
-share/kde4/services/display.desktop
 share/kde4/services/djvuthumbnail.desktop
 share/kde4/services/dma.desktop
 share/kde4/services/dolphinpart.desktop

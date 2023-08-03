@@ -201,7 +201,6 @@ include/KDE/KJob
 include/KDE/KJobTrackerInterface
 include/KDE/KJobUiDelegate
 include/KDE/KKeySequenceWidget
-include/KDE/KLanguageButton
 include/KDE/KLed
 include/KDE/KLineEdit
 include/KDE/KLinkItemSelectionModel
@@ -374,6 +373,7 @@ include/KDE/KTextEditor/TemplateInterface
 include/KDE/KTextEditor/TextHintInterface
 include/KDE/KTextEditor/VariableInterface
 include/KDE/KTextEditor/View
+include/KDE/KTimeEdit
 include/KDE/KTimeZone
 include/KDE/KTimeZoneWidget
 include/KDE/KTipDatabase
@@ -701,7 +701,6 @@ include/kjobuidelegate.h
 include/kkeysequencewidget.h
 include/kkeyserver.h
 include/kkeyserver_x11.h
-include/klanguagebutton.h
 include/kled.h
 include/klineedit.h
 include/klinkitemselectionmodel.h
@@ -858,7 +857,6 @@ include/ktexteditor/editorchooser.h
 include/ktexteditor/factory.h
 include/ktexteditor/highlightinterface.h
 include/ktexteditor/ktexteditor_export.h
-include/ktexteditor/loadsavefiltercheckplugin.h
 include/ktexteditor/markinterface.h
 include/ktexteditor/messageinterface.h
 include/ktexteditor/modeinterface.h
@@ -876,6 +874,7 @@ include/ktexteditor/templateinterface.h
 include/ktexteditor/texthintinterface.h
 include/ktexteditor/variableinterface.h
 include/ktexteditor/view.h
+include/ktimeedit.h
 include/ktimezone.h
 include/ktimezonewidget.h
 include/ktip.h
@@ -1211,7 +1210,6 @@ share/kde4/servicetypes/kpropertiesdialogplugin.desktop
 share/kde4/servicetypes/krop.desktop
 share/kde4/servicetypes/krwp.desktop
 share/kde4/servicetypes/ktexteditor.desktop
-share/kde4/servicetypes/ktexteditor_loadsavefiltercheckplugin.desktop
 share/kde4/servicetypes/ktexteditorplugin.desktop
 share/kde4/servicetypes/kurifilterplugin.desktop
 share/kde4/servicetypes/plasma-applet-popupapplet.desktop
@@ -1236,7 +1234,6 @@ share/kdevicedatabase/usb.ids
 share/kdewidgets/pics/kactionselector.png
 share/kdewidgets/pics/kactivelabel.png
 share/kdewidgets/pics/kcalendarwidget.png
-share/kdewidgets/pics/kcmodule.png
 share/kdewidgets/pics/kcolorbutton.png
 share/kdewidgets/pics/kcolorcombo.png
 share/kdewidgets/pics/kcombobox.png
