@@ -284,6 +284,7 @@ lib/kde4/kcm_useraccount.so
 lib/kde4/kcm_workspaceoptions.so
 lib/kde4/kded_device_automounter.so
 lib/kde4/kded_favicons.so
+lib/kde4/kded_kcrash.so
 lib/kde4/kded_kdirshare.so
 lib/kde4/kded_keyboard.so
 lib/kde4/kded_kfreespace.so
@@ -464,7 +465,6 @@ lib/libtaskmanager.so.4.23
 lib/libweather_ion.so
 lib/libweather_ion.so.4
 lib/libweather_ion.so.4.23
-libexec/kde4/drkonqi
 libexec/kde4/kcmdatetimehelper
 libexec/kde4/kcmkgreeterhelper
 libexec/kde4/kdeeject
@@ -525,6 +525,7 @@ share/config/plasma-desktoprc
 share/dbus-1/interfaces/org.kde.FavIcon.xml
 share/dbus-1/interfaces/org.kde.KSMServerInterface.xml
 share/dbus-1/interfaces/org.kde.KWin.xml
+share/dbus-1/interfaces/org.kde.kcrash.xml
 share/dbus-1/interfaces/org.kde.kdialog.ProgressDialog.xml
 share/dbus-1/interfaces/org.kde.kdirshare.xml
 share/dbus-1/interfaces/org.kde.kfreespace.xml
@@ -721,13 +722,6 @@ share/desktoptheme/oxygen/widgets/translucentbackground.svgz
 share/desktoptheme/oxygen/widgets/viewitem.svgz
 share/dolphin/dolphinui.rc
 share/dolphinpart/dolphinpart.rc
-share/drkonqi/debuggers/external/gdbrc
-share/drkonqi/debuggers/external/kdbgrc
-share/drkonqi/debuggers/external/lldbrc
-share/drkonqi/debuggers/internal/dbxrc
-share/drkonqi/debuggers/internal/gdbrc
-share/drkonqi/debuggers/internal/lldbrc
-share/drkonqi/pics/crash.png
 share/hardwarenotifications/hardwarenotifications.notifyrc
 share/icons/KDE_Classic/cursors/00000000000000020006000e7e9ffc3f
 share/icons/KDE_Classic/cursors/00008160000006810000408080010102
@@ -1352,6 +1346,7 @@ share/kcmkeys/wm3.kksrc
 share/kcmlocale/pics/background.png
 share/kcmsolidactions/solid-action-template.desktop
 share/kcmstyle/kcmstyle.notifyrc
+share/kcrash/kcrash.notifyrc
 share/kde/kde.notifyrc
 share/kde4/services/ServiceMenus/findhere.desktop
 share/kde4/services/ServiceMenus/konsolehere.desktop
@@ -1428,6 +1423,7 @@ share/kde4/services/kcmtrash.desktop
 share/kde4/services/kcmusb.desktop
 share/kde4/services/kded/device_automounter.desktop
 share/kde4/services/kded/favicons.desktop
+share/kde4/services/kded/kcrash.desktop
 share/kde4/services/kded/kdirshare.desktop
 share/kde4/services/kded/keyboard.desktop
 share/kde4/services/kded/kfreespace.desktop
