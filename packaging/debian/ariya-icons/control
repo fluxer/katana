@@ -5,7 +5,7 @@ Maintainer: Ivailo Monev <xakepa10@gmail.com>
 Homepage: https://osdn.net/projects/kde/
 Vcs-Git: https://scm.osdn.net/gitroot/kde/ariya-icons.git
 Vcs-browser: https://osdn.net/projects/kde/scm/git/ariya-icons/tree
-Standards-Version: 4.23.0
+Standards-Version: 4.24.0
 Build-Depends: debhelper (>= 9~), cmake
 
 Package: ariya-icons

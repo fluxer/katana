@@ -3,7 +3,7 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=katanalibs
-pkgver=4.23.0.r4502.0f0dcc7b
+pkgver=4.24.0.r4502.0f0dcc7b
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
@@ -20,7 +20,7 @@ sha1sums=('SKIP')
 
 pkgver() {
     cd kdelibs
-    printf "4.23.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+    printf "4.24.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {

@@ -1,7 +1,7 @@
 # https://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/
 
 PORTNAME = katana-workspace
-DISTVERSION = 4.23.0.d20220512
+DISTVERSION = 4.24.0.d20230809
 CATEGORIES = devel x11
 MAINTAINER = xakepa10@gmail.com
 COMMENT = Katana workspace interface, base applications and tools

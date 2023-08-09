@@ -10,6 +10,7 @@
 # - kde-extraapps/CMakeLists.txt
 # - kde-extraapps/*/CMakeLists.txt
 # - kde-l10n/CMakeLists.txt if required
+# - packaging/*
 
 set -e
 

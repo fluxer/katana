@@ -3,14 +3,14 @@
 # https://wiki.archlinux.org/index.php/Arch_package_guidelines
 
 pkgname=katana-workspace
-pkgver=4.23.0.r2646.f6818c64
+pkgver=4.24.0.r2646.f6818c64
 pkgrel=1
 pkgdesc="Katana workspace interface, base applications and tools"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
 url='https://osdn.net/projects/kde/'
 license=('GPL' 'LGPL' 'FDL')
 groups=('katana')
-depends=("katie-git" "katanalibs>=4.23.0"
+depends=("katie-git" "katanalibs>=4.24.0"
         'libxdamage' 'libqalculate' 'libdrm' 'libgphoto2' 'lightdm' 'libgit2'
         'libxklavier' 'libxres' 'libxcomposite' 'libxft' 'accountsservice'
         'xorg-xrdb' 'xorg-xsetroot' 'xorg-xrandr' 'xorg-xmessage' 'libusb'
@@ -30,7 +30,7 @@ sha1sums=('SKIP')
 
 pkgver() {
     cd kde-workspace
-    printf "4.23.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+    printf "4.24.0."r%s.%s "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {

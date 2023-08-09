@@ -1,4 +1,10 @@
-katana-l10n (4.23.0) unstable; urgency=medium
+katana-l10n (4.24.0) unstable; urgency=medium
+
+  * Package update
+
+ -- Ivailo Monev <xakepa10@gmail.com>  Wed, 9 Aug 2023 04:17:36 +0200
+
+katana-l10n (4.23.0) stable; urgency=medium
 
   * Package update
 
