@@ -4,7 +4,7 @@
 #
 # - doxygen.conf
 # - kdelibs/CMakeLists.txt
-# - kdelibs/cmake/modules/FindKDE4Internal.cmake
+# - kdelibs/KDELibs4Config.cmake
 # - kdelibs/cmake/modules/KDE4Defaults.cmake
 # - kde-workspace/CMakeLists.txt
 # - kde-extraapps/CMakeLists.txt
