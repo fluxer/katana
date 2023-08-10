@@ -8,8 +8,8 @@ COMMENT = Katana core libraries
 LICENSE = LGPL20 LGPL21
 LICENSE_COMB = multi
 
-MASTER_SITES = https://osdn.net/projects/kde/news/
-DISTFILES = rss
+MASTER_SITES = https://google.com/
+DISTFILES = index.html
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kdelibs.git
 
@@ -37,5 +37,7 @@ LDFLAGS += -Wl,--as-needed
 do-extract:
 	@rm -vrf ${WRKSRC}
 	@git clone --depth=1 https://scm.osdn.net/gitroot/kde/kdelibs.git ${WRKSRC}
+	# @git clone --depth=1 https://bitbucket.org/smil3y/kdelibs.git ${WRKSRC}
+	# @git clone --depth=1 https://github.com/fluxer/kdelibs.git ${WRKSRC}
 
 .include <bsd.port.mk>

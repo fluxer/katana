@@ -8,8 +8,8 @@ COMMENT = Katana extra applications
 LICENSE = GPLv2 LGPL21
 LICENSE_COMB = multi
 
-MASTER_SITES = https://osdn.net/projects/kde/news/
-DISTFILES = rss
+MASTER_SITES = https://google.com/
+DISTFILES = index.html
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-extraapps.git
 
@@ -37,5 +37,7 @@ LDFLAGS += -Wl,--as-needed
 do-extract:
 	@rm -vrf ${WRKSRC}
 	@git clone --depth=1 https://scm.osdn.net/gitroot/kde/kde-extraapps.git ${WRKSRC}
+	# @git clone --depth=1 https://bitbucket.org/smil3y/kde-extraapps.git ${WRKSRC}
+	# @git clone --depth=1 https://github.com/fluxer/kde-extraapps.git ${WRKSRC}
 
 .include <bsd.port.mk>

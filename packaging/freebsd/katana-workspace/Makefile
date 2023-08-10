@@ -8,8 +8,8 @@ COMMENT = Katana workspace interface, base applications and tools
 LICENSE = LGPL20 LGPL21
 LICENSE_COMB = multi
 
-MASTER_SITES = https://osdn.net/projects/kde/news/
-DISTFILES = rss
+MASTER_SITES = https://google.com/
+DISTFILES = index.html
 DIST_SUBDIR = ${PORTNAME}
 WRKSRC = ${WRKDIR}/kde-workspace.git
 
@@ -45,5 +45,7 @@ LDFLAGS += -Wl,--as-needed
 do-extract:
 	@rm -vrf ${WRKSRC}
 	@git clone --depth=1 https://scm.osdn.net/gitroot/kde/kde-workspace.git ${WRKSRC}
+	# @git clone --depth=1 https://bitbucket.org/smil3y/kde-workspace.git ${WRKSRC}
+	# @git clone --depth=1 https://github.com/fluxer/kde-workspace.git ${WRKSRC}
 
 .include <bsd.port.mk>

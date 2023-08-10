@@ -15,7 +15,11 @@ depends=('katie-git' 'enchant' 'libwebp' 'freetype2' 'libdeflate' 'djvulibre'
          'shared-mime-info' 'media-player-info' 'libxtst' 'libarchive'
          'libtiff' 'libraw' 'libjpeg-turbo' 'openjpeg2' 'libspectre')
 makedepends=('cmake' 'git')
-source=("git+https://scm.osdn.net/gitroot/kde/kdelibs.git")
+source=(
+    "git+https://scm.osdn.net/gitroot/kde/kdelibs.git"
+    # "git+https://bitbucket.org/smil3y/kdelibs.git"
+    # "git+https://github.com/fluxer/kdelibs.git"
+)
 sha1sums=('SKIP')
 
 pkgver() {

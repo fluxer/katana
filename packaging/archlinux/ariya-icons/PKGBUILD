@@ -11,7 +11,11 @@ url='https://osdn.net/projects/kde/'
 license=('LGPL')
 groups=('katana')
 makedepends=('cmake' 'git')
-source=("git+https://scm.osdn.net/gitroot/kde/ariya-icons.git")
+source=(
+    "git+https://scm.osdn.net/gitroot/kde/ariya-icons.git"
+    # "git+https://bitbucket.org/smil3y/ariya-icons.git"
+    # "git+https://github.com/fluxer/ariya-icons.git"
+)
 sha1sums=('SKIP')
 options=('!strip' '!zipman')
 

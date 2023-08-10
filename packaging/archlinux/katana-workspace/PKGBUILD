@@ -25,7 +25,11 @@ optdepends=(
     'lsof: Open files widget (KLsofWidget)'
 )
 backup=('etc/lightdm/lightdm-kgreeter-greeter.conf')
-source=("git+https://scm.osdn.net/gitroot/kde/kde-workspace.git")
+source=(
+    "git+https://scm.osdn.net/gitroot/kde/kde-workspace.git"
+    # "git+https://bitbucket.org/smil3y/kde-workspace.git"
+    # "git+https://github.com/fluxer/kde-workspace.git"
+)
 sha1sums=('SKIP')
 
 pkgver() {

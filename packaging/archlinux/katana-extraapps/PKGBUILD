@@ -19,7 +19,11 @@ optdepends=(
     'qemu: Virtual machine management'
     'texlive-bin: LaTeX support in Okular'
 )
-source=("git+https://scm.osdn.net/gitroot/kde/kde-extraapps.git")
+source=(
+    "git+https://scm.osdn.net/gitroot/kde/kde-extraapps.git"
+    # "git+https://bitbucket.org/smil3y/kde-extraapps.git"
+    # "git+https://github.com/fluxer/kde-extraapps.git"
+)
 sha1sums=('SKIP')
 
 pkgver() {
