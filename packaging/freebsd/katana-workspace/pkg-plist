@@ -1020,16 +1020,9 @@ share/icons/Oxygen_White/cursors/whats_this
 share/icons/Oxygen_White/cursors/xterm
 share/icons/Oxygen_White/index.theme
 share/icons/ariya/128x128/actions/kcmkwm.png
-share/icons/ariya/16x16/actions/computer.png
-share/icons/ariya/16x16/actions/daemon.png
 share/icons/ariya/16x16/actions/kcmkwm.png
-share/icons/ariya/16x16/actions/kdeapp.png
-share/icons/ariya/16x16/actions/kernel.png
-share/icons/ariya/16x16/actions/ksysguardd.png
 share/icons/ariya/16x16/actions/kwin.png
 share/icons/ariya/16x16/actions/running.png
-share/icons/ariya/16x16/actions/shell.png
-share/icons/ariya/16x16/actions/unknownapp.png
 share/icons/ariya/16x16/actions/waiting.png
 share/icons/ariya/22x22/actions/kcmkwm.png
 share/icons/ariya/32x32/actions/kcmkwm.png
@@ -1735,7 +1728,6 @@ share/kde4/servicetypes/kwindesktopswitcher.desktop
 share/kde4/servicetypes/kwineffect.desktop
 share/kde4/servicetypes/kwinwindowswitcher.desktop
 share/kde4/servicetypes/plasma-geolocationprovider.desktop
-share/kde4/servicetypes/plasma-layout-template.desktop
 share/kde4/servicetypes/searchprovider.desktop
 share/kde4/servicetypes/solid-device-type.desktop
 share/kde4/servicetypes/systemsettingscategory.desktop

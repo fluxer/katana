@@ -24,7 +24,6 @@ include/KDE/KActionSelector
 include/KDE/KApplication
 include/KDE/KArchive
 include/KDE/KArchiveEntry
-include/KDE/KAssistantDialog
 include/KDE/KAudioPlayer
 include/KDE/KAuthorization
 include/KDE/KAutoMount
@@ -531,7 +530,6 @@ include/kactionselector.h
 include/kapplication.h
 include/karchive.h
 include/karchive_export.h
-include/kassistantdialog.h
 include/kauthorization.h
 include/kautomount.h
 include/kautostart.h
@@ -1222,10 +1220,6 @@ share/kde4/servicetypes/plasma-scriptengine.desktop
 share/kde4/servicetypes/plasma-toolbox.desktop
 share/kde4/servicetypes/plasma-wallpaper.desktop
 share/kdeui/pics/aboutkde.png
-share/kdeui/pics/kdeprint_nup1.png
-share/kdeui/pics/kdeprint_nup2.png
-share/kdeui/pics/kdeprint_nup4.png
-share/kdeui/pics/kdeprint_nupother.png
 share/kdeui/pics/ktip-bulb.png
 share/kdevicedatabase/kde4_pci.ids
 share/kdevicedatabase/kde4_usb.ids
@@ -1254,7 +1248,6 @@ share/kdewidgets/pics/kled.png
 share/kdewidgets/pics/klineedit.png
 share/kdewidgets/pics/klistbox.png
 share/kdewidgets/pics/kpalettetable.png
-share/kdewidgets/pics/kpasswordedit.png
 share/kdewidgets/pics/kpushbutton.png
 share/kdewidgets/pics/krestrictedline.png
 share/kdewidgets/pics/kruler.png
