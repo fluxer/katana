@@ -92,7 +92,6 @@ include/KDE/KDBusMenuImporter
 include/KDE/KDEDModule
 include/KDE/KDEPrintDialog
 include/KDE/KDNSSD
-include/KDE/KDateTime
 include/KDE/KDebug
 include/KDE/KDecompressor
 include/KDE/KDesktopFile
@@ -375,6 +374,7 @@ include/KDE/KTextEditor/View
 include/KDE/KTimeEdit
 include/KDE/KTimeZone
 include/KDE/KTimeZoneWidget
+include/KDE/KTimerDialog
 include/KDE/KTipDatabase
 include/KDE/KTipDialog
 include/KDE/KTitleWidget
@@ -578,7 +578,6 @@ include/kconfigskeleton.h
 include/kcoreconfigskeleton.h
 include/kcrash.h
 include/kcursor.h
-include/kdatetime.h
 include/kdbusconnectionpool.h
 include/kdbusmenuexporter.h
 include/kdbusmenuimporter.h
@@ -873,6 +872,7 @@ include/ktexteditor/texthintinterface.h
 include/ktexteditor/variableinterface.h
 include/ktexteditor/view.h
 include/ktimeedit.h
+include/ktimerdialog.h
 include/ktimezone.h
 include/ktimezonewidget.h
 include/ktip.h
