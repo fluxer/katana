@@ -7,13 +7,13 @@ pkgver=4.24.0.r26.cccd0224
 pkgrel=1
 pkgdesc="Ariya icon theme for use with Katana"
 arch=('any')
-url='https://osdn.net/projects/kde/'
+url='https://bitbucket.org/smil3y/workspace/projects/KATANA'
 license=('LGPL')
 groups=('katana')
 makedepends=('cmake' 'git')
 source=(
-    "git+https://scm.osdn.net/gitroot/kde/ariya-icons.git"
-    # "git+https://bitbucket.org/smil3y/ariya-icons.git"
+    # "git+https://scm.osdn.net/gitroot/kde/ariya-icons.git"
+    "git+https://bitbucket.org/smil3y/ariya-icons.git"
     # "git+https://github.com/fluxer/ariya-icons.git"
 )
 sha1sums=('SKIP')

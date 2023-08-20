@@ -2,9 +2,8 @@ Source: ariya-icons
 Section: misc
 Priority: optional
 Maintainer: Ivailo Monev <xakepa10@gmail.com>
-Homepage: https://osdn.net/projects/kde/
-Vcs-Git: https://scm.osdn.net/gitroot/kde/ariya-icons.git
-Vcs-browser: https://osdn.net/projects/kde/scm/git/ariya-icons/tree
+Homepage: https://bitbucket.org/smil3y/workspace/projects/KATANA
+Vcs-Git: https://bitbucket.org/smil3y/ariya-icons.git
 Standards-Version: 4.24.0
 Build-Depends: debhelper (>= 9~), cmake
 

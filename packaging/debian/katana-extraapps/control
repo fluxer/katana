@@ -2,9 +2,8 @@ Source: katana-extraapps
 Section: x11
 Priority: optional
 Maintainer: Ivailo Monev <xakepa10@gmail.com>
-Homepage: https://osdn.net/projects/kde/
-Vcs-Git: https://scm.osdn.net/gitroot/kde/kde-extraapps.git
-Vcs-browser: https://osdn.net/projects/kde/scm/git/kde-extraapps/tree
+Homepage: https://bitbucket.org/smil3y/workspace/projects/KATANA
+Vcs-Git: https://bitbucket.org/smil3y/kde-extraapps.git
 Standards-Version: 4.24.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev,
  katana-workspace, xorg-dev, libdeflate-dev, libacl1-dev, libavcodec-dev,

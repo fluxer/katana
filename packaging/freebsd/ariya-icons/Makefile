@@ -20,8 +20,8 @@ INSTALL_TARGET = install
 
 do-extract:
 	@rm -vrf ${WRKSRC}
-	@git clone --depth=1 https://scm.osdn.net/gitroot/kde/ariya-icons.git ${WRKSRC}
-	# @git clone --depth=1 https://bitbucket.org/smil3y/ariya-icons.git ${WRKSRC}
+	# @git clone --depth=1 https://scm.osdn.net/gitroot/kde/ariya-icons.git ${WRKSRC}
+	@git clone --depth=1 https://bitbucket.org/smil3y/ariya-icons.git ${WRKSRC}
 	# @git clone --depth=1 https://github.com/fluxer/ariya-icons.git ${WRKSRC}
 
 .include <bsd.port.mk>

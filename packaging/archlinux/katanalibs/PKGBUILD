@@ -7,7 +7,7 @@ pkgver=4.24.0.r4502.0f0dcc7b
 pkgrel=1
 pkgdesc="Katana core libraries"
 arch=('i486' 'i686' 'pentium4' 'x86_64' 'arm')
-url='https://osdn.net/projects/kde/'
+url='https://bitbucket.org/smil3y/workspace/projects/KATANA'
 license=('GPL' 'LGPL')
 groups=('katana')
 depends=('katie-git' 'enchant' 'libwebp' 'freetype2' 'libdeflate' 'djvulibre'
@@ -16,8 +16,8 @@ depends=('katie-git' 'enchant' 'libwebp' 'freetype2' 'libdeflate' 'djvulibre'
          'libtiff' 'libraw' 'libjpeg-turbo' 'openjpeg2' 'libspectre')
 makedepends=('cmake' 'git')
 source=(
-    "git+https://scm.osdn.net/gitroot/kde/kdelibs.git"
-    # "git+https://bitbucket.org/smil3y/kdelibs.git"
+    # "git+https://scm.osdn.net/gitroot/kde/kdelibs.git"
+    "git+https://bitbucket.org/smil3y/kdelibs.git"
     # "git+https://github.com/fluxer/kdelibs.git"
 )
 sha1sums=('SKIP')
