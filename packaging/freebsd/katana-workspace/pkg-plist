@@ -39,7 +39,6 @@ bin/ksmserver
 bin/kstart
 bin/ksysguard
 bin/ksysguardd
-bin/ksystraycmd
 bin/ktraderclient
 bin/ktrash
 bin/kuiserver

@@ -36,8 +36,8 @@ LDFLAGS += -Wl,--as-needed
 
 do-extract:
 	@rm -vrf ${WRKSRC}
-	@git clone --depth=1 https://scm.osdn.net/gitroot/kde/kde-extraapps.git ${WRKSRC}
-	# @git clone --depth=1 https://bitbucket.org/smil3y/kde-extraapps.git ${WRKSRC}
+	# @git clone --depth=1 https://scm.osdn.net/gitroot/kde/kde-extraapps.git ${WRKSRC}
+	@git clone --depth=1 https://bitbucket.org/smil3y/kde-extraapps.git ${WRKSRC}
 	# @git clone --depth=1 https://github.com/fluxer/kde-extraapps.git ${WRKSRC}
 
 .include <bsd.port.mk>
