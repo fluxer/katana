@@ -27,7 +27,6 @@ bin/kmail
 bin/kmediaplayer
 bin/kmenuedit
 bin/kmimetypefinder
-bin/knotify4
 bin/konsole
 bin/konsoleprofile
 bin/kquitapp
@@ -253,7 +252,7 @@ lib/kde4/kcm_kgreeterconfig.so
 lib/kde4/kcm_kio.so
 lib/kde4/kcm_kmediaplayer.so
 lib/kde4/kcm_kmetainfoconfig.so
-lib/kde4/kcm_knotify.so
+lib/kde4/kcm_knotificationconfig.so
 lib/kde4/kcm_kpasswdstoreconfig.so
 lib/kde4/kcm_krunner_kill.so
 lib/kde4/kcm_kurifilt.so
@@ -520,6 +519,16 @@ share/config/katerc
 share/config/kateschemarc
 share/config/katesyntaxhighlightingrc
 share/config/kshorturifilterrc
+share/config/notifications/kaccess.notifyrc
+share/config/notifications/kcrash.notifyrc
+share/config/notifications/kde.notifyrc
+share/config/notifications/kdirshare.notifyrc
+share/config/notifications/kfreespace.notifyrc
+share/config/notifications/kglobalaccel.notifyrc
+share/config/notifications/konsole.notifyrc
+share/config/notifications/ksysguard.notifyrc
+share/config/notifications/kwin.notifyrc
+share/config/notifications/soliduiserver.notifyrc
 share/config/plasma-desktoprc
 share/dbus-1/interfaces/org.kde.FavIcon.xml
 share/dbus-1/interfaces/org.kde.KSMServerInterface.xml
@@ -532,7 +541,6 @@ share/dbus-1/interfaces/org.kde.khotkeys.xml
 share/dbus-1/interfaces/org.kde.krunner.App.xml
 share/dbus-1/interfaces/org.kde.kscreensaver.xml
 share/dbus-1/services/org.kde.kglobalaccel.service
-share/dbus-1/services/org.kde.knotify.service
 share/dbus-1/services/org.kde.krunner.service
 share/dbus-1/services/org.kde.kuiserver.service
 share/dbus-1/system-services/org.kde.kcontrol.kcmclock.service
@@ -721,7 +729,6 @@ share/desktoptheme/oxygen/widgets/translucentbackground.svgz
 share/desktoptheme/oxygen/widgets/viewitem.svgz
 share/dolphin/dolphinui.rc
 share/dolphinpart/dolphinpart.rc
-share/hardwarenotifications/hardwarenotifications.notifyrc
 share/icons/KDE_Classic/cursors/00000000000000020006000e7e9ffc3f
 share/icons/KDE_Classic/cursors/00008160000006810000408080010102
 share/icons/KDE_Classic/cursors/08e8e1c95fe2fc01f976f1e063a24ccd
@@ -1053,7 +1060,6 @@ share/icons/hicolor/64x64/actions/knetattach.png
 share/icons/hicolor/scalable/actions/kate.svgz
 share/icons/hicolor/scalable/actions/knetattach.svgz
 share/icons/hicolor/scalable/actions/ktexteditorautobrace.svgz
-share/kaccess/kaccess.notifyrc
 share/kate/kateui.rc
 share/kate/plugins/filetree/ui.rc
 share/kate/plugins/katebuild/ui.rc
@@ -1337,9 +1343,6 @@ share/kcmkeys/win4.kksrc
 share/kcmkeys/wm3.kksrc
 share/kcmlocale/pics/background.png
 share/kcmsolidactions/solid-action-template.desktop
-share/kcmstyle/kcmstyle.notifyrc
-share/kcrash/kcrash.notifyrc
-share/kde/kde.notifyrc
 share/kde4/services/ServiceMenus/findhere.desktop
 share/kde4/services/ServiceMenus/konsolehere.desktop
 share/kde4/services/ServiceMenus/konsolerun.desktop
@@ -1396,6 +1399,7 @@ share/kde4/services/kcm_keyboard.desktop
 share/kde4/services/kcm_kfreespaceconfig.desktop
 share/kde4/services/kcm_kgreeterconfig.desktop
 share/kde4/services/kcm_kmetainfoconfig.desktop
+share/kde4/services/kcm_knotificationconfig.desktop
 share/kde4/services/kcm_kpasswdstoreconfig.desktop
 share/kde4/services/kcm_memory.desktop
 share/kde4/services/kcm_pci.desktop
@@ -1408,7 +1412,6 @@ share/kde4/services/kcmdolphinservices.desktop
 share/kde4/services/kcmdolphinviewmodes.desktop
 share/kde4/services/kcmkded.desktop
 share/kde4/services/kcmlaunch.desktop
-share/kde4/services/kcmnotify.desktop
 share/kde4/services/kcmplayer.desktop
 share/kde4/services/kcmsmserver.desktop
 share/kde4/services/kcmtrash.desktop
@@ -1432,7 +1435,6 @@ share/kde4/services/keys.desktop
 share/kde4/services/kglobalaccel.desktop
 share/kde4/services/khotkeys.desktop
 share/kde4/services/kmediaplayerpart.desktop
-share/kde4/services/knotify4.desktop
 share/kde4/services/konsolepart.desktop
 share/kde4/services/kshorturifilter.desktop
 share/kde4/services/ktexteditor_autobrace.desktop
@@ -1734,7 +1736,6 @@ share/kde4/servicetypes/systemsettingsexternalapp.desktop
 share/kde4/servicetypes/systemsettingsview.desktop
 share/kde4/servicetypes/terminalemulator.desktop
 share/kde4/servicetypes/thumbcreator.desktop
-share/kdirshare/kdirshare.notifyrc
 share/kdisplay/app-defaults/AAAAAAGeneral.ad
 share/kdisplay/app-defaults/AAAMotif.ad
 share/kdisplay/app-defaults/AAATk.ad
@@ -1764,8 +1765,6 @@ share/kdm/pics/users/TV.png
 share/kdm/pics/users/bomb.png
 share/keditbookmarks/keditbookmarks-genui.rc
 share/keditbookmarks/keditbookmarksui.rc
-share/kfreespace/kfreespace.notifyrc
-share/kglobalaccel/kglobalaccel.notifyrc
 share/kgreeter/rectangle.png
 share/khotkeys/defaults.khotkeys
 share/khotkeys/printscreen.khotkeys
@@ -1791,7 +1790,6 @@ share/konsole/Solarized.colorscheme
 share/konsole/SolarizedLight.colorscheme
 share/konsole/WhiteOnBlack.colorscheme
 share/konsole/default.keytab
-share/konsole/konsole.notifyrc
 share/konsole/konsoleui.rc
 share/konsole/linux.keytab
 share/konsole/partui.rc
@@ -1818,7 +1816,6 @@ share/kstyle/themes/qtcleanlooks.themerc
 share/kstyle/themes/qtwindows.themerc
 share/ksysguard/ProcessTable.sgrd
 share/ksysguard/SystemLoad2.sgrd
-share/ksysguard/ksysguard.notifyrc
 share/ksysguard/ksysguardui.rc
 share/ktexteditor_exporter/ktexteditor_exporterui.rc
 share/ktexteditor_iconinserter/ktexteditor_iconinserterui.rc
@@ -1867,7 +1864,6 @@ share/kwin/kcm_kwintabbox/kmail.png
 share/kwin/kcm_kwintabbox/konsole.png
 share/kwin/kcm_kwintabbox/main.qml
 share/kwin/kcm_kwintabbox/systemsettings.png
-share/kwin/kwin.notifyrc
 share/kwin/oxygenclient.desktop
 share/kwin/tabbox/ShadowedSvgItem.qml
 share/kwin/tabbox/big_icons/contents/ui/IconTabBox.qml

@@ -231,8 +231,8 @@ include/KDE/KNetworkManager
 include/KDE/KNewFileMenu
 include/KDE/KNewPasswordDialog
 include/KDE/KNotification
+include/KDE/KNotificationConfigWidget
 include/KDE/KNotificationRestrictions
-include/KDE/KNotifyConfigWidget
 include/KDE/KNumInput
 include/KDE/KOpenWithDialog
 include/KDE/KPageDialog
@@ -728,9 +728,8 @@ include/knetworkmanager_export.h
 include/knewfilemenu.h
 include/knewpassworddialog.h
 include/knotification.h
+include/knotificationconfigwidget.h
 include/knotificationrestrictions.h
-include/knotifyconfig_export.h
-include/knotifyconfigwidget.h
 include/knuminput.h
 include/knumvalidator.h
 include/kopenwithdialog.h
@@ -1069,9 +1068,6 @@ lib/libkmediaplayer.so.4.24
 lib/libknetworkmanager.so
 lib/libknetworkmanager.so.4
 lib/libknetworkmanager.so.4.24
-lib/libknotifyconfig.so
-lib/libknotifyconfig.so.4
-lib/libknotifyconfig.so.4.24
 lib/libkparts.so
 lib/libkparts.so.4
 lib/libkparts.so.4.24
@@ -1154,6 +1150,7 @@ share/config/colors/Royal.colors
 share/config/colors/Web.colors
 share/config/kdebug.areas
 share/config/kdebugrc
+share/config/notifications/knetworkmanager.notifyrc
 share/config/ui/ui_standards.rc
 share/dbus-1/interfaces/org.freedesktop.PowerManagement.Inhibit.xml
 share/dbus-1/interfaces/org.freedesktop.PowerManagement.xml
@@ -1265,7 +1262,6 @@ share/kio/pics/user-grey.png
 share/kio/pics/user.png
 share/kio/pics/yes.png
 share/kio/pics/yespartial.png
-share/knetworkmanager/knetworkmanager.notifyrc
 share/mime/packages/kde.xml
 share/translations/kde4/all_languages
 share/translations/kde4/entry.desktop

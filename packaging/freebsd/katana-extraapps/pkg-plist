@@ -190,6 +190,8 @@ share/bball/bball.png
 share/bball/bounce.ogg
 share/bball/football.png
 share/config/filelightrc
+share/config/notifications/kget.notifyrc
+share/config/notifications/krfb.notifyrc
 share/dbus-1/interfaces/org.kde.kemu.xml
 share/dbus-1/interfaces/org.kde.kmix.control.xml
 share/dbus-1/interfaces/org.kde.kmix.mixer.xml
@@ -429,7 +431,6 @@ share/kde4/servicetypes/okularGenerator.desktop
 share/kde4/servicetypes/plasma_potdprovider.desktop
 share/kdeplasma-addons/mediabuttonsrc
 share/kemu/kemuui.rc
-share/kget/kget.notifyrc
 share/kget/kgetui.rc
 share/kget/www/blank.gif
 share/kget/www/favicon.ico
@@ -472,7 +473,6 @@ share/kmix/profiles/OSS.default.xml
 share/krdc/krdcui.rc
 share/krdc/pics/pointcursor.png
 share/krdc/pics/pointcursormask.png
-share/krfb/krfb.notifyrc
 share/kvkbd/colors/dark.css
 share/kvkbd/colors/legacy.css
 share/kvkbd/colors/light.css
