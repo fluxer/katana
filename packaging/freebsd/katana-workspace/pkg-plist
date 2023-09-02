@@ -74,7 +74,6 @@ include/konq_dndpopupmenuplugin.h
 include/konq_export.h
 include/konq_operations.h
 include/konq_popupmenu.h
-include/konq_popupmenuplugin.h
 include/konqmimedata.h
 include/ksgrd/SensorAgent.h
 include/ksgrd/SensorClient.h
@@ -126,7 +125,6 @@ lib/kde4/comicbookthumbnail.so
 lib/kde4/cursorthumbnail.so
 lib/kde4/devinfo.so
 lib/kde4/djvuthumbnail.so
-lib/kde4/dolphinpart.so
 lib/kde4/epubthumbnail.so
 lib/kde4/fileviewgitplugin.so
 lib/kde4/fixhosturifilter.so
@@ -238,7 +236,6 @@ lib/kde4/kcm_dolphinservices.so
 lib/kde4/kcm_dolphinviewmodes.so
 lib/kde4/kcm_filetypes.so
 lib/kde4/kcm_fonts.so
-lib/kde4/kcm_hotkeys.so
 lib/kde4/kcm_icons.so
 lib/kde4/kcm_info.so
 lib/kde4/kcm_infosummary.so
@@ -286,7 +283,6 @@ lib/kde4/kded_kcrash.so
 lib/kde4/kded_kdirshare.so
 lib/kde4/kded_keyboard.so
 lib/kde4/kded_kfreespace.so
-lib/kde4/kded_khotkeys.so
 lib/kde4/kded_kscreensaver.so
 lib/kde4/kded_ktouchpadenabler.so
 lib/kde4/kded_randrmonitor.so
@@ -332,6 +328,7 @@ lib/kde4/plasma-geolocation-ipinfo.so
 lib/kde4/plasma-geolocation-mozilla.so
 lib/kde4/plasma-geolocation-timezone.so
 lib/kde4/plasma-kpart.so
+lib/kde4/plasma_applet_battery.so
 lib/kde4/plasma_applet_calendar.so
 lib/kde4/plasma_applet_clock.so
 lib/kde4/plasma_applet_dig_clock.so
@@ -410,8 +407,6 @@ lib/libkbookmarkmodel_private.so.4.24
 lib/libkdecorations.so
 lib/libkdecorations.so.4
 lib/libkdecorations.so.4.24
-lib/libkhotkeysprivate.so.4
-lib/libkhotkeysprivate.so.4.24
 lib/libkickoff.so
 lib/libkonq.so
 lib/libkonq.so.4
@@ -537,7 +532,6 @@ share/dbus-1/interfaces/org.kde.kcrash.xml
 share/dbus-1/interfaces/org.kde.kdialog.ProgressDialog.xml
 share/dbus-1/interfaces/org.kde.kdirshare.xml
 share/dbus-1/interfaces/org.kde.kfreespace.xml
-share/dbus-1/interfaces/org.kde.khotkeys.xml
 share/dbus-1/interfaces/org.kde.krunner.App.xml
 share/dbus-1/interfaces/org.kde.kscreensaver.xml
 share/dbus-1/services/org.kde.kglobalaccel.service
@@ -728,7 +722,6 @@ share/desktoptheme/oxygen/widgets/tooltip.svgz
 share/desktoptheme/oxygen/widgets/translucentbackground.svgz
 share/desktoptheme/oxygen/widgets/viewitem.svgz
 share/dolphin/dolphinui.rc
-share/dolphinpart/dolphinpart.rc
 share/icons/KDE_Classic/cursors/00000000000000020006000e7e9ffc3f
 share/icons/KDE_Classic/cursors/00008160000006810000408080010102
 share/icons/KDE_Classic/cursors/08e8e1c95fe2fc01f976f1e063a24ccd
@@ -1318,8 +1311,6 @@ share/katepart/syntax/yacc.xml
 share/katepart/syntax/yaml.xml
 share/katepart/syntax/zonnon.xml
 share/katepart/syntax/zsh.xml
-share/kbookmark/directory_bookmarkbar.desktop
-share/kcm_componentchooser/kcm_browser.desktop
 share/kcm_componentchooser/kcm_filemanager.desktop
 share/kcm_componentchooser/kcm_kemail.desktop
 share/kcm_componentchooser/kcm_terminal.desktop
@@ -1365,7 +1356,6 @@ share/kde4/services/devinfo.desktop
 share/kde4/services/directorythumbnail.desktop
 share/kde4/services/djvuthumbnail.desktop
 share/kde4/services/dma.desktop
-share/kde4/services/dolphinpart.desktop
 share/kde4/services/ebrowsing.desktop
 share/kde4/services/epubthumbnail.desktop
 share/kde4/services/filenamesearch.protocol
@@ -1422,7 +1412,6 @@ share/kde4/services/kded/kcrash.desktop
 share/kde4/services/kded/kdirshare.desktop
 share/kde4/services/kded/keyboard.desktop
 share/kde4/services/kded/kfreespace.desktop
-share/kde4/services/kded/khotkeys.desktop
 share/kde4/services/kded/kscreensaver.desktop
 share/kde4/services/kded/ktouchpadenabler.desktop
 share/kde4/services/kded/randrmonitor.desktop
@@ -1433,7 +1422,6 @@ share/kde4/services/kded/statusnotifierwatcher.desktop
 share/kde4/services/kdirshareplugin.desktop
 share/kde4/services/keys.desktop
 share/kde4/services/kglobalaccel.desktop
-share/kde4/services/khotkeys.desktop
 share/kde4/services/kmediaplayerpart.desktop
 share/kde4/services/konsolepart.desktop
 share/kde4/services/kshorturifilter.desktop
@@ -1766,8 +1754,6 @@ share/kdm/pics/users/bomb.png
 share/keditbookmarks/keditbookmarks-genui.rc
 share/keditbookmarks/keditbookmarksui.rc
 share/kgreeter/rectangle.png
-share/khotkeys/defaults.khotkeys
-share/khotkeys/printscreen.khotkeys
 share/kinfocenter/kinfocenterui.rc
 share/kmediaplayer/kmediaplayerui.rc
 share/kmenuedit/icons/hicolor/22x22/actions/menu_new.png
@@ -1922,15 +1908,6 @@ share/plasma/packages/org.kde.systemtray/contents/ui/IconsList.qml
 share/plasma/packages/org.kde.systemtray/contents/ui/StatusNotifierItem.qml
 share/plasma/packages/org.kde.systemtray/contents/ui/TrayIcon.qml
 share/plasma/packages/org.kde.systemtray/contents/ui/main.qml
-share/plasma/plasmoids/battery/contents/code/logic.js
-share/plasma/plasmoids/battery/contents/ui/BatteryIcon.qml
-share/plasma/plasmoids/battery/contents/ui/BatteryItem.qml
-share/plasma/plasmoids/battery/contents/ui/CompactRepresentation.qml
-share/plasma/plasmoids/battery/contents/ui/PopupDialog.qml
-share/plasma/plasmoids/battery/contents/ui/PowerManagementItem.qml
-share/plasma/plasmoids/battery/contents/ui/ScrollableListView.qml
-share/plasma/plasmoids/battery/contents/ui/batterymonitor.qml
-share/plasma/plasmoids/battery/metadata.desktop
 share/plasma/plasmoids/lockout/contents/config/main.xml
 share/plasma/plasmoids/lockout/contents/ui/config.ui
 share/plasma/plasmoids/lockout/contents/ui/data.js

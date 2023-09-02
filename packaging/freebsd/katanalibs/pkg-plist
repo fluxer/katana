@@ -240,17 +240,14 @@ include/KDE/KPageView
 include/KDE/KPageWidget
 include/KDE/KPageWidgetItem
 include/KDE/KPageWidgetModel
-include/KDE/KParts/BrowserExtension
 include/KDE/KParts/Event
 include/KDE/KParts/Factory
 include/KDE/KParts/GUIActivateEvent
 include/KDE/KParts/MainWindow
-include/KDE/KParts/OpenUrlEvent
 include/KDE/KParts/Part
 include/KDE/KParts/PartBase
 include/KDE/KParts/ReadOnlyPart
 include/KDE/KParts/ReadWritePart
-include/KDE/KParts/StatusBarExtension
 include/KDE/KPassivePopup
 include/KDE/KPassivePopupMessageHandler
 include/KDE/KPasswdStore
@@ -260,6 +257,7 @@ include/KDE/KPixmap
 include/KDE/KPixmapSequence
 include/KDE/KPixmapSequenceOverlayPainter
 include/KDE/KPixmapSequenceWidget
+include/KDE/KPixmapWidget
 include/KDE/KPluginFactory
 include/KDE/KPluginInfo
 include/KDE/KPluginLoader
@@ -737,13 +735,11 @@ include/kpagedialog.h
 include/kpageview.h
 include/kpagewidget.h
 include/kpagewidgetmodel.h
-include/kparts/browserextension.h
 include/kparts/event.h
 include/kparts/factory.h
 include/kparts/kparts_export.h
 include/kparts/mainwindow.h
 include/kparts/part.h
-include/kparts/statusbarextension.h
 include/kpassivepopup.h
 include/kpassivepopupmessagehandler.h
 include/kpasswdroulettedialog.h
@@ -755,6 +751,7 @@ include/kpixmap.h
 include/kpixmapsequence.h
 include/kpixmapsequenceoverlaypainter.h
 include/kpixmapsequencewidget.h
+include/kpixmapwidget.h
 include/kpluginfactory.h
 include/kplugininfo.h
 include/kpluginloader.h
