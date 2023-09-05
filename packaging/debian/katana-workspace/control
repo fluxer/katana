@@ -20,8 +20,7 @@ Provides: lightdm-greeter
 Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hurd-i386
 Depends: ${shlibs:Depends}, ${misc:Depends}, ariya-icons,
  xserver-xorg, x11-xserver-utils, x11-xkb-utils, x11-utils, fonts-dejavu,
- fonts-unifont, lm-sensors, pciutils, icoutils, dbus-x11, iso-codes, lsof,
- qrencode, sudo, katie-tools, lightdm, xauth, lrzsz, cppcheck [linux-any],
- universal-ctags [linux-any], cryptsetup-bin [linux-any], accountsservice,
- ntpdate
+ fonts-unifont, lm-sensors, pciutils, icoutils, dbus-x11, lsof, qrencode,
+ sudo, katie-tools, lightdm, xauth, lrzsz, cppcheck [linux-any], ntpdate,
+ universal-ctags [linux-any], cryptsetup-bin [linux-any], accountsservice
 Description: Katana workspace interface, base applications and tools
