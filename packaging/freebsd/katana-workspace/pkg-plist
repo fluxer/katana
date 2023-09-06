@@ -281,7 +281,6 @@ lib/kde4/kded_device_automounter.so
 lib/kde4/kded_favicons.so
 lib/kde4/kded_kcrash.so
 lib/kde4/kded_kdirshare.so
-lib/kde4/kded_keyboard.so
 lib/kde4/kded_kfreespace.so
 lib/kde4/kded_kscreensaver.so
 lib/kde4/kded_ktouchpadenabler.so
@@ -291,7 +290,6 @@ lib/kde4/kded_solidautoeject.so
 lib/kde4/kded_soliduiserver.so
 lib/kde4/kded_statusnotifierwatcher.so
 lib/kde4/kdirshareplugin.so
-lib/kde4/keyboard_layout_widget.so
 lib/kde4/kmediaplayerpart.so
 lib/kde4/konsolepart.so
 lib/kde4/krunner_bookmarksrunner.so
@@ -1324,7 +1322,6 @@ share/kcmfonts/pics/aa_vbgr.png
 share/kcmfonts/pics/aa_vrgb.png
 share/kcminput/pics/mouse_lh.png
 share/kcminput/pics/mouse_rh.png
-share/kcmkeyboard/pics/epo.png
 share/kcmkeys/kde3.kksrc
 share/kcmkeys/kde4.kksrc
 share/kcmkeys/mac4.kksrc
@@ -1410,7 +1407,6 @@ share/kde4/services/kded/device_automounter.desktop
 share/kde4/services/kded/favicons.desktop
 share/kde4/services/kded/kcrash.desktop
 share/kde4/services/kded/kdirshare.desktop
-share/kde4/services/kded/keyboard.desktop
 share/kde4/services/kded/kfreespace.desktop
 share/kde4/services/kded/kscreensaver.desktop
 share/kde4/services/kded/ktouchpadenabler.desktop
@@ -1504,6 +1500,7 @@ share/kde4/services/plasma-applet-digitalclock.desktop
 share/kde4/services/plasma-applet-folderview.desktop
 share/kde4/services/plasma-applet-icon.desktop
 share/kde4/services/plasma-applet-katesession.desktop
+share/kde4/services/plasma-applet-keyboard.desktop
 share/kde4/services/plasma-applet-launcher.desktop
 share/kde4/services/plasma-applet-lockout.desktop
 share/kde4/services/plasma-applet-org.kde.notifications.desktop
@@ -1575,7 +1572,6 @@ share/kde4/services/plasma-toolbox-desktoptoolbox.desktop
 share/kde4/services/plasma-toolbox-paneltoolbox.desktop
 share/kde4/services/plasma-wallpaper-color.desktop
 share/kde4/services/plasma-wallpaper-image.desktop
-share/kde4/services/plasma_applet_keyboard.desktop
 share/kde4/services/plasma_engine_statusnotifieritem.desktop
 share/kde4/services/proxy.desktop
 share/kde4/services/randr.desktop
@@ -1946,6 +1942,7 @@ share/solid/devices/solid-device-Block.desktop
 share/solid/devices/solid-device-Button.desktop
 share/solid/devices/solid-device-Camera.desktop
 share/solid/devices/solid-device-Graphic.desktop
+share/solid/devices/solid-device-Input.desktop
 share/solid/devices/solid-device-NetworkInterface.desktop
 share/solid/devices/solid-device-OpticalDisc.desktop
 share/solid/devices/solid-device-OpticalDrive.desktop

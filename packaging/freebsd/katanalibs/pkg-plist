@@ -199,6 +199,7 @@ include/KDE/KJob
 include/KDE/KJobTrackerInterface
 include/KDE/KJobUiDelegate
 include/KDE/KKeySequenceWidget
+include/KDE/KKeyboardLayout
 include/KDE/KLed
 include/KDE/KLineEdit
 include/KDE/KLinkItemSelectionModel
@@ -498,6 +499,7 @@ include/KDE/Solid/Device
 include/KDE/Solid/DeviceInterface
 include/KDE/Solid/DeviceNotifier
 include/KDE/Solid/Graphic
+include/KDE/Solid/Input
 include/KDE/Solid/NetworkInterface
 include/KDE/Solid/OpticalDisc
 include/KDE/Solid/OpticalDrive
@@ -508,6 +510,7 @@ include/KDE/Solid/Processor
 include/KDE/Solid/StorageAccess
 include/KDE/Solid/StorageDrive
 include/KDE/Solid/StorageVolume
+include/KDE/Solid/Video
 include/KDE/ThumbCreator
 include/fixx11h.h
 include/kaboutapplicationdialog.h
@@ -693,6 +696,7 @@ include/kio/udsentry.h
 include/kjob.h
 include/kjobtrackerinterface.h
 include/kjobuidelegate.h
+include/kkeyboardlayout.h
 include/kkeysequencewidget.h
 include/kkeyserver.h
 include/kkeyserver_x11.h
@@ -993,6 +997,7 @@ include/solid/device.h
 include/solid/deviceinterface.h
 include/solid/devicenotifier.h
 include/solid/graphic.h
+include/solid/input.h
 include/solid/networkinterface.h
 include/solid/opticaldisc.h
 include/solid/opticaldrive.h
@@ -1148,6 +1153,7 @@ share/config/colors/Web.colors
 share/config/kdebug.areas
 share/config/kdebugrc
 share/config/notifications/knetworkmanager.notifyrc
+share/config/notifications/kpowermanager.notifyrc
 share/config/ui/ui_standards.rc
 share/dbus-1/interfaces/org.freedesktop.PowerManagement.Inhibit.xml
 share/dbus-1/interfaces/org.freedesktop.PowerManagement.xml
