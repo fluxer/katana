@@ -6,8 +6,8 @@ Homepage: https://bitbucket.org/smil3y/workspace/projects/KATANA
 Vcs-Git: https://bitbucket.org/smil3y/kde-workspace.git
 Standards-Version: 4.24.0
 Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
- xorg-dev, libqalculate-dev, libgphoto2-dev, libxxf86vm-dev, libx11-xcb-dev,
- libxcb-composite0-dev, libxcb-damage0-dev, libxcb-xfixes0-dev, libxext-dev,
+ xorg-dev, libqalculate-dev, libgphoto2-dev, libx11-xcb-dev, libxext-dev,
+ libxcb-composite0-dev, libxcb-damage0-dev, libxcb-xfixes0-dev,
  libxcb-render0-dev, libxcb-randr0-dev, libxcb-shape0-dev, libxcb-sync-dev,
  libxcb-render-util0-dev, libxcb-keysyms1-dev, libmtp-dev, libglu1-mesa-dev,
  mesa-common-dev, libusb-1.0-0-dev, libssh-dev, libdrm-dev, libepub-dev,
