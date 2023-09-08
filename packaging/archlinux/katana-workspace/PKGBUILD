@@ -16,7 +16,7 @@ depends=("katie-git" "katanalibs>=4.24.0"
         'xorg-xrdb' 'xorg-xsetroot' 'xorg-xrandr' 'xorg-xmessage' 'libusb'
         'xcb-util-renderutil' 'xcb-util-keysyms' 'ttf-dejavu' 'libssh'
         'pciutils' 'glu' 'mesa' 'libmtp' 'ebook-tools' 'xorg-server'
-        'lm_sensors' 'djvulibre' 'ntp' 'qrencode' 'icoutils')
+        'lm_sensors' 'djvulibre' 'ntp' 'qrencode' 'icoutils' 'util-linux')
 makedepends=('cmake' 'git' 'xorg-server-devel')
 optdepends=(
     'ctags: Code indexing support in Kate'

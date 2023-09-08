@@ -20,7 +20,7 @@ USE_XORG = x11 xcursor xfixes xrender xtst xdamage xcomposite xres xft xi xau xr
 USE_GL = gl glu egl
 USE_LDCONFIG = yes
 SHEBANG_FILES = kate/part/syntax/data/generate-php.pl
-# libusb are not part of any package
+# libusb and cdcontrol are not part of any package
 RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 	${LOCALBASE}/share/icons/hicolor/index.theme:misc/hicolor-icon-theme \
 	${LOCALBASE}/share/fonts/dejavu/DejaVuSansMono.ttf:x11-fonts/dejavu \

@@ -22,5 +22,6 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ariya-icons,
  xserver-xorg, x11-xserver-utils, x11-xkb-utils, x11-utils, fonts-dejavu,
  fonts-unifont, lm-sensors, pciutils, icoutils, dbus-x11, lsof, qrencode,
  sudo, katie-tools, lightdm, xauth, lrzsz, cppcheck [linux-any], ntpdate,
- universal-ctags [linux-any], cryptsetup-bin [linux-any], accountsservice
+ universal-ctags [linux-any], cryptsetup-bin [linux-any], accountsservice,
+ eject
 Description: Katana workspace interface, base applications and tools
