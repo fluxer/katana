@@ -48,7 +48,6 @@ bin/oxygen-settings
 bin/oxygen-shadow-demo
 bin/plasma-desktop
 bin/plasma-windowed
-bin/solid-action-desktop-gen
 bin/solid-hardware
 bin/startkde
 bin/systemsettings
@@ -229,7 +228,6 @@ lib/kde4/kcm_componentchooser.so
 lib/kde4/kcm_cursortheme.so
 lib/kde4/kcm_desktoppaths.so
 lib/kde4/kcm_desktoptheme.so
-lib/kde4/kcm_device_automounter.so
 lib/kde4/kcm_dolphingeneral.so
 lib/kde4/kcm_dolphinnavigation.so
 lib/kde4/kcm_dolphinservices.so
@@ -269,7 +267,6 @@ lib/kde4/kcm_opengl.so
 lib/kde4/kcm_pci.so
 lib/kde4/kcm_randr.so
 lib/kde4/kcm_smserver.so
-lib/kde4/kcm_solid_actions.so
 lib/kde4/kcm_spellchecking.so
 lib/kde4/kcm_standard_actions.so
 lib/kde4/kcm_style.so
@@ -277,7 +274,6 @@ lib/kde4/kcm_trash.so
 lib/kde4/kcm_usb.so
 lib/kde4/kcm_useraccount.so
 lib/kde4/kcm_workspaceoptions.so
-lib/kde4/kded_device_automounter.so
 lib/kde4/kded_favicons.so
 lib/kde4/kded_kcrash.so
 lib/kde4/kded_kdirshare.so
@@ -286,7 +282,6 @@ lib/kde4/kded_kscreensaver.so
 lib/kde4/kded_ktouchpadenabler.so
 lib/kde4/kded_randrmonitor.so
 lib/kde4/kded_remotedirnotify.so
-lib/kde4/kded_solidautoeject.so
 lib/kde4/kded_soliduiserver.so
 lib/kde4/kded_statusnotifierwatcher.so
 lib/kde4/kdirshareplugin.so
@@ -329,6 +324,7 @@ lib/kde4/plasma-kpart.so
 lib/kde4/plasma_applet_battery.so
 lib/kde4/plasma_applet_calendar.so
 lib/kde4/plasma_applet_clock.so
+lib/kde4/plasma_applet_devicenotifier.so
 lib/kde4/plasma_applet_dig_clock.so
 lib/kde4/plasma_applet_folderview.so
 lib/kde4/plasma_applet_icon.so
@@ -363,12 +359,10 @@ lib/kde4/plasma_containmentactions_switchdesktop.so
 lib/kde4/plasma_containmentactions_switchwindow.so
 lib/kde4/plasma_engine_applicationjobs.so
 lib/kde4/plasma_engine_apps.so
-lib/kde4/plasma_engine_devicenotifications.so
 lib/kde4/plasma_engine_dict.so
 lib/kde4/plasma_engine_favicons.so
 lib/kde4/plasma_engine_filebrowser.so
 lib/kde4/plasma_engine_geolocation.so
-lib/kde4/plasma_engine_hotplug.so
 lib/kde4/plasma_engine_mpris2.so
 lib/kde4/plasma_engine_notifications.so
 lib/kde4/plasma_engine_places.so
@@ -1330,7 +1324,6 @@ share/kcmkeys/win3.kksrc
 share/kcmkeys/win4.kksrc
 share/kcmkeys/wm3.kksrc
 share/kcmlocale/pics/background.png
-share/kcmsolidactions/solid-action-template.desktop
 share/kde4/services/ServiceMenus/findhere.desktop
 share/kde4/services/ServiceMenus/konsolehere.desktop
 share/kde4/services/ServiceMenus/konsolerun.desktop
@@ -1347,7 +1340,6 @@ share/kde4/services/desktop.desktop
 share/kde4/services/desktoppath.desktop
 share/kde4/services/desktoptheme.desktop
 share/kde4/services/desktopthumbnail.desktop
-share/kde4/services/device_automounter_kcm.desktop
 share/kde4/services/deviceinfocategory.desktop
 share/kde4/services/devinfo.desktop
 share/kde4/services/directorythumbnail.desktop
@@ -1403,7 +1395,6 @@ share/kde4/services/kcmplayer.desktop
 share/kde4/services/kcmsmserver.desktop
 share/kde4/services/kcmtrash.desktop
 share/kde4/services/kcmusb.desktop
-share/kde4/services/kded/device_automounter.desktop
 share/kde4/services/kded/favicons.desktop
 share/kde4/services/kded/kcrash.desktop
 share/kde4/services/kded/kdirshare.desktop
@@ -1412,7 +1403,6 @@ share/kde4/services/kded/kscreensaver.desktop
 share/kde4/services/kded/ktouchpadenabler.desktop
 share/kde4/services/kded/randrmonitor.desktop
 share/kde4/services/kded/remotedirnotify.desktop
-share/kde4/services/kded/solidautoeject.desktop
 share/kde4/services/kded/soliduiserver.desktop
 share/kde4/services/kded/statusnotifierwatcher.desktop
 share/kde4/services/kdirshareplugin.desktop
@@ -1529,12 +1519,10 @@ share/kde4/services/plasma-containmentactions-switchdesktop.desktop
 share/kde4/services/plasma-containmentactions-switchwindow.desktop
 share/kde4/services/plasma-dataengine-applicationjobs.desktop
 share/kde4/services/plasma-dataengine-apps.desktop
-share/kde4/services/plasma-dataengine-devicenotifications.desktop
 share/kde4/services/plasma-dataengine-dict.desktop
 share/kde4/services/plasma-dataengine-favicons.desktop
 share/kde4/services/plasma-dataengine-filebrowser.desktop
 share/kde4/services/plasma-dataengine-geolocation.desktop
-share/kde4/services/plasma-dataengine-hotplug.desktop
 share/kde4/services/plasma-dataengine-mpris2.desktop
 share/kde4/services/plasma-dataengine-notifications.desktop
 share/kde4/services/plasma-dataengine-places.desktop
@@ -1694,7 +1682,6 @@ share/kde4/services/settings-window-behaviour.desktop
 share/kde4/services/settings-workspace-appearance-and-behavior.desktop
 share/kde4/services/settings-workspace-behavior.desktop
 share/kde4/services/sftp.protocol
-share/kde4/services/solid-actions.desktop
 share/kde4/services/standard_actions.desktop
 share/kde4/services/style.desktop
 share/kde4/services/textthumbnail.desktop
@@ -1714,7 +1701,6 @@ share/kde4/servicetypes/kwineffect.desktop
 share/kde4/servicetypes/kwinwindowswitcher.desktop
 share/kde4/servicetypes/plasma-geolocationprovider.desktop
 share/kde4/servicetypes/searchprovider.desktop
-share/kde4/servicetypes/solid-device-type.desktop
 share/kde4/servicetypes/systemsettingscategory.desktop
 share/kde4/servicetypes/systemsettingsexternalapp.desktop
 share/kde4/servicetypes/systemsettingsview.desktop
@@ -1909,13 +1895,6 @@ share/plasma/plasmoids/lockout/contents/ui/config.ui
 share/plasma/plasmoids/lockout/contents/ui/data.js
 share/plasma/plasmoids/lockout/contents/ui/lockout.qml
 share/plasma/plasmoids/lockout/metadata.desktop
-share/plasma/plasmoids/notifier/contents/config/main.xml
-share/plasma/plasmoids/notifier/contents/ui/ActionItem.qml
-share/plasma/plasmoids/notifier/contents/ui/DeviceItem.qml
-share/plasma/plasmoids/notifier/contents/ui/StatusBar.qml
-share/plasma/plasmoids/notifier/contents/ui/config.ui
-share/plasma/plasmoids/notifier/contents/ui/devicenotifier.qml
-share/plasma/plasmoids/notifier/metadata.desktop
 share/plasma/plasmoids/org.kde.notifications/contents/config/main.xml
 share/plasma/plasmoids/org.kde.notifications/contents/ui/JobDelegate.qml
 share/plasma/plasmoids/org.kde.notifications/contents/ui/Jobs.qml
@@ -1932,26 +1911,11 @@ share/plasma/plasmoids/org.kde.notifications/metadata.desktop
 share/remoteview/camera-network.desktop
 share/remoteview/mtp-network.desktop
 share/remoteview/network.desktop
+share/solid/actions/keyboard_new.desktop
+share/solid/actions/mouse_new.desktop
+share/solid/actions/openinwindow.desktop
 share/solid/actions/solid_camera.desktop
 share/solid/actions/solid_mtp.desktop
-share/solid/actions/test-predicate-openinwindow.desktop
-share/solid/devices/solid-device-AcAdapter.desktop
-share/solid/devices/solid-device-AudioInterface.desktop
-share/solid/devices/solid-device-Battery.desktop
-share/solid/devices/solid-device-Block.desktop
-share/solid/devices/solid-device-Button.desktop
-share/solid/devices/solid-device-Camera.desktop
-share/solid/devices/solid-device-Graphic.desktop
-share/solid/devices/solid-device-Input.desktop
-share/solid/devices/solid-device-NetworkInterface.desktop
-share/solid/devices/solid-device-OpticalDisc.desktop
-share/solid/devices/solid-device-OpticalDrive.desktop
-share/solid/devices/solid-device-PortableMediaPlayer.desktop
-share/solid/devices/solid-device-Processor.desktop
-share/solid/devices/solid-device-StorageAccess.desktop
-share/solid/devices/solid-device-StorageDrive.desktop
-share/solid/devices/solid-device-StorageVolume.desktop
-share/solid/devices/solid-device-Video.desktop
 share/sounds/KDE-Im-Cant-Connect.ogg
 share/sounds/KDE-Im-Connection-Lost.ogg
 share/sounds/KDE-Im-Contact-In.ogg
