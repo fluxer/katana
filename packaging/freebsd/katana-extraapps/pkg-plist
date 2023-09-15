@@ -105,6 +105,7 @@ lib/kde4/plasma_applet_fuzzy_clock.so
 lib/kde4/plasma_applet_icontasks.so
 lib/kde4/plasma_applet_incomingmsg.so
 lib/kde4/plasma_applet_kolourpicker.so
+lib/kde4/plasma_applet_konsoleprofiles.so
 lib/kde4/plasma_applet_life.so
 lib/kde4/plasma_applet_luna.so
 lib/kde4/plasma_applet_magnifique.so
@@ -121,7 +122,6 @@ lib/kde4/plasma_containment_griddesktop.so
 lib/kde4/plasma_containment_groupingdesktop.so
 lib/kde4/plasma_containment_groupingpanel.so
 lib/kde4/plasma_engine_kget.so
-lib/kde4/plasma_engine_konsoleprofiles.so
 lib/kde4/plasma_engine_mixer.so
 lib/kde4/plasma_engine_potd.so
 lib/kde4/plasma_kget_barapplet.so
@@ -397,7 +397,6 @@ share/kde4/services/plasma-clock-fuzzy.desktop
 share/kde4/services/plasma-containment-griddesktop.desktop
 share/kde4/services/plasma-containment-groupingdesktop.desktop
 share/kde4/services/plasma-containment-groupingpanel.desktop
-share/kde4/services/plasma-dataengine-konsoleprofiles.desktop
 share/kde4/services/plasma-dataengine-potd.desktop
 share/kde4/services/plasma-dict-default.desktop
 share/kde4/services/plasma-engine-kget.desktop
@@ -543,8 +542,6 @@ share/plasma/packages/org.kde.weather/contents/ui/main.qml
 share/plasma/packages/org.kde.weather/metadata.desktop
 share/plasma/plasmoids/calculator/contents/ui/calculator.qml
 share/plasma/plasmoids/calculator/metadata.desktop
-share/plasma/plasmoids/konsoleprofiles/contents/ui/konsoleprofiles.qml
-share/plasma/plasmoids/konsoleprofiles/metadata.desktop
 share/plasma/plasmoids/nowplaying/contents/code/service.js
 share/plasma/plasmoids/nowplaying/contents/config/main.xml
 share/plasma/plasmoids/nowplaying/contents/ui/AlbumArt.qml
