@@ -56,7 +56,6 @@ lib/kde4/kcm_kget_checksumsearchfactory.so
 lib/kde4/kcm_kget_torrentfactory.so
 lib/kde4/kcm_krdc_rdpplugin.so
 lib/kde4/kcm_krdc_vncplugin.so
-lib/kde4/kcm_krunner_audioplayercontrol.so
 lib/kde4/kcm_krunner_charrunner.so
 lib/kde4/kcm_krunner_spellcheck.so
 lib/kde4/kded_kemu.so
@@ -72,7 +71,6 @@ lib/kde4/krdc_rdpplugin.so
 lib/kde4/krdc_vncplugin.so
 lib/kde4/krfb_framebuffer_qt.so
 lib/kde4/krfb_framebuffer_x11.so
-lib/kde4/krunner_audioplayercontrol.so
 lib/kde4/krunner_charrunner.so
 lib/kde4/krunner_converter.so
 lib/kde4/krunner_katesessions.so
@@ -127,8 +125,8 @@ lib/kde4/plasma_engine_potd.so
 lib/kde4/plasma_kget_barapplet.so
 lib/kde4/plasma_kget_piechart.so
 lib/kde4/plasma_potd_apodprovider.so
-lib/kde4/plasma_potd_epodprovider.so
 lib/kde4/plasma_potd_flickrprovider.so
+lib/kde4/plasma_potd_pexelsprovider.so
 lib/kde4/plasma_runner_datetime.so
 lib/kde4/plasma_wallpaper_pattern.so
 lib/kde4/plasma_wallpaper_potd.so
@@ -323,7 +321,6 @@ share/kde4/services/about-distro.desktop
 share/kde4/services/apodprovider.desktop
 share/kde4/services/ark_dndextract.desktop
 share/kde4/services/ark_part.desktop
-share/kde4/services/epodprovider.desktop
 share/kde4/services/ffmpegthumbs.desktop
 share/kde4/services/filelightpart.desktop
 share/kde4/services/flickrprovider.desktop
@@ -369,6 +366,7 @@ share/kde4/services/okularPoppler.desktop
 share/kde4/services/okularTxt.desktop
 share/kde4/services/okular_part.desktop
 share/kde4/services/pdfthumbnail.desktop
+share/kde4/services/pexelsprovider.desktop
 share/kde4/services/plasma-applet-bball.desktop
 share/kde4/services/plasma-applet-binaryclock.desktop
 share/kde4/services/plasma-applet-blackboard.desktop
@@ -383,7 +381,6 @@ share/kde4/services/plasma-applet-konsoleprofiles.desktop
 share/kde4/services/plasma-applet-life.desktop
 share/kde4/services/plasma-applet-luna.desktop
 share/kde4/services/plasma-applet-magnifique.desktop
-share/kde4/services/plasma-applet-nowplaying.desktop
 share/kde4/services/plasma-applet-paste.desktop
 share/kde4/services/plasma-applet-qalculate.desktop
 share/kde4/services/plasma-applet-showdesktop.desktop
@@ -405,8 +402,6 @@ share/kde4/services/plasma-fileWatcher-default.desktop
 share/kde4/services/plasma-frame-default.desktop
 share/kde4/services/plasma-kolourpicker-default.desktop
 share/kde4/services/plasma-notes-default.desktop
-share/kde4/services/plasma-runner-audioplayercontrol.desktop
-share/kde4/services/plasma-runner-audioplayercontrol_config.desktop
 share/kde4/services/plasma-runner-converter.desktop
 share/kde4/services/plasma-runner-datetime.desktop
 share/kde4/services/plasma-runner-kemu.desktop
@@ -542,23 +537,6 @@ share/plasma/packages/org.kde.weather/contents/ui/main.qml
 share/plasma/packages/org.kde.weather/metadata.desktop
 share/plasma/plasmoids/calculator/contents/ui/calculator.qml
 share/plasma/plasmoids/calculator/metadata.desktop
-share/plasma/plasmoids/nowplaying/contents/code/service.js
-share/plasma/plasmoids/nowplaying/contents/config/main.xml
-share/plasma/plasmoids/nowplaying/contents/ui/AlbumArt.qml
-share/plasma/plasmoids/nowplaying/contents/ui/CompactLayout.qml
-share/plasma/plasmoids/nowplaying/contents/ui/Controls.qml
-share/plasma/plasmoids/nowplaying/contents/ui/FullLayout.qml
-share/plasma/plasmoids/nowplaying/contents/ui/Label.qml
-share/plasma/plasmoids/nowplaying/contents/ui/MetadataLine.qml
-share/plasma/plasmoids/nowplaying/contents/ui/MetadataPanel.qml
-share/plasma/plasmoids/nowplaying/contents/ui/Mpris2.qml
-share/plasma/plasmoids/nowplaying/contents/ui/PlayPauseButton.qml
-share/plasma/plasmoids/nowplaying/contents/ui/PositionSlider.qml
-share/plasma/plasmoids/nowplaying/contents/ui/VLayout.qml
-share/plasma/plasmoids/nowplaying/contents/ui/config.ui
-share/plasma/plasmoids/nowplaying/contents/ui/images/nocover.png
-share/plasma/plasmoids/nowplaying/contents/ui/nowplaying.qml
-share/plasma/plasmoids/nowplaying/metadata.desktop
 share/plasma/wallpapers/org.kde.hunyango/contents/ui/main.qml
 share/plasma/wallpapers/org.kde.hunyango/contents/ui/wallpaper.svgz
 share/plasma/wallpapers/org.kde.hunyango/metadata.desktop
