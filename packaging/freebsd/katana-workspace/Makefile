@@ -33,11 +33,10 @@ RUN_DEPENDS = ${LOCALBASE}/share/icons/ariya/index.theme:katana/ariya-icons \
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libfreetype.so:print/freetype2 libfontconfig.so:x11-fonts/fontconfig \
 	libxcb-render-util.so:x11/xcb-util-renderutil libxcb-keysyms.so:x11/xcb-util-keysyms \
-	libxkbfile.so:x11/libxkbfile libpci.so:devel/libpci libqalculate.so:math/libqalculate \
-	libdrm.so:graphics/libdrm libmtp.so:multimedia/libmtp libssh.so:security/libssh \
-	libdjvulibre.so:graphics/djvulibre libgphoto2.so:graphics/libgphoto2 \
-	liblightdm-gobject-1.so:x11/lightdm libepub.so:textproc/ebook-tools \
-	libgit2.so:devel/libgit2
+	libxkbfile.so:x11/libxkbfile libpci.so:devel/libpci libdrm.so:graphics/libdrm \
+	libmtp.so:multimedia/libmtp libssh.so:security/libssh libdjvulibre.so:graphics/djvulibre \
+	libgphoto2.so:graphics/libgphoto2 liblightdm-gobject-1.so:x11/lightdm \
+	libepub.so:textproc/ebook-tools libgit2.so:devel/libgit2
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
 
