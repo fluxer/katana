@@ -12,8 +12,8 @@ Build-Depends: debhelper (>= 9~), cmake, katie-dev, katanalibs,
  libxcb-render-util0-dev, libxcb-keysyms1-dev, libmtp-dev, libglu1-mesa-dev,
  mesa-common-dev, libusb-1.0-0-dev, libssh-dev, libdrm-dev, libepub-dev,
  libraw1394-dev [linux-any], libsensors4-dev, libegl-dev, libpci-dev,
- libfreetype6-dev, libfontconfig1-dev, libkmod-dev, libdjvulibre-dev,
- libgit2-dev, liblightdm-gobject-dev | liblightdm-gobject-1-dev, sudo
+ libfreetype6-dev, libfontconfig1-dev, libkmod-dev, libdjvulibre-dev, sudo,
+ libgit2-dev, libasound2-dev, liblightdm-gobject-dev | liblightdm-gobject-1-dev
 
 Package: katana-workspace
 Provides: lightdm-greeter

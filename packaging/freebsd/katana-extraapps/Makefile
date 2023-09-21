@@ -22,15 +22,14 @@ USE_LDCONFIG = yes
 # only the binaries are needed. qemu is runtime only
 # NOTE: lrzsz (which katana-workspace depends on) conflicts with lrzip
 RUN_DEPENDS = xfreerdp:net/freerdp qemu-system-i386:emulators/qemu
-# oss is not part of any package
 LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libplasmagenericshell.so:katana/katana-workspace libdeflate.so:archivers/libdeflate \
-	libgmp.so:math/gmp libasound.so:audio/alsa-lib libtag.so:audio/taglib \
-	libffmpegthumbnailer.so:multimedia/ffmpegthumbnailer libqalculate.so:math/libqalculate \
-	libspectre.so:print/libspectre libfreetype.so:print/freetype2 \
-	libdjvulibre.so:graphics/djvulibre libepub.so:textproc/ebook-tools \
-	libvncserver.so:net/libvncserver libfreerdp2.so:net/freerdp \
-	libtorrent-rasterbar.so:net-p2p/libtorrent-rasterbar libpoppler-cpp.so:graphics/poppler
+	libgmp.so:math/gmp libtag.so:audio/taglib libqalculate.so:math/libqalculate \
+	libffmpegthumbnailer.so:multimedia/ffmpegthumbnailer libspectre.so:print/libspectre \
+	libfreetype.so:print/freetype2 libdjvulibre.so:graphics/djvulibre \
+	libepub.so:textproc/ebook-tools libvncserver.so:net/libvncserver \
+	libfreerdp2.so:net/freerdp libtorrent-rasterbar.so:net-p2p/libtorrent-rasterbar \
+	libpoppler-cpp.so:graphics/poppler
 CMAKE_ARGS = -Wno-dev -DBUILD_partitionmanager=FALSE
 LDFLAGS += -Wl,--as-needed
 

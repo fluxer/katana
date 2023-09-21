@@ -36,7 +36,7 @@ LIB_DEPENDS = libKtCore.so:katana/katie libkdecore.so:katana/katanalibs \
 	libxkbfile.so:x11/libxkbfile libpci.so:devel/libpci libdrm.so:graphics/libdrm \
 	libmtp.so:multimedia/libmtp libssh.so:security/libssh libdjvulibre.so:graphics/djvulibre \
 	libgphoto2.so:graphics/libgphoto2 liblightdm-gobject-1.so:x11/lightdm \
-	libepub.so:textproc/ebook-tools libgit2.so:devel/libgit2
+	libepub.so:textproc/ebook-tools libgit2.so:devel/libgit2 libasound.so:audio/alsa-lib
 CMAKE_ARGS = -Wno-dev
 LDFLAGS += -Wl,--as-needed
 
