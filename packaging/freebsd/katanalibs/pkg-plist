@@ -485,7 +485,6 @@ include/KDE/Plasma/ToolButton
 include/KDE/Plasma/ToolTipContent
 include/KDE/Plasma/ToolTipManager
 include/KDE/Plasma/TreeView
-include/KDE/Plasma/Version
 include/KDE/Plasma/View
 include/KDE/Plasma/Wallpaper
 include/KDE/Plasma/WindowEffects
