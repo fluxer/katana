@@ -139,8 +139,6 @@ lib/kde4/imports/org/kde/kwin/decoration/libdecorationplugin.so
 lib/kde4/imports/org/kde/kwin/decoration/qmldir
 lib/kde4/imports/org/kde/kwin/decorations/plastik/libplastikplugin.so
 lib/kde4/imports/org/kde/kwin/decorations/plastik/qmldir
-lib/kde4/imports/org/kde/locale/liblocalebindingsplugin.so
-lib/kde4/imports/org/kde/locale/qmldir
 lib/kde4/imports/org/kde/plasma/components/BusyIndicator.qml
 lib/kde4/imports/org/kde/plasma/components/Button.qml
 lib/kde4/imports/org/kde/plasma/components/ButtonGroup.js
@@ -236,7 +234,6 @@ lib/kde4/kded_kcrash.so
 lib/kde4/kded_kdirshare.so
 lib/kde4/kded_kfreespace.so
 lib/kde4/kded_kscreensaver.so
-lib/kde4/kded_ktouchpadenabler.so
 lib/kde4/kded_randrmonitor.so
 lib/kde4/kded_remotedirnotify.so
 lib/kde4/kded_soliduiserver.so
@@ -278,6 +275,7 @@ lib/kde4/plasma-geolocation-ipinfo.so
 lib/kde4/plasma-geolocation-mozilla.so
 lib/kde4/plasma-geolocation-timezone.so
 lib/kde4/plasma_applet_battery.so
+lib/kde4/plasma_applet_calculator.so
 lib/kde4/plasma_applet_calendar.so
 lib/kde4/plasma_applet_clock.so
 lib/kde4/plasma_applet_devicenotifier.so
@@ -288,6 +286,7 @@ lib/kde4/plasma_applet_katesession.so
 lib/kde4/plasma_applet_keyboard.so
 lib/kde4/plasma_applet_launcher.so
 lib/kde4/plasma_applet_lockout.so
+lib/kde4/plasma_applet_mixer.so
 lib/kde4/plasma_applet_notifications.so
 lib/kde4/plasma_applet_pager.so
 lib/kde4/plasma_applet_panelspacer_internal.so
@@ -307,7 +306,6 @@ lib/kde4/plasma_applet_trash.so
 lib/kde4/plasma_applet_windowlist.so
 lib/kde4/plasma_appletscript_declarative.so
 lib/kde4/plasma_containment_desktop.so
-lib/kde4/plasma_containment_newspaper.so
 lib/kde4/plasma_containment_panel.so
 lib/kde4/plasma_containmentactions_applauncher.so
 lib/kde4/plasma_containmentactions_contextmenu.so
@@ -1354,7 +1352,6 @@ share/kde4/services/kded/kcrash.desktop
 share/kde4/services/kded/kdirshare.desktop
 share/kde4/services/kded/kfreespace.desktop
 share/kde4/services/kded/kscreensaver.desktop
-share/kde4/services/kded/ktouchpadenabler.desktop
 share/kde4/services/kded/randrmonitor.desktop
 share/kde4/services/kded/remotedirnotify.desktop
 share/kde4/services/kded/soliduiserver.desktop
@@ -1437,6 +1434,7 @@ share/kde4/services/nic.desktop
 share/kde4/services/opengl.desktop
 share/kde4/services/plasma-applet-analogclock.desktop
 share/kde4/services/plasma-applet-batterymonitor.desktop
+share/kde4/services/plasma-applet-calculator.desktop
 share/kde4/services/plasma-applet-calendar.desktop
 share/kde4/services/plasma-applet-devicenotifier.desktop
 share/kde4/services/plasma-applet-digitalclock.desktop
@@ -1446,6 +1444,7 @@ share/kde4/services/plasma-applet-katesession.desktop
 share/kde4/services/plasma-applet-keyboard.desktop
 share/kde4/services/plasma-applet-launcher.desktop
 share/kde4/services/plasma-applet-lockout.desktop
+share/kde4/services/plasma-applet-mixer.desktop
 share/kde4/services/plasma-applet-notifications.desktop
 share/kde4/services/plasma-applet-panelspacer-internal.desktop
 share/kde4/services/plasma-applet-quicklaunch.desktop
@@ -1462,7 +1461,6 @@ share/kde4/services/plasma-applet-systemtray.desktop
 share/kde4/services/plasma-applet-trash.desktop
 share/kde4/services/plasma-applet-windowlist.desktop
 share/kde4/services/plasma-containment-desktop.desktop
-share/kde4/services/plasma-containment-newspaper.desktop
 share/kde4/services/plasma-containment-panel.desktop
 share/kde4/services/plasma-containmentactions-applauncher.desktop
 share/kde4/services/plasma-containmentactions-contextmenu.desktop
