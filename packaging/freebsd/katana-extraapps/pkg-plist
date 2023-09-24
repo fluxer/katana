@@ -107,8 +107,6 @@ lib/kde4/plasma_applet_showdesktop.so
 lib/kde4/plasma_applet_spellcheck.so
 lib/kde4/plasma_applet_timer.so
 lib/kde4/plasma_applet_unitconverter.so
-lib/kde4/plasma_applet_weather.so
-lib/kde4/plasma_applet_weatherstation.so
 lib/kde4/plasma_engine_kget.so
 lib/kde4/plasma_engine_potd.so
 lib/kde4/plasma_kget_barapplet.so
@@ -121,7 +119,6 @@ lib/kde4/plasma_wallpaper_pattern.so
 lib/kde4/plasma_wallpaper_potd.so
 lib/kde4/plasma_wallpaper_qml.so
 lib/kde4/plasma_wallpaper_virus.so
-lib/kde4/plasma_wallpaper_weather.so
 lib/kde4/pothumbnail.so
 lib/kde4/psthumbnail.so
 lib/libgwenviewlib.so
@@ -141,9 +138,6 @@ lib/libokularcore.so
 lib/libokularcore.so.4
 lib/libokularcore.so.4.24
 lib/libplasmapotdprovidercore.so
-lib/libplasmaweather.so
-lib/libplasmaweather.so.4
-lib/libplasmaweather.so.4.24
 share/applications/kde4/ark.desktop
 share/applications/kde4/filelight.desktop
 share/applications/kde4/gwenview.desktop
@@ -181,12 +175,6 @@ share/desktoptheme/default/icontasks/dropindicators.svgz
 share/desktoptheme/default/icontasks/indicators.svgz
 share/desktoptheme/default/icontasks/launcherseparator.svgz
 share/desktoptheme/default/icontasks/progress.svgz
-share/desktoptheme/default/weather/wind-arrows.svgz
-share/desktoptheme/default/weatherstation/lcd2.svgz
-share/desktoptheme/default/weatherstation/lcd_digits.svgz
-share/desktoptheme/default/weatherstation/lcd_panel.svgz
-share/desktoptheme/default/weatherstation/weather_icons.svgz
-share/desktoptheme/default/weatherstation/wind_arrows.svgz
 share/desktoptheme/default/widgets/eyes.svg
 share/desktoptheme/default/widgets/luna.svgz
 share/desktoptheme/default/widgets/notes.svgz
@@ -349,8 +337,6 @@ share/kde4/services/plasma-applet-spellcheck.desktop
 share/kde4/services/plasma-applet-systemloadviewer.desktop
 share/kde4/services/plasma-applet-timer.desktop
 share/kde4/services/plasma-applet-unitconverter.desktop
-share/kde4/services/plasma-applet-weather.desktop
-share/kde4/services/plasma-applet-weatherstation.desktop
 share/kde4/services/plasma-clock-fuzzy.desktop
 share/kde4/services/plasma-dataengine-potd.desktop
 share/kde4/services/plasma-dict-default.desktop
@@ -369,7 +355,6 @@ share/kde4/services/plasma-wallpaper-pattern.desktop
 share/kde4/services/plasma-wallpaper-potd.desktop
 share/kde4/services/plasma-wallpaper-qml.desktop
 share/kde4/services/plasma-wallpaper-virus.desktop
-share/kde4/services/plasma-wallpaper-weather.desktop
 share/kde4/services/pothumbnail.desktop
 share/kde4/services/psthumbnail.desktop
 share/kde4/services/rdp.protocol
@@ -454,20 +439,6 @@ share/okular/pics/upleftarrow.png
 share/okular/shell.rc
 share/okular/tools.xml
 share/plasma-applet-frame/picture-frame-default.jpg
-share/plasma/packages/org.kde.lcdweather/contents/ui/LCDDigit.qml
-share/plasma/packages/org.kde.lcdweather/contents/ui/LCDDisplay.qml
-share/plasma/packages/org.kde.lcdweather/contents/ui/Wind.qml
-share/plasma/packages/org.kde.lcdweather/contents/ui/main.qml
-share/plasma/packages/org.kde.lcdweather/metadata.desktop
-share/plasma/packages/org.kde.weather/contents/ui/DetailsView.qml
-share/plasma/packages/org.kde.weather/contents/ui/FiveDaysView.qml
-share/plasma/packages/org.kde.weather/contents/ui/Notice.qml
-share/plasma/packages/org.kde.weather/contents/ui/NoticesView.qml
-share/plasma/packages/org.kde.weather/contents/ui/TopPanel.qml
-share/plasma/packages/org.kde.weather/contents/ui/Utils.js
-share/plasma/packages/org.kde.weather/contents/ui/WeatherListView.qml
-share/plasma/packages/org.kde.weather/contents/ui/main.qml
-share/plasma/packages/org.kde.weather/metadata.desktop
 share/plasma/wallpapers/org.kde.hunyango/contents/ui/main.qml
 share/plasma/wallpapers/org.kde.hunyango/contents/ui/wallpaper.svgz
 share/plasma/wallpapers/org.kde.hunyango/metadata.desktop
