@@ -1414,6 +1414,7 @@ share/kde4/services/plasma-applet-launcher.desktop
 share/kde4/services/plasma-applet-lockout.desktop
 share/kde4/services/plasma-applet-mixer.desktop
 share/kde4/services/plasma-applet-notifications.desktop
+share/kde4/services/plasma-applet-pager.desktop
 share/kde4/services/plasma-applet-panelspacer-internal.desktop
 share/kde4/services/plasma-applet-quicklaunch.desktop
 share/kde4/services/plasma-applet-simplelauncher.desktop
@@ -1445,7 +1446,6 @@ share/kde4/services/plasma-dataengine-soliddevice.desktop
 share/kde4/services/plasma-dataengine-systemmonitor.desktop
 share/kde4/services/plasma-dataengine-tasks.desktop
 share/kde4/services/plasma-dataengine-time.desktop
-share/kde4/services/plasma-pager-default.desktop
 share/kde4/services/plasma-runner-bookmarks.desktop
 share/kde4/services/plasma-runner-calculator.desktop
 share/kde4/services/plasma-runner-kill.desktop
@@ -1758,9 +1758,6 @@ share/kwin/tm_outer.png
 share/lightdm/lightdm.conf.d/50-lightdm-kgreeter-greeter.conf
 share/mime/packages/network.xml
 share/pixmaps/plasma.png
-share/plasma/packages/org.kde.pager/contents/ui/main.qml
-share/plasma/packages/org.kde.pager/contents/ui/utils.js
-share/plasma/packages/org.kde.pager/metadata.desktop
 share/plasma/packages/org.kde.plasma.tasks/contents/code/layout.js
 share/plasma/packages/org.kde.plasma.tasks/contents/code/tools.js
 share/plasma/packages/org.kde.plasma.tasks/contents/ui/GroupDialog.qml
